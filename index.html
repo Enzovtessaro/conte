@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conte | Contabilidade com atendimento humanizado para PJs</title>
+    <meta name="description" content="Contabilidade online para PJ com atendimento humanizado. Abertura de empresa grátis, emissão de notas fiscais, gestão tributária e consultoria fiscal personalizada. Pague menos impostos com a Conte." />
+    <meta name="keywords" content="contabilidade para PJ, contador online, abertura de empresa grátis, emissão de nota fiscal, consultoria fiscal, gestão tributária, contabilidade digital, MEI para PJ" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Hidden forms for Netlify -->
+    <form name="openCompany" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="fullName" />
+      <input type="text" name="cpf" />
+      <input type="text" name="phone" />
+      <input type="text" name="area" />
+    </form>
+    <form name="switchToConte" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="fullName" />
+      <input type="text" name="cnpj" />
+      <input type="text" name="cpf" />
+      <input type="text" name="phone" />
+    </form>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "AccountingService",
+        "name": "Conte",
+        "description": "Contabilidade com atendimento humanizado para PJs",
+        "image": "https://i.ibb.co/jvxNrLJW/Whats-App-Image-2025-04-22-at-15-00-15.jpg",
+        "url": "https://conte.com.br",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "São Paulo",
+          "addressRegion": "SP",
+          "addressCountry": "BR"
+        },
+        "priceRange": "A partir de R$99/mês",
+        "telephone": "+55 (11) 9999-9999",
+        "email": "hello@conte.com.br",
+        "sameAs": [
+          "https://facebook.com/conte",
+          "https://instagram.com/conte",
+          "https://linkedin.com/company/conte"
+        ],
+        "openingHours": "Mo-Fr 09:00-18:00"
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
