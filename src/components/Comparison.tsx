@@ -21,7 +21,12 @@ const ComparisonItem: React.FC<ComparisonItemProps> = ({ text, isPositive }) => 
   );
 };
 
-const Comparison: React.FC = () => {
+interface ComparisonProps {
+  onOpenCompanyForm: () => void;
+  onSwitchForm: () => void;
+}
+
+const Comparison: React.FC<ComparisonProps> = ({ onOpenCompanyForm, onSwitchForm }) => {
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -74,7 +79,7 @@ const Comparison: React.FC = () => {
             ))}
             <div className="mt-8">
               <p className="text-xl font-bold text-primary-900 mb-4">A partir de R$99/mês</p>
-              <Button>Abrir Empresa Grátis</Button>
+              <Button onClick={onOpenCompanyForm}>Abrir Empresa Grátis</Button>
             </div>
           </motion.div>
 
@@ -90,7 +95,7 @@ const Comparison: React.FC = () => {
             ))}
             <div className="mt-8">
               <p className="text-xl font-bold text-gray-500 mb-4">Custa sua paciência</p>
-              <Button variant="secondary">Mude para Conte</Button>
+              <Button variant="secondary" onClick={onSwitchForm}>Mudar para Conte</Button>
             </div>
           </motion.div>
         </div>
