@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Modal from './components/Modal';
 import OpenCompanyForm from './components/OpenCompanyForm';
 import SwitchToConteForm from './components/SwitchToConteForm';
+import Plans from './components/Plans';
 
 function App() {
   const [isOpenCompanyFormOpen, setIsOpenCompanyFormOpen] = useState(false);
@@ -46,12 +47,15 @@ function App() {
           onOpenCompanyForm={() => setIsOpenCompanyFormOpen(true)}
           onSwitchForm={() => setIsSwitchFormOpen(true)}
         />
-        <Testimonials />
-        <CTA 
+        <Plans
+          onOpenCompanyForm={() => setIsOpenCompanyFormOpen(true)}
+        />
+        <Comparison
           onOpenCompanyForm={() => setIsOpenCompanyFormOpen(true)}
           onSwitchForm={() => setIsSwitchFormOpen(true)}
         />
-        <Comparison
+        <Testimonials />
+        <CTA 
           onOpenCompanyForm={() => setIsOpenCompanyFormOpen(true)}
           onSwitchForm={() => setIsSwitchFormOpen(true)}
         />
