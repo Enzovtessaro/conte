@@ -5,10 +5,12 @@ import Modal from './Modal';
 import OpenCompanyForm from './OpenCompanyForm';
 import SwitchToConteForm from './SwitchToConteForm';
 
-const Hero: React.FC = () => {
-  const [isOpenCompanyFormOpen, setIsOpenCompanyFormOpen] = useState(false);
-  const [isSwitchFormOpen, setIsSwitchFormOpen] = useState(false);
+interface HeroProps {
+  onOpenCompanyForm: () => void;
+  onSwitchForm: () => void;
+}
 
+const Hero: React.FC<HeroProps> = ({ onOpenCompanyForm, onSwitchForm }) => {
   return (
     <section id="hero" className="pt-28 pb-16 md:pt-32 md:pb-24 bg-white relative overflow-hidden">
       <div className="container mx-auto px-4 md:px-6">
@@ -27,10 +29,10 @@ const Hero: React.FC = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <Button onClick={() => setIsOpenCompanyFormOpen(true)}>
+              <Button onClick={onOpenCompanyForm}>
                 Abrir Empresa Grátis
               </Button>
-              <Button variant="secondary" onClick={() => setIsSwitchFormOpen(true)}>
+              <Button variant="secondary" onClick={onSwitchForm}>
                 Mudar para Conte
               </Button>
             </div>
@@ -59,14 +61,6 @@ const Hero: React.FC = () => {
           </motion.div>
         </div>
       </div>
-
-      <Modal isOpen={isOpenCompanyFormOpen} onClose={() => setIsOpenCompanyFormOpen(false)}>
-        <OpenCompanyForm onClose={() => setIsOpenCompanyFormOpen(false)} />
-      </Modal>
-
-      <Modal isOpen={isSwitchFormOpen} onClose={() => setIsSwitchFormOpen(false)}>
-        <SwitchToConteForm onClose={() => setIsSwitchFormOpen(false)} />
-      </Modal>
     </section>
   );
 };

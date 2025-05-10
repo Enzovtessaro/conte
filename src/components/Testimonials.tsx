@@ -37,19 +37,19 @@ const Testimonials: React.FC = () => {
       quote: "A Solange é muito prestativa e o time da Conte facilita muito minhas obrigações fiscais. Confio totalmente neles",
       author: "Ricardo Poncio",
       role: "Especialista SAP @ Eletrolux",
-      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg"
+      image: "https://i.ibb.co/b5yfBcxN/Whats-App-Image-2025-05-09-at-04-22-20.jpg"
     },
     {
       quote: "Saí de uma contabilidade online para Conte e agora sou muito melhor atendido, tenho um ótimo acompanhamento e ainda pago menos imposto",
       author: "Enzo Tessaro",
       role: "PM @ Toggl",
-      image: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg"
+      image: "https://i.ibb.co/7NLkT5Td/Screenshot-2025-05-08-at-23-37-08.png"
     },
     {
-      quote: "If you have been doing this by yourself, you don't know what you're missing. Garett will impress you.",
-      author: "Roger",
-      role: "New York, NY",
-      image: "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg"
+      quote: "A Solange é muito atenciosa e sempre me ajuda com minhas dúvidas. Recomendo a todos que buscam uma contabilidade de qualidade.",
+      author: "Marcos",
+      role: "Engenheiro de Dados @ Ambev",
+      image: "https://i.ibb.co/mrPtWj1b/Screenshot-2025-05-10-at-07-17-41.png"
     }
   ];
 

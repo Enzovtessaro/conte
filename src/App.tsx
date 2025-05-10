@@ -11,6 +11,9 @@ import Modal from './components/Modal';
 import OpenCompanyForm from './components/OpenCompanyForm';
 import SwitchToConteForm from './components/SwitchToConteForm';
 import Plans from './components/Plans';
+import { Routes, Route } from 'react-router-dom';
+import Blog from './pages/blog';
+import BlogPostPage from './pages/blog/[slug]';
 
 function App() {
   const [isOpenCompanyFormOpen, setIsOpenCompanyFormOpen] = useState(false);
@@ -38,29 +41,35 @@ function App() {
         onOpenCompanyForm={() => setIsOpenCompanyFormOpen(true)}
         onSwitchForm={() => setIsSwitchFormOpen(true)}
       />
-      <main>
-        <Hero 
-          onOpenCompanyForm={() => setIsOpenCompanyFormOpen(true)}
-          onSwitchForm={() => setIsSwitchFormOpen(true)}
-        />
-        <Features 
-          onOpenCompanyForm={() => setIsOpenCompanyFormOpen(true)}
-          onSwitchForm={() => setIsSwitchFormOpen(true)}
-        />
-        <Plans
-          onOpenCompanyForm={() => setIsOpenCompanyFormOpen(true)}
-        />
-        <Comparison
-          onOpenCompanyForm={() => setIsOpenCompanyFormOpen(true)}
-          onSwitchForm={() => setIsSwitchFormOpen(true)}
-        />
-        <Testimonials />
-        <CTA 
-          onOpenCompanyForm={() => setIsOpenCompanyFormOpen(true)}
-          onSwitchForm={() => setIsSwitchFormOpen(true)}
-        />
-        <Founder />
-      </main>
+      <Routes>
+        <Route path="/" element={
+          <main>
+            <Hero 
+              onOpenCompanyForm={() => setIsOpenCompanyFormOpen(true)}
+              onSwitchForm={() => setIsSwitchFormOpen(true)}
+            />
+            <Features 
+              onOpenCompanyForm={() => setIsOpenCompanyFormOpen(true)}
+              onSwitchForm={() => setIsSwitchFormOpen(true)}
+            />
+            <Plans
+              onOpenCompanyForm={() => setIsOpenCompanyFormOpen(true)}
+            />
+            <Comparison
+              onOpenCompanyForm={() => setIsOpenCompanyFormOpen(true)}
+              onSwitchForm={() => setIsSwitchFormOpen(true)}
+            />
+            <Testimonials />
+            <CTA 
+              onOpenCompanyForm={() => setIsOpenCompanyFormOpen(true)}
+              onSwitchForm={() => setIsSwitchFormOpen(true)}
+            />
+            <Founder />
+          </main>
+        } />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPostPage />} />
+      </Routes>
       <Footer />
 
       {/* Modals */}

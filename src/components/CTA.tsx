@@ -3,19 +3,16 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import Button from './Button';
 
-const CTA: React.FC = () => {
+interface CTAProps {
+  onOpenCompanyForm: () => void;
+  onSwitchForm: () => void;
+}
+
+const CTA: React.FC<CTAProps> = ({ onOpenCompanyForm, onSwitchForm }) => {
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
-
-  const handleOpenNewCompanyForm = () => {
-    window.open('https://form.respondi.app/FRVJmfar', '_blank');
-  };
-
-  const handleOpenSwitchForm = () => {
-    window.open('https://form.respondi.app/mdhxB362', '_blank');
-  };
 
   return (
     <section id="benefits" className="py-20 bg-white">
@@ -36,14 +33,14 @@ const CTA: React.FC = () => {
 
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <Button 
-              onClick={handleOpenNewCompanyForm}
+              onClick={onOpenCompanyForm}
               className="shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all"
             >
               Abrir Empresa Grátis
             </Button>
             <Button 
               variant="secondary"
-              onClick={handleOpenSwitchForm}
+              onClick={onSwitchForm}
               className="hover:bg-gray-50 transform hover:-translate-y-0.5 transition-all"
             >
               Mudar para Conte

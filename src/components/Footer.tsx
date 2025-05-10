@@ -12,17 +12,8 @@ const Footer: React.FC = () => {
               Contabilidade com atendimento humanizado para diminuir suas dores de cabeça.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-primary-300 hover:text-white transition-colors">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="text-primary-300 hover:text-white transition-colors">
+              <a href="https://www.instagram.com/seja.conte" target="_blank" rel="noopener noreferrer" className="text-primary-300 hover:text-white transition-colors">
                 <Instagram size={20} />
-              </a>
-              <a href="#" className="text-primary-300 hover:text-white transition-colors">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-primary-300 hover:text-white transition-colors">
-                <Linkedin size={20} />
               </a>
             </div>
           </div>
@@ -40,19 +31,18 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-medium mb-4">Conte</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-primary-300 hover:text-white transition-colors">Sobre Nós</a></li>
               <li><a href="#" className="text-primary-300 hover:text-white transition-colors">Blog</a></li>
-              <li><a href="#" className="text-primary-300 hover:text-white transition-colors">Contato</a></li>
-              <li><a href="#" className="text-primary-300 hover:text-white transition-colors">Carreira</a></li>
+              <li><a href="https://wa.me/5541987016965" target="_blank" rel="noopener noreferrer" className="text-primary-300 hover:text-white transition-colors">Contato</a></li>
             </ul>
           </div>
           
           <div>
             <h4 className="text-lg font-medium mb-4">Contato</h4>
             <ul className="space-y-2">
-              <li className="text-primary-300">hello@conte.com.br</li>
-              <li className="text-primary-300">+55 (11) 9999-9999</li>
-              <li className="text-primary-300">São Paulo, SP</li>
+              <li className="text-primary-300">oi@conte.com.br</li>
+              <li className="text-primary-300">+55 (41) 98701-6965</li>
+              <li className="text-primary-300">Curitiba, PR</li>
+              <li className="text-primary-300">37.526.805/0001-83</li>
             </ul>
           </div>
         </div>
@@ -62,12 +52,6 @@ const Footer: React.FC = () => {
             &copy; {new Date().getFullYear()} Conte. Todos os direitos reservados.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-primary-400 hover:text-white text-sm transition-colors">
-              Termos de Uso
-            </a>
-            <a href="#" className="text-primary-400 hover:text-white text-sm transition-colors">
-              Política de Privacidade
-            </a>
           </div>
         </div>
       </div>

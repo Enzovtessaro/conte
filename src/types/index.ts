@@ -5,9 +5,9 @@ export interface FeatureProps {
   details: string[];
 }
 
-export interface ButtonProps {
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
-  variant?: 'primary' | 'secondary';
+  variant?: 'primary' | 'secondary' | 'white';
   className?: string;
   onClick?: () => void;
   type?: 'button' | 'submit' | 'reset';

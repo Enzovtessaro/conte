@@ -30,15 +30,12 @@ const Feature: React.FC<FeatureProps> = ({ title, description, icon, details }) 
   );
 };
 
-const Features: React.FC = () => {
-  const handleOpenNewCompanyForm = () => {
-    window.open('https://form.respondi.app/FRVJmfar', '_blank');
-  };
+interface FeaturesProps {
+  onOpenCompanyForm: () => void;
+  onSwitchForm: () => void;
+}
 
-  const handleOpenSwitchForm = () => {
-    window.open('https://form.respondi.app/mdhxB362', '_blank');
-  };
-
+const Features: React.FC<FeaturesProps> = ({ onOpenCompanyForm, onSwitchForm }) => {
   const features: FeatureProps[] = [
     {
       title: 'Tenha um contador pessoal',
@@ -107,8 +104,8 @@ const Features: React.FC = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4"
         >
-          <Button onClick={handleOpenNewCompanyForm}>Abrir Empresa Grátis</Button>
-          <Button variant="secondary" onClick={handleOpenSwitchForm}>Mudar para Conte</Button>
+          <Button onClick={onOpenCompanyForm}>Abrir Empresa Grátis</Button>
+          <Button variant="secondary" onClick={onSwitchForm}>Mudar para Conte</Button>
         </motion.div>
       </div>
     </section>
