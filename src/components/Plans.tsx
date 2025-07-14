@@ -71,9 +71,9 @@ const Plans: React.FC<PlansProps> = ({ onOpenCompanyForm }) => {
 
   const plans = [
     {
-      title: 'Inicial',
+      title: 'Iniciante',
       price: 'R$99',
-      description: 'Para quem é MEI',
+      description: 'Para MEIs',
       features: [
         { text: 'Abertura de empresa', included: true },
         { text: 'Uma nota fiscal por mês', included: true },
@@ -85,7 +85,7 @@ const Plans: React.FC<PlansProps> = ({ onOpenCompanyForm }) => {
     {
       title: 'Profissional',
       price: 'R$249',
-      description: 'Para quem fatura até 20 mil por mês',
+      description: 'PJs no Simples Nacional que prestam serviços no Brasil ou faturam até 15 mil por mês',
       features: [
         { text: 'Tudo do plano inicial', included: true },
         { text: 'Planejamento e consultoria tributária', included: true },
@@ -98,7 +98,7 @@ const Plans: React.FC<PlansProps> = ({ onOpenCompanyForm }) => {
     {
       title: 'Especialista',
       price: 'R$359',
-      description: 'Para quem fatura acima de 20 mil por mês',
+      description: 'PJs fora do Simples Nacional ou que prestam serviços pro exterior ou faturam mais de 15 mil por mês',
       features: [
         { text: 'Tudo do plano profissional', included: true },
         { text: 'Assessor dedicado', included: true },

@@ -35,7 +35,7 @@ const Testimonials: React.FC = () => {
   const testimonials: TestimonialProps[] = [
     {
       quote: "A Solange é muito prestativa e o time da Conte facilita muito minhas obrigações fiscais. Confio totalmente neles",
-      author: "Ricardo Poncio",
+      author: "Ricardo Ponzio",
       role: "Especialista SAP @ Eletrolux",
       image: "https://i.ibb.co/b5yfBcxN/Whats-App-Image-2025-05-09-at-04-22-20.jpg"
     },

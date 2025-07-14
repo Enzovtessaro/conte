@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import React, { useState, useEffect, useRef } from 'react';
+import { Menu, X, ChevronDown } from 'lucide-react';
 import Button from './Button';
 import Logo from './Logo';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
@@ -12,8 +12,10 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({ onOpenCompanyForm, onSwitchForm }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isToolsOpen, setIsToolsOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
+  const toolsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,6 +24,17 @@ const Navbar: React.FC<NavbarProps> = ({ onOpenCompanyForm, onSwitchForm }) => {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (toolsRef.current && !toolsRef.current.contains(event.target as Node)) {
+        setIsToolsOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
   const scrollToSection = (sectionId: string) => {
@@ -80,6 +93,36 @@ const Navbar: React.FC<NavbarProps> = ({ onOpenCompanyForm, onSwitchForm }) => {
           </button>
           <Link to="/blog" className="text-primary-800 hover:text-primary-600 transition-colors">Blog</Link>
           
+          {/* Dropdown Ferramentas */}
+          <div className="relative" ref={toolsRef}>
+            <button 
+              onClick={() => setIsToolsOpen(!isToolsOpen)}
+              className="flex items-center gap-1 text-primary-800 hover:text-primary-600 transition-colors"
+            >
+              Ferramentas
+              <ChevronDown size={16} className={`transition-transform duration-200 ${isToolsOpen ? 'rotate-180' : ''}`} />
+            </button>
+            
+            {isToolsOpen && (
+              <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-100 py-2 z-50">
+                <Link 
+                  to="/calculadora" 
+                  className="block px-4 py-2 text-sm text-primary-800 hover:bg-gray-50 hover:text-primary-600 transition-colors"
+                  onClick={() => setIsToolsOpen(false)}
+                >
+                  Calculadora Trabalho pro Exterior
+                </Link>
+                <Link 
+                  to="/clt-vs-pj" 
+                  className="block px-4 py-2 text-sm text-primary-800 hover:bg-gray-50 hover:text-primary-600 transition-colors"
+                  onClick={() => setIsToolsOpen(false)}
+                >
+                  Calculadora CLT vs PJ
+                </Link>
+              </div>
+            )}
+          </div>
+          
           <div className="flex space-x-3">
             <Button variant="secondary" onClick={onSwitchForm}>Mudar para Conte</Button>
             <Button onClick={onOpenCompanyForm}>Abrir Empresa Grátis</Button>
@@ -116,6 +159,26 @@ const Navbar: React.FC<NavbarProps> = ({ onOpenCompanyForm, onSwitchForm }) => {
             >
               Sobre
             </button>
+            <Link to="/blog" className="text-primary-800 hover:text-primary-600 transition-colors py-2 text-left" onClick={() => setIsOpen(false)}>Blog</Link>
+            
+            {/* Ferramentas no mobile */}
+            <div className="py-2">
+              <p className="text-primary-800 font-medium text-sm mb-2">Ferramentas</p>
+              <Link 
+                to="/calculadora" 
+                className="text-primary-700 hover:text-primary-600 transition-colors py-1 text-left text-sm pl-4 block" 
+                onClick={() => setIsOpen(false)}
+              >
+                Calculadora Trabalho pro Exterior
+              </Link>
+              <Link 
+                to="/clt-vs-pj" 
+                className="text-primary-700 hover:text-primary-600 transition-colors py-1 text-left text-sm pl-4 block" 
+                onClick={() => setIsOpen(false)}
+              >
+                Calculadora CLT vs PJ
+              </Link>
+            </div>
             
             <div className="flex flex-col space-y-3 pt-2">
               <Button variant="secondary" onClick={onSwitchForm}>Mudar para Conte</Button>

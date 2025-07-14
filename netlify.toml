@@ -10,19 +10,4 @@
 [build.environment]
   NODE_VERSION = "18"
 
-[forms]
-  [forms."openCompany"]
-    fields = [
-      { name = "fullName", type = "text" },
-      { name = "cpf", type = "text" },
-      { name = "phone", type = "text" },
-      { name = "area", type = "text" }
-    ]
-
-  [forms."switchToConte"]
-    fields = [
-      { name = "fullName", type = "text" },
-      { name = "cnpj", type = "text" },
-      { name = "cpf", type = "text" },
-      { name = "phone", type = "text" }
-    ] 
+# Remove the [forms] section for openCompany and switchToConte 
