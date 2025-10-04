@@ -91,7 +91,7 @@ const Navbar: React.FC<NavbarProps> = ({ onOpenCompanyForm, onSwitchForm }) => {
           >
             Sobre
           </button>
-          <Link to="/blog" className="text-primary-800 hover:text-primary-600 transition-colors">Blog</Link>
+          <a href="https://blog.sejaconte.com.br" target="_blank" rel="noopener noreferrer" className="text-primary-800 hover:text-primary-600 transition-colors">Blog</a>
           
           {/* Dropdown Ferramentas */}
           <div className="relative" ref={toolsRef}>
@@ -159,7 +159,7 @@ const Navbar: React.FC<NavbarProps> = ({ onOpenCompanyForm, onSwitchForm }) => {
             >
               Sobre
             </button>
-            <Link to="/blog" className="text-primary-800 hover:text-primary-600 transition-colors py-2 text-left" onClick={() => setIsOpen(false)}>Blog</Link>
+            <a href="https://blog.sejaconte.com.br" target="_blank" rel="noopener noreferrer" className="text-primary-800 hover:text-primary-600 transition-colors py-2 text-left" onClick={() => setIsOpen(false)}>Blog</a>
             
             {/* Ferramentas no mobile */}
             <div className="py-2">

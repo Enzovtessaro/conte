@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-medium mb-4">Conte</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-primary-300 hover:text-white transition-colors">Blog</a></li>
+              <li><a href="https://blog.sejaconte.com.br" target="_blank" rel="noopener noreferrer" className="text-primary-300 hover:text-white transition-colors">Blog</a></li>
               <li><a href="https://wa.me/5541987016965" target="_blank" rel="noopener noreferrer" className="text-primary-300 hover:text-white transition-colors">Contato</a></li>
             </ul>
           </div>
