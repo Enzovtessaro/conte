@@ -16,7 +16,6 @@ export const InputForm: React.FC<InputFormProps> = ({ onCalculate, loading, erro
     currency: "USD",
     exchangeRate: 0,
     proLabore: 0,
-    issRate: 2,
     contributeINSS: false,
   });
 
@@ -97,24 +96,6 @@ export const InputForm: React.FC<InputFormProps> = ({ onCalculate, loading, erro
           </div>
         </div>
 
-        {/* Taxa ISS */}
-        <div className="space-y-2">
-          <Label htmlFor="issRate">Taxa ISS (%)</Label>
-          <Input
-            id="issRate"
-            type="number"
-            step="0.1"
-            min="0"
-            max="5"
-            placeholder="2"
-            className="border-gray-200 focus-visible:ring-primary-900"
-            value={formData.issRate || ""}
-            onChange={(e) => handleInputChange("issRate", parseFloat(e.target.value) || 2)}
-          />
-          <p className="text-xs text-primary-600">
-            Varia entre 2% e 5% dependendo do município
-          </p>
-        </div>
       </div>
 
       {/* Pró-Labore com INSS */}

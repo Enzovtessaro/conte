@@ -59,7 +59,6 @@ const CalculatorPage: React.FC = () => {
               <ul className="text-primary-700 space-y-2">
                 <li>• PIS e COFINS zerados (exportação)</li>
                 <li>• IRPJ e CSLL sobre lucro presumido (32%)</li>
-                <li>• ISS municipal (2% a 5%)</li>
                 <li>• Distribuição de lucros isenta de IR</li>
               </ul>
             </div>

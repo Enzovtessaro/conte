@@ -11,7 +11,6 @@ export const Calculator = () => {
     currency: "USD",
     exchangeRate: 0,
     proLabore: 0,
-    issRate: 2,
     contributeINSS: false,
   });
 

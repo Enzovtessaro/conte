@@ -155,7 +155,7 @@ export const CalculationBreakdown: React.FC<CalculationBreakdownProps> = ({ resu
                         <p className="text-sm text-primary-600 flex items-center gap-1">
                           Impostos PJ
                           <Tooltip 
-                            content={`Impostos da Pessoa Jurídica: inclui IRPJ, CSLL, PIS, COFINS, CPP, ISS conforme ${results.simplesNacional.anexo} do Simples Nacional.`}
+                            content={`Impostos da Pessoa Jurídica: inclui IRPJ, CSLL, PIS, COFINS, CPP conforme ${results.simplesNacional.anexo} do Simples Nacional.`}
                             position="top"
                           >
                             <Info size={12} className="text-gray-400 cursor-help" />
@@ -289,22 +289,6 @@ export const CalculationBreakdown: React.FC<CalculationBreakdownProps> = ({ resu
                       </div>
                     </div>
 
-                    <div className="flex justify-between items-center">
-                      <div>
-                        <p className="text-sm text-primary-600 flex items-center gap-1">
-                          ISS ({data.issRate}%)
-                          <Tooltip 
-                            content="Imposto sobre Serviços: taxa municipal sobre prestação de serviços. Varia de 2% a 5% conforme município."
-                            position="top"
-                          >
-                            <Info size={12} className="text-gray-400 cursor-help" />
-                          </Tooltip>
-                        </p>
-                        <p className="text-lg font-bold text-red-600">
-                          -{formatCurrency(results.lucroPresumido.iss)}
-                        </p>
-                      </div>
-                    </div>
 
                     <div className="border-t pt-3">
                       <div className="flex justify-between items-center">
@@ -344,7 +328,6 @@ export const CalculationBreakdown: React.FC<CalculationBreakdownProps> = ({ resu
                     <div className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
                       <p className="text-sm text-primary-700">
-                        <strong>ISS Municipal:</strong> {data.issRate}%
                       </p>
                     </div>
                   </div>

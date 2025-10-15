@@ -25,7 +25,6 @@ export interface CalculatorData {
   currency: string;
   exchangeRate: number;
   proLabore: number;
-  issRate: number;
   contributeINSS: boolean;
 }
 
@@ -67,7 +66,7 @@ export function calculateTaxes(data: CalculatorData): CalculationResults {
   const simplesResults = calculateSimplesNacional(receivedByPJ, annualRevenue, data.proLabore, annualProLabore, data.contributeINSS);
   
   // Calculate Lucro Presumido (no pro-labore, only profit distribution)
-  const presumidoResults = calculateLucroPresumido(receivedByPJ, data.issRate);
+  const presumidoResults = calculateLucroPresumido(receivedByPJ);
   
   return {
     grossBRL,
@@ -123,7 +122,7 @@ function calculateSimplesNacional(monthlyRevenue: number, annualRevenue: number,
   };
 }
 
-function calculateLucroPresumido(monthlyRevenue: number, issRate: number) {
+function calculateLucroPresumido(monthlyRevenue: number) {
   // PIS and COFINS are zero for service exports
   const presumedProfit = monthlyRevenue * 0.32; // 32% presumed profit
   
@@ -136,10 +135,7 @@ function calculateLucroPresumido(monthlyRevenue: number, issRate: number) {
   // CSLL: 9% on presumed profit
   const csll = presumedProfit * 0.09;
   
-  // ISS: rate on total revenue
-  const iss = monthlyRevenue * (issRate / 100);
-  
-  const pjTax = irpj + csll + iss;
+  const pjTax = irpj + csll;
   
   // No PF taxes for Lucro Presumido (profit distribution is tax-free)
   const pfTax = 0;
@@ -152,7 +148,7 @@ function calculateLucroPresumido(monthlyRevenue: number, issRate: number) {
     netAmount,
     irpj,
     csll,
-    iss
+    iss: 0
   };
 }
 
