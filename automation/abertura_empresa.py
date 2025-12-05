@@ -1,12 +1,16 @@
 """
 Automação para abertura de empresa no Empresa Fácil PR
 Utiliza Playwright + hcaptcha-challenger para resolver captchas automaticamente
+
+Suporta execução:
+- Local: navegador Chrome instalado localmente
+- Nuvem: Chrome remoto via CDP (Browserless.io, etc.)
 """
 
 import asyncio
 import os
 from dotenv import load_dotenv
-from playwright.async_api import async_playwright, Page, BrowserContext
+from playwright.async_api import async_playwright, Page, BrowserContext, Browser
 
 # Importa o hcaptcha-challenger
 try:
@@ -20,7 +24,58 @@ load_dotenv()
 
 # Configurações
 EMPRESA_FACIL_URL = "https://www.empresafacil.pr.gov.br/acoes/abertura-de-empresa"
-CPF_LOGIN = "022.172.319-60"
+CPF_LOGIN = os.getenv("CPF_LOGIN", "022.172.319-60")
+
+# Configurações de browser remoto (nuvem)
+BROWSER_WS_ENDPOINT = os.getenv("BROWSER_WS_ENDPOINT", "")  # Ex: wss://chrome.browserless.io?token=YOUR_TOKEN
+BROWSERLESS_TOKEN = os.getenv("BROWSERLESS_TOKEN", "")
+
+
+async def get_browser(playwright, headless: bool = False, use_cloud: bool = False) -> Browser:
+    """
+    Obtém instância do browser (local ou nuvem)
+
+    Args:
+        playwright: Instância do Playwright
+        headless: Se True, executa sem interface gráfica (para local)
+        use_cloud: Se True, conecta a um browser na nuvem
+
+    Returns:
+        Browser: Instância do navegador
+    """
+    if use_cloud:
+        # Conecta a um browser remoto na nuvem
+        ws_endpoint = BROWSER_WS_ENDPOINT
+
+        # Se não tiver endpoint mas tiver token do Browserless
+        if not ws_endpoint and BROWSERLESS_TOKEN:
+            ws_endpoint = f"wss://chrome.browserless.io?token={BROWSERLESS_TOKEN}"
+
+        if not ws_endpoint:
+            raise ValueError(
+                "Para usar browser na nuvem, configure BROWSER_WS_ENDPOINT ou BROWSERLESS_TOKEN no .env"
+            )
+
+        print(f"☁️ Conectando ao browser remoto...")
+        browser = await playwright.chromium.connect_over_cdp(ws_endpoint)
+        print("✅ Conectado ao browser na nuvem")
+        return browser
+
+    else:
+        # Inicia browser local
+        print("💻 Iniciando navegador local...")
+        browser = await playwright.chromium.launch(
+            headless=headless,
+            args=[
+                "--disable-blink-features=AutomationControlled",
+                "--no-sandbox",
+                "--disable-dev-shm-usage",
+                "--disable-web-security",
+                "--disable-features=IsolateOrigins,site-per-process"
+            ]
+        )
+        print("✅ Navegador local iniciado")
+        return browser
 
 
 async def solve_hcaptcha(page: Page) -> bool:
@@ -263,31 +318,25 @@ async def click_continuar(page: Page) -> bool:
         return False
 
 
-async def run_automation(headless: bool = False) -> bool:
+async def run_automation(headless: bool = False, use_cloud: bool = False) -> bool:
     """
     Executa a automação completa de abertura de empresa
 
     Args:
-        headless: Se True, executa sem interface gráfica
+        headless: Se True, executa sem interface gráfica (apenas modo local)
+        use_cloud: Se True, conecta a um browser na nuvem
 
     Returns:
         bool: True se a automação foi concluída com sucesso
     """
     print("=" * 60)
     print("🚀 Iniciando automação de abertura de empresa")
+    print(f"📍 Modo: {'☁️ Nuvem' if use_cloud else '💻 Local'}")
     print("=" * 60)
 
     async with async_playwright() as p:
-        # Inicia o navegador
-        print("🌐 Iniciando navegador...")
-        browser = await p.chromium.launch(
-            headless=headless,
-            args=[
-                "--disable-blink-features=AutomationControlled",
-                "--no-sandbox",
-                "--disable-dev-shm-usage"
-            ]
-        )
+        # Obtém o browser (local ou nuvem)
+        browser = await get_browser(p, headless=headless, use_cloud=use_cloud)
 
         # Cria contexto com configurações para evitar detecção
         context = await browser.new_context(
@@ -344,9 +393,10 @@ async def run_automation(headless: bool = False) -> bool:
             print("✅ Automação concluída!")
             print("=" * 60)
 
-            # Mantém o navegador aberto para verificação manual
-            print("\n⏸️ Navegador mantido aberto. Pressione Enter para fechar...")
-            input()
+            # Se não for nuvem, mantém o navegador aberto
+            if not use_cloud:
+                print("\n⏸️ Navegador mantido aberto. Pressione Enter para fechar...")
+                input()
 
             return True
 
@@ -363,8 +413,17 @@ async def run_automation(headless: bool = False) -> bool:
 
 async def main():
     """Função principal"""
-    # Executa com interface gráfica visível
-    await run_automation(headless=False)
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Automação de abertura de empresa")
+    parser.add_argument("--cloud", action="store_true", help="Usar browser na nuvem")
+    parser.add_argument("--headless", action="store_true", help="Executar sem interface gráfica")
+    args = parser.parse_args()
+
+    # Verifica se deve usar nuvem baseado no .env
+    use_cloud = args.cloud or bool(BROWSER_WS_ENDPOINT or BROWSERLESS_TOKEN)
+
+    await run_automation(headless=args.headless, use_cloud=use_cloud)
 
 
 if __name__ == "__main__":
