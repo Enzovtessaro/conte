@@ -103,7 +103,7 @@ const Plans: React.FC<PlansProps> = ({ onOpenCompanyForm }) => {
         { text: 'Tudo do plano profissional', included: true },
         { text: 'Assessor dedicado', included: true },
         { text: 'Atendimento prioritário', included: true },
-        { text: 'Certificado digital gratuito', included: true },
+        { text: 'Endereço fiscal gratuito', included: true },
         { text: 'Notas fiscais ilimitadas', included: true },
       ],
     },
