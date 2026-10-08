@@ -7,7 +7,10 @@ export interface FeatureProps {
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
-  variant?: 'primary' | 'secondary' | 'white';
+  variant?: 'primary' | 'secondary' | 'white' | 'accent' | 'ghost';
+  size?: 'md' | 'lg';
+  href?: string;
+  external?: boolean;
   className?: string;
   onClick?: () => void;
   type?: 'button' | 'submit' | 'reset';

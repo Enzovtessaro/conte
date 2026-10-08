@@ -1,112 +1,53 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import { FeatureProps } from '../types';
-import Button from './Button';
+import { FileText, Headphones, MessageCircle, TrendingDown } from 'lucide-react';
+import Reveal from './Reveal';
+import SectionHeading from './SectionHeading';
 
-const Feature: React.FC<FeatureProps> = ({ title, description, icon, details }) => {
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  });
+const features = [
+  {
+    icon: <Headphones size={22} />,
+    title: 'Uma contadora só sua',
+    description: 'Sempre a mesma pessoa, que conhece você e sua PJ.',
+  },
+  {
+    icon: <TrendingDown size={22} />,
+    title: 'Menos imposto',
+    description: 'Estratégia fiscal pensada para você pagar só o necessário.',
+  },
+  {
+    icon: <FileText size={22} />,
+    title: 'Notas emitidas por nós',
+    description: 'Você avisa, a gente emite. Sem decorar portal de prefeitura.',
+  },
+  {
+    icon: <MessageCircle size={22} />,
+    title: 'Tudo no WhatsApp',
+    description: 'Guias de imposto e dúvidas resolvidas onde você já está.',
+  },
+];
 
+const Features: React.FC = () => {
   return (
-    <motion.div
-      ref={ref}
-      className="bg-white p-6 rounded-[15px] border border-gray-100 shadow-sm text-center"
-      initial={{ opacity: 0, y: 20 }}
-      animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-      transition={{ duration: 0.5 }}
-    >
-      <div className="flex justify-center mb-6">{icon}</div>
-      <h3 className="text-xl font-bold mb-3 text-primary-900">{title}</h3>
-      <p className="text-primary-700 mb-5">{description}</p>
-      <div className="space-y-2">
-        {details.map((detail, index) => (
-          <p key={index} className="text-primary-600 text-sm">{detail}</p>
-        ))}
-      </div>
-    </motion.div>
-  );
-};
+    <section id="diferenciais" className="scroll-mt-24 py-24 md:py-32">
+      <div className="container mx-auto max-w-6xl px-4 md:px-6">
+        <SectionHeading
+          eyebrow="Por que a Conte"
+          title={
+            <>
+              Deixe a burocracia da sua PJ <span className="font-serif font-normal italic">com a gente.</span>
+            </>
+          }
+        />
 
-interface FeaturesProps {
-  onOpenCompanyForm: () => void;
-  onSwitchForm: () => void;
-}
-
-const Features: React.FC<FeaturesProps> = ({ onOpenCompanyForm, onSwitchForm }) => {
-  const features: FeatureProps[] = [
-    {
-      title: 'Tenha um contador pessoal',
-      description: 'Você será acompanhado(a) por um contador(a) que saberá tudo sobre você e sua PJ.',
-      icon: <img src="https://i.ibb.co/BVYL37gS/contadora.png" alt="Contador pessoal" className="w-24 h-24" />,
-      details: [
-        'Nada de ficar pulando de pessoa para pessoa que não conhece você e sua PJ.'
-      ]
-    },
-    {
-      title: 'A melhor estratégia fiscal',
-      description: 'Montaremos uma estratégia fiscal personalizada para sua PJ pagar apenas o imposto necessário.',
-      icon: <img src="https://i.ibb.co/4RP1BhZh/estrategia.png" alt="Estratégia fiscal" className="w-24 h-24" />,
-      details: [
-        'Nada de impostos surpresa ou de pagar mais do que precisa.'
-      ]
-    },
-    {
-      title: 'Suporte humano e ágil',
-      description: 'Na Conte você terá um time humano que te ajudará rapidamente.',
-      icon: <img src="https://i.ibb.co/xSbcRLtX/suporte.png" alt="Suporte humano" className="w-24 h-24" />,
-      details: [
-        'Nada de enviar um ticket que demora 5 dias para ser solucionado.'
-      ]
-    }
-  ];
-
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  });
-
-  return (
-    <section id="features" className="py-20 bg-white">
-      <div className="container mx-auto px-4 md:px-6">
-        <motion.div
-          ref={ref}
-          className="text-center max-w-3xl mx-auto mb-16"
-          initial={{ opacity: 0, y: 20 }}
-          animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-          transition={{ duration: 0.5 }}
-        >
-          <h2 className="text-3xl md:text-4xl font-bold text-primary-900 mb-6">
-            Deixe a burocracia da sua PJ para nós.
-          </h2>
-          <p className="text-lg text-primary-600">
-            Conte conosco desde a abertura de empresa, até emissão de nota fiscal, e até o pagamento dos impostos.
-          </p>
-        </motion.div>
-
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
-          {features.map((feature, index) => (
-            <Feature
-              key={index}
-              title={feature.title}
-              description={feature.description}
-              icon={feature.icon}
-              details={feature.details}
-            />
+        <div className="grid gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
+          {features.map((f, i) => (
+            <Reveal key={f.title} delay={i * 0.06}>
+              <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-paper-deep text-ink">{f.icon}</span>
+              <h3 className="mt-5 font-display text-xl font-semibold tracking-[-0.02em] text-ink">{f.title}</h3>
+              <p className="mt-2 leading-relaxed text-ink-muted">{f.description}</p>
+            </Reveal>
           ))}
         </div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4"
-        >
-          <Button onClick={onOpenCompanyForm}>Abrir Empresa Grátis</Button>
-          <Button variant="secondary" onClick={onSwitchForm}>Mudar para Conte</Button>
-        </motion.div>
       </div>
     </section>
   );

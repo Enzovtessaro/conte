@@ -1,58 +1,63 @@
 import React from 'react';
-import { Facebook, Instagram, Twitter, Linkedin } from 'lucide-react';
+import { Instagram } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import Logo from './Logo';
+import { BLOG_URL, INSTAGRAM_URL, SIGNUP_URL, WHATSAPP_URL } from '../lib/links';
+
+const linkClass = 'text-ink-muted hover:text-ink transition-colors';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-black text-white py-12">
-      <div className="container mx-auto px-4 md:px-6">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer className="border-t border-paper-line bg-paper">
+      <div className="container mx-auto max-w-6xl px-4 py-16 md:px-6">
+        <div className="grid gap-12 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
-            <h3 className="text-xl font-bold mb-4">Conte.</h3>
-            <p className="text-primary-300 mb-4">
+            <Logo />
+            <p className="mt-4 max-w-xs leading-relaxed text-ink-muted">
               Contabilidade com atendimento humanizado para diminuir suas dores de cabeça.
             </p>
-            <div className="flex space-x-4">
-              <a href="https://www.instagram.com/seja.conte" target="_blank" rel="noopener noreferrer" className="text-primary-300 hover:text-white transition-colors">
-                <Instagram size={20} />
-              </a>
-            </div>
+            <a
+              href={INSTAGRAM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram da Conte"
+              className="mt-6 inline-flex h-10 w-10 items-center justify-center rounded-full border border-paper-line text-ink-muted hover:border-ink/30 hover:text-ink transition-colors"
+            >
+              <Instagram size={18} />
+            </a>
           </div>
-          
+
           <div>
-            <h4 className="text-lg font-medium mb-4">Serviços</h4>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-primary-300 hover:text-white transition-colors">Abertura de Empresa</a></li>
-              <li><a href="#" className="text-primary-300 hover:text-white transition-colors">Contabilidade</a></li>
-              <li><a href="#" className="text-primary-300 hover:text-white transition-colors">Gestão Fiscal</a></li>
-              <li><a href="#" className="text-primary-300 hover:text-white transition-colors">Consultoria</a></li>
+            <h4 className="text-sm font-semibold text-ink">Conte</h4>
+            <ul className="mt-4 space-y-3 text-[15px]">
+              <li><a href="/#servicos" className={linkClass}>Serviços</a></li>
+              <li><a href="/#planos" className={linkClass}>Planos</a></li>
+              <li><a href={SIGNUP_URL} className={linkClass}>Cadastro</a></li>
             </ul>
           </div>
-          
+
           <div>
-            <h4 className="text-lg font-medium mb-4">Conte</h4>
-            <ul className="space-y-2">
-              <li><a href="https://blog.sejaconte.com.br" target="_blank" rel="noopener noreferrer" className="text-primary-300 hover:text-white transition-colors">Blog</a></li>
-              <li><a href="https://wa.me/5541987016965" target="_blank" rel="noopener noreferrer" className="text-primary-300 hover:text-white transition-colors">Contato</a></li>
+            <h4 className="text-sm font-semibold text-ink">Conteúdo</h4>
+            <ul className="mt-4 space-y-3 text-[15px]">
+              <li><a href={BLOG_URL} target="_blank" rel="noopener noreferrer" className={linkClass}>Blog</a></li>
+              <li><Link to="/calculadora" className={linkClass}>Calculadora exterior</Link></li>
+              <li><Link to="/clt-vs-pj" className={linkClass}>Calculadora CLT vs PJ</Link></li>
             </ul>
           </div>
-          
+
           <div>
-            <h4 className="text-lg font-medium mb-4">Contato</h4>
-            <ul className="space-y-2">
-              <li className="text-primary-300">oi@conte.com.br</li>
-              <li className="text-primary-300">+55 (41) 98701-6965</li>
-              <li className="text-primary-300">Curitiba, PR</li>
-              <li className="text-primary-300">37.526.805/0001-83</li>
+            <h4 className="text-sm font-semibold text-ink">Contato</h4>
+            <ul className="mt-4 space-y-3 text-[15px] text-ink-muted">
+              <li><a href="mailto:oi@conte.com.br" className={linkClass}>oi@conte.com.br</a></li>
+              <li><a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className={linkClass}>+55 (41) 98701-6965</a></li>
+              <li>Curitiba, PR</li>
             </ul>
           </div>
         </div>
-        
-        <div className="border-t border-primary-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-primary-400 text-sm">
-            &copy; {new Date().getFullYear()} Conte. Todos os direitos reservados.
-          </p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-          </div>
+
+        <div className="mt-14 flex flex-col gap-2 border-t border-paper-line pt-8 text-sm text-ink-faint md:flex-row md:justify-between">
+          <p>&copy; {new Date().getFullYear()} Conte. Todos os direitos reservados.</p>
+          <p>CNPJ 37.526.805/0001-83</p>
         </div>
       </div>
     </footer>
