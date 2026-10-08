@@ -1,27 +1,17 @@
 import React from 'react';
 import { blogPosts } from '../../data/blog';
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
+import Seo from '../../components/Seo';
 
 const Blog: React.FC = () => {
-  const canonical = typeof window !== 'undefined' ? window.location.origin + '/blog' : 'https://sejaconte.com.br/blog';
   return (
     <main className="min-h-screen bg-white pt-32 pb-16">
-      <Helmet>
-        <title>Blog Conte | Dicas, novidades e conhecimento para você crescer com sua empresa</title>
-        <meta name="description" content="Dicas, novidades e conhecimento para você crescer com sua empresa. Conte com a gente para aprender sobre contabilidade, gestão e tecnologia." />
-        <link rel="canonical" href={canonical} />
-        <meta name="robots" content="index,follow" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Blog Conte" />
-        <meta property="og:description" content="Dicas, novidades e conhecimento para você crescer com sua empresa." />
-        <meta property="og:url" content={canonical} />
-        <meta property="og:image" content={blogPosts[0]?.coverImage} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Blog Conte" />
-        <meta name="twitter:description" content="Dicas, novidades e conhecimento para você crescer com sua empresa." />
-        <meta name="twitter:image" content={blogPosts[0]?.coverImage} />
-      </Helmet>
+      <Seo
+        title="Blog Conte | Dicas de contabilidade para PJ"
+        description="Dicas e novidades sobre contabilidade, impostos e gestão para quem é PJ ou MEI."
+        path="/blog"
+        noindex
+      />
       <div className="container mx-auto px-4 md:px-6">
         <header className="max-w-3xl mx-auto text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">Blog Conte</h1>

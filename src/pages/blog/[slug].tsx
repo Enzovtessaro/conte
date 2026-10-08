@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { blogPosts } from '../../data/blog';
-import { Helmet } from 'react-helmet-async';
+import Seo from '../../components/Seo';
 
 const BlogPostPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -18,36 +18,15 @@ const BlogPostPage: React.FC = () => {
     );
   }
 
-  const canonical = typeof window !== 'undefined' ? window.location.origin + `/blog/${post.slug}` : `https://sejaconte.com.br/blog/${post.slug}`;
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": post.title,
-    "datePublished": post.date,
-    "author": { "@type": "Person", "name": post.author },
-    "description": post.summary,
-    "image": [post.coverImage],
-    "mainEntityOfPage": canonical
-  };
-
   return (
     <main className="min-h-screen bg-white py-16">
-      <Helmet>
-        <title>{post.title} | Blog Conte</title>
-        <meta name="description" content={post.summary} />
-        <link rel="canonical" href={canonical} />
-        <meta name="robots" content="index,follow" />
-        <meta property="og:type" content="article" />
-        <meta property="og:title" content={post.title} />
-        <meta property="og:description" content={post.summary} />
-        <meta property="og:url" content={canonical} />
-        <meta property="og:image" content={post.coverImage} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={post.title} />
-        <meta name="twitter:description" content={post.summary} />
-        <meta name="twitter:image" content={post.coverImage} />
-        <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
-      </Helmet>
+      <Seo
+        title={`${post.title} | Blog Conte`}
+        description={post.summary}
+        path={`/blog/${post.slug}`}
+        type="article"
+        noindex
+      />
       <div className="container mx-auto px-4 md:px-6 max-w-3xl">
         <nav aria-label="breadcrumb" className="mt-16 mb-8">
           <ol className="flex items-center space-x-2 text-sm text-gray-500">

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sejaconte.com.br/sitemap.xml

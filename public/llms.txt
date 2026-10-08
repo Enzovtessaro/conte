@@ -1,0 +1,14 @@
+# Conte
+
+> Contabilidade online para PJ e MEI, com uma contadora dedicada e atendimento pelo WhatsApp. Abertura de empresa grátis. Planos a partir de R$99/mês. Sede em Curitiba (PR), atende todo o Brasil.
+
+## Páginas
+
+- [Página inicial](https://sejaconte.com.br/): serviços, planos (Para MEIs R$99/mês; Para ME e EPP R$359/mês) e perguntas frequentes
+- [Calculadora PJ exterior](https://sejaconte.com.br/calculadora): quanto sobra para quem presta serviços para empresas de fora do Brasil
+- [Calculadora CLT vs PJ](https://sejaconte.com.br/clt-vs-pj): comparação entre salário CLT e proposta PJ
+- [Cadastro](https://app.sejaconte.com.br/cadastro): abrir empresa ou migrar a contabilidade para a Conte
+
+## Optional
+
+- [Blog](https://blog.sejaconte.com.br): artigos sobre contabilidade, impostos e PJ
