@@ -5,8 +5,6 @@ import { HelmetProvider, HelmetServerState } from 'react-helmet-async';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import App from './App';
 
-export { blogPosts } from './data/blog';
-
 export function render(url: string) {
   const helmetContext: { helmet?: HelmetServerState } = {};
   const html = renderToString(

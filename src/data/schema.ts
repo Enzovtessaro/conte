@@ -1,4 +1,4 @@
-import { INSTAGRAM_URL, SIGNUP_URL, SITE_URL } from '../lib/links';
+import { EMAIL, INSTAGRAM_URL, SIGNUP_URL, SITE_URL } from '../lib/links';
 
 const ORG_ID = `${SITE_URL}/#organization`;
 
@@ -13,10 +13,12 @@ export const homeSchema = [
     image: `${SITE_URL}/og-image.png`,
     description: 'Contabilidade online para PJ e MEI com contadora dedicada e atendimento pelo WhatsApp.',
     telephone: '+55-41-98701-6965',
+    email: EMAIL,
     taxID: '37.526.805/0001-83',
     priceRange: 'R$99–R$359/mês',
     address: {
       '@type': 'PostalAddress',
+      streetAddress: 'Rua Matheus Leme, 5354 - São Lourenço',
       addressLocality: 'Curitiba',
       addressRegion: 'PR',
       addressCountry: 'BR',

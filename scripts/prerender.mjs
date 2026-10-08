@@ -4,8 +4,8 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(root, 'dist');
-const { render, blogPosts } = await import(pathToFileURL(path.join(root, 'dist-ssr', 'entry-server.js')).href);
-const routes = ['/', '/calculadora', '/clt-vs-pj', '/blog', ...blogPosts.map((p) => `/blog/${p.slug}`)];
+const { render } = await import(pathToFileURL(path.join(root, 'dist-ssr', 'entry-server.js')).href);
+const routes = ['/', '/calculadora', '/clt-vs-pj'];
 
 const template = fs.readFileSync(path.join(dist, 'index.html'), 'utf-8');
 

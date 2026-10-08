@@ -11,8 +11,6 @@ import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
-import Blog from './pages/blog';
-import BlogPostPage from './pages/blog/[slug]';
 import CalculatorPage from './pages/CalculatorPage';
 import CLTvsPJPage from './pages/CLTvsPJPage';
 import NotFound from './pages/NotFound';
@@ -57,8 +55,6 @@ function App() {
           />
           <Route path="/calculadora" element={<CalculatorPage />} />
           <Route path="/clt-vs-pj" element={<CLTvsPJPage />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/:slug" element={<BlogPostPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
