@@ -60,6 +60,17 @@ const FAQ: React.FC = () => {
                   >
                     <div className="overflow-hidden">
                       <p className="max-w-2xl pb-6 text-[17px] leading-relaxed text-ink-muted">{item.a}</p>
+                      {item.post && (
+                        <a
+                          href={item.post.url}
+                          target="_blank"
+                          rel="noopener"
+                          tabIndex={isOpen ? 0 : -1}
+                          className="-mt-2 mb-6 inline-flex items-start gap-1.5 text-[15px] font-medium text-ink underline decoration-ink/20 underline-offset-4 hover:decoration-ink"
+                        >
+                          <span className="shrink-0 text-ink-muted">No blog:</span> {item.post.title} →
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>
