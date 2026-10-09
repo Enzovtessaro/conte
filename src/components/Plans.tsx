@@ -1,149 +1,113 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import { Check } from 'lucide-react';
+import { ArrowRight, Check } from 'lucide-react';
 import Button from './Button';
+import Reveal from './Reveal';
+import SectionHeading from './SectionHeading';
+import { SIGNUP_URL } from '../lib/links';
 
-interface PlanFeature {
-  text: string;
-  included: boolean;
-}
-
-interface PlanProps {
+interface Plan {
   title: string;
-  description: string;
   price: string;
-  features: PlanFeature[];
-  isPopular?: boolean;
-  onOpenCompanyForm: () => void;
+  description: string;
+  features: string[];
+  featured?: boolean;
 }
 
-const Plan: React.FC<PlanProps> = ({ title, description, price, features, isPopular, onOpenCompanyForm }) => (
-  <div className={`p-8 rounded-[20px] ${isPopular ? 'bg-primary-900 text-white' : 'bg-gray-50'}`}>
-    {isPopular && (
-      <span className="inline-block px-4 py-1 rounded-full text-sm font-medium bg-white text-primary-900 mb-4">
-        Mais Popular
-      </span>
-    )}
-    <h3 className={`text-2xl font-bold ${isPopular ? 'text-white' : 'text-primary-900'} mb-2`}>
-      {title}
-    </h3>
-    <p className={`text-sm mb-4 ${isPopular ? 'text-gray-200' : 'text-gray-500'}`}>
-      {description}
-    </p>
-    <div className="mb-6">
-      <span className={`text-3xl font-bold ${isPopular ? 'text-white' : 'text-primary-900'}`}>
-        {price}
-      </span>
-      <span className={`${isPopular ? 'text-gray-200' : 'text-gray-500'}`}>/mês</span>
-    </div>
-    <div className="space-y-4 mb-8">
-      {features.map((feature, index) => (
-        <div key={index} className="flex items-center space-x-3">
-          <div className={`p-1 rounded-full ${isPopular ? 'bg-white text-primary-900' : 'bg-black text-white'}`}>
-            <Check size={16} />
-          </div>
-          <span className={`${isPopular ? 'text-gray-200' : 'text-gray-600'}`}>
-            {feature.text}
-          </span>
-        </div>
-      ))}
-    </div>
-    <Button 
-      onClick={onOpenCompanyForm}
-      variant={isPopular ? 'white' : 'primary'}
-      className="w-full"
-    >
-      Começar Agora
-    </Button>
-  </div>
-);
+const plans: Plan[] = [
+  {
+    title: 'Para MEIs',
+    price: '99',
+    description: 'Seu MEI em dia, sem esforço e com atendimento humano.',
+    features: [
+      'Abertura de empresa',
+      'Uma nota fiscal por mês',
+      'Emissão de guia de imposto',
+      'Declaração anual',
+      'Atendimento humanizado',
+    ],
+  },
+  {
+    title: 'Para ME e EPP',
+    price: '359',
+    description: 'Para quem já passou do MEI, inclusive quem presta serviços para o exterior.',
+    features: [
+      'Tudo do plano para MEIs',
+      'Contabilidade completa',
+      'Planejamento e consultoria tributária',
+      'Pró-labore do sócio',
+      'Declarações acessórias mensais',
+      'Notas fiscais ilimitadas',
+      'Assessor dedicado e atendimento prioritário',
+      'Endereço fiscal gratuito',
+    ],
+    featured: true,
+  },
+];
 
-interface PlansProps {
-  onOpenCompanyForm: () => void;
-}
-
-const Plans: React.FC<PlansProps> = ({ onOpenCompanyForm }) => {
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  });
-
-  const plans = [
-    {
-      title: 'Iniciante',
-      price: 'R$99',
-      description: 'Para MEIs',
-      features: [
-        { text: 'Abertura de empresa', included: true },
-        { text: 'Uma nota fiscal por mês', included: true },
-        { text: 'Emissão de guia de imposto', included: true },
-        { text: 'Declaração anual', included: true },
-        { text: 'Atendimento humanizado', included: true },
-      ],
-    },
-    {
-      title: 'Profissional',
-      price: 'R$249',
-      description: 'PJs no Simples Nacional que prestam serviços no Brasil ou faturam até 15 mil por mês',
-      features: [
-        { text: 'Tudo do plano inicial', included: true },
-        { text: 'Planejamento e consultoria tributária', included: true },
-        { text: 'Pró-labore do sócio', included: true },
-        { text: 'Declarações acessórias mensais', included: true },
-        { text: 'Contabilidade completa', included: true },
-      ],
-      isPopular: true,
-    },
-    {
-      title: 'Especialista',
-      price: 'R$359',
-      description: 'PJs fora do Simples Nacional ou que prestam serviços pro exterior ou faturam mais de 15 mil por mês',
-      features: [
-        { text: 'Tudo do plano profissional', included: true },
-        { text: 'Assessor dedicado', included: true },
-        { text: 'Atendimento prioritário', included: true },
-        { text: 'Endereço fiscal gratuito', included: true },
-        { text: 'Notas fiscais ilimitadas', included: true },
-      ],
-    },
-  ];
-
+const PlanCard: React.FC<{ plan: Plan }> = ({ plan }) => {
+  const dark = plan.featured;
   return (
-    <section className="py-20 bg-white" id="plans">
-      <div className="container mx-auto px-4 md:px-6">
-        <motion.div
-          ref={ref}
-          className="text-center max-w-3xl mx-auto mb-16"
-          initial={{ opacity: 0, y: 20 }}
-          animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-          transition={{ duration: 0.5 }}
-        >
-          <h2 className="text-3xl md:text-4xl font-bold text-primary-900 mb-6">
-            Escolha o plano ideal para você
-          </h2>
-          <p className="text-lg text-primary-600">
-            Temos o plano perfeito para cada fase da sua carreira
-          </p>
-        </motion.div>
+    <div
+      className={`relative flex h-full flex-col rounded-[28px] p-8 md:p-10 ${
+        dark ? 'bg-ink text-white shadow-float' : 'border border-paper-line bg-white shadow-card'
+      }`}
+    >
+      <div className="flex items-center justify-between">
+        <h3 className="font-display text-2xl font-semibold tracking-[-0.02em]">{plan.title}</h3>
+        {dark && (
+          <span className="rounded-full bg-brand px-3 py-1 text-xs font-semibold text-ink">Mais completo</span>
+        )}
+      </div>
+      <p className={`mt-3 leading-relaxed ${dark ? 'text-white/60' : 'text-ink-muted'}`}>{plan.description}</p>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          {plans.map((plan, index) => (
-            <motion.div
-              key={plan.title}
-              initial={{ opacity: 0, y: 20 }}
-              animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
+      <div className="mt-8 flex items-baseline gap-1">
+        <span className={`text-lg ${dark ? 'text-white/60' : 'text-ink-muted'}`}>R$</span>
+        <span className="font-display text-6xl font-semibold tracking-[-0.04em]">{plan.price}</span>
+        <span className={dark ? 'text-white/60' : 'text-ink-muted'}>/mês</span>
+      </div>
+
+      <ul className={`mt-8 space-y-3.5 border-t pt-8 ${dark ? 'border-white/10' : 'border-paper-line'}`}>
+        {plan.features.map((feature) => (
+          <li key={feature} className="flex items-start gap-3">
+            <span
+              className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full ${
+                dark ? 'bg-brand text-ink' : 'bg-ink text-white'
+              }`}
             >
-              <Plan
-                title={plan.title}
-                price={plan.price}
-                description={plan.description}
-                features={plan.features}
-                isPopular={plan.isPopular}
-                onOpenCompanyForm={onOpenCompanyForm}
-              />
-            </motion.div>
+              <Check size={12} strokeWidth={3} />
+            </span>
+            <span className={dark ? 'text-white/85' : 'text-ink-soft'}>{feature}</span>
+          </li>
+        ))}
+      </ul>
+
+      <Button href={SIGNUP_URL} size="lg" variant={dark ? 'accent' : 'primary'} className="mt-10 w-full">
+        Começar agora
+        <ArrowRight size={18} className="transition-transform group-hover:translate-x-0.5" />
+      </Button>
+    </div>
+  );
+};
+
+const Plans: React.FC = () => {
+  return (
+    <section id="planos" className="scroll-mt-24 py-24 md:py-32">
+      <div className="container mx-auto max-w-6xl px-4 md:px-6">
+        <SectionHeading
+          eyebrow="Planos"
+          title={
+            <>
+              Preço simples, <span className="font-serif font-normal italic">sem surpresa.</span>
+            </>
+          }
+          description="Escolha o plano ideal para a fase da sua carreira. Abertura de empresa grátis em qualquer plano."
+        />
+
+        <div className="mx-auto grid max-w-4xl items-stretch gap-5 md:grid-cols-2">
+          {plans.map((plan, index) => (
+            <Reveal key={plan.title} delay={index * 0.08} className="h-full">
+              <PlanCard plan={plan} />
+            </Reveal>
           ))}
         </div>
       </div>
@@ -151,4 +115,4 @@ const Plans: React.FC<PlansProps> = ({ onOpenCompanyForm }) => {
   );
 };
 
-export default Plans; 
+export default Plans;

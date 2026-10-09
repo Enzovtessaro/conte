@@ -1,13 +1,16 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
+import { MotionConfig } from 'framer-motion';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import MeetSolange from './components/MeetSolange';
+import Services from './components/Services';
 import Features from './components/Features';
-import Testimonials from './components/Testimonials';
-import CTA from './components/CTA';
-import Comparison from './components/Comparison';
-import Footer from './components/Footer';
 import Plans from './components/Plans';
-import { Routes, Route } from 'react-router-dom';
+import Testimonials from './components/Testimonials';
+import FAQ from './components/FAQ';
+import CTA from './components/CTA';
+import Footer from './components/Footer';
 import Blog from './pages/blog';
 import BlogPostPage from './pages/blog/[slug]';
 import CalculatorPage from './pages/CalculatorPage';
@@ -15,69 +18,43 @@ import CLTvsPJPage from './pages/CLTvsPJPage';
 import HelpFloatingButton from './components/HelpFloatingButton';
 
 function App() {
+  const { pathname, hash } = useLocation();
+
   useEffect(() => {
-    // Smooth scroll for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        const target = document.querySelector((e.currentTarget as HTMLAnchorElement).getAttribute('href') || '');
-        if (target) {
-          window.scrollTo({
-            top: (target as HTMLElement).offsetTop - 80,
-            behavior: 'smooth'
-          });
-        }
-      });
-    });
-  }, []);
-
-  const handleOpenCompany = () => {
-    window.open('https://sejaconte.fillout.com/abertura-de-empresa', '_blank');
-  };
-
-  const handleSwitchToConte = () => {
-    window.open('https://sejaconte.fillout.com/mude-para-conte', '_blank');
-  };
+    if (!hash) return;
+    const timer = setTimeout(() => document.querySelector(hash)?.scrollIntoView({ behavior: 'smooth' }), 100);
+    return () => clearTimeout(timer);
+  }, [pathname, hash]);
 
   return (
-    <div className="font-sans">
-      <Navbar 
-        onOpenCompanyForm={handleOpenCompany}
-        onSwitchForm={handleSwitchToConte}
-      />
-      <Routes>
-        <Route path="/" element={
-          <main>
-            <Hero 
-              onOpenCompanyForm={handleOpenCompany}
-              onSwitchForm={handleSwitchToConte}
-            />
-            <Features 
-              onOpenCompanyForm={handleOpenCompany}
-              onSwitchForm={handleSwitchToConte}
-            />
-            <Plans
-              onOpenCompanyForm={handleOpenCompany}
-            />
-            <Comparison
-              onOpenCompanyForm={handleOpenCompany}
-              onSwitchForm={handleSwitchToConte}
-            />
-            <Testimonials />
-            <CTA 
-              onOpenCompanyForm={handleOpenCompany}
-              onSwitchForm={handleSwitchToConte}
-            />
-          </main>
-        } />
-        <Route path="/calculadora" element={<CalculatorPage />} />
-        <Route path="/clt-vs-pj" element={<CLTvsPJPage />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/blog/:slug" element={<BlogPostPage />} />
-      </Routes>
-      <Footer />
-      <HelpFloatingButton />
-    </div>
+    <MotionConfig reducedMotion="user">
+      <div className="min-h-screen bg-paper font-sans text-ink">
+        <Navbar />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <main>
+                <Hero />
+                <MeetSolange />
+                <Services />
+                <Features />
+                <Plans />
+                <Testimonials />
+                <FAQ />
+                <CTA />
+              </main>
+            }
+          />
+          <Route path="/calculadora" element={<CalculatorPage />} />
+          <Route path="/clt-vs-pj" element={<CLTvsPJPage />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<BlogPostPage />} />
+        </Routes>
+        <Footer />
+        <HelpFloatingButton />
+      </div>
+    </MotionConfig>
   );
 }
 
