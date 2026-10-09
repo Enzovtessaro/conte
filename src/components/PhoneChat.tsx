@@ -2,9 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import { CheckCheck } from 'lucide-react';
 
-type Message =
-  | { from: 'me' | 'her'; text: string }
-  | { from: 'me' | 'her'; file: { name: string; meta: string } };
+type Message = { from: 'me' | 'her'; sender?: string } & (
+  | { text: string }
+  | { file: { name: string; meta: string } }
+);
 
 interface Scenario {
   messages: Message[];
@@ -13,7 +14,7 @@ interface Scenario {
 const scenarios: Scenario[] = [
   {
     messages: [
-      { from: 'me', text: 'Oi, Solange! Preciso emitir uma nota de R$ 8.000 para a Acme 🙏' },
+      { from: 'me', text: 'Oi! Preciso emitir uma nota de R$ 8.000 para a Acme 🙏' },
       { from: 'her', text: 'Oi! Pode deixar, já emito e te mando aqui.' },
       { from: 'her', file: { name: 'Nota fiscal.pdf', meta: 'Emitida agora' } },
     ],
@@ -22,13 +23,13 @@ const scenarios: Scenario[] = [
     messages: [
       { from: 'her', text: 'Oi! A guia de imposto deste mês já está pronta 👇' },
       { from: 'her', file: { name: 'Guia de imposto.pdf', meta: 'Valor já calculado' } },
-      { from: 'me', text: 'Paguei! Valeu, Solange 🙌' },
+      { from: 'me', text: 'Paguei! Valeu 🙌' },
     ],
   },
   {
     messages: [
-      { from: 'me', text: 'Solange, vale a pena aumentar meu pró-labore?' },
-      { from: 'her', text: 'Boa pergunta! Vou olhar os números da sua PJ e te mostro o cenário que paga menos imposto.' },
+      { from: 'me', text: 'Vale a pena aumentar meu pró-labore?' },
+      { from: 'her', sender: 'Solange', text: 'Boa pergunta! Vou olhar os números da sua PJ e te mostro o cenário que paga menos imposto.' },
       { from: 'me', text: 'Perfeito, obrigado! 😊' },
     ],
   },
@@ -53,6 +54,7 @@ const Bubble: React.FC<{ message: Message }> = ({ message }) => {
           mine ? 'rounded-tr-sm bg-[#D9FDD3]' : 'rounded-tl-sm bg-white'
         }`}
       >
+        {message.sender && <p className="mb-0.5 text-[13px] font-semibold text-brand-dark">{message.sender}</p>}
         {'text' in message ? (
           <p>{message.text}</p>
         ) : (
