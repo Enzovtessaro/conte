@@ -14,19 +14,19 @@ const testimonials: Testimonial[] = [
     quote: 'A Solange é muito prestativa e o time da Conte facilita muito minhas obrigações fiscais. Confio totalmente neles.',
     author: 'Ricardo Ponzio',
     role: 'Especialista SAP @ Electrolux',
-    image: 'https://i.ibb.co/b5yfBcxN/Whats-App-Image-2025-05-09-at-04-22-20.jpg',
+    image: '/clientes/ricardo.jpg',
   },
   {
     quote: 'Saí de uma contabilidade online para a Conte e agora sou muito melhor atendido, tenho um ótimo acompanhamento e ainda pago menos imposto.',
     author: 'Enzo Tessaro',
     role: 'PM @ Toggl',
-    image: 'https://i.ibb.co/7NLkT5Td/Screenshot-2025-05-08-at-23-37-08.png',
+    image: '/clientes/enzo.jpg',
   },
   {
     quote: 'A Solange é muito atenciosa e sempre me ajuda com minhas dúvidas. Recomendo a todos que buscam uma contabilidade de qualidade.',
     author: 'Marcos',
     role: 'Engenheiro de Dados @ Ambev',
-    image: 'https://i.ibb.co/mrPtWj1b/Screenshot-2025-05-10-at-07-17-41.png',
+    image: '/clientes/marcos.jpg',
   },
 ];
 
@@ -50,7 +50,7 @@ const Testimonials: React.FC = () => {
                 <span aria-hidden className="font-serif text-6xl leading-none text-brand">“</span>
                 <blockquote className="mt-2 flex-1 text-lg leading-relaxed text-ink-soft">{t.quote}</blockquote>
                 <figcaption className="mt-8 flex items-center gap-3 border-t border-paper-line pt-6">
-                  <img src={t.image} alt={t.author} className="h-11 w-11 rounded-full object-cover" />
+                  <img src={t.image} alt={t.author} width={44} height={44} loading="lazy" decoding="async" className="h-11 w-11 rounded-full object-cover" />
                   <div>
                     <p className="font-semibold text-ink">{t.author}</p>
                     <p className="text-sm text-ink-muted">{t.role}</p>

@@ -1,9 +1,15 @@
 import React from 'react';
+import Seo from '../components/Seo';
 import { Calculator } from '../components/Calculator';
 
 const CalculatorPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white pt-20">
+      <Seo
+        title="Calculadora PJ exterior: quanto sobra no seu bolso | Conte"
+        description="Presta serviços para empresas de fora? Simule quanto sobra no seu bolso depois de impostos e taxas e compare o Simples Nacional com o Lucro Presumido."
+        path="/calculadora"
+      />
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <div className="text-center mb-12">
@@ -22,9 +28,9 @@ const CalculatorPage: React.FC = () => {
 
         {/* How it works section */}
         <div className="mt-16 bg-white rounded-2xl shadow-lg p-8 md:p-12">
-          <h3 className="text-3xl font-bold text-primary-900 mb-8 text-center">
+          <h2 className="text-3xl font-bold text-primary-900 mb-8 text-center">
             Como Nossa Calculadora Funciona?
-          </h3>
+          </h2>
           <div className="prose prose-lg max-w-none text-primary-600">
             <p className="mb-6">
               Nossa ferramenta foi desenvolvida para desmistificar a complexidade de trabalhar como 
@@ -41,9 +47,9 @@ const CalculatorPage: React.FC = () => {
 
           <div className="grid md:grid-cols-2 gap-8 mt-12">
             <div className="bg-gray-50 p-6 rounded-[15px] border border-gray-100">
-              <h4 className="text-xl font-semibold text-primary-900 mb-4">
+              <h3 className="text-xl font-semibold text-primary-900 mb-4">
                 Simples Nacional
-              </h4>
+              </h3>
               <ul className="text-primary-700 space-y-2">
                 <li>• Análise do Fator R (Pró-Labore vs Faturamento)</li>
                 <li>• Anexo III (≥28%) ou Anexo V (&lt;28%)</li>
@@ -53,9 +59,9 @@ const CalculatorPage: React.FC = () => {
             </div>
 
             <div className="bg-gray-50 p-6 rounded-[15px] border border-gray-100">
-              <h4 className="text-xl font-semibold text-primary-900 mb-4">
+              <h3 className="text-xl font-semibold text-primary-900 mb-4">
                 Lucro Presumido
-              </h4>
+              </h3>
               <ul className="text-primary-700 space-y-2">
                 <li>• PIS e COFINS zerados (exportação)</li>
                 <li>• IRPJ e CSLL sobre lucro presumido (32%)</li>
@@ -65,9 +71,9 @@ const CalculatorPage: React.FC = () => {
           </div>
 
           <div className="mt-12 bg-gray-50 border border-gray-200 rounded-[15px] p-6">
-            <h4 className="text-lg font-semibold text-primary-900 mb-3">
+            <h3 className="text-lg font-semibold text-primary-900 mb-3">
               ⚠️ Importante
-            </h4>
+            </h3>
             <p className="text-primary-700">
               Esta calculadora é uma simulação e fornece estimativas com base nos dados informados. 
               As regras tributárias podem ser complexas e exigem análise profissional. Para uma 

@@ -1,0 +1,16 @@
+# Busca (inclusive buscas com IA): liberado
+User-agent: *
+Allow: /
+
+# Robôs que coletam conteúdo só para treinar modelos de IA: bloqueados.
+# Não afeta o Google, o Bing nem a citação em ChatGPT Search, Claude ou Perplexity.
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: CCBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Bytespider
+User-agent: meta-externalagent
+Disallow: /
+
+Sitemap: https://sejaconte.com.br/sitemap.xml

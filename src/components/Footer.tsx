@@ -2,7 +2,7 @@ import React from 'react';
 import { Instagram } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Logo from './Logo';
-import { BLOG_URL, INSTAGRAM_URL, SIGNUP_URL, WHATSAPP_URL } from '../lib/links';
+import { BLOG_URL, EMAIL, INSTAGRAM_URL, SIGNUP_URL, WHATSAPP_URL } from '../lib/links';
 
 const linkClass = 'text-ink-muted hover:text-ink transition-colors';
 
@@ -48,9 +48,15 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-sm font-semibold text-ink">Contato</h4>
             <ul className="mt-4 space-y-3 text-[15px] text-ink-muted">
-              <li><a href="mailto:oi@conte.com.br" className={linkClass}>oi@conte.com.br</a></li>
+              <li><a href={`mailto:${EMAIL}`} className={linkClass}>{EMAIL}</a></li>
               <li><a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className={linkClass}>+55 (41) 98701-6965</a></li>
-              <li>Curitiba, PR</li>
+              <li>
+                <address className="not-italic">
+                  Rua Matheus Leme, 5354
+                  <br />
+                  São Lourenço, Curitiba - PR
+                </address>
+              </li>
             </ul>
           </div>
         </div>

@@ -11,11 +11,12 @@ import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
-import Blog from './pages/blog';
-import BlogPostPage from './pages/blog/[slug]';
 import CalculatorPage from './pages/CalculatorPage';
 import CLTvsPJPage from './pages/CLTvsPJPage';
+import NotFound from './pages/NotFound';
 import HelpFloatingButton from './components/HelpFloatingButton';
+import Seo from './components/Seo';
+import { homeSchema } from './data/schema';
 
 function App() {
   const { pathname, hash } = useLocation();
@@ -35,6 +36,12 @@ function App() {
             path="/"
             element={
               <main>
+                <Seo
+                  title="Contabilidade online para PJ e MEI, com contadora | Conte"
+                  description="Contabilidade online para PJ e MEI com uma contadora dedicada no WhatsApp. Abertura de empresa grátis, notas fiscais e impostos em dia a partir de R$99/mês."
+                  path="/"
+                  jsonLd={homeSchema}
+                />
                 <Hero />
                 <MeetSolange />
                 <Services />
@@ -48,8 +55,7 @@ function App() {
           />
           <Route path="/calculadora" element={<CalculatorPage />} />
           <Route path="/clt-vs-pj" element={<CLTvsPJPage />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/:slug" element={<BlogPostPage />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
         <HelpFloatingButton />
