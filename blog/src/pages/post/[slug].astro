@@ -1,0 +1,157 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import PostCard from '../../components/PostCard.astro';
+import Cta from '../../components/Cta.astro';
+import { getPosts, related, formatDate, isoDate, readingMinutes, wordCount, type Post } from '../../lib/posts';
+import { SITE, ORG, CATEGORIES, AUTHORS } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post, all: posts } }));
+}
+interface Props { post: Post; all: Post[] }
+const { post, all } = Astro.props;
+const d = post.data;
+const { Content, headings } = await render(post);
+const toc = headings.filter((h) => h.depth === 2);
+const cat = CATEGORIES[d.category];
+const author = AUTHORS[d.author];
+const url = `${SITE.url}/post/${post.id}`;
+const modified = d.updatedDate ?? d.pubDate;
+const more = related(post, all);
+const authorId = `${SITE.url}/author/${d.author}#person`;
+
+const jsonLd: Record<string, unknown>[] = [
+  {
+    '@type': 'BlogPosting',
+    '@id': `${url}#article`,
+    mainEntityOfPage: url,
+    headline: d.title,
+    description: d.description,
+    image: d.cover ? [`${SITE.url}${d.cover}`] : undefined,
+    datePublished: isoDate(d.pubDate),
+    dateModified: isoDate(modified),
+    inLanguage: SITE.lang,
+    articleSection: cat.name,
+    keywords: d.tags.join(', ') || undefined,
+    wordCount: wordCount(post.body),
+    author: { '@id': authorId },
+    publisher: { '@id': ORG['@id'] },
+    isPartOf: { '@id': `${SITE.url}/#website` },
+    citation: d.sources.length ? d.sources.map((s) => ({ '@type': 'CreativeWork', name: s.title, url: s.url })) : undefined,
+  },
+  {
+    '@type': 'Person',
+    '@id': authorId,
+    name: author.name,
+    jobTitle: author.role,
+    description: author.bio,
+    image: `${SITE.url}${author.image}`,
+    url: `${SITE.url}/author/${d.author}`,
+    worksFor: { '@id': ORG['@id'] },
+    knowsAbout: ['Contabilidade', 'Simples Nacional', 'Tributação de PJ', 'Nota fiscal de serviço', 'Planejamento tributário'],
+  },
+  {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Blog', item: SITE.url },
+      { '@type': 'ListItem', position: 2, name: cat.name, item: `${SITE.url}/category/${d.category}` },
+      { '@type': 'ListItem', position: 3, name: d.title, item: url },
+    ],
+  },
+];
+if (d.faq.length) {
+  jsonLd.push({
+    '@type': 'FAQPage',
+    '@id': `${url}#faq`,
+    mainEntity: d.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+  });
+}
+const seoTitle = `${d.seoTitle ?? d.title} | ${SITE.name}`;
+---
+<Base
+  title={seoTitle}
+  description={d.description}
+  image={d.cover}
+  imageAlt={d.coverAlt}
+  type="article"
+  jsonLd={jsonLd}
+  article={{ published: d.pubDate.toISOString(), modified: modified.toISOString(), section: cat.name, author: author.name, tags: d.tags }}
+>
+  <article class="post wrap-narrow">
+    <nav class="breadcrumbs" aria-label="Você está em">
+      <a href="/">Blog</a> <span aria-hidden="true">›</span> <a href={`/category/${d.category}`}>{cat.name}</a>
+    </nav>
+    <header class="post-header">
+      <h1>{d.title}</h1>
+      <p class="lede">{d.description}</p>
+      <div class="byline">
+        <img src={author.image} alt="" width="44" height="44" />
+        <div>
+          <a href={`/author/${d.author}`} rel="author">{author.name}</a>, {author.role.toLowerCase()}
+          <br />
+          <small>
+            Publicado em <time datetime={isoDate(d.pubDate)}>{formatDate(d.pubDate)}</time>
+            {d.updatedDate && isoDate(d.updatedDate) !== isoDate(d.pubDate) && <> · Atualizado em <time datetime={isoDate(d.updatedDate)}>{formatDate(d.updatedDate)}</time></>}
+            · {readingMinutes(post.body)} min de leitura
+          </small>
+        </div>
+      </div>
+    </header>
+
+    {d.cover && <img class="post-cover" src={d.cover} alt={d.coverAlt ?? ''} width="1200" height="675" fetchpriority="high" decoding="async" />}
+
+    {d.tldr.length > 0 && (
+      <section class="tldr" aria-labelledby="resposta-rapida">
+        <h2 id="resposta-rapida">Resposta rápida</h2>
+        <ul>{d.tldr.map((t) => <li set:html={t} />)}</ul>
+      </section>
+    )}
+
+    {toc.length > 2 && (
+      <nav class="toc" aria-labelledby="neste-artigo">
+        <h2 id="neste-artigo">Neste artigo</h2>
+        <ol>{toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol>
+      </nav>
+    )}
+
+    <div class="prose"><Content /></div>
+
+    {d.faq.length > 0 && (
+      <section class="faq" aria-labelledby="perguntas-frequentes">
+        <h2 id="perguntas-frequentes">Perguntas frequentes</h2>
+        {d.faq.map((f) => (
+          <details>
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </section>
+    )}
+
+    {d.sources.length > 0 && (
+      <section class="sources" aria-labelledby="fontes">
+        <h2 id="fontes">Fontes</h2>
+        <ol>{d.sources.map((s) => <li><a href={s.url} rel="noopener">{s.title}</a></li>)}</ol>
+      </section>
+    )}
+
+    <section class="author-box" aria-label="Sobre a autora">
+      <img src={author.image} alt={author.name} width="80" height="80" loading="lazy" />
+      <div>
+        <p class="author-name"><a href={`/author/${d.author}`}>{author.name}</a></p>
+        <p>{author.bio}</p>
+      </div>
+    </section>
+
+    <Cta campaign={post.id} />
+  </article>
+
+  {more.length > 0 && (
+    <section class="wrap related" aria-labelledby="leia-tambem">
+      <h2 id="leia-tambem">Leia também</h2>
+      <div class="grid">{more.map((p) => <PostCard post={p} headingLevel="h3" />)}</div>
+    </section>
+  )}
+</Base>

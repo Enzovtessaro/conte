@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+import PostCard from '../components/PostCard.astro';
+import { getPosts } from '../lib/posts';
+const latest = (await getPosts()).slice(0, 3);
+---
+<Base title="Página não encontrada | Blog da Conte" description="Esta página não existe mais. Veja os artigos mais recentes do Blog da Conte." noindex>
+  <header class="wrap page-head"><h1>Página não encontrada</h1><p>O link pode ter mudado. Estes são os artigos mais recentes:</p></header>
+  <section class="wrap"><div class="grid">{latest.map((p) => <PostCard post={p} headingLevel="h2" />)}</div></section>
+</Base>
