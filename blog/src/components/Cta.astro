@@ -5,11 +5,11 @@ const { campaign } = Astro.props;
 ---
 <aside class="cta" aria-label="Conheça a Conte">
   <div>
-    <h2>Trabalha como PJ na área de tecnologia?</h2>
+    <h2>Trabalha como PJ <span class="serif">na tecnologia?</span></h2>
     <p>A Conte cuida do seu CNPJ, das notas fiscais e dos impostos com uma contadora de verdade no WhatsApp. Abertura de empresa grátis.</p>
   </div>
   <div class="cta-actions">
     <a class="btn" href={`${SITE.mainSite}/?utm_source=blog&utm_medium=cta&utm_campaign=${campaign}`}>Quero conhecer a Conte</a>
-    <a class="btn btn-ghost" href={SITE.whatsapp} rel="nofollow">Falar no WhatsApp</a>
+    <a class="btn btn-brand" href={SITE.whatsapp} rel="nofollow">Falar no WhatsApp</a>
   </div>
 </aside>
