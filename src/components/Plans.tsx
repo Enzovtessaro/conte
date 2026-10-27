@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, Check } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import Button from './Button';
 import Reveal from './Reveal';
 import SectionHeading from './SectionHeading';
@@ -20,7 +21,7 @@ const meiFeatures = ['Uma nota fiscal por mês', 'Guia de imposto', 'Declaraçã
 
 const Plans: React.FC = () => {
   return (
-    <section id="planos" className="scroll-mt-24 py-24 md:py-32">
+    <section id="planos" className="scroll-mt-24 bg-paper-deep py-24 md:py-32">
       <div className="container mx-auto max-w-6xl px-4 md:px-6">
         <SectionHeading
           eyebrow="Planos"
@@ -50,6 +51,12 @@ const Plans: React.FC = () => {
                   Começar agora
                   <ArrowRight size={18} className="transition-transform group-hover:translate-x-0.5" />
                 </Button>
+                <Link
+                  to="/contabilidade-para-exterior"
+                  className="mt-5 w-fit text-[15px] text-ink-muted underline decoration-ink/20 underline-offset-4 hover:text-ink hover:decoration-ink"
+                >
+                  Recebe do exterior? Veja como funciona
+                </Link>
               </div>
 
               <div className="relative border-t border-paper-line bg-paper-deep/70 p-8 md:border-l md:border-t-0 md:p-12">
@@ -84,6 +91,13 @@ const Plans: React.FC = () => {
                   </li>
                 ))}
               </ul>
+              <div className="flex shrink-0 items-center gap-5">
+              <Link
+                to="/contabilidade-mei"
+                className="text-[15px] text-ink-muted underline decoration-ink/20 underline-offset-4 hover:text-ink hover:decoration-ink"
+              >
+                Saiba mais
+              </Link>
               <a
                 href={SIGNUP_URL}
                 className="group inline-flex shrink-0 items-center gap-1.5 text-[15px] font-semibold text-ink"
@@ -91,6 +105,7 @@ const Plans: React.FC = () => {
                 Começar como MEI
                 <ArrowRight size={16} className="transition-transform group-hover:translate-x-0.5" />
               </a>
+              </div>
             </div>
           </Reveal>
         </div>

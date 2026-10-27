@@ -3,33 +3,8 @@ import { Plus } from 'lucide-react';
 import Reveal from './Reveal';
 import SectionHeading from './SectionHeading';
 import { WHATSAPP_URL } from '../lib/links';
+import { faqs } from '../data/faq';
 
-const faqs = [
-  {
-    q: 'Já tenho contabilidade. É complicado trocar para a Conte?',
-    a: 'Não. Você faz seu cadastro e a gente cuida da troca junto com a sua contabilidade atual.',
-  },
-  {
-    q: 'A abertura da empresa é grátis mesmo?',
-    a: 'Sim. A Conte não cobra para abrir a sua empresa, em nenhum dos planos.',
-  },
-  {
-    q: 'Vou falar com um contador de verdade?',
-    a: 'Sim. A rotina, como pedir nota e receber guia, anda rápido pelo WhatsApp. Para dúvidas e decisões, você fala com a sua contadora dedicada no mesmo WhatsApp e pode marcar reuniões com ela.',
-  },
-  {
-    q: 'Preciso aprender alguma plataforma?',
-    a: 'Não. O dia a dia acontece pelo WhatsApp: você pede a nota, recebe as guias de imposto e tira dúvidas na mesma conversa.',
-  },
-  {
-    q: 'Recebo de empresa do exterior. A Conte atende o meu caso?',
-    a: 'Sim. O plano para ME e EPP é feito também para quem presta serviços para empresas de fora do Brasil.',
-  },
-  {
-    q: 'Qual plano é o meu?',
-    a: 'O plano completo, de R$359/mês, serve para qualquer PJ, trabalhando para o Brasil ou para o exterior. Se você ainda é MEI, o plano é de R$99/mês. Na dúvida, chama a gente no WhatsApp que a gente te ajuda a escolher.',
-  },
-];
 
 const FAQ: React.FC = () => {
   const [open, setOpen] = useState<number | null>(0);
@@ -64,20 +39,22 @@ const FAQ: React.FC = () => {
               const isOpen = open === i;
               return (
                 <div key={item.q}>
-                  <button
-                    onClick={() => setOpen(isOpen ? null : i)}
-                    aria-expanded={isOpen}
-                    className="flex w-full items-center justify-between gap-6 py-6 text-left"
-                  >
-                    <span className="font-display text-lg md:text-xl font-semibold tracking-[-0.01em] text-ink">{item.q}</span>
-                    <span
-                      className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border transition-all duration-200 ${
-                        isOpen ? 'rotate-45 border-ink bg-ink text-white' : 'border-paper-line text-ink'
-                      }`}
+                  <h3>
+                    <button
+                      onClick={() => setOpen(isOpen ? null : i)}
+                      aria-expanded={isOpen}
+                      className="flex w-full items-center justify-between gap-6 py-6 text-left"
                     >
-                      <Plus size={16} />
-                    </span>
-                  </button>
+                      <span className="font-display text-lg md:text-xl font-semibold tracking-[-0.01em] text-ink">{item.q}</span>
+                      <span
+                        className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border transition-all duration-200 ${
+                          isOpen ? 'rotate-45 border-ink bg-ink text-white' : 'border-paper-line text-ink'
+                        }`}
+                      >
+                        <Plus size={16} />
+                      </span>
+                    </button>
+                  </h3>
                   <div
                     className={`grid transition-[grid-template-rows] duration-300 ease-out ${
                       isOpen ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'
@@ -85,6 +62,28 @@ const FAQ: React.FC = () => {
                   >
                     <div className="overflow-hidden">
                       <p className="max-w-2xl pb-6 text-[17px] leading-relaxed text-ink-muted">{item.a}</p>
+                      {item.post && (
+                        <a
+                          href={item.post.url}
+                          target="_blank"
+                          rel="noopener"
+                          tabIndex={isOpen ? 0 : -1}
+                          className="-mt-2 mb-6 inline-flex items-start gap-1.5 text-[15px] font-medium text-ink underline decoration-ink/20 underline-offset-4 hover:decoration-ink"
+                        >
+                          <span className="shrink-0 text-ink-muted">No blog:</span> {item.post.title} →
+                        </a>
+                      )}
+                      {item.source && (
+                        <a
+                          href={item.source.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          tabIndex={isOpen ? 0 : -1}
+                          className="mb-6 block w-fit text-[14px] text-ink-muted underline decoration-ink/20 underline-offset-4 hover:text-ink hover:decoration-ink"
+                        >
+                          Fonte oficial: {item.source.title} ↗
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>

@@ -1,9 +1,15 @@
 import React from 'react';
+import Seo from '../components/Seo';
 import { CLTvsPJCalculator } from '../components/CLTvsPJCalculator';
 
 const CLTvsPJPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white pt-20">
+      <Seo
+        title="Calculadora CLT vs PJ: compare salário e impostos | Conte"
+        description="Compare seu salário CLT com uma proposta PJ. Veja benefícios, impostos e custos lado a lado e descubra qual regime deixa mais dinheiro no seu bolso."
+        path="/clt-vs-pj"
+      />
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <div className="text-center mb-12">
@@ -22,9 +28,9 @@ const CLTvsPJPage: React.FC = () => {
 
         {/* How it works section */}
         <div className="mt-16 bg-white rounded-2xl shadow-lg p-8 md:p-12">
-          <h3 className="text-3xl font-bold text-primary-900 mb-8 text-center">
+          <h2 className="text-3xl font-bold text-primary-900 mb-8 text-center">
             Como Nossa Calculadora Funciona?
-          </h3>
+          </h2>
           <div className="prose prose-lg max-w-none text-primary-600">
             <p className="mb-6">
               Nossa ferramenta foi desenvolvida para desmistificar a comparação entre CLT e PJ. 
@@ -40,9 +46,9 @@ const CLTvsPJPage: React.FC = () => {
 
           <div className="grid md:grid-cols-2 gap-8 mt-12">
             <div className="bg-gray-50 p-6 rounded-[15px] border border-gray-100">
-              <h4 className="text-xl font-semibold text-primary-900 mb-4">
+              <h3 className="text-xl font-semibold text-primary-900 mb-4">
                 Regime CLT
-              </h4>
+              </h3>
               <ul className="text-primary-700 space-y-2">
                 <li>• Salário fixo com carteira assinada</li>
                 <li>• 13º salário e férias remuneradas</li>
@@ -53,9 +59,9 @@ const CLTvsPJPage: React.FC = () => {
             </div>
 
             <div className="bg-gray-50 p-6 rounded-[15px] border border-gray-100">
-              <h4 className="text-xl font-semibold text-primary-900 mb-4">
+              <h3 className="text-xl font-semibold text-primary-900 mb-4">
                 Regime PJ
-              </h4>
+              </h3>
               <ul className="text-primary-700 space-y-2">
                 <li>• Simples Nacional (6% - Anexo III)</li>
                 <li>• Maior flexibilidade de horários</li>
@@ -67,9 +73,9 @@ const CLTvsPJPage: React.FC = () => {
           </div>
 
           <div className="mt-12 bg-gray-50 border border-gray-200 rounded-[15px] p-6">
-            <h4 className="text-lg font-semibold text-primary-900 mb-3">
+            <h3 className="text-lg font-semibold text-primary-900 mb-3">
               ⚠️ Importante
-            </h4>
+            </h3>
             <p className="text-primary-700">
               Esta calculadora é uma simulação e fornece estimativas com base nos dados informados. 
               A decisão entre CLT e PJ envolve diversos fatores além do financeiro, como estabilidade, 

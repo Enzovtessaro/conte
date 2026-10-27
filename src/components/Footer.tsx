@@ -2,7 +2,8 @@ import React from 'react';
 import { Instagram } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Logo from './Logo';
-import { BLOG_URL, INSTAGRAM_URL, SIGNUP_URL, WHATSAPP_URL } from '../lib/links';
+import { services } from '../data/services';
+import { ACCOUNTANT_NAME, BLOG_URL, CRC_REGISTRATION, EMAIL, INSTAGRAM_URL, SIGNUP_URL, WHATSAPP_URL } from '../lib/links';
 
 const linkClass = 'text-ink-muted hover:text-ink transition-colors';
 
@@ -10,7 +11,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="border-t border-paper-line bg-paper">
       <div className="container mx-auto max-w-6xl px-4 py-16 md:px-6">
-        <div className="grid gap-12 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
+        <div className="grid gap-12 md:grid-cols-[1.3fr_1.1fr_1fr_1fr]">
           <div>
             <Logo />
             <p className="mt-4 max-w-xs leading-relaxed text-ink-muted">
@@ -28,16 +29,20 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold text-ink">Conte</h4>
+            <p className="text-sm font-semibold text-ink">Serviços</p>
             <ul className="mt-4 space-y-3 text-[15px]">
-              <li><a href="/#servicos" className={linkClass}>Serviços</a></li>
+              {services.map((service) => (
+                <li key={service.slug}>
+                  <Link to={`/${service.slug}`} className={linkClass}>{service.eyebrow}</Link>
+                </li>
+              ))}
               <li><a href="/#planos" className={linkClass}>Planos</a></li>
               <li><a href={SIGNUP_URL} className={linkClass}>Cadastro</a></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold text-ink">Conteúdo</h4>
+            <p className="text-sm font-semibold text-ink">Conteúdo</p>
             <ul className="mt-4 space-y-3 text-[15px]">
               <li><a href={BLOG_URL} target="_blank" rel="noopener noreferrer" className={linkClass}>Blog</a></li>
               <li><Link to="/calculadora" className={linkClass}>Calculadora exterior</Link></li>
@@ -46,18 +51,27 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold text-ink">Contato</h4>
+            <p className="text-sm font-semibold text-ink">Contato</p>
             <ul className="mt-4 space-y-3 text-[15px] text-ink-muted">
-              <li><a href="mailto:oi@conte.com.br" className={linkClass}>oi@conte.com.br</a></li>
+              <li><a href={`mailto:${EMAIL}`} className={linkClass}>{EMAIL}</a></li>
               <li><a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className={linkClass}>+55 (41) 98701-6965</a></li>
-              <li>Curitiba, PR</li>
+              <li>
+                <address className="not-italic">
+                  Rua Matheus Leme, 5354
+                  <br />
+                  São Lourenço, Curitiba - PR
+                </address>
+              </li>
             </ul>
           </div>
         </div>
 
         <div className="mt-14 flex flex-col gap-2 border-t border-paper-line pt-8 text-sm text-ink-faint md:flex-row md:justify-between">
           <p>&copy; {new Date().getFullYear()} Conte. Todos os direitos reservados.</p>
-          <p>CNPJ 37.526.805/0001-83</p>
+          <p>
+            CNPJ 37.526.805/0001-83
+            {CRC_REGISTRATION && ` · Contadora responsável: ${ACCOUNTANT_NAME}, ${CRC_REGISTRATION}`}
+          </p>
         </div>
       </div>
     </footer>

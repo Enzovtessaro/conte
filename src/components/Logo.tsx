@@ -3,11 +3,7 @@ import React from 'react';
 const Logo: React.FC = () => {
   return (
     <div className="flex items-center">
-      <img 
-        src="https://i.ibb.co/jvxNrLJW/Whats-App-Image-2025-04-22-at-15-00-15.jpg" 
-        alt="Conte Logo" 
-        className="h-10 w-auto"
-      />
+      <img src="/logo.jpg" alt="Conte" width={118} height={40} className="h-10 w-auto" />
     </div>
   );
 };

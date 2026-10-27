@@ -1,0 +1,92 @@
+import { ACCOUNTANT_NAME, CRC_REGISTRATION, EMAIL, INSTAGRAM_URL, SIGNUP_URL, SITE_URL } from '../lib/links';
+import { faqs } from './faq';
+
+const ORG_ID = `${SITE_URL}/#organization`;
+
+export const homeSchema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': ['Organization', 'AccountingService'],
+    '@id': ORG_ID,
+    name: 'Conte',
+    url: `${SITE_URL}/`,
+    logo: `${SITE_URL}/logo.jpg`,
+    image: `${SITE_URL}/og-image.png`,
+    description: 'Contabilidade online para PJ e MEI com contadora dedicada e atendimento pelo WhatsApp.',
+    telephone: '+55-41-98701-6965',
+    email: EMAIL,
+    taxID: '37.526.805/0001-83',
+    priceRange: 'R$99–R$359/mês',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'Rua Matheus Leme, 5354 - São Lourenço',
+      addressLocality: 'Curitiba',
+      addressRegion: 'PR',
+      addressCountry: 'BR',
+    },
+    areaServed: { '@type': 'Country', name: 'Brasil' },
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '+55-41-98701-6965',
+      contactType: 'customer service',
+      availableLanguage: 'Portuguese',
+    },
+    sameAs: [INSTAGRAM_URL],
+    employee: {
+      '@type': 'Person',
+      name: ACCOUNTANT_NAME,
+      jobTitle: 'Contadora responsável',
+      ...(CRC_REGISTRATION && {
+        hasCredential: {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'Registro profissional',
+          name: CRC_REGISTRATION,
+          recognizedBy: { '@type': 'Organization', name: 'Conselho Regional de Contabilidade do Paraná (CRC-PR)' },
+        },
+      }),
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${SITE_URL}/#website`,
+    name: 'Conte',
+    url: `${SITE_URL}/`,
+    inLanguage: 'pt-BR',
+    publisher: { '@id': ORG_ID },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: 'Contabilidade online para PJ e MEI',
+    serviceType: 'Contabilidade',
+    provider: { '@id': ORG_ID },
+    areaServed: { '@type': 'Country', name: 'Brasil' },
+    offers: [
+      { name: 'Plano MEI', price: '99.00' },
+      { name: 'Plano completo', price: '359.00' },
+    ].map((plan) => ({
+      '@type': 'Offer',
+      name: plan.name,
+      url: SIGNUP_URL,
+      priceCurrency: 'BRL',
+      price: plan.price,
+      priceSpecification: {
+        '@type': 'UnitPriceSpecification',
+        price: plan.price,
+        priceCurrency: 'BRL',
+        unitCode: 'MON',
+        referenceQuantity: { '@type': 'QuantitativeValue', value: 1, unitCode: 'MON' },
+      },
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: { '@type': 'Answer', text: item.a },
+    })),
+  },
+];
