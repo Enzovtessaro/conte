@@ -1,4 +1,4 @@
-import { EMAIL, INSTAGRAM_URL, SIGNUP_URL, SITE_URL } from '../lib/links';
+import { ACCOUNTANT_NAME, CRC_REGISTRATION, EMAIL, INSTAGRAM_URL, SIGNUP_URL, SITE_URL } from '../lib/links';
 import { faqs } from './faq';
 
 const ORG_ID = `${SITE_URL}/#organization`;
@@ -32,6 +32,19 @@ export const homeSchema = [
       availableLanguage: 'Portuguese',
     },
     sameAs: [INSTAGRAM_URL],
+    employee: {
+      '@type': 'Person',
+      name: ACCOUNTANT_NAME,
+      jobTitle: 'Contadora responsável',
+      ...(CRC_REGISTRATION && {
+        hasCredential: {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'Registro profissional',
+          name: CRC_REGISTRATION,
+          recognizedBy: { '@type': 'Organization', name: 'Conselho Regional de Contabilidade do Paraná (CRC-PR)' },
+        },
+      }),
+    },
   },
   {
     '@context': 'https://schema.org',

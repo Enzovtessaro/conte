@@ -3,7 +3,7 @@ import { Instagram } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Logo from './Logo';
 import { services } from '../data/services';
-import { BLOG_URL, EMAIL, INSTAGRAM_URL, SIGNUP_URL, WHATSAPP_URL } from '../lib/links';
+import { ACCOUNTANT_NAME, BLOG_URL, CRC_REGISTRATION, EMAIL, INSTAGRAM_URL, SIGNUP_URL, WHATSAPP_URL } from '../lib/links';
 
 const linkClass = 'text-ink-muted hover:text-ink transition-colors';
 
@@ -68,7 +68,10 @@ const Footer: React.FC = () => {
 
         <div className="mt-14 flex flex-col gap-2 border-t border-paper-line pt-8 text-sm text-ink-faint md:flex-row md:justify-between">
           <p>&copy; {new Date().getFullYear()} Conte. Todos os direitos reservados.</p>
-          <p>CNPJ 37.526.805/0001-83</p>
+          <p>
+            CNPJ 37.526.805/0001-83
+            {CRC_REGISTRATION && ` · Contadora responsável: ${ACCOUNTANT_NAME}, ${CRC_REGISTRATION}`}
+          </p>
         </div>
       </div>
     </footer>
