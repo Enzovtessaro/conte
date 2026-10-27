@@ -6,7 +6,7 @@ const Logo: React.FC = () => {
       <img 
         src="https://i.ibb.co/jvxNrLJW/Whats-App-Image-2025-04-22-at-15-00-15.jpg" 
         alt="Conte Logo" 
-        className="h-12 w-auto"
+        className="h-10 w-auto"
       />
     </div>
   );

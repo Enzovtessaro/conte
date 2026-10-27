@@ -1,154 +1,102 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import { Check } from 'lucide-react';
+import { ArrowRight, Check } from 'lucide-react';
 import Button from './Button';
+import Reveal from './Reveal';
+import SectionHeading from './SectionHeading';
+import { SIGNUP_URL } from '../lib/links';
 
-interface PlanFeature {
-  text: string;
-  included: boolean;
-}
+const mainFeatures = [
+  'Contabilidade completa',
+  'Planejamento e consultoria tributária',
+  'Pró-labore do sócio',
+  'Declarações acessórias mensais',
+  'Notas fiscais ilimitadas',
+  'Assessor dedicado e atendimento prioritário',
+  'Endereço fiscal gratuito',
+  'Abertura de empresa grátis',
+];
 
-interface PlanProps {
-  title: string;
-  description: string;
-  price: string;
-  features: PlanFeature[];
-  isPopular?: boolean;
-  onOpenCompanyForm: () => void;
-}
+const meiFeatures = ['Uma nota fiscal por mês', 'Guia de imposto', 'Declaração anual'];
 
-const Plan: React.FC<PlanProps> = ({ title, description, price, features, isPopular, onOpenCompanyForm }) => (
-  <div className={`p-8 rounded-[20px] ${isPopular ? 'bg-primary-900 text-white' : 'bg-gray-50'}`}>
-    {isPopular && (
-      <span className="inline-block px-4 py-1 rounded-full text-sm font-medium bg-white text-primary-900 mb-4">
-        Mais Popular
-      </span>
-    )}
-    <h3 className={`text-2xl font-bold ${isPopular ? 'text-white' : 'text-primary-900'} mb-2`}>
-      {title}
-    </h3>
-    <p className={`text-sm mb-4 ${isPopular ? 'text-gray-200' : 'text-gray-500'}`}>
-      {description}
-    </p>
-    <div className="mb-6">
-      <span className={`text-3xl font-bold ${isPopular ? 'text-white' : 'text-primary-900'}`}>
-        {price}
-      </span>
-      <span className={`${isPopular ? 'text-gray-200' : 'text-gray-500'}`}>/mês</span>
-    </div>
-    <div className="space-y-4 mb-8">
-      {features.map((feature, index) => (
-        <div key={index} className="flex items-center space-x-3">
-          <div className={`p-1 rounded-full ${isPopular ? 'bg-white text-primary-900' : 'bg-black text-white'}`}>
-            <Check size={16} />
-          </div>
-          <span className={`${isPopular ? 'text-gray-200' : 'text-gray-600'}`}>
-            {feature.text}
-          </span>
-        </div>
-      ))}
-    </div>
-    <Button 
-      onClick={onOpenCompanyForm}
-      variant={isPopular ? 'white' : 'primary'}
-      className="w-full"
-    >
-      Começar Agora
-    </Button>
-  </div>
-);
-
-interface PlansProps {
-  onOpenCompanyForm: () => void;
-}
-
-const Plans: React.FC<PlansProps> = ({ onOpenCompanyForm }) => {
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  });
-
-  const plans = [
-    {
-      title: 'Iniciante',
-      price: 'R$99',
-      description: 'Para MEIs',
-      features: [
-        { text: 'Abertura de empresa', included: true },
-        { text: 'Uma nota fiscal por mês', included: true },
-        { text: 'Emissão de guia de imposto', included: true },
-        { text: 'Declaração anual', included: true },
-        { text: 'Atendimento humanizado', included: true },
-      ],
-    },
-    {
-      title: 'Profissional',
-      price: 'R$249',
-      description: 'PJs no Simples Nacional que prestam serviços no Brasil ou faturam até 15 mil por mês',
-      features: [
-        { text: 'Tudo do plano inicial', included: true },
-        { text: 'Planejamento e consultoria tributária', included: true },
-        { text: 'Pró-labore do sócio', included: true },
-        { text: 'Declarações acessórias mensais', included: true },
-        { text: 'Contabilidade completa', included: true },
-      ],
-      isPopular: true,
-    },
-    {
-      title: 'Especialista',
-      price: 'R$359',
-      description: 'PJs fora do Simples Nacional ou que prestam serviços pro exterior ou faturam mais de 15 mil por mês',
-      features: [
-        { text: 'Tudo do plano profissional', included: true },
-        { text: 'Assessor dedicado', included: true },
-        { text: 'Atendimento prioritário', included: true },
-        { text: 'Endereço fiscal gratuito', included: true },
-        { text: 'Notas fiscais ilimitadas', included: true },
-      ],
-    },
-  ];
-
+const Plans: React.FC = () => {
   return (
-    <section className="py-20 bg-white" id="plans">
-      <div className="container mx-auto px-4 md:px-6">
-        <motion.div
-          ref={ref}
-          className="text-center max-w-3xl mx-auto mb-16"
-          initial={{ opacity: 0, y: 20 }}
-          animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-          transition={{ duration: 0.5 }}
-        >
-          <h2 className="text-3xl md:text-4xl font-bold text-primary-900 mb-6">
-            Escolha o plano ideal para você
-          </h2>
-          <p className="text-lg text-primary-600">
-            Temos o plano perfeito para cada fase da sua carreira
-          </p>
-        </motion.div>
+    <section id="planos" className="scroll-mt-24 py-24 md:py-32">
+      <div className="container mx-auto max-w-6xl px-4 md:px-6">
+        <SectionHeading
+          eyebrow="Planos"
+          title={
+            <>
+              Preço simples, <span className="font-serif font-normal italic">sem surpresa.</span>
+            </>
+          }
+          description="Um plano completo para a sua PJ. Abertura de empresa grátis."
+        />
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          {plans.map((plan, index) => (
-            <motion.div
-              key={plan.title}
-              initial={{ opacity: 0, y: 20 }}
-              animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-            >
-              <Plan
-                title={plan.title}
-                price={plan.price}
-                description={plan.description}
-                features={plan.features}
-                isPopular={plan.isPopular}
-                onOpenCompanyForm={onOpenCompanyForm}
-              />
-            </motion.div>
-          ))}
+        <div className="mx-auto max-w-5xl space-y-4">
+          <Reveal>
+            <div className="relative grid overflow-hidden rounded-[32px] border border-paper-line bg-white text-ink shadow-float md:grid-cols-[0.9fr_1.1fr]">
+              <div aria-hidden className="pointer-events-none absolute -left-24 -top-24 h-72 w-72 rounded-full bg-brand/20 blur-3xl" />
+              <div className="relative flex flex-col p-8 md:p-12">
+                <span className="w-fit rounded-full bg-brand px-3 py-1 text-xs font-semibold text-ink">Plano completo</span>
+                <h3 className="mt-6 font-display text-3xl md:text-4xl font-semibold leading-[1.1] tracking-[-0.03em] text-balance">
+                  Trabalha para o Brasil ou para o exterior?
+                </h3>
+                <div className="mt-8 flex items-baseline gap-1">
+                  <span className="text-lg text-ink-muted">R$</span>
+                  <span className="font-display text-7xl font-semibold tracking-[-0.04em]">359</span>
+                  <span className="text-ink-muted">/mês</span>
+                </div>
+                <Button href={SIGNUP_URL} size="lg" className="mt-10 w-full sm:w-fit">
+                  Começar agora
+                  <ArrowRight size={18} className="transition-transform group-hover:translate-x-0.5" />
+                </Button>
+              </div>
+
+              <div className="relative border-t border-paper-line bg-paper-deep/70 p-8 md:border-l md:border-t-0 md:p-12">
+                <p className="text-sm font-medium text-ink-muted">Tudo incluso</p>
+                <ul className="mt-6 grid gap-x-8 gap-y-4 sm:grid-cols-2">
+                  {mainFeatures.map((feature) => (
+                    <li key={feature} className="flex items-start gap-3">
+                      <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-brand text-ink">
+                        <Check size={12} strokeWidth={3} />
+                      </span>
+                      <span className="text-ink-soft">{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </Reveal>
+
+          <Reveal delay={0.08}>
+            <div className="flex flex-col gap-5 rounded-[28px] border border-paper-line bg-white p-6 md:flex-row md:items-center md:justify-between md:gap-8 md:px-10 md:py-7">
+              <div className="flex shrink-0 items-baseline gap-4">
+                <h3 className="font-display text-xl font-semibold tracking-[-0.02em] text-ink">Ainda é MEI?</h3>
+                <p className="text-ink-muted">
+                  <span className="font-display text-2xl font-semibold tracking-[-0.03em] text-ink">R$ 99</span>/mês
+                </p>
+              </div>
+              <ul className="flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-muted">
+                {meiFeatures.map((feature) => (
+                  <li key={feature} className="flex items-center gap-1.5">
+                    <Check size={14} strokeWidth={2.5} className="text-brand-dark" />
+                    {feature}
+                  </li>
+                ))}
+              </ul>
+              <a
+                href={SIGNUP_URL}
+                className="group inline-flex shrink-0 items-center gap-1.5 text-[15px] font-semibold text-ink"
+              >
+                Começar como MEI
+                <ArrowRight size={16} className="transition-transform group-hover:translate-x-0.5" />
+              </a>
+            </div>
+          </Reveal>
         </div>
       </div>
     </section>
   );
 };
 
-export default Plans; 
+export default Plans;
