@@ -9,11 +9,12 @@ interface Props { posts: Post[]; current: number; total: number }
 const { posts, current, total } = Astro.props;
 const first = current === 1;
 const title = first ? `${SITE.name}: contabilidade e impostos para PJ de tecnologia` : `${SITE.name}, página ${current}`;
-const pageUrl = (n: number) => (n === 1 ? SITE.url : `${SITE.url}/pagina/${n}`);
+const pageUrl = (n: number) => (n === 1 ? `${SITE.url}/` : `${SITE.url}/pagina/${n}`);
+const description = first ? SITE.description : `Artigos do Blog da Conte sobre contabilidade e impostos para PJ de tecnologia, página ${current} de ${total}.`;
 ---
 <Base
   title={title}
-  description={SITE.description}
+  description={description}
   jsonLd={[{ '@type': 'CollectionPage', url: pageUrl(current), name: title, mainEntity: itemList(posts, title) }]}
   prev={current > 1 ? pageUrl(current - 1) : undefined}
   next={current < total ? pageUrl(current + 1) : undefined}
@@ -30,7 +31,7 @@ const pageUrl = (n: number) => (n === 1 ? SITE.url : `${SITE.url}/pagina/${n}`);
     <header class="wrap page-head"><h1>Todos os artigos, página {current}</h1></header>
   )}
   <section class="wrap" aria-label="Artigos">
-    <div class="grid">{posts.map((p, i) => <PostCard post={p} eager={first && i < 2} />)}</div>
+    <div class="grid">{posts.map((p, i) => <PostCard post={p} eager={first && i < 2} priority={first && i === 0} />)}</div>
     <Pagination current={current} total={total} />
   </section>
 </Base>

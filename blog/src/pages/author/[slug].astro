@@ -19,14 +19,15 @@ const url = `${SITE.url}/author/${slug}`;
   jsonLd={[{
     '@type': 'ProfilePage',
     url,
-    mainEntity: { '@type': 'Person', '@id': `${url}#person`, name: a.name, jobTitle: a.role, description: a.bio, image: `${SITE.url}${a.image}`, worksFor: { '@id': ORG['@id'] }, sameAs: a.sameAs },
+    dateModified: posts[0] ? (posts[0].data.updatedDate ?? posts[0].data.pubDate).toISOString() : undefined,
+    mainEntity: { '@type': 'Person', '@id': `${url}#person`, name: a.name, jobTitle: a.role, description: a.bio, image: `${SITE.url}${a.image}`, worksFor: { '@id': ORG['@id'] }, sameAs: a.sameAs, hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Registro profissional', name: a.crc, recognizedBy: { '@type': 'Organization', name: 'Conselho Regional de Contabilidade do Paraná' } } },
   }]}
 >
   <header class="wrap page-head author-head">
     <img src={a.image} alt={a.name} width="120" height="120" />
     <div>
       <h1>{a.name}</h1>
-      <p class="role">{a.role}</p>
+      <p class="role">{a.role} · {a.crc}</p>
       <p>{a.bio}</p>
     </div>
   </header>

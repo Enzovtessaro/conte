@@ -2,7 +2,7 @@ export const SITE = {
   name: 'Blog da Conte',
   url: 'https://blog.sejaconte.com.br',
   description:
-    'Contabilidade para profissionais de tecnologia que trabalham como PJ: impostos, nota fiscal, Simples Nacional, pró-labore e recebimento do exterior, explicados por contadoras.',
+    'Contabilidade para profissionais de tecnologia que trabalham como PJ: impostos, nota fiscal, Simples Nacional, pró-labore e recebimento do exterior, explicados por uma contadora registrada no CRC.',
   locale: 'pt_BR',
   lang: 'pt-BR',
   logo: '/brand/logo-conte.png',
@@ -20,6 +20,10 @@ export const ORG = {
   logo: { '@type': 'ImageObject', url: `${SITE.url}${SITE.logo}` },
   description: 'Contabilidade online com atendimento humano para profissionais de tecnologia que atuam como PJ no Brasil.',
   areaServed: 'BR',
+  email: 'oi@sejaconte.com.br',
+  sameAs: ['https://www.instagram.com/seja.conte'],
+  founder: { '@id': 'https://blog.sejaconte.com.br/author/solange-vaz#person' },
+  contactPoint: { '@type': 'ContactPoint', contactType: 'customer support', telephone: '+55-41-98701-6965', email: 'oi@sejaconte.com.br', availableLanguage: 'Portuguese' },
 };
 
 export const CATEGORIES = {
@@ -40,7 +44,9 @@ export const AUTHORS = {
     name: 'Solange Vaz',
     role: 'Contadora e fundadora da Conte',
     image: '/brand/solange-vaz.jpg',
-    bio: 'Contadora há mais de 20 anos, ajuda profissionais de tecnologia que trabalham como PJ a pagar o imposto certo e cuidar do CNPJ sem dor de cabeça.',
+    crc: 'CRC-PR 053.617/O-8',
+    bio: 'Contadora registrada no CRC-PR (053.617/O-8) há mais de 20 anos, ajuda profissionais de tecnologia que trabalham como PJ a pagar o imposto certo e cuidar do CNPJ sem dor de cabeça.',
+    // Add Solange's LinkedIn profile URL here when available.
     sameAs: [] as string[],
   },
 } as const;

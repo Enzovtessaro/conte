@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE, ORG, AUTHORS } from '../lib/site';
+const a = AUTHORS['solange-vaz'];
+---
+<Base
+  title="Sobre o Blog da Conte: quem escreve e para quem"
+  description="O Blog da Conte é escrito por Solange Vaz, contadora (CRC-PR 053.617/O-8), para profissionais de tecnologia que trabalham como PJ no Brasil."
+  jsonLd={[{ '@type': 'AboutPage', url: `${SITE.url}/sobre`, name: 'Sobre o Blog da Conte', about: { '@id': ORG['@id'] }, author: { '@id': `${SITE.url}/author/solange-vaz#person` } }]}
+>
+  <article class="wrap-narrow static-page post">
+    <h1>Sobre o Blog da Conte</h1>
+    <p class="lede">Contabilidade explicada para quem trabalha como PJ na tecnologia: devs, gente de dados, produto e design, muitos recebendo de empresas no exterior.</p>
+    <h2>Quem escreve</h2>
+    <p>Os artigos são escritos e revisados por <a href="/author/solange-vaz">{a.name}</a>, contadora registrada no Conselho Regional de Contabilidade do Paraná ({a.crc}) há mais de 20 anos e fundadora da Conte. A produção usa ferramentas de pesquisa e escrita com inteligência artificial, e todo número, alíquota e prazo passa pela revisão descrita em <a href="/como-revisamos">Como revisamos o conteúdo</a>.</p>
+    <h2>O que é a Conte</h2>
+    <p>A <a href={SITE.mainSite}>Conte</a> é uma contabilidade online com atendimento humano para profissionais de tecnologia que atuam como PJ: abertura de empresa, emissão de notas fiscais (inclusive para clientes no exterior), impostos, pró-labore e declarações, com uma contadora disponível no WhatsApp.</p>
+    <h2>Para quem é este blog</h2>
+    <p>Para quem quer entender, com números de verdade, quanto paga de imposto, como funciona o Simples Nacional e o Fator R, como emitir nota para fora do Brasil, quando sair do MEI e quanto cobrar como PJ. O conteúdo é informativo: cada caso tem detalhes próprios, então decisões importantes devem ser confirmadas com um contador.</p>
+    <h2>Contato</h2>
+    <p>E-mail: <a href="mailto:oi@sejaconte.com.br">oi@sejaconte.com.br</a> · <a href={SITE.whatsapp} rel="nofollow">WhatsApp</a> · <a href="https://www.instagram.com/seja.conte">Instagram</a></p>
+  </article>
+</Base>

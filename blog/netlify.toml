@@ -17,6 +17,13 @@
   to = "/sitemap-index.xml"
   status = 301
 
+# Automarticles paginated with ?page=N.
+[[redirects]]
+  from = "/"
+  query = {page = ":p"}
+  to = "/pagina/:p"
+  status = 301
+
 [[redirects]]
   from = "/search"
   to = "/"

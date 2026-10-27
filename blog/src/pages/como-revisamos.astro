@@ -1,0 +1,34 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE, AUTHORS } from '../lib/site';
+const a = AUTHORS['solange-vaz'];
+---
+<Base
+  title="Como revisamos o conteúdo do Blog da Conte"
+  description="As fontes oficiais que usamos, como conferimos alíquotas, limites e prazos e como corrigimos artigos quando a regra muda."
+  jsonLd={[{ '@type': 'WebPage', url: `${SITE.url}/como-revisamos`, name: 'Como revisamos o conteúdo', author: { '@id': `${SITE.url}/author/solange-vaz#person` } }]}
+>
+  <article class="wrap-narrow static-page post">
+    <h1>Como revisamos o conteúdo</h1>
+    <p class="lede">Imposto muda todo ano. Este é o processo que seguimos para que cada número publicado aqui tenha fonte e esteja atualizado.</p>
+    <h2>Fontes que usamos</h2>
+    <ul>
+      <li>Legislação no Planalto: Lei Complementar 123/2006 (Simples Nacional), LC 116/2003 (ISS), leis da reforma tributária (CBS e IBS).</li>
+      <li>Receita Federal (gov.br/receitafederal) e Portal do Simples Nacional.</li>
+      <li>Banco Central, para câmbio e recebimentos do exterior.</li>
+      <li>Prefeituras, para regras de ISS e NFS-e de cada município.</li>
+      <li>Conselho Federal de Contabilidade (CFC) e CRCs.</li>
+    </ul>
+    <h2>Como um artigo é revisado</h2>
+    <ol>
+      <li>Toda alíquota, limite, valor e prazo é conferido na fonte oficial no dia da publicação, e as fontes aparecem no fim do artigo.</li>
+      <li>Uma revisão específica procura erro fiscal, exagero e promessa (nada de "imposto zero" ou resultado garantido).</li>
+      <li>Exemplos numéricos mostram a conta passo a passo para que você possa refazer com os seus números.</li>
+      <li>Quando uma regra muda, revisamos os artigos afetados e a data de revisão aparece no topo do texto.</li>
+    </ol>
+    <h2>Responsável técnica</h2>
+    <p><a href="/author/solange-vaz">{a.name}</a>, contadora, {a.crc}.</p>
+    <h2>Achou um erro?</h2>
+    <p>Escreva para <a href="mailto:oi@sejaconte.com.br">oi@sejaconte.com.br</a>. Corrigimos e atualizamos a data de revisão do artigo.</p>
+  </article>
+</Base>
