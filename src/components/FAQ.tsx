@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     q: 'Qual plano é o meu?',
-    a: 'Se você é MEI, o plano de R$99/mês. Se você é ME ou EPP, o plano de R$359/mês. Na dúvida, chama a gente no WhatsApp que a gente te ajuda a escolher.',
+    a: 'O plano completo, de R$359/mês, serve para qualquer PJ, trabalhando para o Brasil ou para o exterior. Se você ainda é MEI, o plano é de R$99/mês. Na dúvida, chama a gente no WhatsApp que a gente te ajuda a escolher.',
   },
 ];
 

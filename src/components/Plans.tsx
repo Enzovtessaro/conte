@@ -5,84 +5,18 @@ import Reveal from './Reveal';
 import SectionHeading from './SectionHeading';
 import { SIGNUP_URL } from '../lib/links';
 
-interface Plan {
-  question: string;
-  price: string;
-  features: string[];
-  featured?: boolean;
-}
-
-const plans: Plan[] = [
-  {
-    question: 'Você é MEI?',
-    price: '99',
-    features: [
-      'Abertura de empresa',
-      'Uma nota fiscal por mês',
-      'Emissão de guia de imposto',
-      'Declaração anual',
-      'Atendimento humanizado',
-    ],
-  },
-  {
-    question: 'Você é ME ou EPP?',
-    price: '359',
-    features: [
-      'Tudo do plano MEI',
-      'Contabilidade completa',
-      'Planejamento e consultoria tributária',
-      'Pró-labore do sócio',
-      'Declarações acessórias mensais',
-      'Notas fiscais ilimitadas',
-      'Assessor dedicado e atendimento prioritário',
-      'Endereço fiscal gratuito',
-    ],
-    featured: true,
-  },
+const mainFeatures = [
+  'Contabilidade completa',
+  'Planejamento e consultoria tributária',
+  'Pró-labore do sócio',
+  'Declarações acessórias mensais',
+  'Notas fiscais ilimitadas',
+  'Assessor dedicado e atendimento prioritário',
+  'Endereço fiscal gratuito',
+  'Abertura de empresa grátis',
 ];
 
-const PlanCard: React.FC<{ plan: Plan }> = ({ plan }) => {
-  const dark = plan.featured;
-  return (
-    <div
-      className={`relative flex h-full flex-col rounded-[28px] p-8 md:p-10 ${
-        dark ? 'bg-ink text-white shadow-float' : 'border border-paper-line bg-white shadow-card'
-      }`}
-    >
-      <div className="flex items-center justify-between">
-        <h3 className="font-display text-2xl font-semibold tracking-[-0.02em]">{plan.question}</h3>
-        {dark && (
-          <span className="rounded-full bg-brand px-3 py-1 text-xs font-semibold text-ink">Mais completo</span>
-        )}
-      </div>
-      <div className="mt-6 flex items-baseline gap-1">
-        <span className={`text-lg ${dark ? 'text-white/60' : 'text-ink-muted'}`}>R$</span>
-        <span className="font-display text-6xl font-semibold tracking-[-0.04em]">{plan.price}</span>
-        <span className={dark ? 'text-white/60' : 'text-ink-muted'}>/mês</span>
-      </div>
-
-      <ul className={`mt-8 space-y-3.5 border-t pt-8 ${dark ? 'border-white/10' : 'border-paper-line'}`}>
-        {plan.features.map((feature) => (
-          <li key={feature} className="flex items-start gap-3">
-            <span
-              className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full ${
-                dark ? 'bg-brand text-ink' : 'bg-ink text-white'
-              }`}
-            >
-              <Check size={12} strokeWidth={3} />
-            </span>
-            <span className={dark ? 'text-white/85' : 'text-ink-soft'}>{feature}</span>
-          </li>
-        ))}
-      </ul>
-
-      <Button href={SIGNUP_URL} size="lg" variant={dark ? 'accent' : 'primary'} className="mt-10 w-full">
-        Começar agora
-        <ArrowRight size={18} className="transition-transform group-hover:translate-x-0.5" />
-      </Button>
-    </div>
-  );
-};
+const meiFeatures = ['Uma nota fiscal por mês', 'Guia de imposto', 'Declaração anual'];
 
 const Plans: React.FC = () => {
   return (
@@ -95,15 +29,69 @@ const Plans: React.FC = () => {
               Preço simples, <span className="font-serif font-normal italic">sem surpresa.</span>
             </>
           }
-          description="Escolha o plano ideal para a fase da sua carreira. Abertura de empresa grátis em qualquer plano."
+          description="Um plano completo para a sua PJ. Abertura de empresa grátis."
         />
 
-        <div className="mx-auto grid max-w-4xl items-stretch gap-5 md:grid-cols-2">
-          {plans.map((plan, index) => (
-            <Reveal key={plan.question} delay={index * 0.08} className="h-full">
-              <PlanCard plan={plan} />
-            </Reveal>
-          ))}
+        <div className="mx-auto max-w-5xl space-y-4">
+          <Reveal>
+            <div className="grid overflow-hidden rounded-[32px] bg-ink text-white shadow-float md:grid-cols-[0.9fr_1.1fr]">
+              <div className="flex flex-col p-8 md:p-12">
+                <span className="w-fit rounded-full bg-brand px-3 py-1 text-xs font-semibold text-ink">Plano completo</span>
+                <h3 className="mt-6 font-display text-3xl md:text-4xl font-semibold leading-[1.1] tracking-[-0.03em] text-balance">
+                  Trabalha para o Brasil ou para o exterior?
+                </h3>
+                <div className="mt-8 flex items-baseline gap-1">
+                  <span className="text-lg text-white/60">R$</span>
+                  <span className="font-display text-7xl font-semibold tracking-[-0.04em]">359</span>
+                  <span className="text-white/60">/mês</span>
+                </div>
+                <Button href={SIGNUP_URL} size="lg" variant="accent" className="mt-10 w-full sm:w-fit">
+                  Começar agora
+                  <ArrowRight size={18} className="transition-transform group-hover:translate-x-0.5" />
+                </Button>
+              </div>
+
+              <div className="border-t border-white/10 p-8 md:border-l md:border-t-0 md:p-12">
+                <p className="text-sm font-medium text-white/50">Tudo incluso</p>
+                <ul className="mt-6 grid gap-x-8 gap-y-4 sm:grid-cols-2">
+                  {mainFeatures.map((feature) => (
+                    <li key={feature} className="flex items-start gap-3">
+                      <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-brand text-ink">
+                        <Check size={12} strokeWidth={3} />
+                      </span>
+                      <span className="text-white/85">{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </Reveal>
+
+          <Reveal delay={0.08}>
+            <div className="flex flex-col gap-5 rounded-[28px] border border-paper-line bg-white p-6 md:flex-row md:items-center md:justify-between md:gap-8 md:px-10 md:py-7">
+              <div className="flex shrink-0 items-baseline gap-4">
+                <h3 className="font-display text-xl font-semibold tracking-[-0.02em] text-ink">Ainda é MEI?</h3>
+                <p className="text-ink-muted">
+                  <span className="font-display text-2xl font-semibold tracking-[-0.03em] text-ink">R$ 99</span>/mês
+                </p>
+              </div>
+              <ul className="flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-muted">
+                {meiFeatures.map((feature) => (
+                  <li key={feature} className="flex items-center gap-1.5">
+                    <Check size={14} strokeWidth={2.5} className="text-brand-dark" />
+                    {feature}
+                  </li>
+                ))}
+              </ul>
+              <a
+                href={SIGNUP_URL}
+                className="group inline-flex shrink-0 items-center gap-1.5 text-[15px] font-semibold text-ink"
+              >
+                Começar como MEI
+                <ArrowRight size={16} className="transition-transform group-hover:translate-x-0.5" />
+              </a>
+            </div>
+          </Reveal>
         </div>
       </div>
     </section>
