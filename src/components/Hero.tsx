@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
               transition={{ duration: 0.7, delay: 0.12, ease }}
               className="mx-auto mt-6 max-w-xl text-lg md:text-xl leading-relaxed text-ink-muted text-pretty lg:mx-0"
             >
-              Nota fiscal, imposto e dúvidas resolvidos no WhatsApp, com uma contadora que conhece você e sua PJ.
+              Nota fiscal e imposto resolvidos em minutos pelo WhatsApp, sem plataforma complicada. E uma contadora pessoal para tirar dúvidas e planejar com você.
             </motion.p>
 
             <motion.div

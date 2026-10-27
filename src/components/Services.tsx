@@ -18,7 +18,7 @@ const options = [
     tag: 'Já tenho empresa',
     title: 'Mudar para a Conte',
     description: 'Cansou de ficar sozinho com a contabilidade? A gente cuida da troca para você.',
-    points: ['Troca feita pela gente', 'Contadora dedicada desde o primeiro dia', 'Sem fila e sem robô'],
+    points: ['Troca feita pela gente', 'Contadora dedicada desde o primeiro dia', 'Rotina pelo WhatsApp, sem plataforma'],
     cta: 'Quero migrar',
     dark: false,
   },

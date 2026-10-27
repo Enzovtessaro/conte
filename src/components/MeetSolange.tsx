@@ -13,7 +13,7 @@ const MeetSolange: React.FC = () => {
               Conheça a Solange, <span className="font-serif font-normal italic">sua contadora.</span>
             </>
           }
-          description="Na Conte você não fala com robô nem com uma pessoa diferente a cada vez. É a Solange que acompanha sua PJ e te responde no WhatsApp."
+          description="A rotina anda rápido pelo WhatsApp. Para dúvidas e decisões, você tem a Solange: ela conhece sua PJ, responde no mesmo WhatsApp e marca reuniões com você quando precisa."
         />
 
         <Reveal className="relative mx-auto max-w-4xl">

@@ -14,8 +14,12 @@ export const faqs = [
   },
   {
     q: 'Vou falar com um contador de verdade?',
-    a: 'Sim. Você tem uma contadora dedicada que conhece você e sua PJ, e fala com ela direto pelo WhatsApp. Nada de robô ou fila de tickets.',
+    a: 'Sim. A rotina, como pedir nota e receber guia, anda rápido pelo WhatsApp. Para dúvidas e decisões, você fala com a sua contadora dedicada no mesmo WhatsApp e pode marcar reuniões com ela.',
     post: post('contador-pessoal-aumenta-lucro-pj', 'Como o contador pessoal pode aumentar seu lucro sendo PJ'),
+  },
+  {
+    q: 'Preciso aprender alguma plataforma?',
+    a: 'Não. O dia a dia acontece pelo WhatsApp: você pede a nota, recebe as guias de imposto e tira dúvidas na mesma conversa.',
   },
   {
     q: 'Recebo de empresa do exterior. A Conte atende o meu caso?',

@@ -36,53 +36,74 @@ const AccountantVisual: React.FC = () => (
   </div>
 );
 
-const TaxVisual: React.FC = () => (
-  <motion.div variants={pop} custom={0.1} className={`${card} w-72 p-6`}>
-    <p className="text-xs font-medium uppercase tracking-wider text-ink-muted">Imposto do mês</p>
-    <div className="mt-5 space-y-4">
-      <div>
-        <p className="mb-2 text-sm text-ink-muted">Sem planejamento</p>
-        <div className="h-3 overflow-hidden rounded-full bg-paper-deep">
-          <motion.div
-            className="h-full rounded-full bg-paper-line"
-            variants={{ hidden: { width: '0%' }, show: { width: '100%', transition: { duration: 1, delay: 0.35, ease } } }}
-          />
-        </div>
-      </div>
-      <div>
-        <p className="mb-2 text-sm font-semibold text-ink">Com a Conte</p>
-        <div className="h-3 overflow-hidden rounded-full bg-paper-deep">
-          <motion.div
-            className="h-full rounded-full bg-brand"
-            variants={{ hidden: { width: '0%' }, show: { width: '58%', transition: { duration: 1, delay: 0.6, ease } } }}
-          />
-        </div>
-      </div>
-    </div>
-  </motion.div>
-);
-
 const InvoiceVisual: React.FC = () => (
-  <div className="w-72 space-y-3">
-    <motion.div variants={pop} custom={0.1} className={`${card} flex items-center gap-3 p-4`}>
-      <span className="flex h-12 w-10 items-center justify-center rounded-lg bg-[#E5484D] text-[10px] font-bold text-white">PDF</span>
+  <div className="flex w-72 flex-col gap-2.5">
+    <motion.div
+      variants={pop}
+      custom={0.1}
+      className="ml-auto w-fit max-w-[85%] rounded-2xl rounded-tr-sm bg-[#D9FDD3] px-3.5 py-2.5 text-[14px] text-ink shadow-[0_18px_40px_-18px_rgba(0,0,0,0.22)]"
+    >
+      Preciso de uma nota de R$ 8.000 para a Acme
+    </motion.div>
+    <motion.div variants={pop} custom={0.45} className={`${card} flex items-center gap-3 rounded-tl-sm p-3.5`}>
+      <span className="flex h-11 w-9 items-center justify-center rounded-lg bg-[#E5484D] text-[10px] font-bold text-white">PDF</span>
       <div className="flex-1">
         <p className="text-sm font-semibold">Nota fiscal.pdf</p>
-        <p className="text-xs text-ink-muted">Emitida pela Conte</p>
+        <p className="text-xs text-ink-muted">Emitida agora</p>
       </div>
       <motion.span
         className="flex h-7 w-7 items-center justify-center rounded-full bg-brand text-ink"
         variants={{
           hidden: { scale: 0, rotate: -45 },
-          show: { scale: 1, rotate: 0, transition: { type: 'spring', stiffness: 380, damping: 14, delay: 0.7 } },
+          show: { scale: 1, rotate: 0, transition: { type: 'spring', stiffness: 380, damping: 14, delay: 0.95 } },
         }}
       >
         <Check size={15} strokeWidth={3} />
       </motion.span>
     </motion.div>
-    <motion.div variants={pop} custom={0.3} className={`${card} ml-8 flex items-center gap-3 p-3 opacity-80`}>
-      <span className="flex h-9 w-8 items-center justify-center rounded-md bg-[#E5484D]/80 text-[9px] font-bold text-white">PDF</span>
-      <p className="text-sm text-ink-muted">Nota do mês passado</p>
+  </div>
+);
+
+const MeetingVisual: React.FC = () => (
+  <div className="w-72 space-y-3">
+    <motion.div variants={pop} custom={0.1} className={`${card} p-4`}>
+      <div className="flex items-start gap-3">
+        <span className="flex h-11 w-11 shrink-0 flex-col items-center justify-center rounded-xl bg-ink text-white">
+          <span className="text-[9px] font-semibold uppercase leading-none tracking-wider text-white/60">Qui</span>
+          <span className="font-display text-lg font-semibold leading-tight">10h</span>
+        </span>
+        <div className="flex-1">
+          <p className="text-sm font-semibold">Reunião com a Solange</p>
+          <p className="text-xs text-ink-muted">Planejamento tributário</p>
+        </div>
+      </div>
+      <motion.p
+        className="mt-3 inline-flex items-center gap-1.5 rounded-full bg-brand/15 px-2.5 py-1 text-xs font-semibold text-brand-dark"
+        variants={{
+          hidden: { opacity: 0, scale: 0.6 },
+          show: { opacity: 1, scale: 1, transition: { type: 'spring', stiffness: 380, damping: 16, delay: 0.7 } },
+        }}
+      >
+        <Check size={12} strokeWidth={3} /> Confirmada
+      </motion.p>
+    </motion.div>
+    <motion.div variants={pop} custom={0.35} className={`${card} ml-6 p-4`}>
+      <p className="text-[11px] font-medium uppercase tracking-wider text-ink-muted">Imposto do mês</p>
+      <div className="mt-3 space-y-2">
+        <div className="h-2 overflow-hidden rounded-full bg-paper-deep">
+          <motion.div
+            className="h-full rounded-full bg-paper-line"
+            variants={{ hidden: { width: '0%' }, show: { width: '100%', transition: { duration: 1, delay: 0.6, ease } } }}
+          />
+        </div>
+        <div className="h-2 overflow-hidden rounded-full bg-paper-deep">
+          <motion.div
+            className="h-full rounded-full bg-brand"
+            variants={{ hidden: { width: '0%' }, show: { width: '58%', transition: { duration: 1, delay: 0.85, ease } } }}
+          />
+        </div>
+      </div>
+      <p className="mt-2 text-[11px] font-semibold text-ink">Com planejamento</p>
     </motion.div>
   </div>
 );
@@ -113,32 +134,31 @@ const WhatsAppVisual: React.FC = () => (
 
 const features = [
   {
-    label: 'Atendimento',
-    visual: <AccountantVisual />,
-    title: 'Uma contadora só sua',
-    description:
-      'Nada de falar com uma pessoa diferente a cada vez. A Solange acompanha sua PJ de perto, conhece seu histórico e responde suas dúvidas rápido.',
-  },
-  {
-    label: 'Planejamento',
-    visual: <TaxVisual />,
-    title: 'Menos imposto, sem surpresa',
-    description:
-      'Montamos uma estratégia fiscal pensada para a sua PJ, para você pagar só o imposto necessário e nunca levar susto no fim do mês.',
-  },
-  {
-    label: 'Notas fiscais',
+    label: 'No WhatsApp',
     visual: <InvoiceVisual />,
-    title: 'Você avisa, a gente emite',
+    title: 'Pediu a nota, tá feita',
     description:
-      'Esqueça portal de prefeitura e senha esquecida. Você manda os dados do cliente e recebe a nota fiscal pronta.',
+      'Mande os dados do cliente no WhatsApp e receba a nota fiscal pronta em minutos. Sem portal de prefeitura, sem app novo, sem plataforma complicada.',
   },
   {
-    label: 'WhatsApp',
+    label: 'No WhatsApp',
     visual: <WhatsAppVisual />,
-    title: 'Tudo no seu WhatsApp',
+    title: 'Impostos chegam prontos',
+    description: 'Todo mês a guia chega no seu WhatsApp com o valor já calculado. É só pagar e seguir com o seu dia.',
+  },
+  {
+    label: 'Com sua contadora',
+    visual: <AccountantVisual />,
+    title: 'Uma contadora que conhece sua PJ',
     description:
-      'Guias de imposto chegam prontas, com valor calculado, direto na conversa. Dúvidas também se resolvem por ali, onde você já está.',
+      'Bateu uma dúvida? Fale com a Solange no mesmo WhatsApp. Sempre a mesma pessoa, que conhece seu histórico e responde de verdade.',
+  },
+  {
+    label: 'Com sua contadora',
+    visual: <MeetingVisual />,
+    title: 'Reuniões para planejar',
+    description:
+      'Pró-labore, regime tributário, empresa crescendo: para as decisões grandes, você marca uma conversa com sua contadora e monta a estratégia para pagar menos imposto.',
   },
 ];
 
@@ -147,12 +167,13 @@ const Features: React.FC = () => {
     <section id="diferenciais" className="scroll-mt-24 overflow-x-clip py-24 md:py-32">
       <div className="container mx-auto max-w-6xl px-4 md:px-6">
         <SectionHeading
-          eyebrow="Por que a Conte"
+          eyebrow="Como funciona"
           title={
             <>
-              Deixe a burocracia da sua PJ <span className="font-serif font-normal italic">com a gente.</span>
+              A rotina no WhatsApp. <span className="font-serif font-normal italic">As decisões com sua contadora.</span>
             </>
           }
+          description="O que é rotina, a gente resolve rápido no WhatsApp. O que precisa de cuidado fica com uma contadora que conhece você."
         />
 
         <div className="space-y-20 md:space-y-32">

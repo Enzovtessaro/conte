@@ -43,9 +43,9 @@ function App() {
                   jsonLd={homeSchema}
                 />
                 <Hero />
+                <Features />
                 <MeetSolange />
                 <Services />
-                <Features />
                 <Plans />
                 <Testimonials />
                 <FAQ />
