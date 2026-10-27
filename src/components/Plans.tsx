@@ -21,7 +21,7 @@ const meiFeatures = ['Uma nota fiscal por mês', 'Guia de imposto', 'Declaraçã
 
 const Plans: React.FC = () => {
   return (
-    <section id="planos" className="scroll-mt-24 py-24 md:py-32">
+    <section id="planos" className="scroll-mt-24 bg-paper-deep py-24 md:py-32">
       <div className="container mx-auto max-w-6xl px-4 md:px-6">
         <SectionHeading
           eyebrow="Planos"

@@ -49,9 +49,9 @@ function App() {
                 <TrustBar />
                 <Features />
                 <MeetSolange />
+                <Testimonials />
                 <Services />
                 <Plans />
-                <Testimonials />
                 <FAQ />
                 <CTA />
               </main>

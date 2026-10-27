@@ -1,6 +1,8 @@
 import React from 'react';
+import { ShieldCheck } from 'lucide-react';
 import Reveal from './Reveal';
 import SectionHeading from './SectionHeading';
+import { CRC_REGISTRATION } from '../lib/links';
 
 const MeetSolange: React.FC = () => {
   return (
@@ -29,6 +31,12 @@ const MeetSolange: React.FC = () => {
               />
             </div>
           </div>
+          {CRC_REGISTRATION && (
+            <p className="mt-6 flex items-center justify-center gap-2 text-sm text-ink-muted">
+              <ShieldCheck size={16} className="text-brand-dark" />
+              Contadora registrada no {CRC_REGISTRATION}
+            </p>
+          )}
         </Reveal>
       </div>
     </section>
