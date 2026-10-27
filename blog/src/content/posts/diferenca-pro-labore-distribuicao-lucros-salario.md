@@ -1,129 +1,131 @@
 ---
-title: Diferença entre pró-labore, distribuição de lucros e salário
-seoTitle: Diferença entre pró-labore, distribuição de lucros e salário
-description: Entenda as diferenças fiscais e contábeis entre pró-labore, distribuição de lucros e salário para sua empresa PJ.
+title: 'Pró-labore, lucros e salário: como o sócio PJ se paga em 2026'
+seoTitle: 'Pró-labore x lucros x salário: como se pagar em 2026'
+description: Pró-labore paga 11% de INSS e IR na tabela; lucros são isentos até R$ 50 mil/mês por empresa em 2026. Veja as regras, o Fator R e um exemplo.
 pubDate: '2025-09-29'
-updatedDate: '2025-09-29'
+updatedDate: '2026-10-27'
 category: contabilidade
 author: solange-vaz
 cover: /images/posts/diferenca-pro-labore-distribuicao-lucros-salario/trabalho-contabil-pro-labore-salario-527.webp
 coverAlt: Três folhas de papel com os títulos pró-labore, distribuição de lucros e salário em uma mesa de escritório contemporânea com uma caneta e um laptop ao lado
+tags: [pro-labore, dividendos, fator-r, simples-nacional, irpf]
+tldr:
+  - "Pró-labore é a remuneração do sócio que trabalha na empresa: tem desconto de 11% de INSS (até o teto de R$ 8.475,55 em 2026) e Imposto de Renda pela tabela mensal, que zera para quem recebe até R$ 5 mil."
+  - "Distribuição de lucros é a parte do resultado que sobra depois dos impostos. Desde janeiro de 2026, pela Lei 15.270/2025, a empresa retém 10% de IR quando paga mais de R$ 50 mil no mês ao mesmo sócio, e quem tem renda total acima de R$ 600 mil no ano entra no imposto mínimo (IRPFM)."
+  - "Salário só existe com vínculo CLT. Sócio não tem direito legal a férias nem 13º; se quiser, a empresa paga um pró-labore extra, com o mesmo INSS e IR."
+  - "No Simples, o pró-labore define o Fator R: com folha de pelo menos 28% do faturamento, o dev PJ cai no Anexo III (a partir de 6%) em vez do Anexo V (a partir de 15,5%)."
 faq:
-- q: O que é pró-labore?
-  a: Pró-labore é a remuneração mensal destinada ao sócio que efetivamente trabalha na empresa, equivalente a um “salário” pelo serviço prestado, mas sem os direitos trabalhistas típicos da CLT. O valor deve ser definido de acordo com as funções exercidas e serve como base para recolhimento de INSS e Imposto de Renda, quando aplicável.
-- q: Qual a diferença entre salário e pró-labore?
-  a: 'Salário é pago a funcionários contratados pelo regime CLT e inclui todos os direitos trabalhistas: FGTS, férias, 13º, adicional, entre outros. Já o pró-labore é exclusivo dos sócios-administradores e não inclui esses direitos. O pró-labore tem desconto obrigatório de INSS, mas não exige FGTS ou outros benefícios trabalhistas.'
-- q: Como funciona a distribuição de lucros?
-  a: A distribuição de lucros ocorre quando a empresa apresenta lucro, ou seja, sobra após pagamento de suas despesas, obrigações tributárias e gastos previstos. Depois de apurados em balanço, os lucros são divididos entre os sócios, respeitando as regras do contrato social. Na maioria dos casos, a distribuição é isenta de Imposto de Renda, desde que toda a escrituração esteja correta.
-- q: Pró-labore tem descontos de INSS?
-  a: Sim, o pró-labore tem desconto obrigatório de INSS, sendo responsabilidade da empresa realizar o recolhimento e pagamento. Esse valor é pago pelo sócio-administrador, calculado sobre o montante do pró-labore mensal. Não pagar gera multa e encargos, algo que um contador atento, como da Conte, ajuda a evitar.
-- q: Sou obrigado a receber pró-labore?
-  a: Todo sócio que exerça atividade na empresa é, sim, obrigado a receber pró-labore. A legislação exige essa separação, exatamente para diferenciar o trabalho do sócio dos eventuais lucros apurados. Sócios que não atuam no dia a dia, apenas investidores, podem ficar apenas com a distribuição de lucros, sem necessidade de pró-labore.
+  - q: Sócio é obrigado a receber pró-labore?
+    a: Sim, quando trabalha na empresa. A Lei 8.212/1991 trata o sócio que presta serviço à própria empresa como contribuinte individual, com INSS sobre o que recebe pelo trabalho. Se o sócio só retira lucros e nunca formaliza o pró-labore, a Receita pode requalificar parte desses lucros como remuneração e cobrar o INSS com multa.
+  - q: Qual o valor mínimo do pró-labore em 2026?
+    a: Não existe valor mínimo fixado em lei, mas a contribuição ao INSS não pode incidir sobre menos de um salário mínimo, que é R$ 1.621 em 2026. Na prática, o pró-labore mínimo é R$ 1.621. Para o dev no Simples, o valor que importa é o que garante o Fator R de 28%.
+  - q: Distribuição de lucros paga imposto em 2026?
+    a: Até R$ 50 mil por mês da mesma empresa para o mesmo sócio, não há retenção na fonte. Acima disso, a empresa retém 10% sobre o total pago no mês. No ajuste anual, quem soma mais de R$ 600 mil de renda no ano calcula o imposto mínimo (IRPFM), que chega a 10% para rendas a partir de R$ 1,2 milhão, descontando o que já foi retido.
+  - q: Sócio tem direito a férias e 13º salário?
+    a: Não. Férias e 13º são direitos do empregado CLT, e o sócio não é empregado da própria empresa. Nada impede a empresa de pagar um pró-labore maior em um mês para fazer as vezes de 13º ou férias, mas esse valor é pró-labore comum, com 11% de INSS e Imposto de Renda pela tabela.
+  - q: Posso retirar lucro todo mês?
+    a: Pode, desde que a contabilidade mostre o lucro. No Simples e no Lucro Presumido, sem escrituração contábil completa, o lucro isento fica limitado ao percentual de presunção (32% da receita para serviços) menos os impostos pagos. Com livro diário e balanço em dia, você distribui o lucro contábil inteiro.
+sources:
+  - title: Lei nº 15.270/2025, tributação de lucros e dividendos e IRPFM (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm
+  - title: Receita Federal, perguntas e respostas sobre tributação de altas rendas, lucros e dividendos
+    url: https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/dezembro/receita-federal-lanca-perguntas-e-respostas-sobre-tributacao-de-altas-rendas-consideracoes-sobre-lucros-e-dividendos
+  - title: Receita Federal, redução do Imposto de Renda a partir de 1º de janeiro de 2026
+    url: https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/dezembro/receita-federal-orienta-fontes-pagadoras-e-contribuintes-a-calcular-a-reducao-do-imposto-de-renda-a-partir-de-1o-de-janeiro-de-2026
+  - title: INSS, tabela de contribuição mensal 2026
+    url: https://www.gov.br/inss/pt-br/direitos-e-deveres/inscricao-e-contribuicao/tabela-de-contribuicao-mensal
+  - title: Lei Complementar nº 123/2006, Simples Nacional e Fator R (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm
 migratedFrom: https://blog.sejaconte.com.br/post/diferenca-pro-labore-distribuicao-lucros-salario
 ---
 
-Quando a gente fala em abrir uma empresa, um dos assuntos que nunca passa batido é: como eu (ou o sócio) vou receber pelos meus esforços? Parece simples, mas, na prática, a confusão entre pró-labore, distribuição de lucros e salário é muito comum. Escolher certo faz diferença na gestão, no bolso e até nos seus impostos. Vamos conversar um pouco sobre cada um deles, mostrar diferenças, contar aquelas curiosidades que poucos sabem, e também como serviços como os da Conte facilitam esse caminho cheio de detalhes. Respira fundo, pega um café e vem!
+Você abriu o CNPJ, o cliente pagou a nota e o dinheiro está na conta da empresa. Para ele chegar na sua conta pessoal sem problema com a Receita, existem três caminhos: pró-labore, distribuição de lucros e salário. Cada um tem imposto, regra e função diferentes, e em 2026 a [Lei 15.270/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm) mudou a parte dos lucros.
 
-## Antes de tudo: por que entender essas diferenças?
+## Qual a diferença entre pró-labore, lucros e salário?
 
-Quando você é dono de uma PJ, precisa separar bem o que entra no caixa, o que sai para pagar colaborador e o que é sua remuneração como sócio. Mistura esses conceitos e pronto: um problemão. Já vi muita gente pagando imposto demais só porque não pediu orientação nessa etapa.
+Pró-labore remunera o trabalho do sócio, lucro remunera o capital do sócio e salário remunera o empregado CLT. O sócio que trabalha na empresa recebe os dois primeiros; salário fica para quem tem carteira assinada.
 
-> Se não organiza, a Receita pode bater na sua porta.
+| | Pró-labore | Distribuição de lucros | Salário (CLT) |
+|---|---|---|---|
+| Quem recebe | Sócio que trabalha na empresa | Qualquer sócio, na proporção do contrato social | Empregado |
+| INSS | 11% do sócio, até o teto; 20% patronal fora do Simples (Anexos III e V já incluem no DAS) | Não incide | 7,5% a 14% do empregado, mais encargos da empresa |
+| Imposto de Renda | Tabela mensal, com redução até R$ 7.350 | Isento até R$ 50 mil/mês por empresa; acima, 10% retido na fonte | Tabela mensal |
+| FGTS, férias, 13º | Não | Não | Sim |
+| Conta no Fator R | Sim | Não | Sim |
 
-Vamos juntos entender cada conceito.
+## Como funciona o pró-labore em 2026?
 
-## O que é pró-labore?
+O pró-labore é um valor mensal fixado pelos sócios, com desconto de 11% de INSS e retenção de Imposto de Renda pela tabela progressiva. A empresa desconta, recolhe e informa tudo no eSocial e na DCTFWeb.
 
-Pró-labore é o valor que o sócio-administrador recebe pelo trabalho **efetivamente prestado** à empresa. Ele não é um salário comum, mas tem obrigações parecidas. Ou seja, se você, sócio, realmente arregaça as mangas, gerencia, vende, faz, lidera, é justo (e obrigatório) definir um pró-labore.
+Os números de 2026:
 
-- **Obrigatório para sócio que trabalha no negócio**
-- Sofre desconto de INSS
-- Incide o Imposto de Renda na fonte, caso extrapole faixa de isenção
-- Não tem FGTS, férias ou 13º garantidos
+- **Piso:** um salário mínimo, R$ 1.621. A contribuição ao INSS não pode ter base menor que isso.
+- **INSS do sócio:** 11% sobre o pró-labore, limitado ao teto de R$ 8.475,55. A contribuição máxima fica em R$ 932,31 por mês.
+- **INSS da empresa:** no Lucro Presumido e no Lucro Real, a empresa paga mais 20% sobre o pró-labore (Lei 8.212/1991, art. 22, III). No Simples, nos Anexos III e V, essa parte já está dentro do DAS.
+- **Imposto de Renda:** a tabela mensal continua a mesma (isenção até R$ 2.428,80 e alíquota máxima de 27,5%), mas a Lei 15.270/2025 criou uma redução. Quem recebe até R$ 5.000 por mês fica com imposto zero. Entre R$ 5.000,01 e R$ 7.350, a redução cai aos poucos pela fórmula R$ 978,62 menos 0,133145 vezes o rendimento. Acima de R$ 7.350, vale a tabela cheia.
 
-O pró-labore garante ao sócio o reconhecimento pela atuação direta na empresa. Em empresas assessoradas pela Conte, é comum ver sócios mais tranquilos porque sabem que tudo está sendo calculado certinho e comunicado ao Fisco.
+O pró-labore é obrigatório para o sócio que trabalha. Retirar tudo como lucro e deixar o pró-labore zerado é o erro mais comum que vejo em dev PJ, e a Receita pode requalificar parte desses lucros como remuneração e cobrar o INSS atrasado com multa.
 
-## Distribuição de lucros: participação nos bons resultados
+## Como o pró-labore se liga ao Fator R?
 
-Diferente do pró-labore, distribuição de lucros não exige que o sócio preste serviço. É, digamos assim, a recompensa pelo risco do negócio. Sócios (trabalhando ou não) dividem o que sobrou daquele exercício, após pagar todas as obrigações, despesas, impostos…
+No Simples Nacional, desenvolvimento de software, consultoria em TI e suporte técnico caem no Anexo V, a partir de 15,5%. Se a folha de pagamento dos últimos 12 meses (pró-labore, salários e encargos) for de pelo menos 28% da receita do mesmo período, a empresa passa para o Anexo III, a partir de 6% ([LC 123/2006](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm), art. 18, §5º-J e §5º-M).
 
-E aqui tem um fato interessante: se feitos corretamente os registros contábeis, normalmente a distribuição de lucros é isenta de Imposto de Renda para pessoa física!
+Para quem trabalha sozinho, a folha é o próprio pró-labore. Faturando R$ 20 mil por mês, você precisa de R$ 5.600 de pró-labore para chegar aos 28%. O detalhe de cada anexo está no post sobre [se PJ de tecnologia pode ficar no Simples Nacional](/post/pj-tecnologia-pode-ser-simples-nacional-opcoes).
 
-![Sócios sentados à mesa analisando documentos de lucros e relatórios financeiros ](/images/posts/diferenca-pro-labore-distribuicao-lucros-salario/distribuicao-lucros-empresa-349.webp)
+## Exemplo: vale subir o pró-labore para pegar o Fator R?
 
-- É feita conforme acordado no contrato social
-- Depende de apuração e regularidade nas obrigações fiscais
-- Pode ser periódica ou anual, como decidirem os sócios
-- Não desconta INSS ou FGTS
-- Permite um planejamento tributário mais eficiente
+Na maioria dos casos de dev no Simples, vale. Considere um dev com empresa no Simples faturando R$ 25 mil por mês, R$ 300 mil nos últimos 12 meses, e compare dois cenários.
 
-Se há dúvida se sua empresa pode distribuir lucros ou qual frequência escolher, é aquela hora de contar com soluções personalizadas – aliás, algo que a Conte faz muito bem, sabia?
+**Cenário A, pró-labore de R$ 7.000 (28% da receita), Anexo III:**
 
-## Salário: o que muda quando não é sócio
+1. Alíquota efetiva do Anexo III na 2ª faixa: (R$ 300.000 × 11,2% − R$ 9.360) ÷ R$ 300.000 = 8,08%. DAS: R$ 2.020.
+2. INSS do sócio: 11% × R$ 7.000 = R$ 770.
+3. IR sobre o pró-labore: base de R$ 6.230 (R$ 7.000 − R$ 770), imposto pela tabela de R$ 804,52, menos a redução de R$ 46,60. IR: R$ 757,92.
+4. Total de tributos no mês: **R$ 3.547,92**.
 
-Muita gente confunde o pró-labore com salário porque ambos são remunerações, mas a forma como são calculados, tributados e até os direitos são diferentes. O salário é exclusivo para funcionários contratados no regime CLT (Consolidação das Leis do Trabalho), com todos os **direitos trabalhistas**:
+**Cenário B, pró-labore de R$ 1.621 (mínimo), Anexo V:**
 
-- FGTS obrigatório
-- 13º salário
-- Férias + 1/3
-- Horas extras, adicional noturno, etc.
-- Descontos de INSS e IR fonte
-- Proteção de leis trabalhistas
+1. Alíquota efetiva do Anexo V na 2ª faixa: (R$ 300.000 × 18% − R$ 4.500) ÷ R$ 300.000 = 16,5%. DAS: R$ 4.125.
+2. INSS do sócio: 11% × R$ 1.621 = R$ 178,31.
+3. IR sobre o pró-labore: zero.
+4. Total de tributos no mês: **R$ 4.303,31**.
 
-Ou seja, quando você, dono, decide se contratar como CLT, o custo é bem mais alto, e a empresa arca com muitos encargos. Por isso, só é uma opção em casos muito específicos.
+O cenário A paga R$ 755,39 a menos por mês, cerca de R$ 9 mil por ano, e ainda recolhe mais INSS, o que melhora a aposentadoria futura. O resto do resultado sai como lucro isento nos dois casos. Para testar com o seu faturamento, use a [calculadora da Conte](https://sejaconte.com.br/calculadora).
 
-> Só recebe salário quem é contratado. Sócio recebe pró-labore ou lucros.
+## Como funciona a distribuição de lucros depois da Lei 15.270/2025?
 
-## Quando escolher cada um?
+Lucro distribuído continua isento até R$ 50 mil por mês, pagos pela mesma empresa ao mesmo sócio. A partir de janeiro de 2026, se o pagamento do mês passar desse valor, a empresa retém 10% de IR sobre o total pago, não só sobre o excedente (Lei 9.250/1995, art. 6º-A, incluído pela Lei 15.270/2025).
 
-Já fiquei na dúvida várias vezes, então juntei pontos que facilitam essa decisão. Pense no seguinte:
+Três pontos que pegam o PJ de surpresa:
 
-1. Se for sócio **e** trabalhar na empresa, separe um pró-labore pelo mínimo da categoria.
-2. Apurou lucro contábil após cumprir com todos impostos e custos? Distribua para os sócios com contrato registrado – documento legal é tudo.
-3. Para funções operacionais sem vínculo societário, contrate como salário CLT.
+- **Vale para o Simples.** A Receita respondeu, nas perguntas e respostas de dezembro de 2025, que a retenção também alcança empresas do Simples Nacional. Há quem conteste na Justiça com base no art. 14 da LC 123, mas a posição oficial é essa.
+- **Existe o imposto mínimo anual (IRPFM).** Quem soma mais de R$ 600 mil de renda no ano, incluindo lucros isentos, calcula na declaração uma alíquota mínima que sobe de 0% a 10% até R$ 1,2 milhão. O IR já pago e o retido nos lucros entram como desconto, e há um redutor quando a empresa já pagou muito imposto. A primeira declaração com IRPFM é a de 2027, sobre o ano de 2026.
+- **Lucros de 2025 têm regra de transição.** Resultados apurados até 2025, com distribuição aprovada até 31 de dezembro de 2025, ficam fora da retenção e do IRPFM quando pagos nos termos aprovados.
 
-Ninguém precisa seguir essa ordem cegamente. Uma análise sob medida, com suporte de contadores atentos, como na Conte, pode ajudar a deixar tudo redondo.
+O efeito do imposto mínimo em quem fatura mais está detalhado em [como funciona o pagamento de dividendos](/post/pagamento-dividendos-pjs-fora-do-simples), com um exemplo de Lucro Presumido.
 
-![Pessoa analisando planilhas para definir pró-labore ou salário ](/images/posts/diferenca-pro-labore-distribuicao-lucros-salario/escolhendo-pro-labore-salario-719.webp)
+Outro limite vale para quem não tem contabilidade completa. No Simples, o lucro isento sem escrituração fica limitado à presunção do IRPJ (32% da receita, para serviços) menos o DAS (LC 123, art. 14, §1º). No exemplo acima, isso daria uns R$ 5.980 por mês, abaixo do que o dev quer retirar. Com livro diário e balanço, você distribui todo o lucro contábil.
 
-## Erros mais comuns na prática
+## Sócio tem direito a férias e 13º salário?
 
-Você pode até ter entendido tudo na teoria, mas a prática, por experiência própria, costuma derrubar boas intenções. Já vi clientes chegando para Conte com problemas assim:
+Não. Férias e 13º são direitos do empregado CLT, e o sócio não é empregado da própria empresa. Se quiser um "13º", a empresa pode pagar um pró-labore maior em dezembro, mas ele é pró-labore comum: paga 11% de INSS e IR pela tabela.
 
-- Não definir um valor de pró-labore e sacar dinheiro “no escuro”
-- Pagar sócio como se fosse funcionário, misturando documentos
-- Distribuir lucros sem balanço/demonstração regular
-- Esquecer de recolher INSS do pró-labore, gerando notificações e multas
-- CLT camuflada: sócio “fantasma” ganhando como empregado
+Para o dev no Simples, essa escolha costuma custar mais do que retirar o mesmo valor como lucro, que é isento até R$ 50 mil por mês. A exceção é quando o pró-labore extra ajuda a manter o Fator R acima de 28% nos 12 meses. Em vez de pagar férias de sócio, faz mais sentido reservar caixa todo mês para os períodos sem faturamento e retirar como lucro quando sair de férias.
 
-> Controle e transparência: dois remédios para muita dor de cabeça fiscal.
+## Quando o sócio recebe salário?
 
-## Como um contador pode ajudar?
+Só quando a empresa registra alguém com carteira assinada. Sócio-administrador recebe pró-labore. Contratar o próprio sócio como empregado CLT é raro, caro (a empresa paga FGTS de 8% e os encargos da folha) e gera discussão sobre subordinação, que é requisito do vínculo de emprego.
 
-Nesse mar de regras, um acompanhamento prático faz bastante diferença. Trabalhando na Conte, vejo todos os dias como um contador pessoal pode ir ao detalhe do contrato social, sugerir valores justos, e ajustar a folha de pagamento, sempre atento à legislação vigente.
+Se você está decidindo entre continuar CLT ou abrir empresa, a comparação completa com números de 2026 está em [vale a pena migrar para PJ](/post/vale-a-pena-migrar-para-pj-profissionais-ti).
 
-- Evita dores de cabeça com o Fisco
-- Ajuda a pagar menos impostos sem descumprir nenhuma lei
-- Organiza a vida financeira pessoal e da empresa
-- Previne multas e passivos trabalhistas
-- Garante que sócio e funcionário andem em estradas bem separadas
+## Quais erros mais geram problema com a Receita?
 
-Essa proximidade faz diferença, não apenas quando abre sua empresa, mas mês a mês, na rotina de enviar notas, calcular impostos e escolher o melhor momento para distribuir lucros.
+Os erros abaixo aparecem em fiscalização e quase sempre têm a mesma causa: falta de separação entre o dinheiro da empresa e o do sócio.
 
-## Benefícios de separar cada fonte de remuneração
+- **Não ter pró-labore.** Sem pró-labore, você não contribui para o INSS e o lucro retirado pode ser tratado como remuneração disfarçada.
+- **Pró-labore abaixo do Fator R por esquecimento.** O Fator R olha os 12 meses anteriores. Um trimestre com pró-labore baixo pode jogar a empresa no Anexo V.
+- **Distribuir mais lucro do que a contabilidade mostra.** O excesso perde a isenção e é tributado como rendimento do sócio.
+- **Pagar contas pessoais com o cartão da empresa.** Isso vira retirada sem natureza definida, e a Receita escolhe a classificação mais cara.
+- **Ignorar o limite mensal de R$ 50 mil.** Uma retirada grande de uma vez no fim do ano gera retenção de 10% sobre o total.
 
-Ao adotar cada tipo pelo motivo certo, alguns benefícios ficam claros:
-
-- Facilidade ao declarar Imposto de Renda da pessoa física
-- Evita interpretação errada do Fisco
-- Ajuda a empresa a manter fluxo de caixa organizado
-- Mais transparência com sócios, investidores e bancos
-- Permite um planejamento tributário com economia e segurança
-
-Se a proposta é crescer sem medo, tratar pró-labore, lucros e salários como coisas diferentes abre portas – e evita portas fechadas pelo governo.
-
-## Conclusão: escolha consciente, empresa saudável
-
-No fim das contas, não há solução única. O que existe é a escolha correta para sua situação, levando em conta a legislação, sua atuação e os objetivos da empresa. O caminho se faz mais seguro com quem entende do assunto. Por isso, se você quer focar no que faz melhor e deixar a parte burocrática com quem sabe, a Conte pode ser sua parceira. Nossa equipe resolve desde a abertura, emissão de nota, até o pagamento dos impostos e definição do pró-labore. Pense nesse cuidado como um investimento – e não só um gasto.
-
-> Cuide bem das suas escolhas, cuide bem da sua PJ. Fale com a Conte e descubra como simplificar sua rotina contábil.
+Se você está saindo do MEI agora, o pró-labore passa a ser obrigatório no mesmo mês. O passo a passo da transição está em [como sair do MEI](/post/migrar-mei-para-ltda-checklist-prazos).

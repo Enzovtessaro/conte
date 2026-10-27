@@ -20,6 +20,7 @@ faq:
 - q: Qual a diferença entre S.A. e Ltda.?
   a: Na S.A., o capital é dividido em ações e os sócios (acionistas) têm responsabilidade limitada. Já na Ltda., o capital é dividido em quotas e a gestão costuma ser mais simples, com menos obrigações legais e formalidades. A S.A. é voltada para empresas com objetivos de captação de grandes investimentos e maior transparência; já a Ltda. é usada geralmente por empresas menores, familiares ou que querem menos burocracia na administração.
 migratedFrom: https://blog.sejaconte.com.br/post/sociedade-anonima-guia-completo-abertura-gestao
+noindex: true
 ---
 
 No universo do empreendedorismo brasileiro, poucas estruturas jurídicas provocam tantas dúvidas quanto a sociedade anônima. Diversos empresários nos procuram aqui na Conte com questionamentos práticos e sonhos ambiciosos. Afinal, quem nunca ouviu falar de empresas listadas na bolsa, acionistas, conselhos de administração e aquele ar de grandeza que envolve as S.A.? No entanto, há regras, contextos e peculiaridades que nem sempre ficam claras – e é exatamente sobre isso que queremos conversar.

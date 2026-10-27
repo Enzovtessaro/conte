@@ -7,10 +7,11 @@ import rehypeImgAttrs from './src/plugins/rehype-img-attrs.mjs';
 const posts = fs.readdirSync('src/content/posts').filter((f) => f.endsWith('.md')).map((f) => {
   const fm = fs.readFileSync(`src/content/posts/${f}`, 'utf8').split('\n---')[0];
   const get = (k) => (fm.match(new RegExp(`^${k}:\\s*['"]?([^'"\\n]+)`, 'm')) || [])[1];
-  return { slug: f.slice(0, -3), date: get('updatedDate') ?? get('pubDate'), category: get('category'), draft: get('draft') === 'true' };
+  return { slug: f.slice(0, -3), date: get('updatedDate') ?? get('pubDate'), category: get('category'), draft: get('draft') === 'true', noindex: get('noindex') === 'true' };
 }).filter((p) => !p.draft);
+const noindexSlugs = new Set(posts.filter((p) => p.noindex).map((p) => p.slug));
 const postDate = new Map(posts.map((p) => [p.slug, p.date]));
-const catCount = posts.reduce((m, p) => m.set(p.category, (m.get(p.category) ?? 0) + 1), new Map());
+const catCount = posts.filter((p) => !p.noindex).reduce((m, p) => m.set(p.category, (m.get(p.category) ?? 0) + 1), new Map());
 const newest = (list) => list.map((p) => p.date).sort().at(-1);
 
 export default defineConfig({
@@ -25,6 +26,8 @@ export default defineConfig({
       // Thin categories (under 3 posts) are noindex, so they stay out of the sitemap too.
       filter: (page) => {
         const cat = page.match(/\/category\/([^/]+)$/)?.[1];
+        const slug = page.match(/\/post\/([^/]+)$/)?.[1];
+        if (slug && noindexSlugs.has(slug)) return false;
         return !page.includes('/404') && (!cat || (catCount.get(cat) ?? 0) >= 3);
       },
       serialize(item) {

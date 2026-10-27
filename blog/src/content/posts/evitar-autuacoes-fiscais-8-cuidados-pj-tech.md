@@ -1,115 +1,130 @@
 ---
-title: 'Como evitar autuações fiscais: 8 cuidados para PJ tech'
-seoTitle: 'Como evitar autuações fiscais: 8 cuidados para PJ tech'
-description: Descubra como adotar práticas fiscais corretas, organizar documentos e evitar multas para sua PJ tecnologia eficiente e segura.
+title: "Como evitar autuação fiscal na PJ tech: 8 cuidados para 2026"
+seoTitle: "Autuação fiscal na PJ tech: 8 cuidados para evitar multa"
+description: "Multa de ofício começa em 75% do imposto. Veja as obrigações da PJ tech (DAS, PGDAS-D, DEFIS, DCTFWeb, NFS-e), prazos e 8 cuidados para não ser autuado."
 pubDate: '2025-10-14'
-updatedDate: '2025-10-14'
+updatedDate: '2026-10-27'
 category: planejamento-fiscal
+tags: [fiscalizacao, simples-nacional, nota-fiscal, cnpj]
 author: solange-vaz
 cover: /images/posts/evitar-autuacoes-fiscais-8-cuidados-pj-tech/contador-analisando-documentos-pj-433.webp
 coverAlt: Contador examinando documentos fiscais e gráficos financeiros em mesa de escritório moderno
+tldr:
+  - "Quando a Receita Federal lança um imposto de ofício, a multa é de 75% do valor devido, sobe para 100% em caso de fraude ou sonegação e para 150% se houver reincidência (Lei 9.430/1996, art. 44)."
+  - "Pagar atrasado por conta própria sai muito mais barato: a multa de mora é de 0,33% por dia, limitada a 20%, mais juros Selic (Lei 9.430/1996, art. 61)."
+  - "A PJ tech no Simples Nacional precisa manter em dia o DAS e o PGDAS-D (dia 20), a DEFIS (31 de março), a NFS-e de cada serviço e, se paga pró-labore, o eSocial e a DCTFWeb."
+  - "Dívida no Simples não parcelada gera termo de exclusão: a empresa tem 30 dias, contados da ciência, para pagar ou parcelar e continuar no regime."
 faq:
-- q: O que é autuação fiscal para PJ tech?
-  a: Autuação fiscal é quando a Receita Federal ou órgãos municipais/estaduais identificam alguma irregularidade tributária, seja atraso, erro em declarações, inadimplência ou omissão de receita. Para PJ tech, pode ser o não pagamento correto de impostos, informações divergentes em notas fiscais ou descumprimento de obrigações acessórias.
-- q: Como evitar autuação fiscal na empresa?
-  a: 'Para evitar autuações, mantenha todas as obrigações em dia: escolha o regime tributário adequado, emita e armazene notas fiscais corretamente, entregue todas as declarações nos prazos e registre receitas e despesas de forma clara. Ter acompanhamento contábil personalizado, como o oferecido pela Conte, é forte aliado para evitar erros e atrasos.'
-- q: Quais documentos fiscais devo manter organizados?
-  a: Notas fiscais emitidas, comprovantes de pagamento de impostos, extratos bancários, recibos, contratos de prestação de serviço (inclusive com o exterior), e toda correspondência fiscal da empresa. Esses documentos devem ser armazenados por pelo menos cinco anos, pois podem ser solicitados pelo fisco.
-- q: Quais são os erros fiscais mais comuns?
-  a: 'Os erros mais recorrentes são: cálculo equivocado do imposto devido, atraso na entrega de declarações, emissão incorreta da nota fiscal, uso inadequado do CNAE, mistura de despesas pessoais e da empresa, e falha em registrar todos os recebimentos. Um detalhe pode parecer pequeno, mas é o suficiente para chamar atenção do fiscalizador.'
-- q: Preciso de contador para evitar autuações?
-  a: Ter um contador não é apenas recomendável, para PJ tech, faz toda diferença. O profissional antecipa obrigações, orienta quanto a mudanças na lei e apoia no envio correto dos documentos. Com a Conte, você tem suporte humano, consultoria fiscal e facilita sua rotina com atendimento rápido e próximo, reduzindo ao máximo o risco de autuações.
+  - q: "Qual é o valor da multa de uma autuação fiscal?"
+    a: "Na autuação (lançamento de ofício), a multa é de 75% do imposto não pago. Ela sobe para 100% quando a Receita comprova sonegação, fraude ou conluio, e para 150% em caso de reincidência, conforme o art. 44 da Lei 9.430/1996. Juros Selic correm à parte."
+  - q: "Se eu pagar o imposto atrasado antes da fiscalização, ainda levo multa de 75%?"
+    a: "Não. Quem paga espontaneamente, antes de qualquer procedimento fiscal, paga multa de mora de 0,33% ao dia, limitada a 20%, mais juros. Mesmo depois do termo de início de fiscalização, a lei dá 20 dias para pagar o que já foi declarado com os acréscimos de mora (art. 47 da Lei 9.430/1996)."
+  - q: "Quais declarações uma PJ no Simples Nacional entrega?"
+    a: "Todo mês, o PGDAS-D e o DAS até o dia 20. Todo ano, a DEFIS até 31 de março. Se a empresa paga pró-labore ou tem funcionário, entram o eSocial e a DCTFWeb. A nota fiscal de serviço (NFS-e) acompanha cada venda."
+  - q: "Por quanto tempo devo guardar notas e comprovantes?"
+    a: "Até a Receita perder o direito de cobrar os tributos daquelas operações. Na regra geral, isso leva cinco anos contados do primeiro dia do ano seguinte ao do fato (CTN, arts. 173 e 195). Na prática, guarde no mínimo seis anos."
+  - q: "A empresa pode ser excluída do Simples por dívida?"
+    a: "Pode. A Receita envia o termo de exclusão pelo DTE-SN, e a empresa tem 30 dias a partir da ciência para pagar ou parcelar todos os débitos. Quem regulariza no prazo continua no Simples."
+sources:
+  - title: Lei nº 9.430/1996, arts. 44, 47 e 61 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/l9430.htm
+  - title: Lei Complementar nº 123/2006, arts. 25, 26, 38 e 38-A (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm
+  - title: Código Tributário Nacional, arts. 138, 173 e 195 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm
+  - title: Portal do Simples Nacional (Receita Federal)
+    url: https://www8.receita.fazenda.gov.br/simplesnacional/
+  - title: Portal da NFS-e Nacional (gov.br)
+    url: https://www.gov.br/nfse/pt-br
 migratedFrom: https://blog.sejaconte.com.br/post/evitar-autuacoes-fiscais-8-cuidados-pj-tech
 ---
 
-Empreender no setor de tecnologia não é só sobre inovação e soluções disruptivas. O cenário tributário no Brasil impõe desafios reais para quem gerencia uma PJ tech. Entre obrigações complexas e burocracia pesada, basta um deslize para sofrer uma autuação fiscal, e aí, além do susto, vêm prejuízos que podem abalar toda a estrutura da empresa.
+Autuação fiscal é a cobrança que a Receita Federal (ou a prefeitura) faz quando encontra imposto não pago, declaração faltando ou informação errada. Para quem trabalha como PJ de tecnologia, a autuação quase sempre nasce de três falhas: receita que entrou na conta e não foi declarada, declaração que não foi entregue e nota fiscal emitida com código ou valor errado. As três você evita com rotina.
 
-Pensando nisso, neste artigo, vou listar 8 cuidados que ajudam empreendedores digitais a manter a PJ tech longe de dores de cabeça fiscais. E, com a experiência da Conte facilitando a rotina de várias empresas, fica mais simples entender que, enquanto você foca no negócio, ter suporte contábil humanizado faz toda diferença.
+## Quanto custa uma autuação fiscal?
 
-> Evitar autuação fiscal é menos sobre medo, mais sobre preparo.
+Custa entre 75% e 150% do imposto devido, mais juros Selic. O art. 44 da [Lei 9.430/1996](https://www.planalto.gov.br/ccivil_03/leis/l9430.htm) fixa a multa de ofício em 75%. Ela sobe para 100% quando o fiscal comprova sonegação, fraude ou conluio, e para 150% se você reincidir. O Simples Nacional segue as mesmas regras de multa e juros dos tributos federais ([LC 123/2006](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm), art. 35).
 
-## 1. Conheça as regras do seu regime tributário
+O mesmo imposto pago por iniciativa sua, antes de qualquer fiscalização, leva só a multa de mora: 0,33% por dia de atraso, com teto de 20% (art. 61). E o art. 47 dá uma última janela: até 20 dias depois de receber o termo de início de fiscalização, você ainda pode pagar o que já declarou com os acréscimos de mora, sem a multa de ofício.
 
-Muita gente abre uma PJ tech e só descobre depois a complexidade do regime escolhido. O Simples Nacional, o Lucro Presumido e o Lucro Real têm regras, limites e formas de apuração diferentes. Um descuido ao calcular receitas ou não observar limites pode causar autuação imediata.
+### Exemplo com números de 2026
 
-- Simples Nacional: limite de receita anual, alíquotas progressivas e obrigatoriedade de atividades permitidas;
-- Lucro Presumido: apuração simplificada, mas alíquotas combinadas (IRPJ, CSLL, PIS/COFINS, ISS);
-- Lucro Real: apuração minuciosa do lucro e obrigações acessórias detalhadas.
+Imagine um DAS de R$ 3.000 que ficou para trás.
 
-Segundo a [MIT Sloan Management Review Brasil](https://mitsloanreview.com.br/a-tributacao-das-empresas-de-tecnologia-estabelecidas-no-brasil/), a tributação das empresas de tecnologia é pesada: IRPJ e CSLL somam cerca de 34%, PIS/COFINS totalizam 9,25% e ISS chega a 5%. Sem entender a regra do seu regime, você pode pagar muito mais ou menos, e ambos trazem riscos.
+| Situação | Multa | Valor da multa |
+|---|---|---|
+| Pago com 10 dias de atraso, por iniciativa própria | 0,33% × 10 dias = 3,3% | R$ 99 |
+| Pago com 70 dias de atraso, por iniciativa própria | teto de 20% | R$ 600 |
+| Receita lança de ofício (omissão de receita) | 75% | R$ 2.250 |
+| Lançamento com fraude comprovada | 100% | R$ 3.000 |
+| Fraude com reincidência | 150% | R$ 4.500 |
 
-## 2. Emissão e armazenamento correto de notas fiscais
+Em todos os casos somam-se juros Selic acumulados desde o vencimento, mais 1% no mês do pagamento. A diferença entre pagar atrasado e ser autuado chega a R$ 1.650 só de multa num imposto de R$ 3.000.
 
-Notas fiscais são linha direta com o fisco. A cada serviço prestado, a emissão precisa ser precisa e sem atrasos. Um erro comum? Configurar CFOP errado ou notas sem descrição clara do serviço. E depois, tem o armazenamento: por lei, documentos fiscais devem ser guardados por pelo menos cinco anos.
+## Quais obrigações fiscais a PJ tech precisa cumprir?
 
-> Notas fiscais erradas mudam tudo rapidinho.
+Depende do regime. No Simples Nacional, o núcleo cabe numa tabela; no Lucro Presumido, a lista cresce (DCTFWeb com MIT, EFD-Contribuições, ECD e ECF).
 
-Aliás, na Conte, o envio das guias e notas pode ser recebido até pelo WhatsApp para facilitar essa etapa e evitar esquecimentos ou perdas.
+| Obrigação | Quem entrega | Prazo |
+|---|---|---|
+| PGDAS-D e DAS | Toda empresa do Simples, inclusive sem receita no mês | Dia 20 do mês seguinte |
+| DEFIS | Toda empresa do Simples | 31 de março do ano seguinte |
+| NFS-e | Toda prestação de serviço | Na emissão de cada venda |
+| eSocial (pró-labore, funcionários) | Empresa que paga pró-labore ou salário | Dia 15 do mês seguinte |
+| DCTFWeb | Empresa com pró-labore, funcionário ou retenções | Último dia útil do mês seguinte (IN RFB 2.248/2025) |
+| DASN-SIMEI | MEI | 31 de maio |
 
-## 3. Fique atento às declarações acessórias
+Uma ressalva para devs: as atividades de desenvolvimento de software não estão na lista de ocupações permitidas ao MEI. Se você abriu MEI com CNAE que não descreve o que faz, esse é o primeiro risco a resolver; veja o [checklist para migrar de MEI para LTDA](/post/migrar-mei-para-ltda-checklist-prazos).
 
-Além dos principais impostos, a PJ tech tem várias declarações acessórias obrigatórias:
+## Quais são os 8 cuidados que evitam autuação?
 
-- DCTF;
-- ECF;
-- EFD-Contribuições;
-- DEFIS (para Simples Nacional);
-- E muitas outras dependendo do tipo de serviço, exportação ou importação.
+### 1. Declare toda receita que entra na conta da empresa
 
-Deixar de entregar dentro do prazo ou enviar dados inconsistentes é caminho certo para autuação. E o sistema da Receita não tem dó: a multa é automática, e partes delas são cumulativas.
+A Receita cruza as notas fiscais emitidas com o PGDAS-D e com o que os bancos informam na e-Financeira. Receita que aparece no extrato e não aparece na declaração é o caminho mais curto para a multa de 75%. Recebeu do exterior? Também é receita, mesmo isenta de PIS, Cofins e ISS na exportação de serviços.
 
-## 4. Controle rigoroso de receitas e despesas
+### 2. Emita a NFS-e certa, no mesmo mês do serviço
 
-A Receita Federal cruza informações. Por exemplo, emite uma nota, mas não registra a entrada de valor? Despesa fora do padrão do setor? Alguma inconsistência pode ligar o alerta fiscal.
+A nota precisa trazer o código de serviço que corresponde ao CNAE da empresa e o valor que você recebeu. Desde janeiro de 2026, a LC 214/2025 obriga os municípios a adotar o padrão nacional da NFS-e, seja pelo emissor nacional, seja compartilhando as notas com o ambiente de dados nacional. Errou uma nota? O post sobre [erro em nota fiscal](/post/erro-em-nota-fiscal-como-regularizar-e-evitar-multas) mostra como corrigir.
 
-Segundo pesquisa encomendado pela [Câmara Brasileira da Economia Digital](https://www.poder360.com.br/congresso/carga-tributaria-das-empresas-de-tecnologia-chega-a-126-da-receita-bruta/), fornecedores digitais chegam a pagar 12,6% da receita bruta em tributos. Qualquer deslize contábil pode gerar cobrança dupla, e até juros e multa.
+### 3. Entregue declarações mesmo sem movimento
 
-![Mesa com documentos fiscais organizados, calculadora e computador portátil ](/images/posts/evitar-autuacoes-fiscais-8-cuidados-pj-tech/documentos-fiscais-pj-215.webp)
+O PGDAS-D atrasado gera multa de 2% ao mês sobre os tributos informados, limitada a 20%, com mínimo de R$ 50 por mês de referência (LC 123, art. 38-A). A DEFIS atrasada segue a mesma lógica, com mínimo de R$ 200 (art. 38). Omissão por 90 dias ou mais ainda pode levar o CNPJ à situação de inapto ([Lei 9.430](https://www.planalto.gov.br/ccivil_03/leis/l9430.htm), art. 81).
 
-## 5. Atualização constante com a legislação
+### 4. Separe o dinheiro do imposto quando a receita entra
 
-O cenário tributário muda sempre. Não basta aprender uma vez. Tem lei nova, decreto que altera código de serviço… E, quase todo ano, mudanças no Simples Nacional. Por experiência, já vi empreendedores pagando imposto errado porque seguiram regra antiga.
+Antecipar imposto, na prática, significa reservar o valor no dia em que o cliente paga. Se a sua alíquota efetiva do Simples está em 8%, transfira 8% de cada recebimento para uma conta separada. Assim o DAS do dia 20 não disputa espaço com o aluguel. O [post sobre fluxo de caixa](/post/organizar-fluxo-caixa-pj-planilhas) traz uma planilha para isso.
 
-Busque fontes confiáveis para acompanhar novidades, como comunicados da Receita e do próprio site da prefeitura sobre ISS, por exemplo. Na dúvida, sempre consulte o contador.
+### 5. Acompanhe o limite e o enquadramento do regime
 
-## 6. Descreva corretamente seus serviços na documentação
+No Simples, a ME vai até R$ 360 mil de receita por ano e a EPP até R$ 4,8 milhões, com um limite extra de R$ 4,8 milhões para receita de exportação (LC 123, art. 3º). Passou de R$ 4,8 milhões em mais de 20%, a exclusão vale já no mês seguinte; até 20%, a partir de janeiro do ano seguinte (art. 30). Confira também o Fator R todo mês: com folha de pelo menos 28% da receita, você fica no Anexo III (a partir de 6%); abaixo disso, no Anexo V (a partir de 15,5%).
 
-Os códigos de serviço (CNAE) devem refletir exatamente o que você faz. Atividades mal descritas, ou misturadas sem critérios, causam divergência de alíquotas e questionamento pelo fisco, elevando o risco.
+### 6. Não deixe dívida aberta no Simples
 
-> Não subestime as palavras que você coloca na nota.
+Débito sem pagamento nem parcelamento gera termo de exclusão, enviado pelo DTE-SN (Domicílio Tributário Eletrônico do Simples). A empresa tem 30 dias, contados da ciência, para pagar ou parcelar tudo. Se regularizar, o termo perde o efeito. Veja as opções no post sobre [parcelamento de impostos](/post/parcelamento-impostos-pequenas-empresas).
 
-Errou no CNAE? Pode ser considerado exercício de atividade não permitida no regime e a Receita pode cobrar diferença retroativa!
+### 7. Guarde documentos pelo prazo da lei
 
-## 7. Cuidados especiais ao prestar serviços para o exterior
+A LC 123 (art. 26) obriga a empresa do Simples a guardar os documentos que fundamentaram a apuração e a manter livro-caixa. O CTN (arts. 173 e 195) manda conservar livros e comprovantes até a prescrição dos tributos. Conte pelo menos seis anos: os cinco do prazo de decadência começam a correr em 1º de janeiro do ano seguinte. A lista do que guardar está no post sobre [documentos essenciais da PJ de TI](/post/documentos-essenciais-para-controlar-pj-ti-sem-erros).
 
-PJ tech costuma atender clientes de fora. Aí surgem dúvidas como: devo pagar ISS? E IOF? E os impostos retidos da remessa?
+### 8. Responda intimações dentro do prazo
 
-Dados de pesquisadores da USP e UnB mostram que, de junho de 2024 a junho de 2025, só em compras públicas internacionais, o volume superou R$10 bilhões [em operações de tecnologia internacional](https://www.brasildefato.com.br/2025/07/22/pesquisador-da-fgv-big-techs-operam-no-brasil-a-margem-da-lei-e-sem-pagar-impostos/). Nesse contexto, a Receita fiscaliza ainda mais remessas para o exterior.
+Leia a caixa postal do e-CAC e o DTE-SN pelo menos uma vez por mês. Muitas autuações começam como um aviso de divergência na malha fiscal. Quem corrige a declaração e paga antes do início formal da fiscalização faz denúncia espontânea (CTN, art. 138) e escapa da multa de ofício.
 
-- Verifique regras de tributação nas exportações de serviços;
-- Mantenha contratos e comprovantes de pagamentos arquivados;
-- Preencha corretamente campos específicos na nota fiscal;
-- Atenção a CIDE, PIS/COFINS-Importação, IRRF.
+## Como se preparar para uma fiscalização em 2026?
 
-É fácil se perder, por isso, na nossa experiência na Conte, acompanhamos de perto quem atua neste modelo para evitar surpresas desagradáveis no futuro.
+Tenha tudo localizável em menos de um dia. O fiscal costuma pedir notas emitidas, extratos bancários, contratos com clientes, comprovantes de pagamento de tributos e o livro-caixa ou a contabilidade. Um checklist que resolve a maior parte dos pedidos:
 
-## 8. Invista em consultoria e atendimento humanizado
+- Notas fiscais e contratos organizados por cliente e por mês.
+- Extratos da conta PJ conciliados com as notas emitidas.
+- Guias de DAS e DARF com os comprovantes de pagamento.
+- Pró-labore e distribuição de lucros documentados, com recibos.
+- Certidão negativa de débitos tirada no último trimestre.
+- Acesso ao e-CAC (conta gov.br nível prata ou ouro) ou [certificado digital](/post/como-escolher-certificado-digital-ideal-empresa-2026) válido.
 
-Por fim, nada substitui o olhar dedicado de um contador que entende seu negócio. Uma PJ tech que tem acompanhamento personalizado sente na pele a diferença:
+Quando chegar uma intimação, anote o prazo de resposta, separe exatamente os documentos pedidos e responda pelo canal indicado. Se houver imposto declarado e não pago, use a janela de 20 dias do art. 47 para quitar com multa de mora.
 
-- Menos boletos de multa;
-- Mais clareza nas obrigações;
-- Respostas rápidas para dúvidas do dia a dia;
-- Estratégias para pagar menos imposto sem descumprir regras.
+## O que fazer se a empresa já foi autuada?
 
-![Contadora usando notebook com gráficos, ajudando cliente tech em escritório ](/images/posts/evitar-autuacoes-fiscais-8-cuidados-pj-tech/contador-pessoal-tecnologia-42.webp)
+Leia o auto de infração e confira o prazo de 30 dias para pagar ou apresentar impugnação. Pagar dentro desse prazo dá redução na multa de ofício, prevista na Lei 8.218/1991. Se discordar, a impugnação suspende a cobrança enquanto o processo corre na Receita. Para dívida que já virou realidade, o parcelamento evita que a empresa caia no termo de exclusão do Simples.
 
-A reportagem da Associação Brasileira das Empresas de Software ressalta que, diante do aumento da carga tributária e insegurança jurídica, muitas empresas acabam abandonando projetos ou congelando investimentos [por conta das incertezas fiscais](https://www.poder360.com.br/economia/aumento-de-impostos-trava-investimentos-do-setor-de-ti/). Ter consultoria próxima, como oferecemos na Conte, faz toda a diferença para atravessar essa selva de regras sem tropeçar.
-
-> Conte com orientação, não tente adivinhar sozinho.
-
-## Conclusão
-
-Evitar autuações fiscais em uma PJ tech depende de atenção constante, conhecimento tributário, organização de documentos e, principalmente, de apoio contábil que não deixa você sozinho com a burocracia. A cada etapa, o cuidado faz diferença: da definição do regime à emissão das notas, da atualização das regras à consultoria próxima.
-
-Se esse cenário parece confuso, é aí que a Conte entra. Nossa proposta é simplificar, humanizar o atendimento e garantir que você não precise se preocupar com tudo ao mesmo tempo. Fique com sua criatividade e inovação, nós cuidamos do resto. **Quer abrir sua PJ ou transformar a contabilidade em aliada? Venha conhecer a Conte e veja como é possível crescer sem sustos fiscais.**
+Se você quer alguém olhando prazos, notas e enquadramento todo mês, a [Conte](https://sejaconte.com.br) faz esse acompanhamento com contador dedicado para PJ tech.

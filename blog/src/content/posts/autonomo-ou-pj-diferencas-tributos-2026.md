@@ -1,87 +1,112 @@
 ---
-title: 'Autônomo ou PJ: Veja as diferenças de tributos em 2026'
-seoTitle: 'Autônomo ou PJ: Veja as diferenças de tributos em 2026'
-description: Saiba como os tributos mudam para autônomos e PJs em 2026 e escolha a melhor opção para sua gestão fiscal.
+title: "Autônomo ou PJ em 2026: diferença de impostos com exemplo"
+seoTitle: "Autônomo ou PJ em 2026: qual paga menos imposto"
+description: "Autônomo ou PJ em 2026? Compare IR, INSS e ISS com um exemplo de R$ 15 mil por mês: cerca de R$ 3.892 como autônomo contra R$ 1.362 no Simples com Fator R."
 pubDate: '2025-12-03'
-updatedDate: '2025-12-03'
+updatedDate: '2026-10-27'
 category: tributacao
 author: solange-vaz
 cover: /images/posts/autonomo-ou-pj-diferencas-tributos-2026/comparacao-autonomo-pj-tributos-51.webp
 coverAlt: Profissional comparando opções de tributos como autônomo ou PJ em 2026
+tags: [irpf, simples-nacional, fator-r, pro-labore, cnpj]
+tldr:
+  - "O autônomo paga IR pela tabela progressiva da pessoa física, que chega a 27,5%, e INSS de 11% ou 20% sobre o que recebe. A PJ no Simples Nacional com Fator R paga 6% na primeira faixa, mais INSS e IR sobre o pró-labore."
+  - "Desde 2026, rendimentos tributáveis de até R$ 5 mil por mês não pagam IR, com redução parcial até R$ 7.350. Acima disso, o autônomo cai rápido na alíquota de 27,5%."
+  - "Para R$ 15 mil por mês recebidos de empresas, o autônomo paga cerca de R$ 3.892 de IR e INSS; a PJ no Simples com pró-labore de R$ 4.200 paga cerca de R$ 1.362."
 faq:
-- q: O que é ser autônomo ou PJ?
-  a: Ser autônomo significa atuar como pessoa física, prestando serviços sem um CNPJ, recolhendo tributos apenas pelo Carnê-Leão e Imposto de Renda. Já ser PJ é abrir uma empresa formalmente, recebendo um CNPJ e acesso a regimes específicos de tributação, como Simples Nacional ou Lucro Presumido, o que possibilita deduções e mais oportunidades de negócio.
-- q: Quais impostos o autônomo paga em 2026?
-  a: Em 2026, o autônomo recolhe Imposto de Renda conforme tabela progressiva, com isenção até R$ 5.000,00 de renda mensal. Também pode ter que pagar INSS como contribuinte individual. As receitas são informadas no Carnê-Leão, e despesas permitidas pela legislação podem ser abatidas.
-- q: Vale a pena abrir CNPJ em 2026?
-  a: A decisão de abrir CNPJ em 2026 depende do perfil profissional, volume de receita e planos de crescimento. Para quem pretende fechar contratos maiores, emitir notas fiscais e separar finanças pessoais e empresariais, abrir uma PJ pode trazer mais segurança jurídica, benefícios e até economia tributária com o planejamento certo.
-- q: Como calcular tributos sendo autônomo?
-  a: Para calcular os tributos como autônomo em 2026, soma-se toda a receita do mês, descontam-se as despesas permitidas e aplica-se a tabela do Imposto de Renda vigente. O recolhimento é feito via Carnê-Leão mensalmente, e, ao final do ano, o ajuste é realizado na declaração anual.
-- q: Qual opção paga menos imposto em 2026?
-  a: A opção que resulta em menos impostos varia conforme o perfil e faturamento. Autônomos que recebem até R$ 5.000,00 mensais podem ter isenção do IR, porém quem fatura mais e tem despesas relevantes geralmente se beneficia da PJ, que permite maior dedução de gastos e regimes tributários reduzidos, se bem planejados.
+  - q: "Até quanto vale a pena ser autônomo em 2026?"
+    a: "Até perto de R$ 5 mil por mês, o autônomo não paga IR e o custo de manter uma empresa pesa mais. Acima de uns R$ 7 mil a R$ 8 mil por mês, a alíquota de 27,5% do IR costuma fazer a PJ no Simples sair mais barata, mesmo com o custo do contador."
+  - q: "Autônomo pode deduzir despesas?"
+    a: "Pode, se escriturar o livro-caixa. Despesas necessárias à atividade, como aluguel do escritório, internet e material, reduzem a base do Carnê-Leão. As despesas precisam de comprovante e não podem ser gastos pessoais."
+  - q: "Quanto o autônomo paga de INSS?"
+    a: "Quando presta serviço a empresa, a empresa retém 11% sobre o valor pago, limitado ao teto de R$ 8.475,55, e ainda paga 20% de contribuição patronal. Quando presta serviço a pessoa física, o próprio autônomo recolhe 20%, também limitado ao teto."
+  - q: "Dev pode abrir MEI em vez de ser autônomo?"
+    a: "Não. As atividades de desenvolvimento de software e consultoria em TI não são permitidas ao MEI. Para formalizar, o dev precisa abrir uma ME, normalmente no Simples Nacional."
+sources:
+  - title: Tabelas do IRPF 2026 e redução mensal (Receita Federal)
+    url: https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026
+  - title: Carnê-Leão (Receita Federal)
+    url: https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/pagamento/carne-leao
+  - title: Tabela de contribuição mensal 2026 (INSS)
+    url: https://www.gov.br/inss/pt-br/direitos-e-deveres/inscricao-e-contribuicao/tabela-de-contribuicao-mensal
+  - title: Lei nº 15.270/2025 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm
+  - title: Lei Complementar nº 123/2006 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm
 migratedFrom: https://blog.sejaconte.com.br/post/autonomo-ou-pj-diferencas-tributos-2026
 ---
 
-No cenário brasileiro, escolher entre atuar como autônomo ou abrir uma Pessoa Jurídica (PJ) nunca foi uma decisão simples. Em 2026, com a [implementação do novo sistema tributário](https://www.gov.br/fazenda/pt-br/acesso-a-informacao/acoes-e-programas/reforma-tributaria/perguntas-e-respostas/como-sera-a-transicao-para), essa escolha ganha ainda mais impacto em nossa vida financeira. Na Conte, acompanhamos de perto cada atualização, porque sabemos como o planejamento tributário pode reduzir dores de cabeça, prejuízos e, claro, impostos desnecessários.
+Como autônomo, você paga imposto como pessoa física: IR progressivo até 27,5% e INSS sobre o que recebe. Como PJ no Simples Nacional, a empresa paga uma alíquota sobre o faturamento e você paga INSS e IR só sobre o pró-labore. Até uns R$ 5 mil por mês, a diferença é pequena. Acima disso, cresce rápido.
 
-## O que mudou para autônomos em 2026?
+## Como o autônomo é tributado em 2026?
 
-Em nossa experiência, um dos pontos que mais geram dúvidas são as regras para o autônomo. Afinal, trabalhar como pessoa física, sem CNPJ, sempre foi associado a uma tributação direta no Imposto de Renda. Em 2026, a principal novidade é a **ampliação da faixa de isenção do Imposto de Renda para R$ 5.000,00 mensais**, beneficiando mais de 10 milhões de brasileiros [conforme dados do governo](https://www.gov.br/fazenda/pt-br/acesso-a-informacao/perguntas-frequentes/isencao-irpf). Isso significa que muitos autônomos vão pagar menos imposto diretamente no ajuste anual.
+O autônomo recebe como pessoa física e paga IR pela tabela progressiva mensal, que vai de isento a 27,5%. Quando o pagamento vem de empresa, ela retém o IR na fonte. Quando vem de pessoa física ou do exterior, você recolhe pelo Carnê-Leão até o último dia útil do mês seguinte.
 
-No entanto, como sempre aconselhamos aqui na Conte, o autônomo ainda precisa declarar o rendimento mensalmente utilizando o Carnê-Leão. O modelo se mantém: **o autônomo não é tributado pelo faturamento bruto, mas sim pelo lucro efetivo após descontar despesas permitidas pela legislação** [segundo informações oficiais](https://www.gov.br/secom/pt-br/fatos/brasil-contra-fake/noticias/2025/01/autonomos-nao-sao-tributados-por-faturamento-bruto). Aqui vale destacar que despesas com aluguel, telefone, contador, entre outras, deduzem o valor final a ser tributado.
+Em 2026, a [Lei 15.270/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm) criou uma redução mensal: quem tem rendimento tributável de até R$ 5 mil no mês não paga IR, e entre R$ 5 mil e R$ 7.350 a redução diminui aos poucos. Acima de R$ 7.350, vale a tabela cheia:
 
-> Deduzir despesas reduz o valor do imposto, mas exige organização total.
+| Base de cálculo mensal | Alíquota | Parcela a deduzir |
+|---|---|---|
+| Até R$ 2.428,80 | Isento | R$ 0 |
+| R$ 2.428,81 a R$ 2.826,65 | 7,5% | R$ 182,16 |
+| R$ 2.826,66 a R$ 3.751,05 | 15% | R$ 394,16 |
+| R$ 3.751,06 a R$ 4.664,68 | 22,5% | R$ 675,49 |
+| Acima de R$ 4.664,68 | 27,5% | R$ 908,73 |
 
-## Como funciona a tributação para PJ em 2026?
+Fonte: Receita Federal, tabela mensal a partir de janeiro de 2026.
 
-Optar por abrir uma PJ pode transformar, e muitas vezes simplificar, a rotina contábil. Em 2026, estamos em plena transição da **reforma tributária**, o que envolve mudanças nos impostos sobre consumo. O novo sistema só será concluído totalmente em 2033, mas algumas regras já começam a valer. Para PJs, especialmente micro e pequenas empresas, é importante observar:
+Além do IR, o autônomo paga INSS como contribuinte individual. Se presta serviço a empresa, ela retém 11% do valor, até o teto de R$ 8.475,55 (contribuição máxima de R$ 932,31), e paga mais 20% de contribuição patronal do próprio bolso. Esse custo extra do contratante costuma aparecer na negociação. Se presta serviço a pessoa física, você recolhe 20% por conta própria. O ISS do autônomo é cobrado pela prefeitura, em muitos municípios como valor fixo anual.
 
-- As regras do Simples Nacional, que podem sofrer revisões em 2026, mas ainda garantem taxas diferenciadas para empresas que faturam até determinado limite.
-- PJs podem deduzir bem mais despesas e legitimar uma separação clara entre lucro, pró-labore e distribuição de lucros.
-- Pessoas jurídicas pagam impostos como ISS, ICMS, PIS, COFINS, CSLL e IRPJ, variando conforme o regime tributário.
+O autônomo com livro-caixa pode deduzir do Carnê-Leão as despesas necessárias à atividade, com comprovante.
 
-Para quem atua fora do Simples Nacional ou presta serviço para o exterior, as regras podem ser ainda mais complexas, exigindo acompanhamento especializado como o da nossa equipe Conte. Inclusive, novas regras para **tributação mínima das empresas multinacionais** já foram alinhadas ao modelo internacional para evitar a fuga de receitas [com base nas atualizações da Receita Federal](https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/outubro/receita-federal-atualiza-regras-de-tributacao-minima-das-empresas-multinacionais-em-atividade-no-pais).
+## Como a PJ é tributada em 2026?
 
-![Ilustração com comparativo de impostos e documentos entre autônomo e PJ ](/images/posts/autonomo-ou-pj-diferencas-tributos-2026/diferenca-autonomo-pj-tributos-2026-537.webp)
+A PJ paga imposto sobre o faturamento, e você paga como pessoa física só sobre o pró-labore. O dev PJ normalmente fica no Simples Nacional, porque não pode ser MEI. Com Fator R de 28% ou mais, a empresa paga pelo Anexo III, que começa em 6%. O DAS já inclui IRPJ, CSLL, PIS, Cofins, ISS e o INSS patronal.
 
-## Principais diferenças tributárias: autônomo x PJ
+Sobre o pró-labore, você paga 11% de INSS e IR pela tabela acima. O lucro que sobra na empresa pode ser distribuído sem IR até R$ 50 mil por mês da mesma empresa. Acima disso, desde 2026 a empresa retém 10%. A diferença entre as formas de retirada está em [pró-labore, distribuição de lucros e salário](/post/diferenca-pro-labore-distribuicao-lucros-salario).
 
-Ao analisarmos autônomos e PJs, percebemos que a escolha impacta diretamente o tamanho dos impostos, a facilidade de gestão e a possibilidade de deduções:
+## Qual paga menos imposto? Exemplo com R$ 15 mil por mês
 
-- **Autônomos** são tributados de acordo com sua receita, após as deduções; já as PJs têm acesso a regimes simplificados e uma ampla gama de deduções legais.
-- O [pró-labore e a distribuição de lucros](/post/diferenca-pro-labore-distribuicao-lucros-salario) só são possíveis na PJ, permitindo planejamento financeiro mais flexível.
-- Autônomos não têm CNPJ, o que limita possibilidades de contratos maiores e acesso a benefícios, enquanto PJs ganham credibilidade e margem para crescer.
-- Com a faixa de isenção ampliada, autônomos com receitas de até R$ 5.000,00 mensais podem pagar pouco ou até zero de IR, se bem organizados.
+Com R$ 15 mil por mês, a PJ paga cerca de um terço do que o autônomo paga. Considere um dev que recebe R$ 15 mil por mês de empresas brasileiras, sem despesas de livro-caixa.
 
-> Para quem quer crescer, abrir uma PJ pode ser uma virada de chave.
+**Como autônomo**
 
-## Como escolher entre autônomo ou PJ em 2026?
+1. INSS retido: 11% do teto = R$ 932,31
+2. Base do IR: R$ 15.000 − R$ 932,31 = R$ 14.067,69
+3. IR: R$ 14.067,69 × 27,5% − R$ 908,73 = R$ 2.959,88 (acima de R$ 7.350, sem redução)
+4. **Total: R$ 3.892,19 por mês**, mais o ISS do município
 
-Muitos procuram a Conte porque têm dúvidas sobre o momento certo de migrar para um CNPJ. A resposta depende de fatores como volume de receita, segurança jurídica, tipo de clientes e planejamento de carreira. Em nossa experiência, PJs ganham vantagens em:
+**Como PJ no Simples, Anexo III (receita de R$ 180 mil em 12 meses)**
 
-- Negociações de contratos mais altos e com empresas de maior porte
-- Gestão de tributos por regimes como o Simples Nacional ou Lucro Presumido
-- Benefícios trabalhistas próprios dos sócios (pró-labore, INSS, benefícios fiscais)
-- Separação patrimonial e redução de riscos de confusão entre pessoa física e jurídica
+1. DAS: 6% × R$ 15.000 = R$ 900
+2. Pró-labore de 28%: R$ 4.200. INSS de 11% = R$ 462
+3. IR do pró-labore: R$ 0, porque fica abaixo de R$ 5 mil
+4. **Total: R$ 1.362 por mês**, ISS já incluído no DAS
 
-Por outro lado, autônomos enfrentam menos burocracia e um sistema de declaração de renda mais simples, sendo ideal para quem está começando ou possui receitas variáveis e baixas.
+| Cenário | R$ 5 mil/mês | R$ 15 mil/mês |
+|---|---|---|
+| Autônomo (INSS 11% + IR) | R$ 550 | R$ 3.892 |
+| PJ Simples, Anexo III (DAS + INSS + IR) | R$ 478 | R$ 1.362 |
 
-## O futuro da tributação até 2033: o que já precisa ser observado?
+Com R$ 5 mil por mês, o autônomo paga só os 11% de INSS (R$ 550), já que o IR fica zerado. A PJ paga DAS de R$ 300 e INSS de R$ 178,31 sobre um pró-labore de um salário mínimo (R$ 1.621), que já passa de 28% do faturamento: R$ 478 no total. A diferença de R$ 72 não cobre a mensalidade de um contador. Com R$ 15 mil, a economia passa de R$ 2,5 mil por mês. Para comparar também com CLT, use a [calculadora CLT vs PJ da Conte](https://sejaconte.com.br/clt-vs-pj).
 
-O novo sistema tributário começa em 2026, mas só estará totalmente implementado em 2033. Aqui na Conte, acompanhamos todos os detalhes da transição, o que inclui mudanças em ISS, ICMS e a possível revisão dos limites do Simples Nacional. Já temos materiais atualizados sobre [planejamento para saída do Simples Nacional](/post/planejamento-saida-simples-2026) e como preparar sua PJ para crescimentos e transições.
+![Ilustração com comparativo de impostos e documentos entre autônomo e PJ](/images/posts/autonomo-ou-pj-diferencas-tributos-2026/diferenca-autonomo-pj-tributos-2026-537.webp)
 
-![Empresário planejando tributos com gráficos e calendário ](/images/posts/autonomo-ou-pj-diferencas-tributos-2026/planejamento-tributario-pj-2026-845.webp)
+## Quais outras diferenças pesam além do imposto?
 
-## Entendendo deduções e planejamento tributário em 2026
+Além do imposto, mudam o custo fixo, as obrigações e o tipo de contrato que você consegue fechar.
 
-Planejar tributos não é apenas pagar menos imposto. **É saber escolher o melhor regime, descontar corretamente cada despesa e projetar o crescimento do negócio**. Por isso, criamos diversos conteúdos detalhados sobre tributação e [contabilidade](/category/contabilidade) para informar quem quer autonomia na própria rotina financeira.
+| Ponto | Autônomo | PJ no Simples |
+|---|---|---|
+| Custo fixo | Nenhum além do ISS | Contabilidade, certificado digital, taxas |
+| Obrigações | Carnê-Leão e declaração anual | DAS, PGDAS-D, DEFIS, eSocial e DCTFWeb do pró-labore |
+| Custo para o cliente empresa | Paga 20% de INSS patronal sobre o valor | Nenhum encargo extra |
+| Recebimento do exterior | IR pelo Carnê-Leão, até 27,5% | Exportação isenta de PIS, Cofins e ISS no DAS |
+| Aposentadoria | Contribui sobre o que recebe, até o teto | Contribui sobre o pró-labore |
 
-Para profissionais de tecnologia ou empresas que faturam alto, discutimos as melhores práticas em [planejamento tributário para PJ Tech](/post/planejamento-tributario-pj-tech-2025). Nosso objetivo é sempre trazer soluções claras e um atendimento humanizado de verdade.
+O ponto do cliente pesa na prática. Uma empresa que contrata autônomo paga 20% a mais em INSS patronal, e por isso muitas exigem CNPJ. Para quem recebe do exterior, a PJ também facilita o câmbio e a nota de exportação, como explica o post sobre [tributação de serviços para o exterior](/post/tributacao-servicos-para-exterior-o-que-muda).
 
-> Ter um contador pessoal pode fazer toda diferença.
+## Quando faz sentido abrir a PJ?
 
-## Conclusão
+Abra a PJ quando a renda passar de forma estável de uns R$ 7 mil a R$ 8 mil por mês, quando os clientes exigirem nota fiscal ou quando você começar a receber do exterior. Abaixo de R$ 5 mil, com IR zero, ser autônomo pode custar menos, considerando o contador.
 
-Escolher entre ser autônomo ou PJ em 2026 exige análise de perfil, expectativas e atualização constante diante das reformas em curso. Nós, da Conte, acreditamos que cada escolha deve ser feita com base em dados, estratégia fiscal e, principalmente, atendimento próximo e esclarecedor. Independentemente do seu modelo, nossa missão é diminuir a burocracia e ajudar você a investir tempo no que realmente importa: seu crescimento profissional.
-
-Se você quer entender mais sobre as diferenças de tributação, receber orientação personalizada e ter um time humano ao lado, **conheça a Conte e descubra como podemos cuidar da sua PJ desde a abertura até a apuração dos impostos**.
+Na abertura, escolha um CNAE de tecnologia que permita o Fator R e comece o pró-labore no primeiro mês de faturamento. Os detalhes estão em [Fator R para dev PJ](/post/pj-tecnologia-pode-ser-simples-nacional-opcoes) e, para quem está saindo da CLT, em [vale a pena migrar para PJ](/post/vale-a-pena-migrar-para-pj-profissionais-ti).

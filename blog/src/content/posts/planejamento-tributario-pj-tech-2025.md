@@ -1,112 +1,107 @@
 ---
-title: Tudo sobre planejamento tributário para PJ tech em 2025
-seoTitle: Tudo sobre planejamento tributário para PJ tech em 2025
-description: Descubra estratégias fiscais para PJ tech em 2025, reduzindo impostos e garantindo conformidade legal eficiente.
+title: "Planejamento tributário para PJ tech em 2026: o que revisar"
+seoTitle: "Planejamento tributário para PJ tech em 2026"
+description: "Planejamento tributário para PJ tech em 2026: regime, Fator R, pró-labore, dividendos acima de R$ 50 mil, exportação e reforma. Veja o que revisar e quando."
 pubDate: '2025-10-11'
-updatedDate: '2025-10-11'
+updatedDate: '2026-10-27'
 category: planejamento-fiscal
 author: solange-vaz
 cover: /images/posts/planejamento-tributario-pj-tech-2025/planejamento-tributario-pj-tech-371.webp
 coverAlt: Pessoa analisando dados financeiros e planejamento fiscal em tela de computador com gráficos e tabelas digitais, ambiente de escritório moderno e tecnologia avançada
+tags: [simples-nacional, fator-r, pro-labore, dividendos, reforma-tributaria]
+tldr:
+  - "Planejamento tributário para PJ tech é escolher, dentro da lei, o regime, o pró-labore e a forma de retirar o lucro que resultam na menor carga total, somando empresa e pessoa física."
+  - "Em 2026, os pontos que mais mexem no bolso do dev PJ são o Fator R (pró-labore de 28% do faturamento para pagar 6% no Simples), o IR zero sobre rendimentos de até R$ 5 mil por mês e a retenção de 10% sobre lucros acima de R$ 50 mil por mês da mesma empresa."
+  - "Exportação de serviços com ingresso de divisas é isenta de PIS, Cofins e ISS, no Simples e no Lucro Presumido."
+  - "A reforma tributária pede uma decisão nova: a empresa do Simples que vende para empresas pode recolher CBS e IBS fora do DAS a partir de 2027."
 faq:
-- q: O que é planejamento tributário para PJ tech?
-  a: É o processo de analisar todas as operações da empresa, identificar a melhor forma de enquadramento fiscal, analisar contratos e buscar maneiras legais de reduzir a carga tributária. Isso inclui avaliar incentivos e também automatizar tarefas para diminuir erros e custos. No setor tech, isso envolve atenção a temas como software, exportações e serviços digitais.
-- q: Como funciona o planejamento tributário em 2025?
-  a: Em 2025, o planejamento tributário deve ser dinâmico e contínuo. Inclui uso de sistemas digitais para emitir notas, calcular impostos, acompanhar mudanças na legislação, ajustar o regime tributário conforme novos contratos e, principalmente, contar com o acompanhamento de profissionais que entendam as novidades e exceções do setor. O objetivo é evitar surpresas e garantir regularidade.
-- q: Quais impostos PJ tech paga em 2025?
-  a: PJs de tecnologia costumam pagar impostos como IRPJ, CSLL, PIS, COFINS, ISS e, em alguns casos, INSS sobre pró-labore. A incidência e o valor de cada tributo dependem do regime tributário escolhido (Simples Nacional, Lucro Presumido ou Lucro Real) e do tipo de serviço prestado (consultoria, desenvolvimento de software, licenciamento, exportação etc.).
-- q: Vale a pena contratar consultoria tributária?
-  a: Sim, porque erros ou falta de planejamento podem gerar custos muito maiores do que o valor de um bom suporte especializado. Uma consultoria direciona para escolhas fiscais inteligentes, identifica oportunidades de economia e mantém a empresa dentro das regras. Nos modelos com atendimento humano, como na Conte, o suporte é personalizado e ajuda a evitar dor de cabeça.
-- q: Como reduzir impostos legalmente sendo PJ tech?
-  a: A redução de impostos passa por adequar corretamente o regime tributário, estruturar contratos de modo a aproveitar incentivos legais, separar receitas nacionais das internacionais e adotar práticas fiscais transparentes. Também é importante atualizar controles periodicamente, aproveitar deduções permitidas por lei e manter acompanhamento profissional constante.
+  - q: "Planejamento tributário é legal?"
+    a: "É, quando usa opções que a própria lei oferece: escolher o regime, definir o pró-labore, separar receita de exportação, distribuir lucros dentro das regras. Simular operações sem substância, como contratos de fachada, é evasão e gera autuação com multa."
+  - q: "Com que frequência devo revisar o planejamento?"
+    a: "Uma revisão completa por ano, antes do prazo de opção de regime, e revisões pontuais quando o faturamento muda de faixa, quando entra um cliente do exterior ou quando sai lei nova. Em 2026, as mudanças da Lei 15.270 e da reforma justificam revisar ainda este ano."
+  - q: "Quanto de pró-labore o dev PJ precisa tirar?"
+    a: "No Simples, pelo menos 28% do faturamento para ficar no Anexo III. No Lucro Presumido, a lei não fixa percentual e muitos sócios retiram um salário mínimo, com o restante como lucro distribuído. O valor ideal depende da soma de DAS, INSS e IR."
+  - q: "Lucro distribuído pela PJ continua isento em 2026?"
+    a: "Continua isento até R$ 50 mil por mês da mesma empresa para a mesma pessoa. Acima disso, a Lei 15.270/2025 manda reter 10% de IR sobre o total do mês. A Receita entende que a regra vale também para empresas do Simples, ponto que está sendo discutido na Justiça."
+sources:
+  - title: Lei Complementar nº 123/2006 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm
+  - title: Lei nº 15.270/2025, IR mínimo e tributação de dividendos (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm
+  - title: Tabelas do IRPF 2026 e redução mensal (Receita Federal)
+    url: https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026
+  - title: Reforma Tributária do Consumo (Receita Federal)
+    url: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo
+  - title: Lei Complementar nº 214/2025, IBS e CBS (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm
 migratedFrom: https://blog.sejaconte.com.br/post/planejamento-tributario-pj-tech-2025
 ---
 
-Se você é dono de uma PJ tech, provavelmente sente aquele frio na barriga só de ouvir as palavras “planejamento tributário”. Impostos mudam, legislações aparecem de um jeito, somem no outro, interpretações diferentes pipocam na internet. É muita sigla, muito detalhe e pouco tempo para cuidar disso sozinho. E, para 2025, algumas situações deixam a escolha de caminhos tributários ainda mais relevante para quem trabalha com tecnologia.
-
-> “Pagar imposto não precisa ser um pesadelo.”
-
-Neste artigo, vou mostrar como um bom planejamento tributário transforma a rotina da sua empresa, evita surpresas e pode até abrir portas para crescimento. Aproveite para entender também como um atendimento personalizado, como o da Conte, faz diferença real na vida da sua PJ tech.
-
-## Por que planejamento tributário virou prioridade em 2025
-
-Muito se fala, no segmento de tecnologia, sobre custos elevados. E não é exagero. Segundo [levantamento recente](https://www.poder360.com.br/congresso/carga-tributaria-das-empresas-de-tecnologia-chega-a-126-da-receita-bruta/), a carga tributária desse setor chega a 12,6% da receita bruta. Isso é mais que o dobro da média geral das empresas brasileiras.
-
-Junte esse cenário à crescente fiscalização, interpretações sobre tributação de softwares, serviços remotos e exportações, e aí fica fácil entender por que cada escolha tributária importa tanto. Se o seu planejamento não for preciso, sobra pouco no fim do mês.
-
-![Profissional analisando gráficos e impostos de empresa tech em tela de computador ](/images/posts/planejamento-tributario-pj-tech-2025/planejamento-tributario-tecnologia-41.webp)
-
-De acordo com [estudo da Think Tank ABES](https://thinktankabes.org.br/publicacoes/o-futuro-da-area-tributaria-esta-na-tecnologia/), empresas brasileiras chegam a gastar até 43 mil horas por ano só para apurar, declarar e pagar tributos. Isso mostra a importância de simplificar e automatizar processos – mas também de conhecer o que faz sentido para cada cenário.
+Planejamento tributário, para quem é dev PJ, é decidir quatro coisas com antecedência: o regime da empresa, o valor do pró-labore, a forma de retirar o lucro e o tratamento da receita do exterior. Em 2026, duas leis novas e o começo da reforma tributária mudaram parte dessa conta.
 
 ## O que é planejamento tributário para PJ tech?
 
-A primeira coisa que vem à cabeça é tentar pagar menos impostos, certo? Mas existe algo a mais nesse trabalho. O planejamento tributário envolve:
+É escolher, entre as opções que a lei oferece, a combinação que resulta na menor carga total, somando o que a empresa paga e o que você paga como pessoa física. Olhar só a alíquota da empresa engana: o Anexo III do Simples custa 6%, mas exige pró-labore, que paga INSS e às vezes IR.
 
-- Entender o fluxo financeiro da empresa
-- Analisar enquadramentos possíveis: MEI, Simples Nacional, Lucro Presumido, Lucro Real
-- Revisar contratos (inclusive internacionais)
-- Estudar benefícios e incentivos fiscais específicos para tecnologia
-- Acompanhar novidades e mudanças na legislação
+O planejamento legítimo usa escolhas previstas em lei. Contrato sem substância, nota com serviço diferente do prestado ou pró-labore declarado e não pago são evasão, e a Receita cruza esses dados com eSocial, notas fiscais e movimentação bancária.
 
-Um bom planejamento cria previsibilidade, direciona decisões de expansão e até indica caminhos para internacionalização.
+## Quais decisões entram no planejamento de 2026?
 
-## Principais regimes tributários para tech
+Seis decisões concentram quase todo o efeito no imposto do dev PJ:
 
-A escolha do regime tributário não é uma decisão isolada. Precisa levar em conta faturamento, atividade final, tipo de serviço prestado e até clientes atendidos, principalmente se forem do exterior.
+| Decisão | Regra que pesa em 2026 | Onde aprofundar |
+|---|---|---|
+| Regime da empresa | Simples até R$ 4,8 milhões (mais R$ 4,8 milhões de exportação); Presumido com margem de 32% para serviços | [Simples ou Lucro Presumido](/post/simples-nacional-ou-lucro-presumido-para-empresas-de-tecnologia) |
+| Anexo no Simples | Fator R de 28% leva ao Anexo III (6% na primeira faixa); abaixo, Anexo V (15,5%) | [Fator R para dev PJ](/post/pj-tecnologia-pode-ser-simples-nacional-opcoes) |
+| Valor do pró-labore | INSS de 11% até o teto de R$ 8.475,55; IR zero até R$ 5 mil por mês, com redução parcial até R$ 7.350 | [Pró-labore, lucros e salário](/post/diferenca-pro-labore-distribuicao-lucros-salario) |
+| Distribuição de lucros | Isenta até R$ 50 mil por mês por empresa; acima, 10% retidos sobre o total | [Dividendos fora do Simples](/post/pagamento-dividendos-pjs-fora-do-simples) |
+| Receita do exterior | Isenta de PIS, Cofins e ISS com ingresso de divisas, nos dois regimes | [Serviços para o exterior](/post/tributacao-servicos-para-exterior-o-que-muda) |
+| CBS e IBS a partir de 2027 | Empresa do Simples pode recolher fora do DAS para dar crédito integral ao cliente | [Quando mudar de regime](/post/regimes-tributarios-quando-mudar-e-como-saber-hora-certa) |
 
-### Simples Nacional
+## Quanto o planejamento muda no imposto? Exemplo de 2026
 
-Indicado para empresas com faturamento até R$ 4,8 milhões anuais. Geralmente, é a porta de entrada. Porém, nem tudo é simples: atividades de consultoria em TI, desenvolvimento de software e licenciamento podem ter alíquotas diferentes e nem todos os códigos CNAE permitem o mesmo aproveitamento.
+A escolha do anexo sozinha pode valer mais de R$ 13 mil por ano. Imagine um dev que fatura R$ 15 mil por mês para empresas brasileiras, no Simples, sem funcionários.
 
-### Lucro Presumido
+**Sem planejamento:** pró-labore de um salário mínimo (R$ 1.621). Fator R de 10,8%, abaixo de 28%, então a empresa paga pelo Anexo V.
 
-Empresas que crescem e passam do teto do Simples normalmente vão para aqui. Neste regime, a base de cálculo dos impostos é “presumida”, ou seja, a Receita Federal define uma previsão de quanto foi seu lucro a partir do faturamento. Pode ser vantajoso se a sua margem de lucro for maior do que a presumida pelo governo.
+1. DAS: 15,5% × R$ 15.000 = R$ 2.325
+2. INSS do sócio: 11% × R$ 1.621 = R$ 178,31
+3. Total: **R$ 2.503,31 por mês**
 
-### Lucro Real
+**Com planejamento:** pró-labore de R$ 4.200 (28% do faturamento). A empresa paga pelo Anexo III.
 
-Obriga a apuração do lucro real de fato, com controles mais rígidos. Pode ser obrigatório para empresas com receita acima de R$ 78 milhões anuais ou para quem atua em determinadas operações, como offshores ou exportação de propriedade intelectual. Tem suas armadilhas, mas pode ser interessante para empresas com margens apertadas ou que investem muito em pesquisa.
+1. DAS: 6% × R$ 15.000 = R$ 900
+2. INSS do sócio: 11% × R$ 4.200 = R$ 462
+3. IR do pró-labore: R$ 0, porque o rendimento fica abaixo de R$ 5 mil
+4. Total: **R$ 1.362 por mês**
 
-## Principais desafios tributários para PJs de tecnologia
+A economia é de R$ 1.141,31 por mês, ou R$ 13.695,72 por ano, sem nenhuma manobra: só o pró-labore no valor que a [LC 123](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm) prevê. Se esse dev passasse a faturar em dólar de um cliente no exterior, a parcela de PIS, Cofins e ISS sairia do DAS e a alíquota efetiva cairia para perto de 3,05%.
 
-Empresas de tecnologia, principalmente startups e consultorias, enfrentam situações diferentes das empresas tradicionais. Novas interpretações sobre **tributação de softwares** têm aumentado custos e deixado o ambiente mais incerto, segundo [reportagem recente](https://www.poder360.com.br/economia/aumento-de-impostos-trava-investimentos-do-setor-de-ti/).
+## O que mudou em 2026 e afeta o seu planejamento?
 
-Dá para listar alguns pontos que tiram o sono de quem gerencia uma PJ tech:
+Três mudanças entraram em vigor em 1º de janeiro de 2026.
 
-- Complexidade tributária: você precisa cuidar de diferentes tributos municipais, estaduais, federais, ISS, PIS, COFINS e CSLL.
-- Tributação de software: será que seu produto está na categoria de serviço ou mercadoria?
-- Regras para exportação de serviços e remessas internacionais
-- Gestão de propriedade intelectual e royalties
-- Preços de transferência quando se opera entre empresas do mesmo grupo, em diferentes países ([análise do IDP](https://pos.idp.edu.br/idp-learning/blog/direito-tributario/desafios-do-planejamento-tributario-para-empresas-de-tecnologia/) mostra como isso entra na mira da OCDE)
-- Dificuldade com nota fiscal para clientes no exterior
+**IR da pessoa física.** A [Lei 15.270/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm) criou uma redução mensal que zera o IR para rendimentos tributáveis de até R$ 5 mil e reduz parcialmente até R$ 7.350. Pró-labore nessa faixa ficou mais barato, o que reforça o Fator R.
 
-Nada disso é impossível de resolver, mas demanda tempo, dedicação e um olho sempre aberto para novas tendências. É exatamente aí que o planejamento e o suporte humano, como oferecido pela Conte, fazem diferença. Basta um deslize para uma cobrança inesperada surgir anos depois…
+**Dividendos.** A mesma lei manda a empresa reter 10% de IR quando paga mais de R$ 50 mil de lucros no mês à mesma pessoa física. A retenção incide sobre o total, não só sobre o excedente. Quem tem renda anual acima de R$ 600 mil passa ainda pelo IR mínimo (IRPFM), com alíquota que sobe até 10% a partir de R$ 1,2 milhão. Lucros apurados até 2025, com distribuição aprovada até 31 de dezembro de 2025, ficam fora da regra nova. A Receita entende que a retenção alcança empresas do Simples. Há decisões judiciais em sentido contrário, então o tema segue aberto.
 
-## Como funciona o planejamento tributário em 2025
+**Lucro Presumido.** A LC 224/2025 aumentou em 10% a margem presumida sobre a parcela da receita anual acima de R$ 5 milhões. Para a maioria dos devs PJ, que faturam bem menos, nada mudou.
 
-Muita coisa mudou (e vai mudar ainda). Para este ano, algumas tendências ganham força no planejamento de quem tem PJ tech:
+![Profissional revisando contrato para PJ de tecnologia](/images/posts/planejamento-tributario-pj-tech-2025/analise-contrato-tecnologia-483.webp)
 
-1. **Automações fiscais**: Ferramentas inteligentes que ajudam desde a emitir notas até calcular e transmitir obrigações acessórias. O objetivo? Tirar da frente aquelas tarefas mecânicas, liberando tempo para pensar no negócio.
-2. **Visão estratégica sobre exportação e internacionalização:** Quem atende clientes fora do Brasil, ou recebe de marketplaces internacionais, precisa ficar atento à legislação tanto daqui quanto de lá. Regras de transferência de lucros e preço de serviços mudam a cada temporada. Estar alinhado com iniciativas internacionais, como BEPS, já virou rotina para crescer sem dor de cabeça.
-3. **Gestão de contratos:** Contratos de desenvolvimento, licenciamento e consultoria precisam estar muito claros, principalmente na definição de escopo, taxas e impostos.
-4. **Acompanhamento em tempo real:** Não basta fechar o planejamento “de papel” todo começo de ano. Mudou a operação, trocou serviço, atendeu cliente novo fora do país? Planejamento precisa ser dinâmico. É preciso analisar, ajustar e corrigir rapidamente para não pagar imposto a mais e nem correr riscos.
+## Como a reforma tributária entra no planejamento?
 
-O segredo está em combinar tecnologia com atendimento personalizado. Esse é justamente o modelo que a Conte oferece: integrações digitais para rotinas fiscais, mas sempre com um contador pessoal acompanhando você de perto. Nada substitui o apoio humano quando o assunto são exceções e decisões estratégicas que afetam o seu bolso.
+Em 2026, a reforma é um teste: as notas trazem CBS de 0,9% e IBS de 0,1%, compensáveis com PIS e Cofins, e empresas do Simples não recolhem nada a mais. A partir de 2027, a CBS substitui PIS e Cofins. Entre 2029 e 2032, ICMS e ISS diminuem aos poucos, até o IBS assumir em 2033 (EC 132/2023 e [LC 214/2025](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm)).
 
-![Profissional revisando contrato para PJ de tecnologia ](/images/posts/planejamento-tributario-pj-tech-2025/analise-contrato-tecnologia-483.webp)
+A decisão prática para o dev PJ no Simples é se vale recolher CBS e IBS fora do DAS a partir de 2027. Para quem fatura só para o exterior, a resposta tende a ser não, porque exportação é desonerada. Para quem fatura para empresas brasileiras no regime regular, a opção pode tornar o seu serviço mais atraente, já que o cliente toma crédito integral. Para o primeiro semestre de 2027, o prazo vai até 30 de outubro de 2026, e há nova janela em março de 2027.
 
-## 4 passos para um bom planejamento tributário
+## Qual o calendário do planejamento tributário?
 
-Se você leu até aqui, talvez esteja pensando: e como começo? Aqui estão quatro passos básicos para não se perder:
+Organize o ano em quatro momentos:
 
-1. **Conheça o seu negócio**: Mapear serviços ofertados, clientes (Brasil e exterior), volume de receitas e despesas, e entender o que cada contrato realmente envolve.
-2. **Analise o regime atual**: Veja se o regime de tributação é o mais adequado para o cenário atual do negócio. Mudou? Vale repensar.
-3. **Implemente controles simples**: Use recursos digitais que permitam, por exemplo, emitir e organizar notas, separar receitas nacionais e internacionais e simular cenários rapidamente.
-4. **Conte com suporte profissional**: Tenha alguém que conheça sua empresa pelo nome e saiba o que muda na legislação antes de você ser surpreendido. Na Conte, esse é o papel do contador pessoal.
+1. **Janeiro:** conferir se o regime escolhido entrou em vigor e se o pró-labore do ano está ajustado ao faturamento previsto.
+2. **Abril:** se a empresa está no Lucro Presumido, o pagamento do IRPJ do primeiro trimestre confirma a opção do ano.
+3. **Mensal:** acompanhar o Fator R (janela de 12 meses) e o total de lucros pagos a cada sócio, para não passar de R$ 50 mil no mês sem querer.
+4. **Setembro e outubro:** simular o regime do ano seguinte. Para 2027, a opção pelo Simples e a escolha de CBS e IBS fora do DAS caíram nessa janela.
 
-> “Planejamento tributário é a ponte entre o hoje e o crescimento seguro amanhã.”
-
-## Conclusão
-
-O segredo para o PJ tech crescer com saúde em 2025 está em manter os olhos bem abertos para regras, números e contratos – e nunca abrir mão de um bom planejamento tributário. Reduzir riscos e custos não deve ser uma loteria, mas uma consequência de conhecimento e suporte especializado.
-
-Se você quer sair da incerteza, evitar surpresas desagradáveis e focar no que realmente faz sua tech prosperar, vale conhecer como a Conte pode ajudar desde a abertura da sua empresa até o pagamento de impostos, sempre com atendimento humano e estratégico. Chega de sentir que está sozinho na burocracia. Venha conhecer a Conte e mude para uma contabilidade pensada para o seu negócio de tecnologia.
+Um contador que acompanha esses marcos evita que a decisão fique para depois do prazo. O post sobre [revisão tributária anual](/post/revisao-tributaria-anual-contador-pessoal-beneficios) detalha o que conferir em cada revisão, e a [calculadora da Conte](https://sejaconte.com.br/calculadora) dá uma primeira estimativa com o seu faturamento.

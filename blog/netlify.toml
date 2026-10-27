@@ -34,6 +34,121 @@
   to = "/post/:slug"
   status = 301
 
+# Posts merged into their canonical during the 2026-10-27 content review (cannibalization).
+[[redirects]]
+  from = "/post/planejamento-saida-simples-2026"
+  to = "/post/regimes-tributarios-quando-mudar-e-como-saber-hora-certa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/pagamento-impostos-exterior-desafios-solucoes"
+  to = "/post/tributacao-servicos-para-exterior-o-que-muda"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/calcular-ferias-13o-salario-socio-pj"
+  to = "/post/diferenca-pro-labore-distribuicao-lucros-salario"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/mudando-de-mei-para-simples-guia-2025"
+  to = "/post/migrar-mei-para-ltda-checklist-prazos"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/7-formas-reduzir-custos-contabeis-pj"
+  to = "/post/como-escolher-contabilidade-pj-tecnologia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/7-motivos-para-ter-uma-contabilidade-dedicada-so-para-pj"
+  to = "/post/contador-pessoal-para-profissionais-tech"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/atendimento-humano-agilizar-duvidas-fiscais-pj-tech"
+  to = "/post/contador-pessoal-para-profissionais-tech"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/contador-pessoal-aumenta-lucro-pj"
+  to = "/post/contador-pessoal-para-profissionais-tech"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/contabilidade-online-armadilhas-pj-ti-evitar"
+  to = "/post/custo-oculto-contabilidades-online-pj-tech-2025"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/contabilidade-pessoal-vs-online-impactos-na-saude-financeira-da-pj"
+  to = "/post/custo-oculto-contabilidades-online-pj-tech-2025"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/7-sinais-que-seu-cnpj-deve-mudar-de-contabilidade"
+  to = "/post/trocar-de-contador-sem-perder-informacoes-checklist"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/preparar-pj-fiscalizacoes-2026-passos-praticos"
+  to = "/post/evitar-autuacoes-fiscais-8-cuidados-pj-tech"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/guia-pj-como-evitar-multas-desenquadramento-fiscal"
+  to = "/post/evitar-autuacoes-fiscais-8-cuidados-pj-tech"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/antecipar-impostos-reduzir-riscos-servicos-prestados"
+  to = "/post/evitar-autuacoes-fiscais-8-cuidados-pj-tech"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/certificacao-digital-para-empresas-guia-rapido-para-iniciantes"
+  to = "/post/como-escolher-certificado-digital-ideal-empresa-2026"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/documentos-contabeis-essenciais-pj-auditoria"
+  to = "/post/documentos-essenciais-para-controlar-pj-ti-sem-erros"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/recibos-digitais-organizacao-contabil-nuvem-empresas"
+  to = "/post/organizar-recibos-despesas-pj-tech-passo-a-passo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/previsao-anual-fluxo-de-caixa-pj"
+  to = "/post/organizar-fluxo-caixa-pj-planilhas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/mitigando-riscos-contratos-pj-clausulas-inteligentes"
+  to = "/post/guia-contratos-prestadores-servico-pj-tech"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/images/*"
   [headers.values]

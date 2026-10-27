@@ -1,107 +1,126 @@
 ---
-title: Como evitar problemas ao contratar freelancers para sua PJ
-seoTitle: Como evitar problemas ao contratar freelancers para sua PJ
-description: Aprenda a contratar freelancers para sua PJ com contratos adequados, obrigações fiscais e cuidados legais essenciais.
+title: "Contratar freelancer pela sua PJ: retenções, contrato e riscos"
+seoTitle: "Contratar freelancer pela PJ: impostos e cuidados"
+description: "Vai contratar freelancer pela sua PJ? Veja o que reter de impostos se ele for PJ ou pessoa física, como garantir o código e como evitar vínculo de emprego."
 pubDate: '2026-01-14'
-updatedDate: '2026-01-14'
+updatedDate: '2026-10-27'
 category: prestacao-de-servico
 author: solange-vaz
 cover: /images/posts/evitar-problemas-contratar-freelancers-pj/empresario-contratando-freelancer-online-275.webp
 coverAlt: Empresário analisando contrato com freelancer em reunião online
+tags: [contratos, simples-nacional, fator-r, clt-vs-pj, nota-fiscal]
+tldr:
+  - "Ao pagar um freelancer PJ optante do Simples, a sua empresa não retém IR, PIS, Cofins nem CSLL. Se ele estiver no Lucro Presumido, a retenção pode somar 6,15% (1,5% de IRRF e 4,65% de PIS, Cofins e CSLL)."
+  - "Ao pagar um freelancer pessoa física, a empresa retém 11% de INSS e o IR da tabela mensal. Se a sua PJ é do Simples no Anexo III ou V, não paga os 20% de INSS patronal à parte, e o valor pago entra na folha do Fator R."
+  - "Pela Lei 9.609/1998, o código feito sob contrato fica com quem contratou, salvo cláusula em contrário. Para design e textos, a cessão de direitos precisa ser por escrito (Lei 9.610/1998, art. 50)."
 faq:
-- q: Como encontrar bons freelancers para PJ?
-  a: Para identificar bons freelancers para sua PJ, sugerimos definir claramente o perfil e as competências buscadas, analisar portfólios recentes e pedir referências de outros projetos realizados . Plataformas digitais especializadas ajudam, mas recomendamos validar a experiência e alinhar as expectativas já no primeiro contato.
-- q: Quais cuidados ao contratar freelancers?
-  a: O principal cuidado está na formalização do contrato, detalhamento do escopo, prazo e pagamento, além de definir a propriedade intelectual das entregas. Evitar acordos verbais e manter um canal claro de comunicação são medidas que reduzem riscos de insatisfação ou prejuízo para sua empresa .
-- q: É seguro contratar freelancers online?
-  a: Contratar freelancers online é seguro desde que ocorra por meios formais, com contrato detalhado, análise prévia do histórico profissional e pagamentos via métodos rastreáveis. Busque se informar sobre o profissional antes e utilize canais confiáveis para negociações.
-- q: Como pagar freelancers de forma correta?
-  a: O pagamento deve cumprir o cronograma acordado em contrato e, sempre que possível, mediante recebimento de nota fiscal. É necessário atenção às retenções e impostos obrigatórios, além de garantir rastreabilidade nas transações para segurança fiscal .
-- q: Quais erros evitar ao contratar freelancers?
-  a: Os erros mais comuns incluem falta de contrato formal, não alinhar expectativas em relação ao escopo, negligenciar a regularização fiscal e escolher freelancers sem analisar portfólio e referências. Evitar esses pontos diminui riscos jurídicos e prejuízos financeiros.
+  - q: "Posso contratar um MEI como freelancer de desenvolvimento?"
+    a: "Não de forma regular. As atividades de desenvolvimento de software, análise de sistemas e consultoria em TI não estão entre as permitidas ao MEI. Um freelancer dev com MEI estaria emitindo nota fora da atividade do CNPJ, o que é problema dele e pode virar problema seu numa fiscalização."
+  - q: "Contratar freelancer pessoa física ajuda no Fator R?"
+    a: "Ajuda. A LC 123/2006, art. 18, § 24, conta na folha do Fator R as remunerações pagas a pessoas físicas pelo trabalho, além do pró-labore. Pagamentos a freelancers PJ não entram nessa conta."
+  - q: "Preciso pedir nota fiscal para pagar um freelancer PJ?"
+    a: "Sim. A nota comprova a despesa, define as retenções e identifica o regime do prestador. Pague só depois de receber a nota e pela conta da empresa, nunca pela sua conta pessoal."
+  - q: "Freelancer que trabalha só para mim por meses vira empregado?"
+    a: "Exclusividade e duração longa, sozinhas, não criam vínculo. O risco aparece quando há subordinação, horário imposto, pessoalidade e pagamento fixo como salário (CLT, art. 3º). Contrate por entrega e deixe o freelancer organizar o próprio trabalho."
+sources:
+  - title: Lei nº 10.833/2003, arts. 30 a 32, retenção de PIS, Cofins e CSLL (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm
+  - title: Lei nº 10.666/2003, art. 4º, retenção do INSS do contribuinte individual (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/2003/l10.666.htm
+  - title: Lei Complementar nº 123/2006, art. 18, § 24, folha de salários do Fator R (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm
+  - title: Lei nº 9.609/1998, Lei do Software (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/l9609.htm
+  - title: Consolidação das Leis do Trabalho, art. 3º (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm
 migratedFrom: https://blog.sejaconte.com.br/post/evitar-problemas-contratar-freelancers-pj
 ---
 
-Nos últimos anos, observar o avanço do trabalho freelancer no Brasil mudou completamente o cenário de contratação para Pessoas Jurídicas (PJ). Segundo [dados do IBGE](https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-noticias/noticias/44806-numero-de-trabalhadores-por-aplicativos-cresceu-25-4-entre-2022-e-2024), cerca de 1,9% da população ocupada atua via aplicativos ou plataformas digitais, com aumento de 25,4% entre 2022 e 2024. Essa tendência incentiva empresas de todos os portes a utilizar mão de obra sob demanda, buscando flexibilidade e redução de custos, mas traz também desafios e riscos na contratação. Por isso, resolvemos compartilhar um guia completo para ajudar sua PJ a evitar problemas na hora de contratar freelancers, alinhando expectativas, regras e obrigações.
+Quando o projeto cresce, muita gente que trabalha como PJ passa a subcontratar: um designer para a interface, um dev para uma integração, alguém de dados por dois meses. Nesse momento a sua empresa deixa de ser só prestadora e vira contratante, com obrigações de retenção, de contrato e de risco trabalhista. Este guia mostra o que muda conforme o freelancer seja PJ ou pessoa física, e como proteger o código que você vai entregar ao seu cliente.
 
-## Por que as PJs contratam freelancers?
+## Contratar freelancer PJ ou pessoa física: o que muda?
 
-O crescimento de contratações desse tipo se explica por diferentes fatores. Entre eles:
+Muda o imposto que a sua empresa retém e paga. Com freelancer PJ, a retenção depende do regime dele. Com pessoa física, a sua empresa retém INSS e IR e envia as informações ao governo.
 
-- Acesso a profissionais altamente especializados para demandas pontuais
-- Flexibilidade no orçamento, já que o pagamento é feito pelo serviço
-- Redução de custos com encargos trabalhistas e infraestrutura
-- Maior agilidade para escalar ou reduzir times de acordo com a necessidade
+| Freelancer | O que a sua PJ retém | O que a sua PJ paga a mais | Conta no Fator R? |
+|---|---|---|---|
+| PJ no Simples Nacional | Nada de tributos federais | Nada | Não |
+| PJ no Lucro Presumido | 1,5% de IRRF e 4,65% de PIS, Cofins e CSLL | Nada | Não |
+| Pessoa física (autônomo) | 11% de INSS e IR da tabela mensal | INSS patronal de 20%, exceto Simples nos Anexos I a III e V | Sim |
+| MEI | Nada | Nada | Não |
 
-No entanto, pesquisas recentes revelam que a maioria das empresas formais no país é composta apenas por sócios e proprietários, sem funcionários assalariados, como mostra [o levantamento de 2022 do IBGE](https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-noticias/noticias/40439-empresas-formadas-apenas-por-socios-e-proprietarios-eram-maioria-e-pagavam-menores-salarios-em-2022). Esse dado deixa claro duas coisas: o desafio de investir em contratação (por causa de restrições orçamentárias) e a busca constante por formas ágeis de atender demandas do negócio. É aí que o freelancer entra, mas com oportunidades vêm também os riscos.
+A dispensa de PIS, Cofins e CSLL para prestador do Simples está na Lei 10.833/2003, art. 32. A retenção de 1,5% de IR sobre serviços profissionais, que incluem programação e análise de sistemas, vale para prestador fora do Simples, e a Receita dispensa a retenção quando o prestador é optante. O ISS segue a lei do município e pode exigir retenção em alguns casos.
 
-## Quais problemas podem surgir ao contratar freelancers?
+Sobre o MEI: desenvolvimento de software, análise de sistemas e consultoria em TI não estão entre as atividades permitidas. Contratar um "MEI dev" significa receber nota de uma atividade que o CNPJ dele não pode exercer.
 
-Em nossa experiência na Conte, já vimos de perto os principais problemas enfrentados por empresas ao recorrer a profissionais autônomos:
+## Quanto custa pagar R$ 5 mil a um freelancer em cada formato?
 
-- Ausência de contrato formal e regras pouco claras
-- Falhas no cumprimento de prazos, escopo e expectativas
-- Desentendimento sobre formas de pagamento e tributação
-- Riscos trabalhistas, fiscais e de propriedade intelectual
-- Dificuldade na gestão e no acompanhamento da entrega
+Considere um serviço de R$ 5.000 contratado em 2026 por uma PJ do Simples no Anexo III.
 
-Esses fatores podem gerar prejuízos financeiros, atrasos em projetos e vulnerabilidades jurídicas que comprometem a saúde da PJ. Por isso, destacamos aqui os pontos essenciais para proteger sua empresa nesse processo.
+**Freelancer PJ no Simples.** A nota vem de R$ 5.000, a sua empresa paga R$ 5.000 e não recolhe nada.
 
-## Como formalizar a contratação de freelancers desde o início?
+**Freelancer PJ no Lucro Presumido.** A sua empresa retém:
 
-O erro mais frequente é desprezar a necessidade de um contrato detalhado. Sempre reforçamos a nossos clientes que **um contrato de prestação de serviços é o principal mecanismo para blindar a PJ de problemas futuros**. Existem cláusulas obrigatórias que nunca podem faltar:
+1. IRRF: 1,5% x R$ 5.000 = R$ 75.
+2. PIS, Cofins e CSLL: 4,65% x R$ 5.000 = R$ 232,50.
+3. Paga ao freelancer R$ 4.692,50 e recolhe R$ 307,50 em DARF.
 
-1. Descrição detalhada do serviço, prazos e entregáveis definidos
-2. Formas e datas de pagamento, bem como multas e penalidades
-3. Responsabilidade por eventuais danos ou falhas de entrega
-4. Direitos sobre a propriedade intelectual dos resultados
-5. Confidencialidade das informações trocadas durante o projeto
-6. Regras para rescisão antecipada do contrato
+**Freelancer pessoa física, com RPA.** A sua empresa retém:
 
-Para quem precisa de um suporte mais detalhado sobre esse tema, recomendamos o artigo de nosso blog sobre [contratos para prestadores de serviço PJ](/post/guia-contratos-prestadores-servico-pj-tech).
+1. INSS: 11% x R$ 5.000 = R$ 550, recolhidos até o dia 20 do mês seguinte (Lei 10.666/2003, art. 4º).
+2. IRRF: zero. Desde janeiro de 2026, a Lei 15.270/2025 zera o IR mensal de quem recebe até R$ 5 mil.
+3. Paga ao freelancer R$ 4.450.
 
-![Duas pessoas sentadas à mesa analisando e assinando um contrato de prestação de serviços PJ, com laptop e papéis à vista. ](/images/posts/evitar-problemas-contratar-freelancers-pj/contrato-freelancer-negociacao-957.webp)
+Como a sua empresa está no Anexo III, a contribuição patronal já está dentro do DAS e não há os 20% à parte. Uma empresa no Lucro Presumido pagaria mais R$ 1.000 de INSS patronal nesse mesmo RPA.
 
-## Como alinhar as expectativas antes de fechar a contratação?
+Esse RPA também entra na folha usada no Fator R ([LC 123/2006](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm), art. 18, § 24). Se a sua empresa está perto do limite de 28%, pagar um freelancer pessoa física ajuda a ficar no Anexo III. Pagar um freelancer PJ não ajuda.
 
-Um dos piores cenários é quando o freelancer entrega algo diferente do que a empresa espera. Para evitar esse tipo de frustração, sugerimos alguns passos:
+![Pessoa analisando recibos e notas fiscais em cima de uma mesa, ao lado de laptop e calculadora](/images/posts/evitar-problemas-contratar-freelancers-pj/controle-fiscal-freelancer-522.webp)
 
-- Deixar registrado, por escrito, o escopo exato da entrega
-- Estabelecer etapas de acompanhamento e validação intermediária
-- Indicar canais de comunicação claros e horários de contato
-- Incluir revisões possíveis e prazos para feedback
+## Quais obrigações acessórias surgem quando a PJ retém imposto?
 
-> Combinar antes reduz conflitos depois.
+Sempre que a sua empresa retém, ela também precisa informar. As retenções de IR, PIS, Cofins e CSLL e os pagamentos a pessoas físicas são declarados na EFD-Reinf, e o INSS retido de autônomos segue para a DCTFWeb, que gera a guia. A DIRF deixou de existir e foi substituída por essas declarações.
 
-É sempre melhor detalhar cada aspecto do projeto, por mais óbvio que pareça, do que confiar apenas no verbal. E, se o trabalho for recorrente, use modelos adequados para contratos de serviços contínuos, como discutimos em [contratos para serviços recorrentes PJ](/post/contrato-servicos-recorrentes-pj).
+Na prática, avise o contador antes de pagar o primeiro freelancer. Pagamento sem retenção quando a retenção era devida deixa a sua empresa responsável pelo imposto que não descontou. O post sobre [documentos essenciais para controlar a PJ](/post/documentos-essenciais-para-controlar-pj-ti-sem-erros) lista o que guardar de cada pagamento.
 
-## O impacto tributário e fiscal da contratação
+## Como garantir que o código do freelancer passe para o seu cliente?
 
-Contratar freelancers tem impacto direto sobre o controle e planejamento fiscal da sua empresa. Isso se torna ainda mais importante quando consideramos o aumento das contratações internacionais remotas, que cresceram 53% entre 2023 e 2024, principalmente em áreas como tecnologia, segundo [levantamento divulgado pelo Jornal da USP](https://jornal.usp.br/campus-ribeirao-preto/contratacoes-internacionais-remotas-crescem-mais-de-50-no-brasil/).
+Com um contrato que transfira os direitos para a sua empresa antes de você transferir para o cliente. O contrato com o seu cliente normalmente diz que você entrega o código com todos os direitos. Se o freelancer não cedeu esses direitos a você, você prometeu algo que não tem.
 
-Um ponto frequente de dúvida é como fazer a retenção de impostos sobre os pagamentos para freelancers e garantir a escrituração correta desses valores. Defendemos que a melhor decisão é contar com a assessoria contábil desde já. Aqui, na Conte, auxiliamos no planejamento para evitar **pagamento de impostos desnecessários, multas e problemas com o Fisco**.
+Para software, a [Lei 9.609/1998](https://www.planalto.gov.br/ccivil_03/leis/l9609.htm), art. 4º, dá os direitos a quem contratou o desenvolvimento, salvo estipulação em contrário. Mesmo assim, escreva a cláusula: ela evita discussão sobre o que era objeto do contrato. Para design, ilustração e texto, a Lei 9.610/1998, art. 50, exige cessão por escrito, e o art. 49 interpreta o contrato de forma restritiva.
 
-Para um controle preciso, recomendamos manter documentos e notas fiscais sempre organizados, um tema tratado em profundidade em nosso guia de [documentos essenciais para PJ](/post/documentos-essenciais-para-controlar-pj-ti-sem-erros).
+O contrato com o freelancer deve repetir as obrigações que você assumiu com o cliente:
 
-![Pessoa analisando recibos e notas fiscais em cima de uma mesa, ao lado de laptop e calculadora. ](/images/posts/evitar-problemas-contratar-freelancers-pj/controle-fiscal-freelancer-522.webp)
+- Cessão dos direitos sobre código, design e documentação para a sua PJ.
+- Confidencialidade com o mesmo prazo do contrato com o cliente.
+- Regras de LGPD, se o freelancer acessar dados pessoais. Ele atua como suboperador.
+- Prazos e critério de aceite compatíveis com os que você prometeu.
+- Proibição de subcontratar sem a sua autorização.
 
-## Boas práticas na negociação e acompanhamento do serviço
+O [guia de contratos para PJ tech](/post/guia-contratos-prestadores-servico-pj-tech) traz as cláusulas completas, e o post sobre [contrato de serviços recorrentes](/post/contrato-servicos-recorrentes-pj) cobre freelancers que ficam meses no projeto.
 
-Negociar valores, revisar entregas, reportar mudanças de escopo: tudo isso deve ser feito de maneira transparente. Sugerimos:
+![Duas pessoas sentadas à mesa analisando e assinando um contrato de prestação de serviços PJ, com laptop e papéis à vista](/images/posts/evitar-problemas-contratar-freelancers-pj/contrato-freelancer-negociacao-957.webp)
 
-- Evitar iniciar o trabalho antes do aceite formal do orçamento
-- Registrar conversas e confirmações por escrito, inclusive em e-mails
-- Combinar datas realistas e garantir que todas as partes possam cumpri-las
-- Aplicar ajustes, adendos e revisões de valores sempre que houver mudanças no escopo original
+## Como evitar que o freelancer seja considerado empregado?
 
-Se houver dúvidas sobre negociação de valores, sugerimos a leitura do artigo sobre [negociação de honorários PJ](/post/negociar-honorarios-servicos-pj-sem-perder-contratos), que apresenta estratégias para fechar acordos justos sem riscos para o relacionamento entre empresa e freelancer.
+Contrate por entrega e deixe o freelancer organizar o próprio trabalho. A CLT, art. 3º, considera empregado quem trabalha de forma não eventual, sob subordinação e mediante salário. A Justiça do Trabalho julga pela rotina, não pelo nome do contrato, e o STF ainda analisa os limites da contratação de PJ no Tema 1389.
 
-## Vantagens de ter apoio contábil humanizado
+Sinais de risco na relação com um freelancer:
 
-Ao acompanharmos de perto a rotina de nossos clientes, percebemos que **o atendimento humanizado faz toda diferença ao enfrentar desafios como contratação de freelancers, gestão de documentos e avaliação de riscos**. Na Conte, acreditamos que cada PJ tem processos e dúvidas específicos, e poder contar com um contador pessoal reduz a burocracia e os riscos de decisões mal informadas.
+- Você define horário de trabalho e cobra presença em todas as reuniões do time.
+- O pagamento é um valor fixo mensal, sem relação com entregas.
+- Ele usa e-mail da sua empresa, tem cargo no organograma e responde a avaliação de desempenho.
+- A relação dura anos, sem contrato de prazo nem escopo definido.
 
-## Conclusão: contrate freelancers com confiança
+Para a sua PJ, um processo trabalhista de um freelancer pode custar mais do que o projeto inteiro. Escopo por entrega, cronograma combinado e liberdade para o freelancer atender outros clientes reduzem esse risco.
 
-O universo freelancer traz oportunidades, mas não elimina obrigações legais e fiscais. Para evitar problemas, sugerimos: formalizar sempre a contratação, alinhar prazos e expectativas, buscar orientação contábil desde o primeiro momento e manter a documentação organizada. Fazendo isso, sua PJ terá segurança para ampliar sua atuação no mercado, aproveitando a flexibilidade desse formato de trabalho sem perder o controle de seus fluxos e obrigações.
+## Que cuidados tomar no pagamento?
 
-Se quiser saber como simplificar toda a rotina burocrática da sua empresa e garantir o melhor suporte humanizado, **conheça as soluções da Conte e veja como podemos cuidar da sua PJ em cada etapa**.
+Pague pela conta da PJ, só depois de receber a nota fiscal ou emitir o RPA, e no valor líquido das retenções. Esse registro comprova a despesa, mostra que as retenções foram feitas e mantém a sua conta pessoal fora da contabilidade da empresa.
+
+- Confira na nota o CNPJ, a descrição do serviço e se o prestador informou ser optante do Simples.
+- Consulte a situação do CNPJ do freelancer no site da Receita antes do primeiro pagamento.
+- Para freelancer no exterior, fale com o contador antes: a remessa tem regras próprias de câmbio e de IR na fonte.
+- Lance cada pagamento no fluxo de caixa com a data das guias de retenção.
+
+Se você está montando um time de freelancers e quer saber como isso afeta o Fator R e o regime da sua empresa, a [Conte](https://sejaconte.com.br) faz essa análise com você. Para negociar valores com quem você contrata, o post sobre [negociar honorários](/post/negociar-honorarios-servicos-pj-sem-perder-contratos) vale para os dois lados da mesa.

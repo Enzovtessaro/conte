@@ -1,91 +1,113 @@
 ---
-title: Como definir o preço do seu serviço sem errar em 2026
-seoTitle: Como definir o preço do seu serviço sem errar em 2026
-description: Saiba como calcular o preço do seu serviço considerando custos, impostos e lucro para evitar erros em 2026.
+title: 'Como definir o preço do seu serviço PJ em 2026: cálculo da hora'
+seoTitle: 'Preço do serviço PJ em 2026: como calcular sua hora'
+description: Calcule o preço da sua hora como PJ em 2026 somando renda desejada, impostos do Simples, INSS do pró-labore e custos. Exemplo passo a passo com números.
 pubDate: '2025-12-12'
-updatedDate: '2025-12-12'
+updatedDate: '2026-10-27'
 category: prestacao-de-servico
 author: solange-vaz
 cover: /images/posts/definir-preco-servico-sem-errar-2026/empreendedor-definindo-preco-servico-783.webp
 coverAlt: Profissional definindo preço de serviço em mesa com calculadora e gráficos
+tags: [contratos, simples-nacional, fator-r, fluxo-de-caixa, exportacao-de-servicos]
+tldr:
+  - "O preço mínimo da sua hora é: (renda líquida desejada + impostos + custos fixos) ÷ horas que você consegue faturar no ano, descontando férias e tempo não faturável."
+  - "Para um dev no Simples com Fator R, impostos e INSS do pró-labore somam cerca de 10% do faturamento na 2ª faixa do Anexo III. Sem Fator R, no Anexo V, o DAS sozinho passa de 16%."
+  - "No exemplo deste post, quem quer R$ 14 mil líquidos por mês, faturando 120 horas em 11 meses do ano, precisa cobrar cerca de R$ 165 por hora."
+  - "Serviço exportado fica livre de ISS, PIS e Cofins no Simples, o que reduz o imposto e muda a conta do preço para clientes no exterior."
 faq:
-- q: Como calcular o preço do meu serviço?
-  a: Some todos os custos fixos e variáveis, estime o tempo necessário para a execução do trabalho, inclua seu pró-labore e calcule os impostos envolvidos. Só então, avalie o valor percebido pelo cliente e compare com os preços do mercado. Personalize o preço conforme diferenciais e características específicas do seu serviço.
-- q: Quais erros evitar ao definir preços?
-  a: Evite desprezar custos “invisíveis”, como horas extras, taxas e impostos. Não copie preços sem avaliar suas próprias despesas. Descontos exagerados para fechar um contrato podem prejudicar sua sustentabilidade. Outro erro comum é não ajustar o valor ao longo do tempo.
-- q: O que considerar ao formar o preço?
-  a: Consolide todos os gastos diretos e indiretos, tributos, tempo empregado, valor gerado ao cliente e o preço praticado por profissionais com perfis similares. Além dos aspectos financeiros, leve em conta fatores como exclusividade, complexidade e urgência do serviço.
-- q: Como saber se meu preço está justo?
-  a: 'Se o valor cobre todos os seus custos, gera lucro esperado e é entendido como “adequado” pelo cliente, o preço provavelmente está justo. Observe a resposta do mercado: se recebe muitos pedidos para baixar valores ou perde contratos, talvez seja preciso reavaliar a estratégia.'
-- q: Vale a pena oferecer descontos em serviços?
-  a: Descontos podem ser interessantes em situações pontuais, como acordos de longo prazo ou para clientes estratégicos. No entanto, o desconto deve estar sempre condicionado a uma contrapartida clara, evitando comprometer a rentabilidade.
+  - q: Como calcular o valor da hora como PJ?
+    a: Some quanto você quer receber líquido no ano, os impostos da empresa, o INSS do pró-labore e os custos fixos. Divida pelo número de horas que você fatura de fato no ano, descontando férias, feriados e o tempo gasto com reuniões, propostas e administração. O resultado é o piso; o preço final depende também do mercado e do valor que você entrega.
+  - q: Quantas horas por mês um PJ consegue faturar?
+    a: Bem menos que as 220 horas de um contrato CLT. Entre reuniões não cobradas, propostas, estudo e administração da empresa, muitos profissionais faturam de 100 a 140 horas por mês. Use o seu histórico; se não tiver, comece com 120 e ajuste depois de três meses.
+  - q: O imposto entra no preço do serviço?
+    a: Sim. O imposto do Simples incide sobre o valor da nota, então ele precisa estar dentro do preço. Para dev no Anexo III, a alíquota efetiva fica entre 6% e 10% na maioria dos casos; no Anexo V, entre 15,5% e 19%. Se você exporta serviço, a alíquota cai porque ISS, PIS e Cofins não incidem.
+  - q: Devo cobrar por hora ou por projeto?
+    a: Por hora protege você de escopo que cresce; por projeto ou por mês recompensa quem entrega rápido e dá previsibilidade ao cliente. Em ambos os casos, calcule primeiro o valor da hora e use-o para precificar o projeto, com margem para retrabalho.
+  - q: Quando reajustar o preço?
+    a: Pelo menos uma vez por ano, com base em um índice de inflação definido no contrato, e sempre que o imposto ou o escopo mudarem. A reforma tributária muda a tributação sobre serviços entre 2027 e 2033, então inclua no contrato uma cláusula de revisão por alteração tributária.
+sources:
+  - title: Lei Complementar nº 123/2006, anexos do Simples e Fator R (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm
+  - title: INSS, tabela de contribuição mensal 2026
+    url: https://www.gov.br/inss/pt-br/direitos-e-deveres/inscricao-e-contribuicao/tabela-de-contribuicao-mensal
+  - title: Receita Federal, redução do Imposto de Renda a partir de 2026
+    url: https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/dezembro/receita-federal-orienta-fontes-pagadoras-e-contribuintes-a-calcular-a-reducao-do-imposto-de-renda-a-partir-de-1o-de-janeiro-de-2026
+  - title: Portal do Simples Nacional
+    url: https://www8.receita.fazenda.gov.br/SimplesNacional/
 migratedFrom: https://blog.sejaconte.com.br/post/definir-preco-servico-sem-errar-2026
 ---
 
-Definir o preço do serviço é uma tarefa que muitos profissionais autônomos, PJs e empresas enfrentam com incerteza. Em um setor que representa mais de 54% do valor adicionado à economia brasileira, segundo [dados do Ministério da Indústria, Comércio Exterior e Serviços](https://www.gov.br/mdic/pt-br/assuntos/comercio-e-servicos/setor-de-comercio/estatisticas), um erro de precificação pode afastar clientes ou prejudicar sua sustentabilidade financeira. Em nossa experiência na Conte, vemos que um bom preço é aquele que equilibra valor para o cliente e retorno para o profissional. Vamos mostrar, passo a passo, como construir essa estratégia em 2026 e evitar surpresas desagradáveis.
+O erro mais comum de preço que vejo em PJ de tecnologia é dividir o salário CLT antigo por 160 horas e chamar isso de valor da hora. A conta esquece o imposto, as férias e o tempo que você trabalha sem faturar. O resultado é um preço que parece bom e deixa você ganhando menos do que na CLT.
 
-## O cenário dos serviços no Brasil em 2026
+## Qual a fórmula para calcular o preço do serviço?
 
-O setor de serviços, que já movimentava mais da metade do valor agregado no país em 2022, continua ganhando força. O [volume de serviços registrou crescimento em 2024](https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/42178-volume-dos-servicos-cresce-1-1-em-outubro), puxado principalmente pelo setor de transportes. Isso mostra que a concorrência aumenta, mas também cresce a demanda. Nessa dinâmica, posicionar-se bem com o preço justo significa mais vendas, fidelização e menos desgaste em negociações.
+O piso do seu preço por hora é a soma da renda líquida que você quer, dos impostos e dos custos fixos, dividida pelas horas que você fatura de fato no ano. Acima desse piso, o preço depende do mercado e do valor que o cliente percebe.
 
-> Preço errado é convite para perder oportunidades ou lucros.
+**Preço mínimo por hora = (renda líquida anual + impostos + custos fixos anuais) ÷ horas faturáveis no ano**
 
-## O que considerar ao definir o preço do serviço
+Cada parte da fórmula tem uma armadilha:
 
-Cada negócio é único, mas alguns pontos não podem ficar de fora da sua análise de precificação:
+- **Renda líquida:** inclua o que a CLT pagaria e o PJ não paga, como férias, 13º e reserva para meses sem contrato.
+- **Impostos:** o DAS incide sobre o faturamento, e o INSS e o IR incidem sobre o pró-labore.
+- **Custos fixos:** contabilidade, equipamento, software, internet, plano de saúde.
+- **Horas faturáveis:** descontam férias, feriados, reuniões não cobradas, propostas e administração.
 
-- **Custos fixos e variáveis:** Temos que considerar desde aluguel, internet, salários ou pró-labore, até custos pontuais com materiais.
-- **Valor percebido pelo cliente:** O quanto seu serviço realmente resolve para quem compra?
-- **Análise do mercado:** Saber quanto outros cobram por serviços semelhantes e identificar como podemos nos destacar (e não apenas pelo valor).
-- **Tempo dedicado:** Avalie quanto tempo é investido em cada serviço; muitas vezes, erramos ao calcular somente horas, esquecendo o tempo de preparo, reuniões e acompanhamentos.
-- **Carga tributária:** Impostos, taxas e obrigações acessórias podem transformar um preço “bom” em prejuízo. Por isso, temos um cuidado enorme ao montar a estratégia fiscal de nossos clientes na Conte.
+## Quanto de imposto entra no preço em 2026?
 
-Muitas pessoas se esquecem de pontos como emissão de notas fiscais, que são obrigatórias e implicam custos e processos. Para entender mais sobre esse ponto, sugerimos a leitura do nosso artigo sobre [como emitir notas fiscais eletrônicas em 2025](/post/emitir-notas-fiscais-eletronicas-servicos-2025), que pode afetar diretamente sua formação de preço.
+Para um dev no Simples Nacional, o imposto do preço depende do Fator R. Com pró-labore de pelo menos 28% do faturamento, a empresa paga pelo Anexo III; abaixo disso, pelo Anexo V.
 
-## Como montar sua estratégia de precificação
+| Faturamento dos últimos 12 meses | Alíquota efetiva Anexo III | Alíquota efetiva Anexo V |
+|---|---|---|
+| R$ 150 mil | 6% | 15,5% |
+| R$ 216 mil | 6,87% | 15,92% |
+| R$ 300 mil | 8,08% | 16,5% |
+| R$ 480 mil | 9,83% | 17,44% |
 
-Falando em estratégia, não existe uma fórmula mágica. O que existe é um raciocínio lógico e atencioso sobre sua realidade de custos e expectativas de lucro. Na Conte, acompanhamos clientes de diferentes áreas e formatos, e em todos os casos seguimos alguns passos:
+Alíquota efetiva = (receita dos 12 meses × alíquota da faixa − parcela a deduzir) ÷ receita dos 12 meses, pelos anexos da [LC 123/2006](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm).
 
-1. **Liste todos os custos:** Some tudo o que é necessário para operar, mensalmente e por projeto.
-2. **Defina seu salário/pró-labore:** Considere o quanto deseja retirar para si, além dos custos do negócio. Para esclarecer melhor, recomendamos o conteúdo explicando [a diferença entre pró-labore, distribuição de lucros e salário](/post/diferenca-pro-labore-distribuicao-lucros-salario).
-3. **Adicione a carga tributária:** Impostos variam conforme o regime tributário e tipo de serviço. Uma orientação contábil pode evitar surpresas.
-4. **Estime o tempo investido:** Calcule por atividade desde a preparação até a execução e entrega.
-5. **Pesquise preços praticados:** Só então compare com os preços médios do mercado, entendendo se você está posicionado acima ou abaixo – e por quê.
-6. **Analise o valor gerado:** Reflita sobre o que faz seu serviço ser diferente e quanto impacta o cliente. O valor percebido muitas vezes permite preços mais altos.
-7. **Ajuste conforme os resultados:** Após alguns meses, reveja se a margem de lucro está coerente e se a clientela está chegando como o esperado.
+Some a isso o INSS de 11% sobre o pró-labore. O IR sobre o pró-labore é zero até R$ 5 mil por mês em 2026 e reduzido até R$ 7.350. Para entender por que o pró-labore precisa existir e como ele se liga aos lucros, veja [pró-labore, distribuição de lucros e salário](/post/diferenca-pro-labore-distribuicao-lucros-salario).
 
-![Pessoa calculando preço de serviço com papéis, caneta e calculadora ](/images/posts/definir-preco-servico-sem-errar-2026/calculando-preco-servico-593.webp)
+Para clientes no exterior, a receita de exportação de serviços fica isenta de ISS, PIS e Cofins dentro do Simples ([LC 123/2006](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm), art. 18, §14). A alíquota efetiva cai e você pode ganhar margem ou competir em preço. As regras e o que muda com a reforma estão em [tributação de serviços para o exterior](/post/tributacao-servicos-para-exterior-o-que-muda).
 
-## Como lidar com descontos, negociações e contratos
+## Exemplo: quanto cobrar por hora para receber R$ 14 mil por mês?
 
-Parte da construção do preço passa, inevitavelmente, por saber quando e porquê conceder descontos. Descontos sem critério podem corroer sua lucratividade. É comum, ao negociar honorários, sentir pressão para ceder, principalmente na prestação de serviços PJ. Temos recomendações práticas sobre isso em nosso guia de [negociação de honorários sem perder contratos](/post/negociar-honorarios-servicos-pj-sem-perder-contratos).
+Um dev quer R$ 14 mil líquidos por mês em média, tira um mês de férias por ano e consegue faturar 120 horas por mês nos outros 11. Empresa no Simples com Fator R.
 
-Outro ponto negligenciado é formalizar tudo por contrato. Contratos detalham escopo, preço e condições de trabalho, protegendo ambas as partes. Temos um guia completo sobre [contratos para prestadores de serviços PJ](/post/guia-contratos-prestadores-servico-pj-tech). Com base em nosso trabalho na Conte, percebemos que quem registra e respeita o combinado tem menos conflitos, menos revisões imprevistas de preço e mais credibilidade com o cliente.
+**Passo 1, horas faturáveis:** 120 horas × 11 meses = 1.320 horas por ano.
 
-## As armadilhas mais comuns e como evitá-las
+**Passo 2, custos fixos:** contabilidade R$ 400, software e equipamento R$ 600, plano de saúde R$ 900. Total: R$ 1.900 por mês, R$ 22.800 por ano. São valores de exemplo; use os seus.
 
-No nosso acompanhamento diário de empreendedores, notamos algumas armadilhas frequentes:
+**Passo 3, testar um faturamento:** comece com R$ 216 mil por ano (R$ 18 mil por mês em média).
 
-- Calcular preço apenas pelo valor “de mercado”, sem considerar os próprios custos e capacidades.
-- Esquecer da carga tributária, impostos variam e podem “comer” sua margem se o cálculo for errado.
-- Não registrar horas trabalhadas em reuniões, pesquisas ou pós-venda.
-- Oferecer descontos exagerados logo na primeira proposta.
-- Negligenciar a importância de emitir nota fiscal, o que pode inviabilizar parcerias maiores.
+- DAS: 6,87% × R$ 216.000 = R$ 14.832 por ano (R$ 1.236 por mês).
+- Pró-labore para o Fator R: 28% × R$ 18.000 = R$ 5.040 por mês. INSS de 11%: R$ 554,40.
+- IR sobre o pró-labore: R$ 321,89 pela tabela, menos a redução de 2026 de R$ 307,57 = R$ 14,32.
+- Lucro distribuído: isento, bem abaixo de R$ 50 mil por mês.
 
-> Transparência e clareza são segredos de uma negociação saudável.
+**Passo 4, conferir o líquido:** R$ 18.000 − R$ 1.236 − R$ 554,40 − R$ 14,32 − R$ 1.900 = R$ 14.295,28 por mês. Bate com a meta.
 
-Esse cuidado é algo que reforçamos em nossos serviços na Conte, buscando, sempre que possível, orientar os clientes para decisões mais inteligentes, personalizadas e seguras.
+**Passo 5, preço da hora:** R$ 216.000 ÷ 1.320 horas = **R$ 163,64**. Arredondando, R$ 165 por hora.
 
-![Pessoa assinando contrato de prestação de serviço na mesa ](/images/posts/definir-preco-servico-sem-errar-2026/contrato-prestacao-servico-assinando-522.webp)
+Compare com o erro comum. Se esse dev ganhava R$ 15 mil na CLT e dividiu por 160 horas, cobraria R$ 94 por hora. Faturando 1.320 horas, a empresa receberia R$ 124 mil no ano, e o líquido ficaria perto de R$ 7,5 mil por mês. A [calculadora da Conte](https://sejaconte.com.br/calculadora) faz a parte do imposto para o seu faturamento.
 
-## Como alinhar preço, valor e expectativas para crescer
+## E se a empresa estiver no Anexo V?
 
-A precificação, quando feita de forma pensada e clara, transforma o relacionamento com o cliente. Diferente do que muitos acreditam, preço não é só um número. É a representação do valor gerado, das suas competências e do cuidado com o negócio. Saber explicar sua proposta, segurar a negociação e manter contratos claros são práticas que permitem crescer de forma sustentável. Por isso, recomendamos acompanhar tendências, revisar contratos, entender o impacto da tributação e, sempre que possível, contar com uma assessoria contábil que realmente entenda do seu negócio.
+O preço sobe. Sem Fator R, o mesmo faturamento de R$ 216 mil paga 15,92% de DAS, R$ 2.865 por mês em vez de R$ 1.236. Para manter os R$ 14 mil líquidos, mesmo com pró-labore mínimo, o dev precisaria cobrar perto de R$ 177 por hora, ou ajustar o pró-labore para voltar ao Anexo III. Na maioria dos casos, o ajuste do pró-labore custa menos que o aumento de preço.
 
-Se quiser mais dicas sobre prestação de serviço, temos uma seleção com conteúdos especialmente voltados para esses profissionais na nossa categoria exclusiva sobre prestação de serviço.
+## Por hora, por projeto ou por mês?
 
-## Conclusão
+Cobrar por hora protege você de escopo que cresce. Cobrar por projeto ou por mês dá previsibilidade ao cliente e recompensa quem entrega rápido. Os dois partem da mesma base: o valor da sua hora.
 
-Definir o preço do serviço exige conhecimento, análise constante e sensibilidade de mercado. **Isso não acontece da noite para o dia, mas pode ser muito mais simples quando se tem as ferramentas certas e um time engajado com seu sucesso.** No cenário de 2026, investir em precificação adequada é garantir saúde financeira, evitar imprevistos e conquistar espaço nesse mercado em expansão. Na Conte, ajudamos nossos clientes a navegar por essas decisões, desde o cálculo tributário até o atendimento próximo, com estratégias personalizadas.
+Para precificar um projeto, estime as horas, multiplique pelo valor da hora e some uma margem para revisões e imprevistos. Para contratos mensais, multiplique o valor da hora pelas horas previstas e defina no contrato o que acontece quando o volume passa do combinado. O modelo de contrato recorrente está em [contrato de serviços recorrentes para PJ](/post/contrato-servicos-recorrentes-pj).
 
-Se busca ter mais tranquilidade para focar no crescimento do seu negócio, conte conosco. Nossa equipe está preparada para ajudar você em cada etapa, desde a abertura da PJ até o planejamento fiscal, contratos e emissão de notas. **Foque no seu serviço que nós cuidamos da sua PJ.**
+## Quais erros mais derrubam a margem?
+
+Os erros que mais vejo nas contas de PJ de tecnologia:
+
+- Dividir o salário CLT por 160 ou 220 horas.
+- Esquecer o mês de férias e os feriados nas horas faturáveis.
+- Calcular o imposto pelo Anexo III sem ter pró-labore para o Fator R.
+- Dar desconto para fechar o primeiro contrato e nunca mais reajustar.
+- Fechar contrato longo sem cláusula de reajuste anual e de revisão por mudança tributária. A CBS começa a valer de forma plena em 2027 e o ISS é substituído aos poucos entre 2029 e 2032.
+
+Se o cliente pressiona o valor, negocie escopo, prazo ou forma de pagamento antes de mexer na hora. As táticas estão em [como negociar honorários sem perder contratos](/post/negociar-honorarios-servicos-pj-sem-perder-contratos).

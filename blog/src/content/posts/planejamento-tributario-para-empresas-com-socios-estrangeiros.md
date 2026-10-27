@@ -1,140 +1,99 @@
 ---
-title: Planejamento tributário para empresas com sócios estrangeiros
-seoTitle: Planejamento tributário para empresas com sócios estrangeiros
-description: Descubra como estruturar o planejamento tributário ideal para empresas com sócios estrangeiros e evitar custos extras indevidos.
+title: 'Sócio no exterior: como fica o imposto sobre dividendos em 2026'
+seoTitle: 'Sócio no exterior: imposto sobre dividendos em 2026'
+description: Desde 2026, dividendos remetidos a sócio no exterior têm 10% de IR na fonte, sem faixa de isenção. Veja a regra da Lei 15.270, o regime possível e um exemplo.
 pubDate: '2025-11-20'
-updatedDate: '2025-11-20'
+updatedDate: '2026-10-27'
 category: planejamento-fiscal
+tags: [dividendos, lucro-presumido, simples-nacional, irpf]
 author: solange-vaz
 cover: /images/posts/planejamento-tributario-para-empresas-com-socios-estrangeiros/negociacao-tributaria-internacional-87.webp
 coverAlt: Negócio entre sócios estrangeiros e brasileiros discutindo planejamento tributário em escritório moderno com documentos e laptop
+tldr:
+  - "Desde 1º de janeiro de 2026, lucros e dividendos pagos, creditados ou remetidos a sócio no exterior têm 10% de IR retido na fonte, sem valor mínimo isento (Lei 9.249/1995, art. 10, §4º, incluído pela Lei 15.270/2025)."
+  - "Lucros apurados até 2025, com distribuição aprovada até 31/12/2025 e paga nos termos da aprovação, continuam isentos."
+  - "Empresa com sócio domiciliado no exterior não pode optar pelo Simples Nacional (LC 123/2006, art. 17, II); o caminho é o Lucro Presumido ou o Lucro Real."
 faq:
-- q: O que é planejamento tributário internacional?
-  a: Planejamento tributário internacional é o processo de organizar operações de empresas com atividades ou sócios em mais de um país, buscando reduzir custos com impostos e evitar riscos fiscais. Envolve avaliar legislações de diferentes países, tratados contra bitributação e as melhores formas de remessas de lucros ao exterior.
-- q: Como abrir empresa com sócio estrangeiro?
-  a: Para abrir uma empresa com sócio estrangeiro, é preciso registrar os documentos do investidor, devidamente traduzidos e apostilados, validar sua entrada no Brasil (caso de pessoa física) e cadastrar o investidor junto à Receita Federal. Após isso, segue-se o trâmite normal de constituição da sociedade e registro no Banco Central quando houver investimento direto externo.
-- q: Vale a pena ter sócio estrangeiro no Brasil?
-  a: Para muitos negócios, ter sócio estrangeiro pode trazer capital, conhecimento e contatos internacionais. Porém, é preciso avaliar bem os custos fiscais, a burocracia envolvida e as limitações legais, inclusive no regime tributário escolhido. Em muitos casos, com planejamento e suporte especializado, o resultado é positivo.
-- q: Quais impostos empresas com sócios estrangeiros pagam?
-  a: 'Empresas com sócios estrangeiros pagam os mesmos tributos federais, estaduais e municipais do que empresas nacionais: IRPJ, CSLL, PIS, COFINS, ISS, ICMS e outros, conforme a atividade. Além disso, podem incidir Imposto de Renda Retido na Fonte (IRRF) e IOF sobre remessas ao exterior, dependendo do tipo de distribuição e do país do beneficiário.'
-- q: Como evitar bitributação com sócio estrangeiro?
-  a: Evitar bitributação depende, principalmente, da existência de acordos internacionais para evitar a dupla tributação entre o Brasil e o país do investidor . Com esses acordos, parte dos impostos pagos podem ser compensados, reduzindo a carga fiscal total. A análise de cada caso deve levar em conta a legislação local e internacional, com suporte de profissionais experientes.
+  - q: "Sócio estrangeiro paga imposto sobre dividendos no Brasil?"
+    a: "Se mora no exterior, sim: desde 2026 a empresa retém 10% de IR sobre os lucros pagos ou remetidos a ele, e essa retenção é definitiva. Se o sócio estrangeiro mora no Brasil, segue a regra dos residentes, com retenção de 10% só acima de R$ 50 mil por mês da mesma empresa."
+  - q: "Empresa com sócio estrangeiro pode ser do Simples Nacional?"
+    a: "Pode, se o sócio estrangeiro for residente no Brasil. Se o titular ou qualquer sócio for domiciliado no exterior, a LC 123/2006 (art. 17, II) proíbe a opção pelo Simples."
+  - q: "Lucros de 2025 distribuídos em 2026 para sócio no exterior pagam os 10%?"
+    a: "Não, desde que a distribuição tenha sido aprovada até 31 de dezembro de 2025 e o pagamento siga o que o ato de aprovação previu. Lucros de 2025 sem aprovação formal até essa data entram na regra nova."
+  - q: "O sócio no exterior pode recuperar parte dos 10%?"
+    a: "A Lei 15.270 criou um crédito para o não residente quando a carga efetiva da empresa somada aos 10% passa das alíquotas nominais de IRPJ e CSLL. Em empresas pequenas no Lucro Presumido isso raramente acontece. O país do sócio também pode permitir compensar o imposto pago aqui, conforme a lei local e eventual tratado."
+sources:
+  - title: Lei nº 15.270/2025 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15270.htm
+  - title: Lei nº 9.249/1995, arts. 10 e 10-A (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/l9249.htm
+  - title: Lei Complementar nº 123/2006, art. 17 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm
+  - title: Banco Central, Capitais Internacionais e Mercado de Câmbio no Brasil (2025)
+    url: https://www.bcb.gov.br/content/estabilidadefinanceira/politica_cambial/texto_tecnico/CapitaisInternacionais2025-03-25.pdf
 migratedFrom: https://blog.sejaconte.com.br/post/planejamento-tributario-para-empresas-com-socios-estrangeiros
 ---
 
-No cenário brasileiro atual, empresas com sócios estrangeiros tornam-se cada vez mais comuns, especialmente diante da força do investimento internacional. Segundo o [Censo de Capitais Estrangeiros do Banco Central](https://agenciabrasil.ebc.com.br/economia/noticia/2025-09/saiba-de-que-paises-vem-o-investimento-direto-no-brasil-eua-lideram), só em 2024, os Estados Unidos responderam por 28% dos investimentos estrangeiros no país, perfazendo um montante de US$ 244,7 bilhões. Nesse contexto de globalização, cuidar da gestão tributária dessas empresas exige atenção redobrada e estratégias sob medida.
+Ter um sócio que mora fora do Brasil mudou de custo em 2026. Até 2025, o dividendo remetido ao exterior era isento de IR. A [Lei 15.270/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15270.htm) criou uma retenção de 10% na fonte, sem faixa de isenção, válida desde 1º de janeiro de 2026. Este guia cobre o que mudou, qual regime a empresa pode adotar e as obrigações que vêm junto.
 
-> Cuidar do planejamento tributário significa ter clareza sobre tributos e obrigações.
+## Quanto de imposto paga o dividendo enviado a sócio no exterior?
 
-Na Conte, vivenciamos no dia a dia como a presença de sócios estrangeiros pode trazer vantagens e desafios. Compartilharemos aqui o que aprendemos ao longo dos anos ao elaborar planejamentos tributários personalizados, considerando não só a legislação nacional, mas também convenções internacionais.
+A empresa retém 10% de IR sobre todo lucro ou dividendo pago, creditado, entregue, empregado ou remetido ao exterior. A regra está no art. 10, §4º, da [Lei 9.249/1995](https://www.planalto.gov.br/ccivil_03/leis/l9249.htm), incluído pela Lei 15.270/2025, e vale para pagamentos a partir de 1º de janeiro de 2026.
 
-## Compreendendo o impacto do capital estrangeiro
+Para o sócio no exterior, a retenção é definitiva: não há ajuste anual no Brasil. A lei isenta só três tipos de beneficiário, nenhum deles comum em empresa pequena: governos estrangeiros com reciprocidade, fundos soberanos e entidades no exterior que administram benefícios previdenciários.
 
-O [investimento estrangeiro direto](https://agenciabrasil.ebc.com.br/economia/noticia/2025-09/com-us-11-tri-investimento-estrangeiro-bate-recorde-de-466-do-pib) no Brasil atingiu US$ 1,141 trilhão em 2024, representando 46,6% do PIB, segundo dados recentes. Esse volume ilustra que o país está cada vez mais integrado aos interesses globais, especialmente em setores como tecnologia, finanças e bens de consumo. Mas junto dos aportes, surgem questões tributárias complexas.
+A comparação com o sócio residente no Brasil mostra a diferença:
 
-Com a entrada de sócios do exterior, observamos preocupações frequentes sobre:
+| | Sócio domiciliado no exterior | Sócio residente no Brasil |
+|---|---|---|
+| Retenção na fonte | 10% sobre qualquer valor | 10% só sobre o total acima de R$ 50 mil por mês, da mesma empresa |
+| Natureza | Definitiva | Antecipação, ajustada na declaração anual |
+| Imposto mínimo anual (IRPFM) | Não se aplica | Para renda total acima de R$ 600 mil por ano |
+| Lucros de até 2025 aprovados até 31/12/2025 | Isentos, se pagos nos termos da aprovação | Isentos, se pagos nos termos da aprovação |
 
-- **Bitributação**: Quando os ganhos podem ser tributados tanto no Brasil quanto no país de origem do sócio.
-- **Distribuição de lucros**: Diferenças de tributação sobre dividendos e remessas.
-- **Compliance fiscal**: Exigências específicas na Receita Federal e no Banco Central.
-- **Obrigações acessórias**: Declarações detalhadas, como o Censo de Capitais Estrangeiros.
+## Lucros de 2025 continuam isentos?
 
-Cada uma dessas questões exige atenção a detalhes e, principalmente, alinhamento com os objetivos do negócio.
+Sim, com condições. A Lei 15.270 manteve isentos os lucros apurados até o ano-calendário de 2025 cuja distribuição tenha sido aprovada até 31 de dezembro de 2025, desde que o pagamento siga o que o ato de aprovação previu (prazo, valor e forma).
 
-## Quais modelos societários aceitar sócios estrangeiros?
+Se a empresa aprovou a distribuição em ata até o fim de 2025, os pagamentos feitos conforme essa ata saem sem os 10%. Para o sócio residente, o cálculo do imposto mínimo anual exclui esses lucros quando pagos de 2026 a 2028. Lucro de 2025 sem aprovação formal até essa data entra na regra nova quando for pago. Mudar o cronograma da ata depois pode comprometer a isenção.
 
-Em nossa experiência, o Brasil permite que sócios estrangeiros participem da maioria dos tipos societários. Entre eles, os mais comuns são:
+## Empresa com sócio no exterior pode ser do Simples Nacional?
 
-- **Sociedade Limitada (LTDA)**
-- **Sociedade Anônima (S.A.)**
-- Empresas Individuais de Responsabilidade Limitada (EIRELI) – já substituídas, mas com alguns casos ainda ativos
+Não. A [LC 123/2006](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm), art. 17, II, proíbe a opção pelo Simples Nacional da empresa cujo titular ou sócio seja domiciliado no exterior. O critério é o domicílio, não a nacionalidade: um sócio estrangeiro que mora no Brasil não impede o Simples, e um sócio brasileiro que se muda para fora impede.
 
-Para que o sócio estrangeiro seja formalizado na empresa, é necessário seguir etapas específicas, como apresentação de documentos traduzidos e registros junto à Receita Federal com Cadastro de Pessoa Física Estrangeira de Investidor (CPF ou CNPJ para investidor pessoa jurídica).
+Esse segundo caso pega muita PJ de tecnologia. Se você ou seu sócio vai morar fora e a empresa continua aberta aqui, a saída do Simples precisa entrar no planejamento, com a troca para Lucro Presumido ou Lucro Real. O post sobre [quando mudar de regime tributário](/post/regimes-tributarios-quando-mudar-e-como-saber-hora-certa) mostra como fazer essa transição.
 
-## Como funciona o planejamento tributário para empresas com sócios estrangeiros?
+## Qual regime usar com sócio estrangeiro?
 
-**Planejar tributos para sócios estrangeiros envolve a combinação de análise técnica e visão estratégica do negócio.** Nosso foco recai sobre três pilares:
+Para empresa de serviços com faturamento até alguns milhões por ano, o Lucro Presumido costuma ser a opção. Ele tributa uma margem presumida de 32% da receita de serviços: 4,8% de IRPJ e 2,88% de CSLL, mais adicional de IRPJ sobre o lucro presumido acima de R$ 20 mil por mês. Para receita acima de R$ 5 milhões por ano, a LC 224/2025 aumenta a presunção em 10% sobre a parte excedente.
 
-1. **Estruturação societária**: Definição do tipo de empresa mais indicado e do percentual de participação do sócio estrangeiro.
-2. **Avaliação das obrigações fiscais brasileiras**: Principalmente relacionadas a IRPJ, CSLL, PIS, COFINS e obrigações acessórias.
-3. **Revisão de tratados internacionais**: Verificação de acordos que evitem bitributação, reduzindo custos e riscos.
+PIS e Cofins no Presumido somam 3,65% da receita no regime cumulativo, sem créditos. A receita de serviços exportados, com ingresso de divisas, fica isenta de PIS e Cofins e livre de ISS. A comparação completa está em [Simples Nacional ou Lucro Presumido para empresas de tecnologia](/post/simples-nacional-ou-lucro-presumido-para-empresas-de-tecnologia).
 
-Frequentemente, sugerimos ampliar a análise e incluir simulações de cenários, considerando:
+O Lucro Real faz sentido quando a margem é baixa ou há prejuízo, porque tributa o lucro efetivo. Também é obrigatório acima de R$ 78 milhões de receita anual.
 
-- Origem do capital estrangeiro
-- Destino dos lucros (reinvestimento vs. remessa)
-- Tributação dos dividendos no Brasil e no exterior
+## Exemplo: distribuição de R$ 200 mil em 2026
 
-![Mesa com documentos para planejamento tributário e bandeiras do Brasil e Estados Unidos lado a lado ](/images/posts/planejamento-tributario-para-empresas-com-socios-estrangeiros/documentos-planejamento-tributario-853.webp)
+Uma LTDA no Lucro Presumido tem dois sócios com 50% cada: Ana, que mora em São Paulo, e Mark, que mora em Lisboa. A empresa apura R$ 200 mil de lucro distribuível em 2026 e paga a cada um R$ 100 mil em uma única parcela, em dezembro.
 
-Essas simulações ajudam na tomada de decisão e na escolha do melhor regime tributário para a empresa.
+1. **Mark (exterior):** 10% de R$ 100 mil = R$ 10 mil retidos na fonte, de forma definitiva. Ele recebe R$ 90 mil. Portugal tem acordo com o Brasil para evitar dupla tributação, e Mark verifica com um contador português como usar o imposto pago aqui.
+2. **Ana (residente), parcela única:** R$ 100 mil em um mês passa de R$ 50 mil. A empresa retém 10%, ou R$ 10 mil, como antecipação. Ana ajusta na declaração anual.
+3. **Ana (residente), parcelas mensais:** se a empresa pagar R$ 25 mil por mês de setembro a dezembro, nenhuma parcela passa de R$ 50 mil e não há retenção. Para Mark, parcelar não muda nada: os 10% incidem sobre cada pagamento.
 
-## Quais pontos podem influenciar o planejamento tributário?
+Antes de definir datas e valores, confirme com o contador o lucro apurado no balanço, que é a base para distribuir. Para as regras de distribuição fora do Simples, veja [pagamento de dividendos em PJs fora do Simples](/post/pagamento-dividendos-pjs-fora-do-simples).
 
-Identificamos que as seguintes variáveis impactam diretamente o planejamento:
+## O sócio no exterior pode recuperar parte dos 10%?
 
-- **Natureza do serviço ou produto**: Atividades exportadoras podem ser isentas de determinados impostos ou ter isenção de IOF/Remessas.
-- [Mudanças recentes na tributação de serviços para o exterior](/post/tributacao-servicos-para-exterior-o-que-muda): Legislação que altera alíquotas e obrigações ao prestar serviços para o exterior.
-- Regime tributário: Simples Nacional raramente admite sócio estrangeiro; Lucro Presumido e Lucro Real permitem com limitações e obrigações adicionais.
-- Tratados internacionais: Exemplo, tratados entre Brasil e Luxemburgo ou EUA, que regulam a bitributação.
+Em alguns casos. A Lei 15.270 incluiu o art. 10-A na Lei 9.249/1995: se a alíquota efetiva de IRPJ e CSLL da empresa, somada aos 10%, passar das alíquotas nominais (34% na regra geral), o sócio no exterior pode pedir um crédito da diferença. O prazo para pedir é de até 360 dias contados de cada exercício, e o Executivo ainda regulamenta a forma.
 
-Vale ressaltar que, de acordo com [estudos recentes sobre desigualdade tributária no Brasil](https://www.gov.br/fazenda/pt-br/assuntos/noticias/2025/agosto/estudo-internacional-inedito-aponta-que-a-desigualdade-tributaria-no-brasil-e-maior-do-que-se-estimava), milionários em dólar ainda conseguem pagar menos imposto efetivo do que a média da população (20,6% vs 42,5% de alíquota).
+Em empresa pequena no Lucro Presumido, a carga efetiva sobre o lucro raramente chega perto desse teto, então o crédito tende a não existir. A outra via é o país do sócio, que pode permitir compensar o imposto brasileiro, conforme a lei local e eventual tratado.
 
-## Como escolher o melhor regime tributário?
+## Que obrigações a empresa tem com sócio no exterior?
 
-Quando estruturamos o planejamento de empresas com sócios estrangeiros na Conte, olhamos além das regras automáticas.
+Além dos tributos, a empresa cumpre exigências cadastrais e cambiais:
 
-> A escolha do regime afeta diretamente a competitividade global da empresa.
+- **Cadastro na Receita:** o sócio pessoa física precisa de CPF, e a pessoa jurídica estrangeira precisa de CNPJ.
+- **Procurador no Brasil:** o sócio que mora fora nomeia um representante residente no país com poderes para receber citação, e a procuração vai para a Junta Comercial.
+- **Banco Central:** o capital trazido pelo sócio é investimento estrangeiro direto e vai para o sistema SCE-IED. Operações a partir de US$ 100 mil, como aportes e remessas de lucros, devem ser informadas ao Banco Central, e há declarações periódicas conforme o porte da empresa.
+- **Câmbio da remessa:** o envio de lucros passa por contrato de câmbio em instituição autorizada, com o IR de 10% recolhido antes da remessa.
 
-No geral:
-
-- Simples Nacional só aceita sócios com visto permanente, o que restringe seu uso.
-- **Lucro Presumido**: costuma ser mais vantajoso para empresas de serviços com margens não muito altas.
-- **Lucro Real**: obrigatório para companhias com faturamento ou operações complexas, oportunizando o uso de créditos tributários.
-
-Nesse momento, nossa análise passa por ferramentas de simulação tributária, levando em consideração a possibilidade de remessa de lucros ao exterior, cálculo de IRRF, incidência de CIDE (quando aplicável) e eventuais créditos recuperáveis em países com tratados.
-
-## Como a remessa de lucros é tributada?
-
-Ao enviar lucros para os sócios estrangeiros, há incidência do **Imposto de Renda Retido na Fonte (IRRF)**, cujas alíquotas podem variar conforme o país do beneficiário e a existência de acordos para evitar bitributação.
-
-Existem exceções: para os lucros apurados e pagos após 1996, regra geral indica isenção do IRRF, mas há exceções para juros sobre capital próprio, royalties e outros rendimentos, que seguem as alíquotas específicas.
-
-Por isso, recomendamos que na fase de planejamento a empresa:
-
-- Revise os acordos para evitar bitributação entre Brasil e o país do sócio;
-- Comprove a regularidade da contabilidade para remeter lucros sem interpretações divergentes;
-- Documente adequadamente cada operação através dos registros fiscais e cambiais;
-
-## Quais obrigações fiscais são obrigatórias para empresas com sócios estrangeiros?
-
-Empresas com participação estrangeira devem cumprir obrigações fiscais e acessórias adicionais. Destacamos três principais:
-
-- Registro e atualização anual do investimento junto ao Banco Central, via SCE-IED;
-- Entrega do Censo de Capitais Estrangeiros;
-- Relatórios periódicos sobre alterações societárias envolvendo sócios internacionais;
-
-Nossas soluções na Conte automatizam lembretes e acompanhamento desses processos, reduzindo o risco de multas.
-
-## Cuidados ao elaborar o planejamento tributário com sócio estrangeiro
-
-Um planejamento eficiente parte do pressuposto de integração entre expectativas do investidor e a legislação nacional. Com base em [artigos recentes sobre planejamento fiscal](/category/planejamento-fiscal) e experiências práticas de clientes, trazemos recomendações:
-
-- Valide sempre as traduções e registros dos documentos dos sócios estrangeiros.
-- Tenha acompanhamento contábil próximo, o que evita problemas de compliance que podem atrasar remessas de lucros ou cisão societária.
-- Reveja periodicamente as mudanças na legislação, já que a tributação de estrangeiros varia com frequência.
-- Simule diferentes cenários tributários, analisando sempre o impacto no resultado líquido.
-
-## Conte com a experiência e tecnologia ao seu favor
-
-Na Conte, reunimos tecnologia e atendimento humano próximo para atender empresas de todos os portes que possuem sócios estrangeiros. Nossos clientes contam com acompanhamento de um contador pessoal dedicado e um time pronto para responder com agilidade dúvidas sobre envio de documentos, alterações societárias e obrigações fiscais.
-
-![Reunião em escritório com sócios estrangeiros e brasileiros ao redor da mesa ](/images/posts/planejamento-tributario-para-empresas-com-socios-estrangeiros/reuniao-internacional-empresa-846.webp)
-
-Entendemos que o segredo está no atendimento personalizado e na busca constante por informações atualizadas, afinal a legislação muda rapidamente. Por isso, sempre sugerimos a leitura de conteúdos atualizados, como o [planejamento tributário para techs em 2025](/post/planejamento-tributario-pj-tech-2025) ou os [novos desafios na gestão financeira de PJs que atuam com o exterior](/post/gestao-financeira-pj-tech-exterior).
-
-Se você quer trazer um sócio estrangeiro para o seu empreendimento brasileiro ou está em dúvida sobre as melhores práticas fiscais, nos procure e descubra como podemos ajudar a construir um planejamento seguro, flexível e alinhado com os seus objetivos globais.
-
-## Conclusão
-
-Conhecer os detalhes do **planejamento tributário para empresas com sócios estrangeiros** é um passo decisivo para o sucesso e a conformidade desses negócios no Brasil. Com a globalização e o constante fluxo de recursos internacionais, a busca por soluções inteligentes, como as que aplicamos na Conte, faz toda diferença na geração de valor e na redução de riscos tributários. Converse conosco e descubra como unimos atendimento humano, estratégia e tecnologia para cuidar do seu negócio internacional desde a estruturação à rotina fiscal do dia a dia.
+Se a sua empresa está prestes a ganhar um sócio no exterior, ou você vai se mudar e manter a PJ, a [Conte](https://sejaconte.com.br) ajuda a planejar a troca de regime e as remessas.

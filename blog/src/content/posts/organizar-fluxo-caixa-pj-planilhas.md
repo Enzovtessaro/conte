@@ -1,118 +1,136 @@
 ---
-title: Como organizar o fluxo de caixa mensal da pj com planilhas
-seoTitle: Como organizar o fluxo de caixa mensal da pj com planilhas
-description: Aprenda a controlar entradas e saídas da sua PJ com planilhas simples para evitar erros e manter o caixa sempre equilibrado.
+title: "Fluxo de caixa da PJ em planilha: rotina mensal e previsão anual"
+seoTitle: "Fluxo de caixa PJ em planilha: guia mensal e anual 2026"
+description: "Monte o fluxo de caixa da sua PJ em planilha: colunas, datas do DAS e do INSS, previsão de 12 meses e um exemplo com os números de 2026 para dev no Simples."
 pubDate: '2026-01-02'
-updatedDate: '2026-01-02'
+updatedDate: '2026-10-27'
 category: contabilidade
 author: solange-vaz
 cover: /images/posts/organizar-fluxo-caixa-pj-planilhas/fluxo-caixa-planilha-pj-88.webp
 coverAlt: Empresário organizando fluxo de caixa mensal em planilha no notebook
+tags: [fluxo-de-caixa, simples-nacional, fator-r, pro-labore]
+tldr:
+  - "Uma planilha de fluxo de caixa para PJ precisa de quatro colunas (data, descrição, categoria, valor) e da separação entre previsto e realizado, atualizada pelo menos uma vez por semana."
+  - "No Simples Nacional, o DAS vence no dia 20 do mês seguinte ao faturamento, e o INSS retido do pró-labore também. Os dois saem do caixa um mês depois da receita que os gerou."
+  - "Uma PJ que fatura R$ 15 mil por mês no Anexo III, com pró-labore de R$ 4.200 (28%), paga R$ 900 de DAS e R$ 462 de INSS. Se a receita sobe para R$ 20 mil, a alíquota efetiva passa de 6% para 7,3%."
+  - "A previsão anual repete a planilha mensal em 12 colunas e inclui os gastos que aparecem uma vez por ano: DEFIS, IRPF do sócio, certificado digital e a reserva."
 faq:
-- q: O que é fluxo de caixa mensal?
-  a: Fluxo de caixa mensal é o acompanhamento de todas as entradas e saídas de dinheiro da empresa durante um mês. Ele mostra de forma clara quanto de recurso entrou, quanto saiu e qual o saldo disponível, ajudando nas decisões diárias e prevenindo surpresas financeiras.
-- q: Como organizar o fluxo de caixa da PJ?
-  a: A melhor forma de organizar o fluxo de caixa é separar receitas e despesas por categorias, registrar diariamente todas as movimentações, conciliar os saldos bancários com a planilha, e revisar periodicamente o previsto versus o realizado. O uso de uma planilha estruturada, preferencialmente com apoio profissional como propomos na Conte, traz mais segurança ao processo.
-- q: Quais planilhas usar para fluxo de caixa?
-  a: Planilhas simples já ajudam negócios com pouco volume de transações. Para empresas em crescimento, indicamos planilhas detalhadas, que permitem controle por centro de custos e integração com contas bancárias e cartões. Modelos integrados, que juntam previsões e realizações, são ideais para controles completos. Mais dicas podem ser encontradas em nosso conteúdo sobre previsão anual do fluxo de caixa .
-- q: Vale a pena usar planilhas gratuitas?
-  a: Planilhas gratuitas funcionam bem no início da operação, desde que sejam atualizadas frequentemente e estejam adaptadas à rotina da empresa. Com o aumento das movimentações ou necessidade de relatórios mais detalhados, pode ser interessante buscar modelos mais completos ou personalizados.
-- q: Quais erros evitar ao controlar fluxo de caixa?
-  a: 'Os principais erros são: deixar para lançar tudo “de uma vez” (e esquecer informações importantes), misturar caixa pessoal e empresarial, não revisar diferenças no saldo bancário, e desprezar lançamentos futuros. Esses deslizes dificultam o diagnóstico financeiro e aumentam o risco de problemas de caixa.'
+  - q: "Qual a diferença entre fluxo de caixa e controle de contas a pagar?"
+    a: "Contas a pagar lista o que você deve. O fluxo de caixa junta entradas e saídas na data em que o dinheiro se move e mostra o saldo de cada dia ou mês. É o fluxo que revela se vai faltar dinheiro no dia 20, quando vencem DAS e INSS."
+  - q: "Planilha basta ou preciso de um sistema financeiro?"
+    a: "Para uma PJ de uma pessoa com poucos clientes, planilha resolve. Um sistema começa a valer a pena quando você passa de algumas dezenas de lançamentos por mês, tem vários sócios ou precisa emitir cobranças automáticas."
+  - q: "Devo lançar o imposto no mês em que faturei ou no mês em que pago?"
+    a: "No fluxo de caixa, lance na data do pagamento: o DAS de outubro sai em 20 de novembro. Para saber quanto sobra de verdade, deixe uma linha de provisão no mês do faturamento, assim você não gasta o dinheiro do imposto."
+  - q: "Como o fluxo de caixa ajuda no Fator R?"
+    a: "O Fator R compara a folha (pró-labore incluído) dos últimos 12 meses com a receita do mesmo período. Com receita e pró-labore lado a lado na planilha, você vê antes de fechar o mês se a relação ficou abaixo de 28% e se a empresa cairia no Anexo V."
+  - q: "Com que frequência revisar a previsão anual?"
+    a: "Revise todo mês o realizado contra o previsto e refaça a projeção dos meses seguintes a cada trimestre, ou quando entrar ou sair um cliente grande. Uma previsão montada em janeiro e esquecida perde a utilidade até março."
+sources:
+  - title: Lei Complementar nº 123/2006, Estatuto da Microempresa e Simples Nacional (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm
+  - title: Portal do Simples Nacional (Receita Federal)
+    url: https://www8.receita.fazenda.gov.br/SimplesNacional/
+  - title: Lei nº 15.270/2025, redução do IR até R$ 5 mil e retenção sobre dividendos (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15270.htm
 migratedFrom: https://blog.sejaconte.com.br/post/organizar-fluxo-caixa-pj-planilhas
 ---
 
-Ao longo de nossa experiência atendendo empresas de todos os portes na Conte, chegamos a uma convicção clara: **controle financeiro consistente não acontece por acaso, é resultado de processos, disciplina e boas ferramentas.** O fluxo de caixa é a base para a saúde de qualquer Pessoa Jurídica, e as planilhas continuam sendo um recurso valioso para essa missão.
+O fluxo de caixa mostra quanto dinheiro entra e sai da sua PJ e em que dia. Para quem trabalha sozinho como dev, designer ou analista de dados, a planilha resolve: uma aba para o mês corrente, uma aba com os próximos 12 meses e uma rotina semanal de 15 minutos. Abaixo estão as colunas, as datas de impostos que você precisa conhecer e um exemplo com os números de 2026.
 
-Quando olhamos os números trazidos por pesquisas [sobre o impacto financeiro da pandemia](https://jornalempresasenegocios.com.br/economia/pequenas-e-medias-empresas-tiveram-impacto-acima-de-40-no-fluxo-de-caixa/), vemos o quanto a falta de organização pode ser decisiva para a sobrevivência do negócio. Mas como transformar o fluxo de caixa mensal em uma rotina simples, efetiva e adequada à realidade da PJ? É isso que vamos apresentar neste artigo.
+## O que uma planilha de fluxo de caixa de PJ precisa ter?
 
-## Por que tantas empresas têm dificuldades com fluxo de caixa?
+Quatro colunas obrigatórias e uma separação entre previsto e realizado. Com isso você já enxerga o saldo de cada dia e sabe se o dinheiro do imposto está guardado.
 
-Antes de falar sobre planilhas, precisamos entender o tamanho do desafio. Segundo dados do [Sebrae](https://www.ecommerceupdate.org/noticias/48-das-pequenas-empresas-fecham-por-falta-de-controle-do-caixa/), quase metade das pequenas empresas fecham justamente por não controlar o caixa. **A falta de atenção aos números e à movimentação financeira está diretamente ligada ao fim precoce de muitos negócios.** Entre os motivos mais comuns para o descontrole do fluxo de caixa, destacamos:
+| Coluna | O que registrar | Exemplo |
+|---|---|---|
+| Data | Dia em que o dinheiro entra ou sai da conta | 20/11/2026 |
+| Descrição | Quem pagou ou recebeu, e por quê | DAS competência outubro |
+| Categoria | Grupo fixo para somar depois | Impostos |
+| Valor | Entrada positiva, saída negativa | -900,00 |
+| Status | Previsto ou realizado | Previsto |
 
-- Confusão entre as despesas da empresa e pessoais dos sócios;
-- Dificuldade em antecipar pagamentos e recebimentos futuros;
-- Ausência de rotinas para registrar entradas e saídas diariamente;
-- Falta de uma ferramenta simples e funcional (como uma planilha bem estruturada).
+Use poucas categorias e mantenha sempre as mesmas: receita de clientes no Brasil, receita do exterior, impostos (DAS), pró-labore, INSS, contador, ferramentas e software, banco e tarifas, distribuição de lucros, reserva. Com dez categorias você responde quase tudo que o contador e você mesmo vão perguntar.
 
-Esse cenário se agravou durante a pandemia, como mostram os [dados da Boa Vista](https://jornalempresasenegocios.com.br/economia/pequenas-e-medias-empresas-tiveram-impacto-acima-de-40-no-fluxo-de-caixa/), em que 57% das pequenas e médias empresas tiveram mais de 41% de impacto negativo no caixa. É um choque de realidade que nos impulsiona a buscar soluções práticas.
+Uma linha de saldo acumulado no fim de cada dia fecha a estrutura. Se o saldo previsto fica negativo em alguma data, você descobre com semanas de antecedência, e não no dia do vencimento.
 
-## O que não pode faltar em uma planilha de fluxo de caixa?
+![Planilha de fluxo de caixa com receitas e despesas organizadas em colunas](/images/posts/organizar-fluxo-caixa-pj-planilhas/planilha-fluxo-caixa-15.webp)
 
-Ao ajudarmos nossos clientes aqui na Conte, sempre reforçamos que **uma boa planilha de fluxo de caixa vai muito além dos valores lançados.** Ela deve facilitar o entendimento financeiro, gerar alertas e servir como apoio real para decisões. Algumas partes não podem faltar:
+## Quando vencem os impostos que entram no fluxo de caixa?
 
-- Colunas para **data de entrada** e **saída**;
-- Categorias de receitas e despesas (ex: vendas, impostos, aluguel, folha de pagamento);
-- Um campo de descrição para cada linha, detalhando a movimentação;
-- Saldo inicial e atualização automática do saldo a cada registro;
-- Previsão de recebimentos e pagamentos futuros;
-- Separação clara entre o que já aconteceu (realizado) e o que ainda está por vir (previsto).
+No Simples Nacional, o DAS vence no dia 20 do mês seguinte ao do faturamento (Resolução CGSN nº 140/2018, art. 40). O INSS de 11% que a empresa retém do pró-labore do sócio também vence no dia 20 do mês seguinte (Lei 10.666/2003, art. 4º). Os dois saem do caixa um mês depois da receita que os gerou.
 
-Uma boa planilha permite identificar rapidamente períodos de aperto ou sobra financeira, dando tempo hábil para ajustar o planejamento. Além disso, ela serve de base para estratégias fiscais, cálculo de impostos e, claro, para conversas com parceiros ou contadores.
+Esse descasamento é a armadilha mais comum. Você recebe R$ 15 mil em outubro, a conta parece cheia, e o imposto daquele dinheiro só cobra em 20 de novembro. Para não gastar o que já é do Fisco, crie no mês do faturamento uma linha de provisão com o valor do DAS e transfira esse valor para uma conta separada.
 
-![Planilha de fluxo de caixa com receitas e despesas organizadas em colunas ](/images/posts/organizar-fluxo-caixa-pj-planilhas/planilha-fluxo-caixa-15.webp)
+Alguns gastos aparecem uma vez por ano e somem da cabeça:
 
-## Como criar uma rotina mensal eficiente?
+- **DEFIS**, a declaração anual do Simples, entregue até 31 de março. Não gera imposto, mas costuma vir junto com honorário extra em alguns escritórios.
+- **IRPF do sócio**, entregue até o fim de maio, que pode gerar imposto a pagar em cota única ou parcelado.
+- **Certificado digital** da empresa, renovado a cada um a três anos conforme o tipo.
+- **Reajuste** de contratos de clientes e fornecedores, normalmente no aniversário do contrato.
 
-A organização do fluxo de caixa exige disciplina, mas a experiência mostra que, com práticas simples, o resultado aparece rápido. Em nosso acompanhamento personalizado na Conte, sugerimos alguns passos para tornar esse controle parte do dia a dia do negócio:
+## Como fica o fluxo de caixa de um dev PJ no Simples em 2026?
 
-1. **Definir um momento fixo semanal e mensal para atualizar a planilha.** Pequenas atualizações constantes são mais fáceis do que grandes mutirões esporádicos.
-2. Solicitar a todos da equipe que enviem notas, comprovantes e registros num único canal. Se possível, digitalize tudo, ajuda muito!
-3. Utilizar categorias padronizadas, como as sugeridas em nossas planilhas, para facilitar o acompanhamento dos resultados.
-4. Criar um campo de observações para justificar movimentos atípicos (pagamentos fora do padrão, entradas inesperadas, etc).
-5. Comparar sempre o previsto e o realizado, para entender se o mês está dentro do que foi planejado.
+Considere uma PJ que fatura R$ 15 mil por mês para um cliente no Brasil, com receita de R$ 180 mil nos últimos 12 meses. Com pró-labore de 28% da receita, a empresa cumpre o Fator R, fica no Anexo III e paga 6% na primeira faixa.
 
-Se ainda restar dúvida sobre a organização de documentos, recomendamos a leitura do guia sobre [como organizar recibos e despesas da PJ](/post/organizar-recibos-despesas-pj-tech-passo-a-passo) em nosso blog.
+| Linha | Cálculo | Valor mensal |
+|---|---|---|
+| Receita | Nota fiscal do mês | R$ 15.000 |
+| DAS (Anexo III, 1ª faixa) | 6% x R$ 15.000 | -R$ 900 |
+| Pró-labore bruto | 28% x R$ 15.000 | -R$ 4.200 |
+| dos quais INSS retido | 11% x R$ 4.200, pago pela empresa | (R$ 462) |
+| dos quais IRRF | Zero: rendimento até R$ 5 mil ([Lei 15.270/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15270.htm)) | (R$ 0) |
+| Contador e ferramentas | Valor de exemplo | -R$ 700 |
+| **Sobra para lucro e reserva** | | **R$ 9.200** |
 
-## Quais tipos de planilhas são indicadas para o fluxo de caixa?
+O pró-labore bruto de R$ 4.200 sai do caixa da empresa em duas partes: R$ 3.738 para a sua conta pessoa física e R$ 462 para o INSS no dia 20. Desde janeiro de 2026, quem ganha até R$ 5 mil por mês fica com IR zero na fonte por causa do redutor criado pela Lei 15.270/2025, por isso não há IRRF sobre esse pró-labore.
 
-Dentro do universo empreendedor, encontramos diferentes necessidades. Por isso, recomendamos a escolha da planilha levando em conta o porte da PJ e também o nível de detalhamento desejado. Em nossa prática, identificamos três principais modelos:
+Dos R$ 9.200 que sobram, você decide quanto distribui como lucro e quanto vai para a reserva. A distribuição de lucros do Simples continua isenta para o sócio, mas a mesma lei criou retenção de 10% quando uma empresa paga mais de R$ 50 mil de dividendos no mês para a mesma pessoa. Nesse exemplo, o valor fica longe do limite. Se quiser entender a diferença entre as duas formas de tirar dinheiro da empresa, leia o post sobre [pró-labore, distribuição de lucros e salário](/post/diferenca-pro-labore-distribuicao-lucros-salario).
 
-- **Planilha simples** – Perfeita para quem está começando ou para negócios com poucas movimentações.
-- Planilha detalhada – Reúne controles por centro de custo, cartões de crédito, contas bancárias e lança cada tipo de receita/despesa individualmente.
-- Planilha integrada – Junta o fluxo de caixa mensal ao acompanhamento de bancos e controle de contas a pagar e receber em uma única tela.
+## Como montar a previsão anual de fluxo de caixa?
 
-**Planilhas bem estruturadas evitam surpresas no caixa, facilitam projeções e apoiam decisões de crescimento.** Se quiser se aprofundar em previsões, o artigo sobre [projeção anual do fluxo de caixa](/post/previsao-anual-fluxo-de-caixa-pj) é um ótimo complemento.
+A previsão anual é a mesma planilha mensal com 12 colunas, de janeiro a dezembro, preenchida com o que você espera receber e pagar. Ela responde três perguntas: em que mês o caixa aperta, quando a alíquota do Simples vai subir e quanto você consegue guardar no ano.
 
-## Como analisar e tomar decisões com base no fluxo?
+Monte em quatro passos:
 
-Mais importante que registrar, é saber interpretar o que a planilha mostra. **O fluxo de caixa mensal serve de bússola para todo gestor:**
+1. **Receitas.** Liste cada cliente com valor e data de pagamento. Contrato com prazo definido termina na data do contrato, não em dezembro. Receita sem contrato entra como cenário, numa linha separada.
+2. **Saídas fixas.** Pró-labore, contador, ferramentas, plano de saúde pago pela empresa, tarifas. Elas se repetem todo mês.
+3. **Saídas anuais e sazonais.** DEFIS, IRPF, certificado digital, notebook novo, férias que você vai tirar sem faturar.
+4. **Impostos calculados pela receita prevista.** Aqui mora o erro mais caro, porque a alíquota do Simples depende da receita acumulada em 12 meses.
 
-- Antecipar épocas em que o saldo pode ficar negativo e programar reservas antecipadamente;
-- Decidir se é hora de adiar pagamentos ou negociar prazos;
-- Entender o impacto de impostos e reajustar o pró-labore conforme a variação do caixa;
-- Traçar estratégias para aumentar receitas em períodos de baixa.
+![Pessoa analisando planilha de fluxo de caixa anual em laptop com gráficos e notas ao redor](/images/posts/previsao-anual-fluxo-de-caixa-pj/previsao-anual-fluxo-caixa-801.webp)
 
-Além disso, ao usar a planilha junto ao acompanhamento de um contador pessoal, como na proposta da Conte, garantimos que os dados realmente viram ações, como já comentamos [sobre o impacto de um contador pessoal no lucro da PJ](/post/contador-pessoal-aumenta-lucro-pj). O uso constante de controles também diminui riscos de inadimplência e perdas fiscais.
+### Por que a alíquota do Simples muda ao longo do ano?
 
-![Pessoa analisando dados financeiros com gráficos na tela ](/images/posts/organizar-fluxo-caixa-pj-planilhas/analise-dados-financeiros-131.webp)
+O Simples cobra uma alíquota efetiva calculada sobre a receita bruta dos 12 meses anteriores (RBT12). Quando a RBT12 passa de R$ 180 mil, a empresa entra na segunda faixa do Anexo III, com alíquota nominal de 11,2% e parcela a deduzir de R$ 9.360.
 
-## Como evitar erros comuns ao controlar o caixa?
+| Faturamento mensal | RBT12 | Alíquota efetiva (Anexo III) | DAS mensal |
+|---|---|---|---|
+| R$ 15.000 | R$ 180.000 | 6,0% | R$ 900 |
+| R$ 20.000 | R$ 240.000 | 7,3% | R$ 1.460 |
+| R$ 25.000 | R$ 300.000 | 8,1% | R$ 2.020 |
 
-A experiência mostra que alguns deslizes são frequentes nesse processo. Para manter as finanças em ordem mês após mês, sugerimos atenção redobrada com:
+O cálculo da segunda linha: (R$ 240.000 x 11,2% - R$ 9.360) / R$ 240.000 = 7,3%. Se você fecha um aumento de R$ 15 mil para R$ 20 mil em março, a alíquota sobe aos poucos nos meses seguintes, conforme a RBT12 cresce. A previsão anual mostra esse efeito antes de ele aparecer no boleto. Para simular cenários com outros valores, use a [calculadora da Conte](https://sejaconte.com.br/calculadora).
 
-- Lançamentos atrasados, que comprometem a visão real do fluxo;
-- Erros ao classificar receitas e despesas nas categorias corretas;
-- Confusão entre movimentos já realizados e valores previstos;
-- Falta de conferência do saldo bancário com a planilha, gerando diferenças inesperadas.
+Receita de cliente no exterior muda a conta. No Simples, a exportação de serviço fica isenta de PIS, Cofins e ISS, então a alíquota efetiva sobre essa parte da receita é menor. Separe as duas receitas em linhas diferentes na planilha. O post sobre [tributação de serviços para o exterior](/post/tributacao-servicos-para-exterior-o-que-muda) detalha o cálculo.
 
-**Evitar esses equívocos é um passo relevante para decisões acertadas e segurança no crescimento.** Por isso, estrutura, disciplina e apoio profissional fazem tanta diferença para quem quer crescer sem sustos.
+## Que rotina mantém a planilha em dia?
 
-## Como integrar o controle do fluxo de caixa com o planejamento fiscal?
+Quinze minutos por semana e uma revisão no fim do mês dão conta de uma PJ de uma pessoa. O problema quase nunca é a planilha, e sim lançar tudo de uma vez no fim do trimestre, quando os comprovantes já se perderam.
 
-Além do controle do dia a dia, a integração entre o fluxo de caixa e o planejamento fiscal reduz o risco de surpresas com impostos e multas. Ao adotar o fluxo de caixa mensal aliado à estratégia fiscal personalizada, como fazemos na Conte, é possível:
+- **Toda semana:** baixe o extrato, lance as movimentações e marque como realizado o que era previsto.
+- **No fim do mês:** compare o saldo da planilha com o saldo do banco. Diferença sem explicação costuma ser tarifa, estorno ou pagamento esquecido.
+- **No dia 1:** lance o DAS e o INSS que vencem no dia 20 e confira se o dinheiro está na conta separada.
+- **A cada trimestre:** refaça a previsão dos meses seguintes e confira se o pró-labore continua em 28% da receita.
 
-- Prever com exatidão as datas de vencimento dos impostos e evitar atrasos;
-- Simplificar a tomada de decisão para distribuição de lucros e pró-labore;
-- Gerar relatórios periódicos, facilitando conversas com bancos e investidores;
-- Reduzir pagamentos indevidos, com análise constante dos melhores regimes fiscais.
+Guarde os comprovantes no mesmo dia em que lança. O post sobre [como organizar recibos e despesas da PJ](/post/organizar-recibos-despesas-pj-tech-passo-a-passo) mostra uma estrutura de pastas que conversa com essas categorias.
 
-Esses tópicos também são discutidos em detalhes na nossa seção dedicada ao [planejamento fiscal](/category/planejamento-fiscal) no blog da Conte.
+## Quais erros mais desequilibram o caixa da PJ?
 
-## Conclusão: transforme a rotina financeira da sua PJ
+Quatro erros explicam a maior parte dos sustos:
 
-Organizar o fluxo de caixa com planilhas não precisa ser um fardo. Ao contrário: pode se transformar no maior aliado da gestão financeira. Lançar, revisar, analisar e decidir formam um ciclo virtuoso que, com disciplina e suporte, traduz números em resultados.
+- **Misturar conta pessoal e conta da empresa.** Você perde a noção do que é lucro e do que é gasto da PJ, e a conciliação vira adivinhação.
+- **Gastar o dinheiro do imposto.** Sem provisão, o DAS do dia 20 sai do dinheiro que você já considerava seu.
+- **Ignorar o Fator R quando a receita sobe.** Se o faturamento aumenta e o pró-labore fica igual, a relação cai abaixo de 28% e a empresa vai para o Anexo V, que começa em 15,5%.
+- **Não ter reserva.** Um cliente que atrasa 30 dias já deixa o caixa no vermelho. O post sobre [fundo de reserva para PJ](/post/como-criar-fundo-reserva-financeira-pj) explica quanto guardar e onde aplicar.
 
-> Disciplina no controle financeiro é liberdade no planejamento.
-
-Na Conte, nosso compromisso é criar rotinas que facilitem a vida da PJ, trazendo menos burocracia e mais clareza para o o crescimento sustentável. Se quer saber como conectar o controle financeiro ao planejamento estratégico e fiscal, convidamos você a conhecer nossos serviços e descobrir como podemos ajudar sua empresa a prosperar.
+Com a planilha mensal, a previsão de 12 meses e a rotina semanal, você sabe com antecedência quanto pode distribuir, quanto precisa guardar e em que mês vale renegociar um contrato.
