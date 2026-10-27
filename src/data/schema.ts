@@ -50,7 +50,7 @@ export const homeSchema = [
     areaServed: { '@type': 'Country', name: 'Brasil' },
     offers: [
       { name: 'Plano MEI', price: '99.00' },
-      { name: 'Plano ME e EPP', price: '359.00' },
+      { name: 'Plano completo', price: '359.00' },
     ].map((plan) => ({
       '@type': 'Offer',
       name: plan.name,

@@ -4,7 +4,7 @@
 
 ## Páginas
 
-- [Página inicial](https://sejaconte.com.br/): serviços, planos (MEI R$99/mês; ME e EPP R$359/mês) e perguntas frequentes
+- [Página inicial](https://sejaconte.com.br/): serviços, planos (completo R$359/mês, para quem trabalha para o Brasil ou o exterior; MEI R$99/mês) e perguntas frequentes
 - [Calculadora PJ exterior](https://sejaconte.com.br/calculadora): quanto sobra para quem presta serviços para empresas de fora do Brasil
 - [Calculadora CLT vs PJ](https://sejaconte.com.br/clt-vs-pj): comparação entre salário CLT e proposta PJ
 - [Cadastro](https://app.sejaconte.com.br/cadastro): abrir empresa ou migrar a contabilidade para a Conte
