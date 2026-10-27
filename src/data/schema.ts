@@ -49,8 +49,8 @@ export const homeSchema = [
     provider: { '@id': ORG_ID },
     areaServed: { '@type': 'Country', name: 'Brasil' },
     offers: [
-      { name: 'Para MEIs', price: '99.00' },
-      { name: 'Para ME e EPP', price: '359.00' },
+      { name: 'Plano MEI', price: '99.00' },
+      { name: 'Plano ME e EPP', price: '359.00' },
     ].map((plan) => ({
       '@type': 'Offer',
       name: plan.name,
