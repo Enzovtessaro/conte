@@ -1,0 +1,46 @@
+# Netlify site for blog.sejaconte.com.br. Base directory: blog/ (set on the Netlify site).
+[build]
+  command = "npm run check && npm run build"
+  publish = "dist"
+  # Base directory is blog/, so this only rebuilds when something in blog/ changed.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- ."
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Old Automarticles URLs that have no direct equivalent.
+[[redirects]]
+  from = "/feed"
+  to = "/rss.xml"
+  status = 301
+
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap-index.xml"
+  status = 301
+
+[[redirects]]
+  from = "/search"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/post/:slug/"
+  to = "/post/:slug"
+  status = 301
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/_astro/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

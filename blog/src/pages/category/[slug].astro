@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getPosts, type Post } from '../../lib/posts';
+import { itemList } from '../../lib/listing';
+import { SITE, CATEGORIES, CATEGORY_SLUGS, type CategorySlug } from '../../lib/site';
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return CATEGORY_SLUGS.map((slug) => ({ params: { slug }, props: { slug, posts: posts.filter((p) => p.data.category === slug) } }));
+}
+interface Props { slug: CategorySlug; posts: Post[] }
+const { slug, posts } = Astro.props;
+const cat = CATEGORIES[slug];
+const url = `${SITE.url}/category/${slug}`;
+---
+<Base
+  title={`${cat.name} para PJ | ${SITE.name}`}
+  description={cat.description}
+  noindex={posts.length === 0}
+  jsonLd={[
+    { '@type': 'CollectionPage', url, name: cat.name, description: cat.description, mainEntity: itemList(posts, cat.name) },
+    { '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Blog', item: SITE.url },
+      { '@type': 'ListItem', position: 2, name: cat.name, item: url },
+    ] },
+  ]}
+>
+  <header class="wrap page-head">
+    <nav class="breadcrumbs" aria-label="Você está em"><a href="/">Blog</a> <span aria-hidden="true">›</span> {cat.name}</nav>
+    <h1>{cat.name}</h1>
+    <p>{cat.description}</p>
+  </header>
+  <section class="wrap" aria-label={`Artigos de ${cat.name}`}>
+    {posts.length ? <div class="grid">{posts.map((p, i) => <PostCard post={p} eager={i < 2} />)}</div> : <p>Em breve, novos artigos nesta categoria.</p>}
+  </section>
+</Base>
