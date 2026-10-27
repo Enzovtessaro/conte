@@ -34,32 +34,33 @@ const Plans: React.FC = () => {
 
         <div className="mx-auto max-w-5xl space-y-4">
           <Reveal>
-            <div className="grid overflow-hidden rounded-[32px] bg-ink text-white shadow-float md:grid-cols-[0.9fr_1.1fr]">
-              <div className="flex flex-col p-8 md:p-12">
+            <div className="relative grid overflow-hidden rounded-[32px] border border-paper-line bg-white text-ink shadow-float md:grid-cols-[0.9fr_1.1fr]">
+              <div aria-hidden className="pointer-events-none absolute -left-24 -top-24 h-72 w-72 rounded-full bg-brand/20 blur-3xl" />
+              <div className="relative flex flex-col p-8 md:p-12">
                 <span className="w-fit rounded-full bg-brand px-3 py-1 text-xs font-semibold text-ink">Plano completo</span>
                 <h3 className="mt-6 font-display text-3xl md:text-4xl font-semibold leading-[1.1] tracking-[-0.03em] text-balance">
                   Trabalha para o Brasil ou para o exterior?
                 </h3>
                 <div className="mt-8 flex items-baseline gap-1">
-                  <span className="text-lg text-white/60">R$</span>
+                  <span className="text-lg text-ink-muted">R$</span>
                   <span className="font-display text-7xl font-semibold tracking-[-0.04em]">359</span>
-                  <span className="text-white/60">/mês</span>
+                  <span className="text-ink-muted">/mês</span>
                 </div>
-                <Button href={SIGNUP_URL} size="lg" variant="accent" className="mt-10 w-full sm:w-fit">
+                <Button href={SIGNUP_URL} size="lg" className="mt-10 w-full sm:w-fit">
                   Começar agora
                   <ArrowRight size={18} className="transition-transform group-hover:translate-x-0.5" />
                 </Button>
               </div>
 
-              <div className="border-t border-white/10 p-8 md:border-l md:border-t-0 md:p-12">
-                <p className="text-sm font-medium text-white/50">Tudo incluso</p>
+              <div className="relative border-t border-paper-line bg-paper-deep/70 p-8 md:border-l md:border-t-0 md:p-12">
+                <p className="text-sm font-medium text-ink-muted">Tudo incluso</p>
                 <ul className="mt-6 grid gap-x-8 gap-y-4 sm:grid-cols-2">
                   {mainFeatures.map((feature) => (
                     <li key={feature} className="flex items-start gap-3">
                       <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-brand text-ink">
                         <Check size={12} strokeWidth={3} />
                       </span>
-                      <span className="text-white/85">{feature}</span>
+                      <span className="text-ink-soft">{feature}</span>
                     </li>
                   ))}
                 </ul>
