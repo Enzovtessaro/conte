@@ -36,9 +36,9 @@ function App() {
             element={
               <main>
                 <Hero />
+                <Features />
                 <MeetSolange />
                 <Services />
-                <Features />
                 <Plans />
                 <Testimonials />
                 <FAQ />

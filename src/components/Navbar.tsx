@@ -6,6 +6,7 @@ import Logo from './Logo';
 import { BLOG_URL, SIGNUP_URL } from '../lib/links';
 
 const sections = [
+  { id: 'diferenciais', label: 'Como funciona' },
   { id: 'servicos', label: 'Serviços' },
   { id: 'planos', label: 'Planos' },
   { id: 'duvidas', label: 'Dúvidas' },
