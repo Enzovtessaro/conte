@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     q: 'Qual plano é o meu?',
-    a: 'Se você é MEI, o plano para MEIs (R$99/mês). Se já passou do MEI, o plano para ME e EPP (R$359/mês). Na dúvida, chama a gente no WhatsApp que a gente te ajuda a escolher.',
+    a: 'Se você é MEI, o plano de R$99/mês. Se você é ME ou EPP, o plano de R$359/mês. Na dúvida, chama a gente no WhatsApp que a gente te ajuda a escolher.',
   },
 ];
 

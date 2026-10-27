@@ -6,18 +6,16 @@ import SectionHeading from './SectionHeading';
 import { SIGNUP_URL } from '../lib/links';
 
 interface Plan {
-  title: string;
+  question: string;
   price: string;
-  description: string;
   features: string[];
   featured?: boolean;
 }
 
 const plans: Plan[] = [
   {
-    title: 'Para MEIs',
+    question: 'Você é MEI?',
     price: '99',
-    description: 'Seu MEI em dia, sem esforço e com atendimento humano.',
     features: [
       'Abertura de empresa',
       'Uma nota fiscal por mês',
@@ -27,11 +25,10 @@ const plans: Plan[] = [
     ],
   },
   {
-    title: 'Para ME e EPP',
+    question: 'Você é ME ou EPP?',
     price: '359',
-    description: 'Para quem já passou do MEI, inclusive quem presta serviços para o exterior.',
     features: [
-      'Tudo do plano para MEIs',
+      'Tudo do plano MEI',
       'Contabilidade completa',
       'Planejamento e consultoria tributária',
       'Pró-labore do sócio',
@@ -53,14 +50,12 @@ const PlanCard: React.FC<{ plan: Plan }> = ({ plan }) => {
       }`}
     >
       <div className="flex items-center justify-between">
-        <h3 className="font-display text-2xl font-semibold tracking-[-0.02em]">{plan.title}</h3>
+        <h3 className="font-display text-2xl font-semibold tracking-[-0.02em]">{plan.question}</h3>
         {dark && (
           <span className="rounded-full bg-brand px-3 py-1 text-xs font-semibold text-ink">Mais completo</span>
         )}
       </div>
-      <p className={`mt-3 leading-relaxed ${dark ? 'text-white/60' : 'text-ink-muted'}`}>{plan.description}</p>
-
-      <div className="mt-8 flex items-baseline gap-1">
+      <div className="mt-6 flex items-baseline gap-1">
         <span className={`text-lg ${dark ? 'text-white/60' : 'text-ink-muted'}`}>R$</span>
         <span className="font-display text-6xl font-semibold tracking-[-0.04em]">{plan.price}</span>
         <span className={dark ? 'text-white/60' : 'text-ink-muted'}>/mês</span>
@@ -105,7 +100,7 @@ const Plans: React.FC = () => {
 
         <div className="mx-auto grid max-w-4xl items-stretch gap-5 md:grid-cols-2">
           {plans.map((plan, index) => (
-            <Reveal key={plan.title} delay={index * 0.08} className="h-full">
+            <Reveal key={plan.question} delay={index * 0.08} className="h-full">
               <PlanCard plan={plan} />
             </Reveal>
           ))}
