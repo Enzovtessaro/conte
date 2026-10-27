@@ -1,0 +1,8 @@
+---
+import Listing from '../components/Listing.astro';
+import { getPosts } from '../lib/posts';
+import { SITE } from '../lib/site';
+const posts = await getPosts();
+const total = Math.ceil(posts.length / SITE.postsPerPage);
+---
+<Listing posts={posts.slice(0, SITE.postsPerPage)} current={1} total={total} />
