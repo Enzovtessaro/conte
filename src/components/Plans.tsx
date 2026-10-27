@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, Check } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import Button from './Button';
 import Reveal from './Reveal';
 import SectionHeading from './SectionHeading';
@@ -50,6 +51,12 @@ const Plans: React.FC = () => {
                   Começar agora
                   <ArrowRight size={18} className="transition-transform group-hover:translate-x-0.5" />
                 </Button>
+                <Link
+                  to="/calculadora"
+                  className="mt-5 w-fit text-[15px] text-ink-muted underline decoration-ink/20 underline-offset-4 hover:text-ink hover:decoration-ink"
+                >
+                  Recebe do exterior? Simule quanto sobra no seu bolso
+                </Link>
               </div>
 
               <div className="relative border-t border-paper-line bg-paper-deep/70 p-8 md:border-l md:border-t-0 md:p-12">

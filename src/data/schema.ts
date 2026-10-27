@@ -1,4 +1,5 @@
 import { EMAIL, INSTAGRAM_URL, SIGNUP_URL, SITE_URL } from '../lib/links';
+import { faqs } from './faq';
 
 const ORG_ID = `${SITE_URL}/#organization`;
 
@@ -64,6 +65,15 @@ export const homeSchema = [
         unitCode: 'MON',
         referenceQuantity: { '@type': 'QuantitativeValue', value: 1, unitCode: 'MON' },
       },
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: { '@type': 'Answer', text: item.a },
     })),
   },
 ];

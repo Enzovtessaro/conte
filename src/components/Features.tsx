@@ -173,7 +173,7 @@ const Features: React.FC = () => {
               A rotina no WhatsApp. <span className="font-serif font-normal italic">As decisões com sua contadora.</span>
             </>
           }
-          description="O que é rotina, a gente resolve rápido no WhatsApp. O que precisa de cuidado fica com uma contadora que conhece você."
+          description="Diferente das contabilidades online que te deixam sozinho numa plataforma, na Conte o que é rotina a gente resolve rápido no WhatsApp, e o que precisa de cuidado fica com uma contadora que conhece você."
         />
 
         <div className="space-y-20 md:space-y-32">

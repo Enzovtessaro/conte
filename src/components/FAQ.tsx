@@ -39,20 +39,22 @@ const FAQ: React.FC = () => {
               const isOpen = open === i;
               return (
                 <div key={item.q}>
-                  <button
-                    onClick={() => setOpen(isOpen ? null : i)}
-                    aria-expanded={isOpen}
-                    className="flex w-full items-center justify-between gap-6 py-6 text-left"
-                  >
-                    <span className="font-display text-lg md:text-xl font-semibold tracking-[-0.01em] text-ink">{item.q}</span>
-                    <span
-                      className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border transition-all duration-200 ${
-                        isOpen ? 'rotate-45 border-ink bg-ink text-white' : 'border-paper-line text-ink'
-                      }`}
+                  <h3>
+                    <button
+                      onClick={() => setOpen(isOpen ? null : i)}
+                      aria-expanded={isOpen}
+                      className="flex w-full items-center justify-between gap-6 py-6 text-left"
                     >
-                      <Plus size={16} />
-                    </span>
-                  </button>
+                      <span className="font-display text-lg md:text-xl font-semibold tracking-[-0.01em] text-ink">{item.q}</span>
+                      <span
+                        className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border transition-all duration-200 ${
+                          isOpen ? 'rotate-45 border-ink bg-ink text-white' : 'border-paper-line text-ink'
+                        }`}
+                      >
+                        <Plus size={16} />
+                      </span>
+                    </button>
+                  </h3>
                   <div
                     className={`grid transition-[grid-template-rows] duration-300 ease-out ${
                       isOpen ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'
@@ -69,6 +71,17 @@ const FAQ: React.FC = () => {
                           className="-mt-2 mb-6 inline-flex items-start gap-1.5 text-[15px] font-medium text-ink underline decoration-ink/20 underline-offset-4 hover:decoration-ink"
                         >
                           <span className="shrink-0 text-ink-muted">No blog:</span> {item.post.title} →
+                        </a>
+                      )}
+                      {item.source && (
+                        <a
+                          href={item.source.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          tabIndex={isOpen ? 0 : -1}
+                          className="mb-6 block w-fit text-[14px] text-ink-muted underline decoration-ink/20 underline-offset-4 hover:text-ink hover:decoration-ink"
+                        >
+                          Fonte oficial: {item.source.title} ↗
                         </a>
                       )}
                     </div>

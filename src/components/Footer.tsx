@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold text-ink">Conte</h4>
+            <p className="text-sm font-semibold text-ink">Conte</p>
             <ul className="mt-4 space-y-3 text-[15px]">
               <li><a href="/#servicos" className={linkClass}>Serviços</a></li>
               <li><a href="/#planos" className={linkClass}>Planos</a></li>
@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold text-ink">Conteúdo</h4>
+            <p className="text-sm font-semibold text-ink">Conteúdo</p>
             <ul className="mt-4 space-y-3 text-[15px]">
               <li><a href={BLOG_URL} target="_blank" rel="noopener noreferrer" className={linkClass}>Blog</a></li>
               <li><Link to="/calculadora" className={linkClass}>Calculadora exterior</Link></li>
@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold text-ink">Contato</h4>
+            <p className="text-sm font-semibold text-ink">Contato</p>
             <ul className="mt-4 space-y-3 text-[15px] text-ink-muted">
               <li><a href={`mailto:${EMAIL}`} className={linkClass}>{EMAIL}</a></li>
               <li><a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className={linkClass}>+55 (41) 98701-6965</a></li>

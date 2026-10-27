@@ -1,6 +1,7 @@
 import { BLOG_URL } from '../lib/links';
 
 const post = (slug: string, title: string) => ({ title, url: `${BLOG_URL}/post/${slug}` });
+const source = (title: string, url: string) => ({ title, url });
 
 export const faqs = [
   {
@@ -11,6 +12,7 @@ export const faqs = [
   {
     q: 'A abertura da empresa é grátis mesmo?',
     a: 'Sim. A Conte não cobra para abrir a sua empresa, em nenhum dos planos.',
+    source: source('Redesim: abertura de empresas (gov.br)', 'https://www.gov.br/empresas-e-negocios/pt-br/redesim'),
   },
   {
     q: 'Vou falar com um contador de verdade?',
@@ -23,12 +25,14 @@ export const faqs = [
   },
   {
     q: 'Recebo de empresa do exterior. A Conte atende o meu caso?',
-    a: 'Sim. O plano para ME e EPP é feito também para quem presta serviços para empresas de fora do Brasil.',
+    a: 'Sim. O plano completo, de R$359/mês, é feito também para quem presta serviços para empresas de fora do Brasil.',
+    source: source('Portal do Simples Nacional (Receita Federal)', 'https://www8.receita.fazenda.gov.br/simplesnacional/'),
     post: post('tributacao-servicos-para-exterior-o-que-muda', 'Tributação para quem presta serviço ao exterior: o que muda?'),
   },
   {
     q: 'Qual plano é o meu?',
-    a: 'O plano completo, de R$359/mês, serve para qualquer PJ, trabalhando para o Brasil ou para o exterior. Se você ainda é MEI, o plano é de R$99/mês. Na dúvida, chama a gente no WhatsApp que a gente te ajuda a escolher.',
+    a: 'O plano completo, de R$359/mês, serve para qualquer PJ (pessoa jurídica), trabalhando para o Brasil ou para o exterior. Se você ainda é MEI (microempreendedor individual), o plano é de R$99/mês. Ele é só para MEI e não inclui contabilidade completa nem pró-labore. Na dúvida, chama a gente no WhatsApp que a gente te ajuda a escolher.',
+    source: source('O que é MEI (Portal do Empreendedor, gov.br)', 'https://www.gov.br/empresas-e-negocios/pt-br/empreendedor'),
     post: post('mudando-de-mei-para-simples-guia-2025', 'Mudando de MEI para Simples: guia rápido e prático'),
   },
 ];
