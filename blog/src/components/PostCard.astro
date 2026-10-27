@@ -2,13 +2,27 @@
 import type { Post } from '../lib/posts';
 import { CATEGORIES } from '../lib/site';
 import { formatDate, isoDate, readingMinutes } from '../lib/posts';
-interface Props { post: Post; eager?: boolean; headingLevel?: 'h2' | 'h3' }
-const { post, eager = false, headingLevel: H = 'h2' } = Astro.props;
+interface Props { post: Post; eager?: boolean; priority?: boolean; headingLevel?: 'h2' | 'h3' }
+const { post, eager = false, priority = false, headingLevel: H = 'h2' } = Astro.props;
+// Netlify Image CDN resizes covers for the card slot; locally the original is used.
+const cdn = (src: string, w: number) => (import.meta.env.PROD ? `/.netlify/images?url=${encodeURIComponent(src)}&w=${w}&fm=webp&q=72` : src);
 const d = post.data;
 ---
 <article class="card">
   <a href={`/post/${post.id}`} class="card-link">
-    {d.cover && <img src={d.cover} alt={d.coverAlt ?? ''} width="640" height="360" loading={eager ? 'eager' : 'lazy'} decoding="async" fetchpriority={eager ? 'high' : 'auto'} />}
+    {d.cover && (
+      <img
+        src={cdn(d.cover, 640)}
+        srcset={import.meta.env.PROD ? `${cdn(d.cover, 400)} 400w, ${cdn(d.cover, 640)} 640w, ${cdn(d.cover, 960)} 960w` : undefined}
+        sizes="(max-width: 700px) 100vw, 360px"
+        alt={d.coverAlt ?? ''}
+        width="1216"
+        height="640"
+        loading={eager ? 'eager' : 'lazy'}
+        decoding="async"
+        fetchpriority={priority ? 'high' : 'auto'}
+      />
+    )}
     <div class="card-body">
       <span class="tag">{CATEGORIES[d.category].name}</span>
       <H>{d.title}</H>

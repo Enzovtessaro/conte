@@ -9,14 +9,16 @@ import { SITE, CATEGORIES } from '../lib/site';
       <p><a href={SITE.mainSite}>sejaconte.com.br</a> · <a href={SITE.whatsapp} rel="nofollow">Fale no WhatsApp</a></p>
     </div>
     <nav aria-label="Todas as categorias">
-      <h2>Categorias</h2>
+      <p class="h">Categorias</p>
       <ul>{Object.entries(CATEGORIES).map(([slug, c]) => <li><a href={`/category/${slug}`}>{c.name}</a></li>)}</ul>
     </nav>
     <nav aria-label="Ferramentas e blog">
-      <h2>Ferramentas</h2>
+      <p class="h">Ferramentas</p>
       <ul>
         <li><a href={`${SITE.mainSite}/calculadora`}>Calculadora de impostos PJ</a></li>
         <li><a href={`${SITE.mainSite}/clt-vs-pj`}>Calculadora CLT x PJ</a></li>
+        <li><a href="/sobre">Sobre o blog</a></li>
+        <li><a href="/como-revisamos">Como revisamos o conteúdo</a></li>
         <li><a href="/author/solange-vaz">Sobre a autora</a></li>
         <li><a href="/rss.xml">RSS</a></li>
       </ul>

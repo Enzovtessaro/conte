@@ -20,6 +20,7 @@ faq:
 - q: Quais impostos incidem ao contratar PJ?
   a: 'Os principais impostos incidentes ao contratar PJ são: ISS, PIS, COFINS, IRPJ e CSLL, dependendo do enquadramento da empresa prestadora, além do INSS em alguns casos. Cada caso exige planejamento tributário específico para evitar surpresas desagradáveis e manter a regularidade fiscal. Temos um conteúdo completo sobre isso em nosso blog sobre tributação para PJ.'
 migratedFrom: https://blog.sejaconte.com.br/post/contratar-funcionarios-clt-como-pj-2026
+noindex: true
 ---
 
 No mundo do trabalho em 2026, a diferença entre contratar pelo regime CLT e a contratação através de pessoa jurídica (PJ) segue sendo alvo de intensos debates. Novas regras, decisões judiciais e discussões sobre direitos e deveres estão mudando o cenário, tornando fundamental entender as novidades antes de tomar qualquer decisão.
@@ -64,7 +65,7 @@ Com o avanço dos processos judiciais e o novo foco dos órgãos fiscalizadores,
 
 Considerando a expectativa de endurecimento por parte dos órgãos públicos, **contratar como PJ sem cuidados em 2026 pode sair mais caro do que manter o funcionário na CLT**. Multas, pagamentos retroativos e ações coletivas se tornam cada vez mais comuns em decorrência de desenquadramento fiscal.
 
-Em nossa experiência atendendo empresas e profissionais de todos os portes aqui na Conte, percebemos que dúvidas tributárias e trabalhistas aumentam, sobretudo pela complexidade da legislação e pela frequência das mudanças. Nesse sentido, um suporte humanizado e ágil, como oferecido pela Conte, faz toda diferença para evitar erros e agir preventivamente. Saiba mais sobre esse diferencial em nosso artigo sobre [atendimento humano para dúvidas fiscais](/post/atendimento-humano-agilizar-duvidas-fiscais-pj-tech).
+Em nossa experiência atendendo empresas e profissionais de todos os portes aqui na Conte, percebemos que dúvidas tributárias e trabalhistas aumentam, sobretudo pela complexidade da legislação e pela frequência das mudanças. Nesse sentido, um suporte humanizado e ágil, como oferecido pela Conte, faz toda diferença para evitar erros e agir preventivamente. Saiba mais sobre esse diferencial em nosso artigo sobre [atendimento humano para dúvidas fiscais](/post/contador-pessoal-para-profissionais-tech).
 
 ## Vantagens e desvantagens para empresas e profissionais
 

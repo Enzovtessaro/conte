@@ -1,106 +1,104 @@
 ---
-title: O que muda no IRPJ para quem presta serviços em 2026
-seoTitle: O que muda no IRPJ para quem presta serviços em 2026
-description: Confira as principais alterações no IRPJ para prestadores de serviços em 2026 e adeque sua estratégia fiscal.
+title: "IRPJ 2026: o que muda para quem presta serviços (LC 224 e Lei 15.270)"
+seoTitle: "IRPJ 2026: o que muda para prestador de serviços"
+description: "IRPJ em 2026: LC 224 sobe a presunção do Lucro Presumido acima de R$ 5 milhões e a Lei 15.270 tributa lucros acima de R$ 50 mil/mês. Veja o efeito na PJ."
 pubDate: '2025-12-19'
-updatedDate: '2025-12-19'
+updatedDate: '2026-10-27'
 category: tributacao
 author: solange-vaz
 cover: /images/posts/o-que-muda-no-irpj-para-quem-presta-servicos-em-2026/contador-planejando-irpj-2026-284.webp
 coverAlt: Contador analisando mudanças no IRPJ 2026 em mesa de escritório com gráficos e leis
+tags: [lucro-presumido, dividendos, simples-nacional, irpf, pro-labore]
+tldr:
+  - "Em 2026, a principal mudança no IRPJ de prestadores de serviço veio da LC 224/2025: no Lucro Presumido, a margem presumida sobe 10% (de 32% para 35,2% em serviços) apenas sobre a receita anual acima de R$ 5 milhões."
+  - "O acréscimo vale para o IRPJ desde 1º de janeiro e para a CSLL desde 1º de abril de 2026. Empresas do Simples Nacional e do Presumido com receita até R$ 5 milhões não foram afetadas."
+  - "A Lei 15.270/2025 não mexeu no IRPJ, mas mudou a retirada do lucro: a empresa retém 10% de IR quando paga mais de R$ 50 mil por mês em lucros à mesma pessoa física."
+  - "As alíquotas do IRPJ continuam as mesmas: 15%, com adicional de 10% sobre o lucro acima de R$ 20 mil por mês."
 faq:
-- q: O que muda no IRPJ em 2026?
-  a: Está prevista uma revisão das faixas de faturamento, mudança na base de cálculo de alguns regimes, ajustes nas alíquotas e exigências mais detalhadas de apuração fiscal para prestadores de serviço. O governo também intensificará o cruzamento de dados digitais, o que exige mais atenção na escrituração e no envio das informações financeiras da empresa.
-- q: Como calcular o IRPJ para serviços?
-  a: O cálculo varia de acordo com o regime tributário (Simples, Lucro Presumido, Lucro Real). No Lucro Presumido, por exemplo, aplica-se uma alíquota sobre um percentual do faturamento. No Lucro Real, é sobre o lucro efetivo após deduzidas despesas permitidas. Em todos os casos, é preciso considerar possíveis exclusões e retenções específicas do setor de serviços.
-- q: Quais serviços são afetados pelas mudanças?
-  a: As alterações atingem, em especial, empresas de serviços técnicos, intelectuais, consultorias, tecnologia, saúde, advocacia, engenharia, entre outros. Quanto mais intensivo em recursos humanos e conhecimento for o serviço, maior a atenção necessária com as novas regras do IRPJ.
-- q: Vale a pena mudar o regime tributário?
-  a: Depende do perfil da sua empresa e da projeção de receitas e custos para os próximos anos. Simulações e planejamento são recomendados para escolher o regime tributário mais vantajoso. Empresas de consultoria e tecnologia, por exemplo, podem ter benefícios migrando para Lucro Real ou investindo em deduções permitidas. Um contador pessoal pode sugerir a mudança no momento certo.
-- q: Como reduzir o valor do IRPJ em 2026?
-  a: É possível diminuir a carga tributária com um bom planejamento fiscal, revisão contratual, aproveitamento de deduções e organização completa da documentação. Simulações constantes e acompanhamento próximo de um contador pessoal pós-reforma são passos que recomendados para manter a empresa competitiva e regularizada.
+  - q: "A alíquota do IRPJ mudou em 2026?"
+    a: "Não. O IRPJ continua com alíquota de 15% e adicional de 10% sobre a parcela do lucro acima de R$ 20 mil por mês (R$ 60 mil por trimestre). O que mudou foi a base presumida no Lucro Presumido, para empresas com receita anual acima de R$ 5 milhões."
+  - q: "A LC 224/2025 afeta empresas do Simples Nacional?"
+    a: "Não. O acréscimo de 10% na presunção se aplica ao Lucro Presumido. No Simples, o IRPJ segue dentro do DAS, com as alíquotas dos anexos da LC 123/2006."
+  - q: "Como calcular o IRPJ no Lucro Presumido para serviços?"
+    a: "Aplique 32% sobre a receita bruta do trimestre para achar o lucro presumido. Sobre ele, aplique 15% e mais 10% sobre o que passar de R$ 60 mil no trimestre. Em 2026, a parcela da receita acima de R$ 5 milhões no ano usa margem de 35,2%."
+  - q: "A reforma tributária muda o IRPJ?"
+    a: "Não. A reforma da EC 132/2023 e da LC 214/2025 trata dos tributos sobre consumo: CBS no lugar de PIS e Cofins a partir de 2027, e IBS no lugar de ICMS e ISS até 2033. IRPJ e CSLL ficaram fora dela."
+sources:
+  - title: Lei Complementar nº 224/2025 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp224.htm
+  - title: Lei nº 15.270/2025 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm
+  - title: Lei nº 9.249/1995, IRPJ e percentuais de presunção (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/l9249.htm
+  - title: Lei nº 9.430/1996, apuração trimestral e Lucro Presumido (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/l9430.htm
 migratedFrom: https://blog.sejaconte.com.br/post/o-que-muda-no-irpj-para-quem-presta-servicos-em-2026
 ---
 
-No universo da contabilidade, novidades no Imposto de Renda para Pessoa Jurídica (IRPJ) sempre causam grande expectativa. Muitos profissionais autônomos, consultores, empresas de tecnologia e prestadores de serviço em geral têm buscado entender o que, de fato, vai mudar a partir de 2026 e como se preparar. Afinal, nosso compromisso na Conte é antecipar tendências, traduzir normas complexas em orientações claras e ajudar sua PJ a pagar menos impostos sem dor de cabeça.
+Em 2026, o IRPJ de quem presta serviços mudou em um ponto só: o Lucro Presumido de empresas com receita acima de R$ 5 milhões por ano. A alíquota é a mesma, e o Simples Nacional não mudou. Ao lado disso, a [Lei 15.270/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm) alterou a forma de tirar o lucro da empresa, o que mexe no planejamento de quem já está no Presumido.
 
-## Por que o IRPJ está mudando em 2026?
+## O que mudou no IRPJ em 2026?
 
-O Governo Federal tem revisado regras tributárias, alinhando exigências fiscais à modernização da economia. O objetivo é tornar o sistema menos desigual entre diferentes setores, fechar brechas e simplificar processos. Para quem presta serviços, e principalmente os que atuam no Simples Nacional, lucro presumido ou lucro real, as mudanças prometem impacto direto no bolso.
+A [LC 224/2025](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp224.htm) acrescentou 10% aos percentuais de presunção do Lucro Presumido, mas só sobre a parcela da receita bruta anual que passa de R$ 5 milhões. Para serviços em geral, a margem de 32% vira 35,2% nesse excedente. A mesma regra vale para a CSLL.
 
-> Mudanças no IRPJ afetam diretamente a rotina de quem presta serviços.
+| Tributo | Regra até 2025 | Regra em 2026 | Desde quando |
+|---|---|---|---|
+| IRPJ no Presumido (serviços) | 32% da receita | 32% até R$ 5 milhões no ano; 35,2% sobre o excedente | 1º de janeiro de 2026 |
+| CSLL no Presumido (serviços) | 32% da receita | 32% até R$ 5 milhões no ano; 35,2% sobre o excedente | 1º de abril de 2026 |
+| Alíquota do IRPJ | 15% + adicional de 10% | Sem mudança | Não se aplica |
+| Alíquota da CSLL | 9% | Sem mudança | Não se aplica |
+| IRPJ no Simples Nacional | Dentro do DAS | Sem mudança | Não se aplica |
 
-A expectativa é de maior controle e uma cobrança mais alinhada ao faturamento real. Isso exige planejamento. E é neste ponto que um contador pessoal faz toda diferença para sua empresa, como propomos na Conte.
+O limite de R$ 5 milhões é anual, mas o Presumido apura por trimestre. A Receita regulamentou o cálculo com proporção de R$ 1,25 milhão por trimestre e ajuste nos trimestres seguintes do mesmo ano. A data diferente da CSLL vem da regra de noventena, que vale para contribuições.
 
-## Principais alterações projetadas para 2026
+O acréscimo é contestado no STF pela Confederação Nacional de Serviços (ADI 7936). Até uma decisão, a regra está em vigor.
 
-Não estamos falando apenas da atualização de tabelas ou pequenas mudanças de percentuais. O pacote de alterações atinge conceitos e práticas da apuração do IRPJ para prestadores de serviço.
+## Quem é afetado pela LC 224/2025?
 
-- Redefinição de limites de faturamento para regimes simplificados, como o Simples Nacional
-- Revisão nas faixas percentuais do Lucro Presumido, sobretudo para serviços intelectuais
-- Novo tratamento para empresas que prestam serviços no exterior
-- Aumento do cruzamento eletrônico de informações fiscais
-- Exigências mais claras sobre a escrituração contábil digital (ECD)
+Só empresas no Lucro Presumido com receita bruta acima de R$ 5 milhões no ano. Isso deixa de fora a grande maioria dos devs PJ e das pequenas consultorias de tecnologia.
 
-Esse cenário traz desafios, mas também oportunidades para ajustes fiscais estratégicos. Já demos algumas dicas relevantes sobre o tema no nosso artigo sobre [planejamento tributário para PJ tech](/post/planejamento-tributario-pj-tech-2025).
+- **Simples Nacional:** não afetado. O limite do regime é R$ 4,8 milhões de receita interna, abaixo do gatilho.
+- **Lucro Presumido com receita até R$ 5 milhões:** não afetado.
+- **Lucro Presumido acima de R$ 5 milhões:** paga mais IRPJ e CSLL sobre o excedente.
+- **Lucro Real:** não usa presunção, então essa regra não se aplica.
 
-## Impactos na rotina dos prestadores de serviço
+## Quanto aumenta o imposto? Exemplo com números de 2026
 
-Quem já tem empresa aberta ou pretende abrir uma em breve deve revisar processos. Mudanças no IRPJ exigirão adaptações na emissão de notas, na formatação de contratos com clientes, e principalmente na análise da lucratividade líquida. Uma das novidades mais importantes será a possibilidade de deduzir custos e despesas de maneira mais detalhada para ajustar o lucro tributável.
+Uma consultoria de tecnologia no Presumido que fatura R$ 6 milhões em 2026 paga cerca de R$ 10,9 mil a mais em IRPJ e CSLL no ano. A conta:
 
-![Mesa de escritório com computador, documentos, calculadora, e pessoa analisando papéis de contabilidade ](/images/posts/o-que-muda-no-irpj-para-quem-presta-servicos-em-2026/contabilidade-empresarial-contador-escritorio-936.webp)
+1. Receita acima do limite: R$ 6.000.000 − R$ 5.000.000 = R$ 1.000.000
+2. Margem extra nesse excedente: 35,2% − 32% = 3,2 pontos
+3. Lucro presumido adicional: 3,2% × R$ 1.000.000 = R$ 32.000
+4. IRPJ extra: como essa empresa já passa de R$ 60 mil de lucro presumido por trimestre, o adicional de 10% se aplica. 25% × R$ 32.000 = R$ 8.000
+5. CSLL extra: 9% × R$ 32.000 = R$ 2.880
+6. **Total: R$ 10.880 por ano**, um pouco menos se parte do excedente cair no primeiro trimestre, antes da vigência da CSLL
 
-Em nossa experiência, empresas que desenham sua estratégia fiscal com antecedência conseguem identificar pontos em que o IRPJ será menos custoso. Um exemplo: para algumas atividades técnicas, a base de cálculo poderá mudar, afetando diretamente o valor dos impostos devidos.
+Para comparação, um dev PJ no Presumido que fatura R$ 40 mil por mês (R$ 480 mil no ano) paga o mesmo de antes: 32% × R$ 40.000 = R$ 12.800 de lucro presumido por mês, IRPJ de 15% = R$ 1.920 e CSLL de 9% = R$ 1.152. Como o lucro presumido do trimestre (R$ 38.400) fica abaixo de R$ 60 mil, não há adicional.
 
-### Consequências diretas
+## O que a Lei 15.270/2025 muda para o sócio da empresa?
 
-- Possível aumento de alíquotas para algumas categorias
-- Maior exigência de comprovantes (contratos, despesas, funções dos sócios)
-- Obrigações acessórias mais detalhadas
-- Cruzamento constante das informações da empresa com bancos de dados públicos
+A Lei 15.270/2025 não alterou o IRPJ. Ela mudou o IR da pessoa física e, com isso, a forma de tirar o lucro da empresa. Há três pontos, todos em vigor desde 1º de janeiro de 2026.
 
-Fizemos um levantamento sobre os principais tipos de prestação de serviço que podem ser impactados pelas medidas, mostrando tanto riscos quanto soluções.
+- **Retenção sobre lucros:** se a empresa pagar mais de R$ 50 mil de lucros no mês à mesma pessoa física, retém 10% de IR sobre o valor total pago, não só sobre o excedente. Uma distribuição de R$ 60 mil gera retenção de R$ 6 mil.
+- **IR mínimo (IRPFM):** quem tem renda total acima de R$ 600 mil no ano passa a ter alíquota mínima, que sobe linearmente até 10% em R$ 1,2 milhão. Há redutor quando a soma do imposto pago pela empresa e pela pessoa física passa de 34% para empresas em geral.
+- **IR zero até R$ 5 mil:** pró-labore e salários até R$ 5 mil por mês não pagam IR. Entre R$ 5 mil e R$ 7.350, a redução é parcial.
 
-## Como preparar a sua PJ para as mudanças no IRPJ
+Lucros apurados até 2025 com distribuição aprovada até 31 de dezembro de 2025 ficam fora da retenção, desde que pagos nos termos aprovados. A Receita entende que a retenção vale também para empresas do Simples Nacional, mas há decisões judiciais em sentido contrário, porque a isenção do Simples está em lei complementar (LC 123, art. 14). O detalhamento para quem está fora do Simples está em [pagamento de dividendos fora do Simples](/post/pagamento-dividendos-pjs-fora-do-simples).
 
-Acreditamos que antecipação é o melhor caminho. Ter uma visão especializada sobre o histórico fiscal da sua PJ, revisar contratos de prestação de serviço e mapear receitas são passos fundamentais.
+![Mesa de escritório com computador, documentos, calculadora, e pessoa analisando papéis de contabilidade](/images/posts/o-que-muda-no-irpj-para-quem-presta-servicos-em-2026/contabilidade-empresarial-contador-escritorio-936.webp)
 
-Veja algumas práticas que costumamos aplicar na rotina de nossos clientes na Conte:
+## A reforma tributária muda o IRPJ?
 
-1. Análise minuciosa das notas fiscais emitidas nos últimos 24 meses
-2. Checagem dos contratos e aditivos para garantir enquadramento fiscal correto
-3. Estudo de possíveis benefícios fiscais regionais ou setoriais
-4. Simulação dos novos modelos de cálculo do IRPJ para identificar riscos e oportunidades
-5. Avaliação do melhor regime tributário para 2026, entre Simples, Lucro Presumido e Lucro Real
+Não. A EC 132/2023 e a LC 214/2025 mexem nos tributos sobre consumo. Em 2026 há só o teste de CBS (0,9%) e IBS (0,1%). Em 2027, a CBS substitui PIS e Cofins. Entre 2029 e 2032, ICMS e ISS caem gradualmente, e em 2033 o IBS assume por completo. IRPJ e CSLL continuam com as regras de hoje.
 
-Esse trabalho envolve não apenas conhecimento técnico, mas empatia. Na Conte, prezamos pelo atendimento personalizado, porque cada empresa tem uma história e necessidades muito particulares.
+O que a reforma muda para o prestador de serviços no Simples é a escolha de recolher CBS e IBS dentro ou fora do DAS a partir de 2027, assunto do post sobre [quando mudar de regime tributário](/post/regimes-tributarios-quando-mudar-e-como-saber-hora-certa).
 
-## Notas fiscais e apuração de impostos em 2026
+## O que revisar na sua PJ ainda em 2026?
 
-Com a digitalização das obrigações acessórias, a emissão correta de notas fiscais ganha peso ainda maior. Erros simples podem gerar autuações muito caras. Já falamos sobre os cuidados para [emitir notas fiscais eletrônicas para serviços](/post/emitir-notas-fiscais-eletronicas-servicos-2025), e os mesmos princípios valem para 2026, só que com atenção redobrada.
+Faça três conferências antes de fechar o ano:
 
-A automatização e o envio de informações praticamente em tempo real pelas empresas trarão menos espaço para correções tardias. Assim, um contador pessoal se torna peça-chave para a saúde fiscal da PJ.
+1. **Receita anual projetada.** Se a empresa está no Presumido e vai passar de R$ 5 milhões, inclua o acréscimo da LC 224 no custo de 2026 e na comparação de regimes para 2027.
+2. **Calendário de distribuição de lucros.** Concentrar a distribuição em um único mês acima de R$ 50 mil gera retenção de 10%. Pagamentos mensais dentro do limite, apoiados em balanço ou balancete, evitam a retenção mensal, mas não o IR mínimo anual se a renda total passar de R$ 600 mil.
+3. **Regime de 2027.** Com o Presumido mais caro acima de R$ 5 milhões e a reforma começando, refaça a comparação com o Simples. O passo a passo está em [Simples Nacional ou Lucro Presumido](/post/simples-nacional-ou-lucro-presumido-para-empresas-de-tecnologia), e a revisão completa em [planejamento tributário para PJ tech](/post/planejamento-tributario-pj-tech-2025).
 
-![Reunião de grupo planejando aspectos tributários em quadro branco ](/images/posts/o-que-muda-no-irpj-para-quem-presta-servicos-em-2026/planejamento-tributario-reuniao-grupo-245.webp)
-
-Para PJs que atuam no exterior, outras regras podem se aplicar. Vale aprofundar no detalhamento sobre [tributação de serviços para o exterior](/post/tributacao-servicos-para-exterior-o-que-muda) e ficar atento à retenção de impostos internacionais.
-
-## Escolhendo o melhor regime de tributação em 2026
-
-Nem sempre o Simples Nacional continuará sendo a melhor escolha para todos os negócios de serviço. Com mudanças previstas nos limites de faturamento e no cálculo efetivo do IRPJ, vale simular cenários levando em conta:
-
-- Previsão de faturamento anual para os próximos dois anos
-- Quantidade de sócios e pró-labore
-- Natureza dos serviços, intelectual, técnico, operacional, consultoria
-- Projeção de custos fixos e variáveis
-- Novos créditos fiscais e possibilidades de dedução
-
-Já abordamos em detalhes como avaliar essas opções em nossa categoria de [tributação](/category/tributacao), demonstrando casos reais e dicas para pagar o IRPJ correto.
-
-## Conclusão: O papel da assessoria na gestão do IRPJ em 2026
-
-Com tantas novidades chegando, defendemos que o segredo está na preparação. Fazemos essa ponte na Conte: acompanhamos de perto nossos clientes, simulamos cenários, ajustamos registros e regras fiscais para que não haja surpresas desagradáveis quando a mudança de 2026 chegar.
-
-> Quem se antecipa, paga menos imposto e sente menos dor de cabeça.
-
-**Trabalhar ao lado de uma contabilidade humanizada faz diferença até nos detalhes.** Por isso, convidamos você a conhecer mais sobre nossos planos e o cuidado que dedicamos a cada fase da sua PJ. Se busca apoio para enfrentar as mudanças do IRPJ, conte conosco. Fale com a gente e veja como transformar obrigação em tranquilidade fiscal.
+Se você quer conferir esses números com uma contadora que acompanha PJ de tecnologia, a [Conte](https://sejaconte.com.br) faz essa revisão com os dados da sua empresa.

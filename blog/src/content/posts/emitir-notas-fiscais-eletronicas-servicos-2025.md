@@ -1,89 +1,111 @@
 ---
-title: Como emitir notas fiscais eletrônicas de serviços em 2025
-seoTitle: Como emitir notas fiscais eletrônicas de serviços em 2025
-description: Aprenda o passo a passo para emitir nota fiscal eletrônica de serviços em 2025 com segurança e conformidade legal.
+title: 'Como emitir nota fiscal de serviço (NFS-e) em 2026: padrão nacional'
+seoTitle: 'Como emitir NFS-e em 2026: guia do padrão nacional'
+description: Em 2026 a NFS-e migra para o padrão nacional. Veja quem já é obrigado, o passo a passo no Emissor Nacional e as retenções que o cliente PJ pode fazer.
 pubDate: '2025-09-29'
-updatedDate: '2025-09-29'
+updatedDate: '2026-10-27'
 category: contabilidade
+tags: [nota-fiscal, simples-nacional, certificado-digital, cnpj]
 author: solange-vaz
 cover: /images/posts/emitir-notas-fiscais-eletronicas-servicos-2025/emissao-nota-fiscal-servicos-2025-250.webp
 coverAlt: Pessoa usando computador para emitir nota fiscal eletrônica de serviços, com documentos e calculadora ao lado
+tldr:
+  - "Desde 1º de janeiro de 2026, todo município precisa permitir a emissão da NFS-e de padrão nacional ou compartilhar as notas do sistema próprio com o ambiente nacional (LC 214/2025, art. 62)."
+  - "Para ME e EPP do Simples Nacional, o Emissor Nacional passa a ser obrigatório em 1º de novembro de 2026 (Resolução CGSN nº 191/2026). O MEI já emite por ele desde 2023."
+  - "Para emitir, você entra no Emissor Nacional com gov.br ou certificado digital, informa tomador, código do serviço, valor e tributação do ISS, e baixa o XML e o PDF."
+  - "Empresas do Lucro Presumido devem confirmar com a prefeitura se emitem no Emissor Nacional ou no sistema municipal integrado."
 faq:
-- q: Como emitir nota fiscal de serviço em 2025?
-  a: Para emitir uma nota fiscal de serviço em 2025, você deve acessar o sistema eletrônico de NFS-e da prefeitura onde sua empresa está registrada, fazer seu login (com senha ou certificado digital), preencher as informações sobre o serviço, cliente e valores, revisar todos os dados e então transmitir a nota. Após a emissão, salve o comprovante em PDF/XML. Contadores como a equipe da Conte podem ajudar em todas as etapas para garantir que tudo seja feito corretamente.
-- q: O que mudou nas notas fiscais eletrônicas?
-  a: A principal mudança é a padronização nacional do layout da NFS-e, facilitando o uso do sistema em diferentes cidades e tornando obrigatório o uso de formatos mais modernos, acessíveis por navegador e até por smartphone. O portal nacional também ganhou novas integrações para simplificar operações, reduzindo burocracias para quem presta serviços em diferentes municípios.
-- q: Quais documentos preciso para emitir NFS-e?
-  a: Você precisa principalmente do CNPJ da empresa, dados do contrato social, documento pessoal do responsável legal e, em muitos casos, um certificado digital (especialmente para empresas fora do MEI ou com maior faturamento). Também é importante ter cadastrado o endereço e a lista de atividades na prefeitura.
-- q: Quanto custa emitir uma nota fiscal eletrônica?
-  a: Na maioria das cidades, não há cobrança para a emissão da nota fiscal em si. Os custos aparecem com a estrutura necessária (certificado digital, serviço contábil) e impostos calculados sobre o valor do serviço (ISS, por exemplo). Clientes Conte têm suporte para escolher opções mais econômicas e evitar gastos desnecessários.
-- q: Qual o melhor sistema para emitir NFS-e?
-  a: O melhor sistema é aquele homologado pela sua prefeitura, pois evita erros e garante validade fiscal. Usar plataformas confiáveis, como as indicadas pela equipe da Conte, pode tornar o processo mais prático, seguro e rápido. Para quem não quer se preocupar, contar com um serviço contábil parceiro é o caminho mais tranquilo.
+  - q: "Quem é obrigado a usar o Emissor Nacional da NFS-e?"
+    a: "O MEI desde setembro de 2023 e as ME e EPP do Simples Nacional a partir de 1º de novembro de 2026. Para as demais empresas, depende do município: a LC 214/2025 obriga a prefeitura a aderir ao padrão nacional, mas ela pode manter sistema próprio desde que compartilhe as notas com o ambiente nacional."
+  - q: "Preciso de certificado digital para emitir NFS-e?"
+    a: "No Emissor Nacional, dá para acessar com a conta gov.br vinculada ao CNPJ ou com certificado digital. Integrações por API e alguns sistemas municipais exigem o e-CNPJ. Confira a regra da sua prefeitura antes de comprar."
+  - q: "Emitir NFS-e no Emissor Nacional custa alguma coisa?"
+    a: "O Emissor Nacional é gratuito. Os custos possíveis são o certificado digital, se você optar por ele, e os tributos sobre o serviço, que você paga no DAS ou nas guias do seu regime."
+  - q: "Como emitir nota fiscal para cliente no exterior?"
+    a: "É a mesma NFS-e, com o tomador identificado como residente no exterior, a tributação do ISS marcada como exportação de serviço e os dados da moeda estrangeira. No Simples, a receita também precisa ir para o campo de exportação do PGDAS-D."
+  - q: "Posso cancelar uma NFS-e emitida errada?"
+    a: "Pode, por cancelamento ou substituição, no prazo que o município define. A NFS-e não tem carta de correção. Fora do prazo, o pedido passa por análise fiscal da prefeitura."
+sources:
+  - title: Lei Complementar nº 214/2025, art. 62 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm
+  - title: Portal Nacional da NFS-e (gov.br)
+    url: https://www.gov.br/nfse/pt-br
+  - title: NFS-e para MEI e demais empresas (gov.br)
+    url: https://www.gov.br/nfse/pt-br/mei-e-demais-empresas
+  - title: CRC-SP, Resolução CGSN nº 191/2026 e a NFS-e nacional no Simples
+    url: https://online.crcsp.org.br/portal/noticias/noticia.asp?c=11276
+  - title: Lei Complementar nº 116/2003 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm
 migratedFrom: https://blog.sejaconte.com.br/post/emitir-notas-fiscais-eletronicas-servicos-2025
 ---
 
-Emitir notas fiscais eletrônicas de serviços (NFS-e) é uma tarefa que ainda causa dúvidas em muita gente, principalmente quando o ano muda e surgem novas regras. Em 2025, a emissão de NFS-e deve seguir algumas tendências já anunciadas pelo governo e adaptar pequenas mudanças tecnológicas. Mas, na prática, a rotina pode ficar mais simples, ou parecer mais burocrática caso você não esteja atualizado. Vou contar como funciona, mostrando não só o caminho prático, mas também alguns pontos de atenção para que nada escape no processo.
+Até 2025, cada prefeitura tinha o próprio sistema de nota fiscal de serviço, com login, campos e regras diferentes. Em 2026 isso começou a mudar de vez: a NFS-e de padrão nacional virou regra para os municípios, e as empresas do Simples Nacional passam a emitir pelo Emissor Nacional em novembro. Este guia mostra o que já é certo, o que depende da sua cidade e como emitir a primeira nota.
 
-## Por que emitir nota fiscal de serviço?
+## O que mudou na NFS-e em 2026?
 
-Muita gente começa a prestar serviços e esquece que, sem nota fiscal, pode acabar tendo problemas, principalmente com clientes PJ, que exigem o documento para comprovar os pagamentos e deduzir despesas. Emitir NFS-e não é “apenas mais uma obrigação”: ela formaliza o seu trabalho e protege sua empresa. Quem já emitiu uma nota sabe: naquele momento, a prestação vira oficialmente um serviço (e o cliente se sente mais seguro para pagar)! Além disso, a ausência de nota pode gerar multas e impedir sua empresa de participar de grandes projetos ou licitações.
+A NFS-e passou a ter um leiaute nacional único. Desde 1º de janeiro de 2026, a [LC 214/2025](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm) (art. 62) obriga os municípios a permitir que os contribuintes emitam a NFS-e de padrão nacional no ambiente nacional ou, se mantiverem emissor próprio, a compartilhar as notas com esse ambiente. A prefeitura que não cumprir fica sem transferências voluntárias da União.
 
-> Evite dor de cabeça: regularize seu serviço, emita sua NFS-e.
+Para quem emite nota, as mudanças práticas são:
 
-## Mudanças na emissão em 2025
+- **Um formulário só.** Os campos e códigos seguem o padrão nacional, seja qual for a cidade.
+- **Emissor Nacional gratuito.** Pelo site ou por API, com acesso via gov.br ou certificado digital.
+- **Prazo para o Simples.** ME e EPP do Simples Nacional passam a emitir obrigatoriamente pelo Emissor Nacional a partir de 1º de novembro de 2026. A Resolução CGSN nº 191/2026 adiou a data, que antes era 1º de setembro.
+- **Campos da reforma tributária.** O leiaute já tem notas técnicas para CBS e IBS. Para empresas do Simples, essas informações passam a valer em 1º de janeiro de 2027.
 
-O ano de 2025 não traz mudanças gigantescas, mas é bom ficar ligado. O processo de unificação nacional da NFS-e, que começou em anos anteriores, chega ainda mais forte. O governo, por meio dos órgãos competentes, busca padronizar o sistema em todo o país. Ou seja: mesmo que cada município siga tendo autonomia para fiscalizar e arrecadar o ISS, a emissão das notas tende a ser mais parecida, focando em um layout único e integração dos sistemas.
+## Quem precisa emitir pelo Emissor Nacional?
 
-O objetivo? Menos obstáculos e menos confusão. Com isso, espera-se:
+Depende do porte e do regime. O MEI e a empresa do Simples têm data definida. Para as demais, a regra vem da prefeitura.
 
-- Formulário padronizado, reduzindo dúvidas sobre campos obrigatórios;
-- Pouca ou nenhuma necessidade de instalar programas pesados no computador;
-- Uso crescente de plataformas web e aplicativos, com autenticação digital facilitada;
-- Possibilidade de integração com sistemas bancários e contábeis.
+| Quem | Onde emite a NFS-e em 2026 | Desde quando |
+|---|---|---|
+| MEI | Emissor Nacional | Setembro de 2023 |
+| ME e EPP do Simples Nacional | Emissor Nacional (site ou API) | 1º de novembro de 2026 |
+| Lucro Presumido ou Real | Emissor Nacional ou sistema municipal integrado, conforme decreto da prefeitura | Conforme o município |
 
-Apesar disso, há detalhes diferentes em cada cidade, por conta do ISS ser um imposto municipal. Importante checar, de vez em quando, as regras onde sua empresa está registrada. O time da Conte, por exemplo, fica atento a essas atualizações para que os clientes possam atuar sem sustos.
+Várias prefeituras já tornaram o Emissor Nacional exclusivo para todos os prestadores desde janeiro de 2026. Outras mantêm sistema próprio integrado ao ambiente nacional. Antes da primeira nota, consulte o site da prefeitura ou o painel de adesões no portal da NFS-e para saber a regra da sua cidade.
 
-![Pessoa sentada ao computador digitando dados em sistema de nota fiscal eletrônica ](/images/posts/emitir-notas-fiscais-eletronicas-servicos-2025/emissao-nota-servico-online-426.webp)
+## Como emitir NFS-e no Emissor Nacional, passo a passo?
 
-## Passo a passo prático para emitir sua NFS-e
+O processo leva poucos minutos depois do primeiro acesso. Você preenche uma declaração de prestação de serviço (DPS), e o sistema gera a NFS-e a partir dela.
 
-Talvez pareça complicado, mas emitir nota fiscal eletrônica de serviço pode ser bem simples com o caminho certo. Para 2025, o processo básico deve seguir essa linha:
+1. **Acesse o Emissor Nacional** pelo portal da NFS-e, com a conta gov.br vinculada ao CNPJ ou com o certificado digital da empresa. No primeiro acesso, o sistema confere o cadastro do CNPJ no município.
+2. **Cadastre o tomador.** Para cliente brasileiro, basta o CNPJ ou CPF. Para cliente no exterior, informe nome, endereço, país e o número fiscal estrangeiro (NIF).
+3. **Escolha o serviço.** Selecione o item da lista da [LC 116/2003](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm) e o código de tributação nacional que descrevem o seu trabalho. Para devs, os mais comuns são 1.01 (análise e desenvolvimento de sistemas), 1.03 (processamento e hospedagem de dados) e 1.07 (suporte técnico em informática). O código precisa combinar com o CNAE da empresa.
+4. **Descreva o serviço.** Escreva o que foi entregue, o período e o contrato. Descrição genérica atrapalha numa fiscalização.
+5. **Informe o valor e a tributação do ISS.** Para serviço no Brasil, marque operação tributável. Para cliente no exterior, marque exportação de serviço. Se você é do Simples, o sistema identifica a opção pelo regime.
+6. **Confira as retenções.** Se o tomador for obrigado a reter ISS, IR ou contribuições, preencha os campos de retenção (veja a próxima seção).
+7. **Emita e guarde.** Baixe o XML e o PDF, envie ao cliente e arquive o XML por, no mínimo, cinco anos.
 
-1. **Cadastramento:** Antes de tudo, sua empresa precisa estar cadastrada na prefeitura da sua cidade, liberada para emitir NFS-e. Verifique quais documentos são pedidos, normalmente CNPJ, contrato social e documentos dos sócios.
-2. **Acesso ao sistema:** Depois de cadastrado, você recebe um acesso ao sistema municipal (o famoso portal da NFS-e). Há cidades que exigem o uso de certificado digital (especialmente para empresas maiores), outras já têm login com senha e até autenticação por e-mail.
-3. **Preenchimento da nota:** Informe os dados do serviço, tomador (quem contratou), valores cobrados, descrição e código do serviço. Atenção aos campos de impostos: ISS, IR, PIS, e outros só devem ser preenchidos se forem mesmo devidos, o contador ajuda aqui.
-4. **Geração da NFS-e:** Revise os dados, envie a nota e salve o arquivo em PDF/XML. Pronto! O cliente recebe o documento e você mantém o controle da operação.
+A nota emitida não encerra o trabalho. No fim do mês, a receita precisa entrar na apuração do seu regime (PGDAS-D no Simples), com exportações separadas da receita comum.
 
-> Cada nota é uma história registrada da sua empresa.
+![Pessoa sentada ao computador digitando dados em sistema de nota fiscal eletrônica](/images/posts/emitir-notas-fiscais-eletronicas-servicos-2025/emissao-nota-servico-online-426.webp)
 
-## Dicas para não errar na emissão em 2025
+## Meu cliente PJ vai reter imposto da nota?
 
-- Confira sempre o cadastro do serviço e se usa o código correto (CNAE/atividade);
-- Sempre descreva o serviço prestado com clareza. Menos chance de questionamentos fiscais;
-- Guarde as NFS-e emitidas e, se possível, salve também o XML; nunca sabemos se vão pedir daqui a um ano;
-- Consulte o contador sobre retenções e alíquotas de ISS, principalmente em casos de prestação interestadual;
-- Adote sistemas que automatizem parte do processo, mas atente para as regras locais, a equipe da Conte, por exemplo, acompanha atualizações para não deixar o cliente na mão.
+Depende do seu regime. Se a sua empresa está no Simples Nacional, o cliente não retém IR, PIS, Cofins e CSLL; a nota identifica você como optante. Se está no Lucro Presumido, o cliente PJ costuma reter 1,5% de IR e 4,65% de PIS, Cofins e CSLL sobre serviços profissionais como programação e análise de sistemas.
 
-Uma curiosidade: o erro mais comum é errar na hora de preencher o código do serviço, levando a uma tributação errada ou risco de multa. Por isso, vale reforçar: nada de pressa. O processo não é difícil, mas precisa de atenção.
+O ISS pode ser retido pelo tomador em casos que a LC 116 e a lei municipal definem, principalmente quando o tomador está em outra cidade e o serviço tem ISS devido no local da prestação. Para análise e desenvolvimento de sistemas (item 1.01), a regra geral é o ISS devido no município do prestador. Na dúvida, siga a orientação do contador antes de aceitar uma retenção que reduz o valor que você recebe. O post sobre [impostos federais, estaduais e municipais da PJ](/post/diferencas-impostos-federais-estaduais-municipais-pj) explica quem cobra cada tributo.
 
-## Quem pode emitir NFS-e?
+## Quais erros mais travam a emissão da NFS-e?
 
-Praticamente toda empresa prestadora de serviço deve emitir NFS-e, seja MEI, Simples Nacional, Lucro Presumido ou Lucro Real. Alguns autônomos, dependendo da cidade, também têm acesso ao sistema. Caso você seja MEI, há situações específicas onde só é preciso emitir NFS-e caso o cliente peça ou seja pessoa jurídica. A regra é simples: quando em dúvida, consulte a prefeitura ou um contador para não correr riscos.
+Os erros que mais aparecem são cadastro desatualizado do CNPJ na prefeitura, código de serviço que não combina com o CNAE e tributação do ISS errada.
 
-## Outros pontos de atenção para 2025
+- **CNPJ sem inscrição municipal ativa.** O Emissor Nacional recusa a emissão se o município não reconhecer o cadastro. Resolva com a prefeitura antes do primeiro faturamento.
+- **Código de serviço incompatível com o CNAE.** A nota pode ser rejeitada ou questionada depois. Revise os dois juntos ao abrir a empresa.
+- **Exportação marcada como operação tributável.** Você paga ISS que não devia. O guia de [nota fiscal de exportação de serviço](/post/nota-fiscal-internacional-erros-comuns-e-como-corrigir-rapido) detalha os campos.
+- **Nota emitida no mês errado.** No Simples, o padrão é o regime de competência: a receita conta no mês em que você prestou e faturou o serviço. Nota de outubro emitida em novembro desloca o faturamento e pode mudar a faixa.
 
-- **Plataformas integradas:** O governo está ampliando a integração entre sistemas municipais e o portal nacional da NFS-e. Isso deve facilitar a emissão em viagens, mudanças ou para quem presta serviço em várias cidades.
-- **Demanda crescente por digitalização:** Emissão pelo celular ou por aplicativos simplificados será cada vez mais usual, tornando o processo menos travado.
-- **Relacionamento com o cliente:** Ofereça rapidamente a nota ao cliente após o serviço. Isso traz confiança e evita inadimplência.
+Se errar, a correção é por cancelamento ou substituição da nota, no prazo do município. O passo a passo está em [erro em nota fiscal: como regularizar](/post/erro-em-nota-fiscal-como-regularizar-e-evitar-multas).
 
-![Documentos de empresa e computador organizados em mesa ](/images/posts/emitir-notas-fiscais-eletronicas-servicos-2025/documentos-nota-servico-mesa-972.webp)
+## O que verificar antes da primeira nota pelo padrão nacional?
 
-## Como a contabilidade pode ajudar?
+Confira quatro pontos antes de emitir: acesso, cadastro, código e regime.
 
-É normal sentir certa insegurança ao iniciar o processo de emissão das notas. Um serviço como o oferecido pela Conte faz toda a diferença: te lembra dos prazos, das obrigações e ainda te ajuda a economizar no pagamento de impostos. A equipe acompanha os detalhes do processo, resolve dúvidas pontuais e indica o código e alíquotas de ISS mais adequados. Isso vale tanto para pequenas empresas quanto para empresários já estabelecidos. Se sua meta é focar no seu negócio sem perder tempo na burocracia digital, faz sentido pensar nessa parceria.
+- **Acesso:** a conta gov.br do responsável vinculada ao CNPJ, ou um certificado digital válido. O guia de [como escolher certificado digital](/post/como-escolher-certificado-digital-ideal-empresa-2026) ajuda se você for comprar um.
+- **Cadastro municipal:** inscrição ativa e atividades iguais às do CNPJ.
+- **Código de serviço:** o item da LC 116 que descreve o seu trabalho, alinhado ao CNAE.
+- **Regime:** se você é do Simples, confirme que a opção aparece no Emissor Nacional, porque ela define as retenções.
 
-> Delegue a burocracia e foque no que importa: seu negócio.
+Quem ainda emite por sistema municipal tem até 31 de outubro de 2026, no caso do Simples, para testar o Emissor Nacional. Emita uma nota de teste com o contador antes da virada, para não descobrir um bloqueio no dia de faturar.
 
-## Conclusão
-
-Emitir notas fiscais eletrônicas de serviços em 2025 parece complicado à primeira vista, mas a tecnologia e a padronização tornaram tudo mais simples para quem está atento. Saber o caminho correto, entender as mudanças e contar com um suporte especializado faz toda diferença e impede dores de cabeça lá na frente. Se quiser mais tranquilidade, ou mesmo se quiser entender melhor como pode simplificar esse processo, conheça a Conte e descubra como podemos cuidar da burocracia, deixando você livre para focar no que realmente importa: seu serviço e seu crescimento.
+Se quiser apoio nessa transição, a [Conte](https://sejaconte.com.br) acompanha a emissão das primeiras notas com você.

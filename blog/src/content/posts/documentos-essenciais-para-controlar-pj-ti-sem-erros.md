@@ -1,114 +1,134 @@
 ---
-title: 10 documentos essenciais para controlar PJ de TI sem erros
-seoTitle: 10 documentos essenciais para controlar PJ de TI sem erros
-description: Conheça os documentos fiscais e contábeis que garantem o controle correto da sua PJ de TI sem riscos legais.
+title: "Documentos essenciais da PJ de TI: o que guardar e por quanto tempo"
+seoTitle: "Documentos da PJ de TI: o que guardar e por quanto tempo"
+description: "Lista dos documentos que a PJ de TI mantém para fiscalização e auditoria, do contrato social à DRE, com os prazos de guarda e um exemplo de contagem."
 pubDate: '2025-10-16'
-updatedDate: '2025-10-16'
+updatedDate: '2026-10-27'
 category: burocracia
+tags: [cnpj, nota-fiscal, fiscalizacao, contador]
 author: solange-vaz
 cover: /images/posts/documentos-essenciais-para-controlar-pj-ti-sem-erros/documentos-pj-ti-organizados-744.webp
 coverAlt: Mesa de madeira com documentos organizados, laptop aberto mostrando planilhas, caneta e calculadora
+tldr:
+  - "A PJ de TI precisa guardar três grupos de documentos: os societários (contrato social e alterações), os fiscais (notas, guias, declarações) e os contábeis (livro-caixa ou diário, balanço e DRE)."
+  - "Livros e comprovantes ficam guardados até a prescrição dos tributos (CTN, art. 195). Na prática, a Receita tem cinco anos contados de 1º de janeiro do ano seguinte, então conte no mínimo seis anos."
+  - "A empresa do Simples Nacional é obrigada a manter os documentos que fundamentaram a apuração e o livro-caixa com toda a movimentação bancária (LC 123, art. 26)."
+  - "Documento digitalizado conforme o Decreto 10.278/2020 tem o mesmo efeito do original, e o papel pode ser descartado, salvo o de valor histórico."
 faq:
-- q: Quais são os documentos essenciais para PJ?
-  a: 'Os documentos que não podem faltar para uma PJ são: Contrato Social/Requerimento de Empresário, cartão do CNPJ, inscrição municipal ou estadual (dependendo da atividade), certidões negativas, notas fiscais de serviços, comprovantes de pagamento de impostos, contratos de prestação de serviços, folha de pagamento/pró-labore, documentos bancários e livros contábeis e declarações acessórias. Manter esses arquivos organizados reduz riscos e facilita a rotina fiscal.'
-- q: Como organizar documentos para PJ de TI?
-  a: A dica é separar os arquivos por ano, tipo e competência (fiscal, trabalhista, bancária). Use pastas digitais e físicas, rotule claramente cada documento, faça backups regulares e restrinja o acesso às informações mais sensíveis. Montar rotinas mensais de conferência ajuda a não deixar nada para trás.
-- q: Onde armazenar documentos digitais com segurança?
-  a: Recomenda-se usar nuvens corporativas ou plataformas especializadas em gestão documental, preferencialmente com criptografia e autenticação de dois fatores. O backup em mais de um local (por exemplo, nuvem + HD externo) aumenta a segurança. Controle os acessos e monitore mudanças nos arquivos importantes.
-- q: Qual a importância do contrato de prestação de serviços?
-  a: O contrato detalha direitos, obrigações, prazos, valores e escopo dos trabalhos realizados, protegendo tanto a empresa quanto o cliente em caso de dúvida ou litígio. Ele previne conflitos, serve como prova em disputas e dá mais garantia na hora de receber os pagamentos.
-- q: Quais documentos evitam erros fiscais em TI?
-  a: Guardar notas fiscais corretamente, manter os comprovantes de pagamento dos tributos, organizar todos os livros e declarações contábeis e ter contratos assinados são atitudes que contribuem para não errar nas obrigações fiscais. Essas práticas, recomendadas por projetos de contabilidade como a Conte, blindam a empresa de falhas e multas.
+  - q: "Quais documentos uma PJ precisa ter?"
+    a: "Contrato social e alterações, comprovante do CNPJ, inscrição municipal, notas fiscais emitidas e recebidas, guias de impostos pagas, declarações entregues, contratos com clientes, recibos de pró-labore e lucros, extratos bancários e a escrituração (livro-caixa ou diário, balanço e DRE)."
+  - q: "Por quanto tempo a empresa deve guardar documentos fiscais?"
+    a: "Até a prescrição dos tributos relacionados. A Receita tem cinco anos para lançar, contados do primeiro dia do ano seguinte ao fato, e mais cinco para cobrar depois do lançamento. Seis anos é o mínimo prático; documentos societários e contratos ativos ficam enquanto a empresa existir."
+  - q: "Posso guardar só a versão digital dos documentos?"
+    a: "Pode. Notas fiscais eletrônicas e extratos já nascem digitais. Papel digitalizado conforme o Decreto 10.278/2020 tem o mesmo efeito legal do original, e o físico pode ser descartado, exceto documentos de valor histórico."
+  - q: "Quais documentos o auditor ou o fiscal pede primeiro?"
+    a: "Em geral, notas fiscais emitidas, extratos bancários, guias pagas e a escrituração do período. A conferência básica é se cada crédito na conta tem nota ou explicação e se cada imposto declarado foi pago."
+  - q: "MEI precisa guardar documentos?"
+    a: "Sim. O MEI guarda as notas emitidas e recebidas e o relatório mensal de receitas brutas, que sustentam a DASN-SIMEI. Ele é dispensado da escrituração contábil completa."
+sources:
+  - title: Código Tributário Nacional, arts. 173, 174 e 195 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm
+  - title: Lei Complementar nº 123/2006, art. 26 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm
+  - title: Decreto nº 10.278/2020, digitalização de documentos (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10278.htm
+  - title: Código Civil, arts. 1.179 a 1.195 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm
 migratedFrom: https://blog.sejaconte.com.br/post/documentos-essenciais-para-controlar-pj-ti-sem-erros
 ---
 
-Controlar uma empresa de tecnologia da informação (TI) é navegar por um mar de informações técnicas, metodologias ágeis, demandas dos clientes e, claro, uma rotina contábil que não pode ser deixada de lado. Já imaginou perder prazos fiscais, se enrolar com impostos ou cair em armadilhas porque um documento sumiu? Não importa se a sua PJ é pequena ou está em plena escala, cuidar da papelada é tão estratégico quanto escolher frameworks. Quem já passou pela dor de cabeça de uma fiscalização surpresa sabe como esse tema é sensível.
+Para controlar a PJ de TI sem erro, você precisa de dez documentos organizados em três grupos: societários, fiscais e contábeis. São eles que o banco pede na abertura de conta, que o cliente grande pede antes de fechar contrato e que o fiscal ou o auditor pede numa revisão. A regra de guarda é simples: o documento fica até a Receita perder o direito de cobrar os tributos daquela operação.
 
-Segundo [relatos de empresas no Estadão](https://www.estadao.com.br/economia/sua-oportunidade/negocios-lucram-fazendo-gestao-de-documentos-empresariais/), organizar e controlar adequadamente os documentos não só previne erros, mas também impulsiona a eficiência interna e até a lucratividade.
+## Quais documentos a PJ de TI precisa manter?
 
-Na era dos dados, a TI é protagonista. Um levantamento da FGVcia mostra que, em 2021, o Brasil já tinha 440 milhões de dispositivos digitais em operação, sendo 242 milhões de smartphones. São cifras impressionantes e traduzem como as PJs do setor precisam cuidar dos seus registros, contratos, comprovantes e obrigações fiscais com atenção redobrada ([Panorama do Uso de TI no Brasil](https://portal.fgv.br/artigos/panorama-uso-ti-brasil)).
+| # | Documento | Grupo | Para que serve |
+|---|---|---|---|
+| 1 | Contrato social e todas as alterações | Societário | Prova quem são os sócios, o objeto e o capital; banco e clientes pedem |
+| 2 | Comprovante de inscrição no CNPJ e inscrição municipal | Societário | Identifica a empresa e o CNAE; define o ISS |
+| 3 | Notas fiscais emitidas (NFS-e) | Fiscal | Prova da receita; base do DAS ou dos tributos do Presumido |
+| 4 | Notas e recibos de despesas em nome da PJ | Fiscal | Sustentam as despesas lançadas |
+| 5 | Guias pagas (DAS, DARF, ISS) com comprovante | Fiscal | Provam que o imposto apurado foi pago |
+| 6 | Declarações entregues (PGDAS-D, DEFIS, DCTFWeb, ECF) e recibos | Fiscal | Provam a entrega no prazo |
+| 7 | Contratos com clientes e invoices do exterior | Fiscal e jurídico | Justificam a receita e o enquadramento como exportação |
+| 8 | Recibos de pró-labore e de distribuição de lucros | Contábil | Sustentam o Fator R e a isenção dos lucros |
+| 9 | Extratos de todas as contas PJ | Contábil | Base da conciliação e do livro-caixa |
+| 10 | Escrituração: livro-caixa ou diário e razão, balanço e DRE | Contábil | Mostra o lucro e a posição patrimonial |
 
-Se você quer blindar sua empresa contra falhas e manter um controle saudável, conheça os principais documentos que precisam estar sempre em ordem.
+Recebe do exterior? Guarde junto às notas de exportação os contratos de câmbio ou os comprovantes da plataforma de recebimento. Eles provam o ingresso de divisas e, junto com o contrato, sustentam o enquadramento como exportação, que livra o serviço de PIS, Cofins e ISS no Simples. O post sobre [tributação de serviços para o exterior](/post/tributacao-servicos-para-exterior-o-que-muda) detalha essa regra.
 
-![Mesa com equipe reunida analisando documentos de TI e computador com gráficos ](/images/posts/documentos-essenciais-para-controlar-pj-ti-sem-erros/documentos-ti-controle-440.webp)
+## Por quanto tempo guardar cada documento?
 
-## O que não pode faltar: lista dos 10 documentos para a PJ de TI
+A lei não fixa um número único de anos. O CTN (art. 195, parágrafo único) manda conservar livros e comprovantes até a prescrição dos créditos tributários a que se referem. O Código Civil (art. 1.194) diz o mesmo da escrituração e da correspondência da empresa. Para a contagem, combine dois prazos do CTN:
 
-A seguir, veja cada documento, por que ele é necessário e dicas para não errar na hora de organizar.
+- **Decadência (art. 173)**: a Receita tem cinco anos para lançar o tributo, contados do primeiro dia do ano seguinte ao fato.
+- **Prescrição (art. 174)**: depois do lançamento, mais cinco anos para cobrar.
 
-1. **Contrato Social ou Requerimento de Empresário**
+### Exemplo de contagem
 
-   Este é o documento de nascimento da sua PJ. Define quem são os sócios, o que a empresa faz, endereço, capital social, entre outros detalhes. Ele é exigido para abertura de conta bancária, contratação de serviços e em quase todos os trâmites fiscais.
-2. **CNPJ (Cadastro Nacional de Pessoa Jurídica)**
+Você emitiu uma NFS-e em março de 2026.
 
-   O cartão do CNPJ é o RG da empresa. Serve para identificar e regularizar o negócio na Receita Federal. Sem ele, não se emitem notas fiscais, não se abrem contas PJ e muitos clientes sequer fecham contratos.
-3. **Inscrição Estadual ou Municipal**
+1. O prazo de decadência começa em 1º de janeiro de 2027.
+2. Termina em 31 de dezembro de 2031.
+3. Se a Receita não lançar nada até lá, a nota pode ser descartada em 2032.
+4. Se houver lançamento ou processo, a nota fica até a cobrança prescrever.
 
-   Dependendo do tipo de serviço de TI que você oferece, sua empresa pode precisar de inscrição estadual ou municipal. Em geral, prestadores de serviço ficam apenas com a municipal, já quem trabalha com vendas de software pode precisar da estadual também.
-4. **Certidão Negativa de Débitos**
+Por isso a recomendação prática é seis anos completos para documentos fiscais e contábeis. Documentos societários, contratos ainda em vigor e registros de bens ficam enquanto a empresa existir, e depois até a prescrição.
 
-   É a garantia de que sua empresa está em dia com as obrigações fiscais. Muitos clientes, principalmente empresas de médio e grande porte, só fecham contratos com quem apresenta certidões negativas atualizadas.
-5. **Notas Fiscais de Serviço (NFS-e)**
+| Documento | Prazo mínimo prático |
+|---|---|
+| Notas, guias, extratos, declarações | 6 anos a partir do ano seguinte |
+| Livro-caixa, diário, balanço, DRE | 6 anos ou enquanto houver processo |
+| Contrato social e alterações | Enquanto a empresa existir |
+| Contratos com clientes | Vigência + 6 anos |
+| Recibos de pró-labore e lucros | 6 anos (e conferidos com o IRPF do sócio) |
 
-   As notas fiscais atestam a legalidade dos serviços prestados. Elas são exigidas para recebimento de pagamentos, apuração de impostos e também em auditorias. Guardar cada nota é fundamental, tanto as emitidas quanto as recebidas de parceiros.
-6. **Comprovantes de Pagamento de Impostos**
+## A empresa do Simples precisa de contabilidade completa?
 
-   DARFs, DAS (Simples Nacional) e outros comprovantes mostram que a PJ está em dia com suas obrigações tributárias. Armazene cada comprovante junto ao mês e ao tributo correspondente; eles são essenciais em casos de questionamento ou fiscalização.
-7. **Contratos de Prestação de Serviços**
+A exigência mínima da [LC 123/2006](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm) para quem está no Simples é guardar os documentos que fundamentaram a apuração e manter livro-caixa com toda a movimentação financeira e bancária (art. 26). O Código Civil, porém, exige escrituração regular das sociedades, e a distribuição isenta de lucro acima da presunção depende de contabilidade completa. Para uma PJ tech com margem alta, ter balanço e DRE costuma valer o custo. O [checklist de encerramento contábil](/post/checklist-encerramento-contabil-pj) mostra o que entra no fechamento do ano.
 
-   Formalizam acordos com clientes, detalhando escopo, prazos, valores, direitos e deveres. Um bom contrato protege a empresa de conflitos e pode ser decisivo em disputas judiciais. Aqui vale sempre priorizar a clareza.
-8. **Folha de Pagamento e Pró-labore**
+## O que o auditor ou o fiscal pede primeiro?
 
-   Mesmo que sua PJ tenha apenas um sócio, manter organizados os registros de retirada de lucros e salários é básico para evitar problemas fiscais e comprovar renda.
-9. **Documentos Bancários**
+Numa fiscalização ou auditoria, o primeiro pedido costuma ser o pacote que permite cruzar receita, banco e imposto:
 
-   Extratos, comprovantes de transferência e cheques digitalizados são úteis para conciliação, demonstração de receitas e despesas e até para receber investimentos ou financiamentos no futuro.
-10. **Livros Contábeis e Declarações Acessórias**
+1. Notas fiscais emitidas no período.
+2. Extratos de todas as contas da empresa.
+3. Guias pagas e declarações entregues.
+4. Escrituração do período (livro-caixa ou diário, balanço e DRE).
+5. Contrato social e alterações vigentes no período.
+6. Contratos com os maiores clientes.
 
-    O tradicional Livro Caixa, balancetes, DRE e as diversas declarações mensais (como DCTF, EFD, DIRF) não podem ficar jogados em qualquer pasta. Eles são a memória contábil da PJ e seu passaporte para evitar dor de cabeça com o Fisco.
+O teste básico é se cada crédito na conta tem nota fiscal ou explicação (aporte, empréstimo, transferência entre contas próprias) e se cada imposto declarado tem guia paga. Lacunas aqui viram autuação com multa de 75%; os cuidados para não chegar nisso estão no guia sobre [como evitar autuação fiscal](/post/evitar-autuacoes-fiscais-8-cuidados-pj-tech).
 
-> Perdeu um documento? Melhor não descobrir na hora da fiscalização.
+## Como organizar os documentos da PJ sem perder nada?
 
-Além destes, dependendo do porte e da área de atuação, outros papers podem entrar na rotina, mas começar por esses 10 já cobre a maioria dos cenários, inclusive para pequenas consultorias de TI ou startups em ascensão.
+Use uma estrutura de pastas por ano e por mês, com o nome do arquivo começando pela data:
 
-## Como guardar e organizar documentos de TI?
+```
+PJ/
+  2026/
+    2026-03/
+      2026-03-05_NFSe_0042_ClienteX.pdf
+      2026-03-20_DAS_comprovante.pdf
+      2026-03_extrato_bancoA.pdf
+  societario/
+  contratos/
+```
 
-Basta uma falha de organização para transformar o dia a dia em um caos. Por menor que seja a PJ, a recomendação é simples: **mantenha arquivos digitais e físicos organizados por competência, ano e assunto.**
+Alguns cuidados que evitam dor de cabeça:
 
-- Certidões e cadastros: mantenha sempre cópias atualizadas;
-- Notas fiscais: organize por cliente, projeto ou mês de referência;
-- Comprovantes e livros: digitalize e utilize pastas em nuvem seguras;
-- Contratos: guarde sempre uma versão assinada digitalmente;
-- Folha de pagamento: armazene com senha e acesso restrito;
-- Crie checklists e rotinas para revisar mensalmente a documentação.
+- **Uma pasta por mês, fechada até o dia 10 do mês seguinte**, com notas, extrato e guias.
+- **Backup em dois lugares**: nuvem com autenticação em dois fatores e uma cópia local ou em outro provedor.
+- **Acesso restrito**: recibos de pró-labore e extratos têm dados pessoais.
+- **Nada só no e-mail ou no WhatsApp**: o que chegou por mensagem vai para a pasta.
 
-Viu só? Fazer o básico com atenção já muda tudo. E, se possível, conte com ajuda especializada para evitar tropeços. Na Conte, por exemplo, o suporte humano e ágil torna esse processo menos solitário, mais rápido e, principalmente, menos doloroso.
+O papel pode ser digitalizado e descartado. O [Decreto 10.278/2020](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10278.htm) dá ao documento digitalizado o mesmo efeito do original, desde que a digitalização garanta integridade e rastreabilidade. Entre particulares vale o método combinado entre as partes; perante órgão público, o arquivo precisa de assinatura com [certificado digital ICP-Brasil](/post/como-escolher-certificado-digital-ideal-empresa-2026). O passo a passo das despesas está no post sobre [como organizar recibos e despesas](/post/organizar-recibos-despesas-pj-tech-passo-a-passo).
 
-## Governança de dados e gestão segura
+## Quais erros mais aparecem na documentação da PJ de TI?
 
-Outro fator cada vez mais falado na TI, segundo a [FGV EAESP](https://eaesp.fgv.br/temas/tecnologia-informacao), é a governança de dados. Adotar práticas eficazes de gestão e armazenamento permite que informações fiquem disponíveis, seguras e prontas para tomada de decisão, e para atender às exigências legais e regulatórias.
+- Notas de despesa no CPF do sócio em vez do CNPJ da empresa.
+- Recebimento do exterior sem contrato nem invoice arquivados.
+- Pró-labore pago sem recibo, o que derruba a prova do Fator R.
+- Alteração contratual registrada na Junta e não enviada ao banco.
+- Certidão negativa vencida quando o cliente pede para renovar o contrato.
 
-Empresas que investem nisso conseguem resultados superiores, menos retrabalho, menos desperdício e padronização nos processos, como mostra o [Estadão sobre a governança de dados](https://www.estadao.com.br/economia/governanca/empresas-apostam-na-governanca-de-dados-para-melhorar-resultados/).
-
-Vale lembrar que documentos digitais precisam de backup regular, permissões de acesso controladas e uso de certificação digital para aumentar a autenticidade e proteção. Falhas aqui abrem brecha para fraudes e invasões, situações que todo mundo quer evitar.
-
-![Profissional de TI organizando arquivos digitais em nuvem com gráficos na tela ](/images/posts/documentos-essenciais-para-controlar-pj-ti-sem-erros/organizando-arquivos-digitais-793.webp)
-
-## Erros comuns e como evitar
-
-Mesmo com lista pronta, a prática às vezes escapa. Já aconteceu com você? Talvez guardar documentos só na caixa de entrada do e-mail ou esquecer uma nota fiscal não pareça grande coisa no começo. Mas quando chega o primeiro aviso de fiscalização, tudo muda.
-
-- Não renovar certidões negativas a tempo;
-- Deixar de emitir notas fiscais de serviços recorrentes;
-- Confundir documentos de pessoa física com PJ;
-- Não digitalizar contratos antigos;
-- Arquivar informações financeiras fora da ordem;
-- Perder prazos de obrigações acessórias;
-
-Na dúvida, vale sempre perguntar ao seu contador ou buscar um serviço de contabilidade que conheça as dores e desafios do setor de TI. E se precisar de apoio personalizado, Conte está pronta para ser o parceiro que resolve, desde a abertura da empresa até a rotina fiscal e contábil, tudo com suporte humano e uma lógica pensada para os dias corridos e digitais.
-
-## Conclusão
-
-Controlar uma PJ de TI vai além de bons códigos e entregas no prazo. Os documentos apontados aqui são o alicerce para uma empresa segura, previsível e bem vista pelos clientes. Quem valoriza a governança, investe em registro e organização, como mostram estudos recentes sobre governança e gestão de documentos. Com ferramentas certas, apoio humano e processos simples como o da Conte, sua empresa fica pronta para crescer, sem sofrer com problemas fiscais ou falta de informação.
-
-Está na hora de dar o próximo passo? **Conheça a Conte** e transforme a gestão contábil da sua PJ em TI em algo mais leve, seguro e inteligente. Deixe que a burocracia fique por nossa conta, enquanto você foca na inovação.
+Se você vai trocar de contador, peça esses mesmos documentos de volta; o [checklist para trocar de contador](/post/trocar-de-contador-sem-perder-informacoes-checklist) lista o que exigir. Na [Conte](https://sejaconte.com.br), notas, guias e declarações ficam organizadas por mês e disponíveis para o cliente.

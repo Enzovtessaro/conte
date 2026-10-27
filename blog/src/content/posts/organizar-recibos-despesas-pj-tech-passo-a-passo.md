@@ -1,106 +1,130 @@
 ---
-title: 'Como organizar recibos e despesas para PJ tech: passo a passo'
-seoTitle: 'Como organizar recibos e despesas para PJ tech: passo a passo'
-description: Aprenda a organizar recibos e controlar despesas da sua PJ tech para garantir gestão fiscal correta e pagar menos imposto.
+title: "Como organizar recibos e despesas da PJ tech: passo a passo"
+seoTitle: "Recibos e despesas da PJ tech: como organizar na nuvem"
+description: "No Simples e no Presumido, despesa não reduz o imposto, mas saída sem comprovante pode custar IR de 35%. Veja como organizar recibos da PJ tech na nuvem."
 pubDate: '2025-10-07'
-updatedDate: '2025-10-07'
+updatedDate: '2026-10-27'
 category: contabilidade
+tags: [fluxo-de-caixa, simples-nacional, lucro-presumido, contador]
 author: solange-vaz
 cover: /images/posts/organizar-recibos-despesas-pj-tech-passo-a-passo/organizando-recibos-e-despesas-pj-tech-541.webp
 coverAlt: Mesa organizada com recibos, laptop aberto mostrando planilhas e calculadora ao lado
+tldr:
+  - "No Simples Nacional e no Lucro Presumido, o imposto incide sobre a receita, então despesa documentada não reduz o DAS nem os tributos federais. Ela serve para apurar o lucro real da empresa e provar cada saída de dinheiro."
+  - "Pagamento sem comprovante de causa ou a beneficiário não identificado pode sofrer IR na fonte de 35% sobre base reajustada (Lei 8.981/1995, art. 61)."
+  - "O fluxo que funciona: conta PJ exclusiva, nota no CNPJ, uma pasta por mês na nuvem, conciliação com o extrato até o dia 10 do mês seguinte."
+  - "Recibo digitalizado conforme o Decreto 10.278/2020 tem o mesmo efeito do papel, que pode ser descartado."
 faq:
-- q: Como organizar recibos de PJ tech?
-  a: 'Comece centralizando todos os recebimentos e pagamentos na conta bancária PJ. Escaneie cada recibo ou nota e armazene em pastas digitais, separando os arquivos por categorias (exemplo: serviços, tecnologia, marketing). Inclua data no nome dos arquivos e, se possível, mantenha backups em nuvem. Revisões periódicas, semanais ou mensais, ajudam a nunca perder nenhum comprovante.'
-- q: Quais apps ajudam a controlar despesas?
-  a: Há aplicativos nacionais de gestão financeira, escaneamento de documentos e organização de recibos, que permitem fotografar, classificar por categoria e gerar relatórios. Estes apps integram-se com bancos, facilitando a importação automática de despesas. Procure por aplicativos com boa avaliação, que se adaptam às necessidades da PJ tech e permitam exportar dados em formatos práticos para o contador.
-- q: Como separar despesas pessoais das empresariais?
-  a: 'O melhor caminho é ter contas bancárias separadas: uma para pessoa física, outra só para movimentações da PJ. Nunca misture pagamentos do dia a dia pessoal com despesas da empresa. Sempre peça nota fiscal em nome da PJ e registre cada gasto empresarial com detalhes, e as despesas pessoais, controle à parte. Esse cuidado é fundamental para evitar erros fiscais e garantir deduções corretas.'
-- q: É obrigatório guardar recibos físicos?
-  a: A maioria dos recibos pode ser digitalizada, e o arquivo digital já é aceito pela Receita Federal em muitos casos. No entanto, guarde recibos físicos originais que servem como documentos legais insubstituíveis, principalmente contratos assinados, comprovantes de operações financeiras específicas ou notas fiscais que a legislação exija o original. Para o dia a dia da PJ tech, priorize a digitalização e mantenha backups bem feitos.
-- q: Qual a melhor forma de arquivar recibos?
-  a: 'Prefira a digitalização: escaneie ou fotografe os recibos e organize-os em pastas nomeadas por mês e categoria. Use uma solução que permita backup automático (como serviços na nuvem). Nomeie os arquivos claramente, com data e tipo de gasto. Se algum recibo físico precisar ser guardado, mantenha em pastas físicas organizadas e protegidas de perda ou danos, sempre com correspondência aos registros digitais.'
+  - q: "Organizar despesas reduz o imposto da PJ no Simples Nacional?"
+    a: "Não diretamente. O DAS é calculado sobre a receita bruta, e despesas não entram na conta. A organização protege a empresa numa fiscalização, mostra o lucro real e sustenta a distribuição de lucros isenta ao sócio."
+  - q: "Como separar despesas pessoais das empresariais?"
+    a: "Use uma conta PJ só para a empresa, peça nota sempre no CNPJ e pague despesas da empresa com meios da empresa. Gasto pessoal pago pela PJ deve ser lançado como retirada de lucro do sócio, nunca como despesa."
+  - q: "Preciso guardar o recibo em papel?"
+    a: "Não, se você digitalizar com qualidade e integridade. O Decreto 10.278/2020 permite descartar o papel após a digitalização, exceto documentos de valor histórico. Notas fiscais eletrônicas já nascem digitais."
+  - q: "Por quanto tempo devo guardar recibos e notas de despesa?"
+    a: "Até a prescrição dos tributos relacionados, o que na prática dá no mínimo seis anos contados do ano seguinte ao da despesa (CTN, arts. 173 e 195)."
+  - q: "Quais despesas a PJ tech costuma ter?"
+    a: "Ferramentas SaaS, nuvem, domínio, equipamentos, coworking, contabilidade, certificado digital, cursos e tarifas bancárias. Todas precisam de nota ou recibo em nome da empresa e de relação com a atividade."
+sources:
+  - title: Lei nº 8.981/1995, art. 61 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/l8981.htm
+  - title: Lei Complementar nº 123/2006, art. 26 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm
+  - title: Decreto nº 10.278/2020, digitalização de documentos (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10278.htm
+  - title: Código Tributário Nacional, arts. 173 e 195 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm
 migratedFrom: https://blog.sejaconte.com.br/post/organizar-recibos-despesas-pj-tech-passo-a-passo
 ---
 
-Gerenciar a papelada da PJ tech pode parecer simples no começo. Só que, mês a mês, são notas, recibos, contratos, guias e uma coleção de comprovantes espalhados entre e-mails, WhatsApp, pastas físicas, PDFs, fotos no celular e até rasuras na carteira. O resultado? Descontrole dos gastos, risco de pagar impostos a mais, dificuldade para encontrar documentos quando precisa e aquele frio na barriga na hora da contabilidade.
+Organizar recibos e despesas da PJ tech significa garantir que cada real que sai da conta da empresa tenha um documento em nome do CNPJ, guardado num lugar onde você e o contador encontram em segundos. Os comprovantes chegam por e-mail, app do banco, WhatsApp e fatura de cartão em dólar. Sem um fluxo, eles se perdem em três meses.
 
-> “Organização financeira é a peça que falta para o crescimento tranquilo.”
+## Organizar despesas reduz o imposto da PJ?
 
-Neste artigo, mostro um passo a passo simples sobre como organizar recibos e despesas da sua PJ tech, desde o recebimento até o arquivamento. E, claro, como a Conte pode facilitar esse caminho para você se dedicar ao que realmente importa: o seu negócio.
+No Simples Nacional e no Lucro Presumido, não diretamente. Nos dois regimes, o imposto incide sobre a receita (no Presumido, sobre uma margem presumida dela), e a despesa não entra no cálculo. Só no Lucro Real a despesa dedutível reduz o IRPJ e a CSLL; o post sobre [despesas dedutíveis no IR da PJ](/post/despesas-dedutiveis-imposto-renda-pj) explica os critérios.
 
-## Entenda por que organizar recibos e despesas é indispensável
+Então por que organizar? Por três motivos concretos:
 
-A burocracia no Brasil não é leve. Dados do [estudo da FGV](https://portal.fgv.br/noticias/estudo-sobre-gastos-tributarios-brasileiros-torna-se-referencia-em-hub-internacional) mostram que gastos tributários cresceram de 2,9% para 6,9% do PIB, além do peso dos encargos trabalhistas, que pode passar de 100% do salário, como revela estudo da USP. Esse cenário desafia diretamente negócios digitais, freelancers tech e prestadores de serviços PJ.
+1. **Lucro e distribuição.** A despesa documentada entra na contabilidade e define o lucro que você pode distribuir ao sócio com isenção.
+2. **Prova numa fiscalização.** Cada saída da conta PJ precisa de causa. Sem ela, o fiscal pode tratar o valor como pagamento sem causa.
+3. **Separação entre PF e PJ.** Gasto pessoal pago pela empresa vira retirada de lucro, não despesa. Misturar os dois distorce o lucro e o Fator R.
 
-Desorganização traz riscos claros:
+### Exemplo: o custo de uma saída sem comprovante
 
-- Dificuldade para apurar impostos
-- Multas e juros por atrasos
-- Impossibilidade de deduzir despesas legítimas
-- Perda de descontos e benefícios fiscais
-- Problemas em futuras fiscalizações
+A [Lei 8.981/1995](https://www.planalto.gov.br/ccivil_03/leis/l8981.htm), art. 61, sujeita ao IR na fonte de 35% o pagamento a beneficiário não identificado ou sem comprovação da causa. O valor pago é considerado líquido, então a base é reajustada.
 
-Pior ainda, dá muita dor de cabeça. E ninguém abre uma PJ para viver só de papelada.
+Suponha R$ 10.000 transferidos da conta PJ sem nota, contrato ou recibo:
 
-## Crie um fluxo simples de organização
+- Base reajustada: R$ 10.000 ÷ (1 − 0,35) = R$ 15.384,62.
+- IR na fonte: 35% × R$ 15.384,62 = R$ 5.384,62.
+- Se lançado de ofício, ainda entra multa de 75% sobre o imposto e juros Selic.
 
-Não existe segredo mirabolante. O que funciona é seguir um fluxo prático, com pequenas ações diárias e uma rotina de conferência semanal ou mensal. Veja como estruturar:
+O mesmo valor, com nota fiscal do fornecedor ou recibo de distribuição de lucro ao sócio, não gera nada disso.
 
-### 1. Centralize recebimentos e pagamentos
+## Como montar um fluxo de organização de recibos?
 
-Determine canais fixos para receber e enviar pagamentos. O ideal é que sua PJ tenha uma conta bancária apenas para movimentações empresariais. Pague sempre por transferência (TED, Pix), boleto ou cartão PJ. Fique longe do dinheiro vivo ou transferências da conta pessoal para evitar confusões.
+O fluxo mais simples que funciona tem cinco etapas, todas na nuvem.
 
-### 2. Separe as despesas por categorias
+### 1. Centralize tudo na conta PJ
 
-Monte um padrão de categorias como “Serviços”, “Tecnologia”, “Marketing”, “Viagens”, “Impostos”, entre outras relevantes para sua rotina. Cada recibo e nota fiscal deve vir acompanhado da devida classificação.
+Receba de clientes e pague fornecedores só pela conta da empresa, por Pix, TED, boleto ou cartão PJ. Precisa de dinheiro para você? Transfira como pró-labore ou distribuição de lucros, com recibo. A [LC 123/2006](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm) (art. 26, §2º) exige que a empresa do Simples mantenha livro-caixa com toda a movimentação bancária, e ele só fecha se a conta for exclusiva.
 
-![Recibos e notas fiscais organizados por categorias em um quadro branco ](/images/posts/organizar-recibos-despesas-pj-tech-passo-a-passo/recibos-categorias-pj-tech-275.webp)
+### 2. Peça nota no CNPJ
 
-### 3. Digitalize tudo (sem exagero)
+No checkout de SaaS, nuvem e hardware, cadastre o CNPJ e o e-mail financeiro da empresa. Ferramentas estrangeiras emitem invoice, não nota fiscal brasileira; guarde a invoice e a fatura do cartão que mostra o pagamento.
 
-Nada de guardar pilha de papel. Escaneie ou fotografe recibos, comprovantes e notas fiscais. Organize estes arquivos em pastas digitais (computador, nuvem ou app especializado) com nomes claros, por exemplo: **2024-05-Cloud-AWS.pdf**. Só guarde o papel físico se for exigido pela legislação ou no caso de documentos originais indispensables.
+### 3. Uma pasta por mês, com nome padronizado
 
-### 4. Arquive regularmente
+Crie uma pasta por mês na nuvem e nomeie cada arquivo começando pela data:
 
-Defina um ritual semanal ou mensal para revisar e categorizar todas as despesas que surgiram. Nessa hora, aproveite para conferir se alguma nota fiscal não foi recebida do fornecedor, se a categoria bate com o gasto real e se algo ficou de fora.
+- `2026-10-03_AWS_invoice.pdf`
+- `2026-10-05_Coworking_NFSe.pdf`
+- `2026-10-20_DAS_comprovante.pdf`
 
-> “O hábito salva mais que qualquer aplicativo.”
+Com o nome nesse formato, a pasta se ordena sozinha e a busca funciona.
 
-### 5. Use tecnologia a seu favor
+### 4. Categorize as despesas
 
-Segundo [reportagens sobre automação e gestão](https://www.estadao.com.br/economia/sua-oportunidade/tecnologias-ajudam-negocios-a-reduzir-custos/), sistemas integrados e softwares simples tornam a rotina menos pesada e mais segura contra erros. Há apps de controle de despesas, escaneamento, organização de notas e gestão financeira focados em pequenas empresas e profissionais PJ tech.
+Poucas categorias bastam para a PJ tech:
 
-## Siga um checklist prático de organização
+| Categoria | Exemplos |
+|---|---|
+| Software e nuvem | GitHub, AWS, Figma, domínio |
+| Equipamento | Notebook, monitor, periféricos (ativo da empresa) |
+| Espaço | Coworking, sala |
+| Serviços | Contabilidade, jurídico, certificado digital |
+| Educação | Cursos e conferências ligados à atividade |
+| Tributos e tarifas | DAS, DARF, ISS, tarifas bancárias, IOF |
+| Retiradas do sócio | Pró-labore, distribuição de lucros |
 
-Se você nunca organizou tudo do zero, inicie por este passo a passo:
+### 5. Concilie com o extrato até o dia 10
 
-1. **Liste todas as receitas e despesas do mês:** Use extratos bancários, cartões PJ e caixa para identificar cada entrada e saída.
-2. **Reúna todos os recibos e notas fiscais:** Digitalize ou tire fotos se tiver papéis soltos. Recolha também e-mails com recibos em PDF.
-3. **Categorize os documentos:** Separe-os usando pastas digitais ou físicas com nomes por mês e tipo de despesa (exemplo: **2024-05-Impostos**).
-4. **Concilie com o extrato bancário:** Marque cada movimentação com o comprovante correspondente, garantindo que nenhuma despesa ficou sem recibo.
-5. **Solicite comprovantes pendentes:** Se sentir falta de recibo de algum serviço ou fornecimento, peça na hora.
-6. **Armazene de forma segura:** Faça backup na nuvem ou em HD externo. Evite dependência de apenas um meio.
-7. **Envie os documentos ao contador:** Em projetos como a Conte, basta enviar via WhatsApp e você recebe todas as guias, orientações e conferência do time. Se estiver com outro contador, pergunte o formato que preferem receber.
+Abra o extrato do mês e marque, linha por linha, o comprovante correspondente. Faltou algum? Peça ao fornecedor na hora; depois de três meses, ele some. Envie a pasta fechada ao contador. O post sobre [fluxo de caixa com planilhas](/post/organizar-fluxo-caixa-pj-planilhas) mostra como usar esses dados para prever o caixa.
 
-## Evite erros comuns das PJs tech
+## Como registrar despesas em dólar e reembolsos ao sócio?
 
-- **Misturar despesas pessoais e da empresa:** Isso embaralha tudo, dificulta a apuração de impostos e pode gerar problemas com a Receita Federal.
-- **No stress:** Deixe para “organizar depois da entrega” e corre o risco de perder deduções e pagar mais imposto.
-- **Esquecer backups:** Arquivo sem cópia segura é sinônimo de dores de cabeça (e prejuízo) se algo se perder.
-- **Ignorar recibos pequenos:** Qualquer gasto de PJ gera documento. Até aquele estacionamento do coworking pode ser provado.
+Ferramentas como AWS, GitHub ou OpenAI cobram em dólar e emitem invoice estrangeira. Para cada uma, guarde dois documentos: a invoice, com o CNPJ ou o nome da empresa no campo de cobrança, e a fatura do cartão PJ ou o comprovante de câmbio, que mostra o valor em reais e o IOF pago. O lançamento usa o valor em reais efetivamente debitado. Se a mesma conta da ferramenta serve a projetos pessoais, separe o uso ou mantenha a assinatura no seu CPF.
 
-## Como a Conte pode te ajudar nesse processo
+Reembolso ao sócio funciona assim: você pagou uma despesa da empresa com o cartão pessoal, a empresa devolve o valor exato, e o comprovante da despesa mais o recibo de reembolso vão para a pasta do mês. Sem o documento da despesa, o reembolso vira retirada de lucro, ou pior, pagamento sem causa. Use isso como exceção; despesa recorrente da empresa sai do cartão PJ.
 
-Na **Conte**, além do contador pessoal que te acompanha em toda a jornada, há um suporte ágil pronto para orientar no passo a passo da organização financeira, desde a escolha das categorias, envio dos documentos corretos para apuração de impostos, resolução de dúvidas até dicas para não deixar nenhum recibo para trás.
+## Recibo digital tem validade legal?
 
-> “Deixe a burocracia da sua PJ com a gente. Foque no seu serviço e o resto a Conte resolve.”
+Tem. Nota fiscal eletrônica, invoice em PDF e comprovante do banco já são documentos digitais originais. Para o papel, o [Decreto 10.278/2020](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10278.htm) dá ao documento digitalizado o mesmo efeito do original, desde que o processo garanta integridade, rastreabilidade e qualidade da imagem. Feita a digitalização, o papel pode ser descartado, exceto documentos de valor histórico.
 
-Esse cuidado resulta em menos impostos surpresa, organização transparente e tranquilidade na hora do pagamento ou em qualquer fiscalização. Unir pessoas e tecnologia, como mostram [empresas que investem em governança de dados](https://www.estadao.com.br/economia/governanca/empresas-apostam-na-governanca-de-dados-para-melhorar-resultados/), é o caminho para tomar decisões melhores e evitar erros desnecessários.
+Entre particulares, vale o método de digitalização que as partes aceitam. Perante órgão público, o arquivo precisa estar assinado com certificado ICP-Brasil e trazer os metadados mínimos do decreto. Para o dia a dia da PJ tech, foto legível ou scan em PDF, com data no nome e backup, resolve.
 
-![Mesa de escritório com laptop, smartphone e pilhas de papéis organizados ](/images/posts/organizar-recibos-despesas-pj-tech-passo-a-passo/tecnologia-organizacao-pj-341.webp)
+## Como guardar recibos na nuvem com segurança?
 
-## Conclusão
+- **Dois lugares**: um provedor de nuvem principal e uma cópia em outro provedor ou disco local.
+- **Autenticação em dois fatores** na conta da nuvem.
+- **Compartilhamento só com quem precisa**: o contador acessa a pasta da empresa, não o seu drive pessoal.
+- **Prazo de guarda**: no mínimo seis anos contados do ano seguinte à despesa (CTN, arts. 173 e 195). A tabela completa está no post sobre [documentos essenciais da PJ de TI](/post/documentos-essenciais-para-controlar-pj-ti-sem-erros).
 
-Mantendo um fluxo de organização rotineiro, categorizando despesas, digitalizando documentos e com o apoio de tecnologia, você facilita toda a vida financeira da sua PJ tech. O resultado é menos erros, economia no pagamento de impostos e mais tempo livre para pensar na estratégia, em vez de planilhas e gavetas reviradas.
+## Quais erros mais atrapalham a organização?
 
-Se você quer experimentar como é ter uma equipe dedicada à organização contábil, além de suporte humano ágil e contador pessoal, faça o teste com a Conte. Deixe a burocracia da PJ para quem entende, e ganhe paz para construir sua carreira do seu jeito. Conte conosco desde a abertura da empresa até a organização dos seus comprovantes mês a mês!
+- **Pagar despesa da empresa no cartão pessoal.** A despesa fica sem lastro na conta PJ, e reembolsar o sócio exige recibo próprio.
+- **Ignorar recibos pequenos.** Tarifas, IOF e assinaturas de R$ 30 somam centenas por ano e bagunçam a conciliação.
+- **Guardar só no e-mail ou no WhatsApp.** O que chegou por mensagem vai para a pasta do mês no mesmo dia.
+- **Lançar gasto pessoal como despesa.** Mercado, streaming da família e viagem de férias não são despesa da PJ. Se a empresa pagou, é retirada de lucro.
+
+Se você prefere só jogar os comprovantes numa pasta e deixar a conciliação com alguém, a [Conte](https://sejaconte.com.br) recebe os documentos do mês e devolve o fechamento pronto.

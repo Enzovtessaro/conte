@@ -1,117 +1,129 @@
 ---
-title: Como funciona o pagamento de dividendos para pjs fora do simples
-seoTitle: Como funciona o pagamento de dividendos para pjs fora do simples
-description: Entenda as regras, tributação e procedimentos para o pagamento correto de dividendos em PJs fora do Simples Nacional.
+title: 'Dividendos em 2026: como fica a tributação para PJ fora do Simples'
+seoTitle: 'Dividendos 2026: tributação para PJ no Lucro Presumido'
+description: Desde 2026, lucros acima de R$ 50 mil/mês por empresa têm 10% de IR retido, e rendas acima de R$ 600 mil/ano pagam o IRPFM. Veja um exemplo com números.
 pubDate: '2025-12-11'
-updatedDate: '2025-12-11'
+updatedDate: '2026-10-27'
 category: tributacao
 author: solange-vaz
 cover: /images/posts/pagamento-dividendos-pjs-fora-do-simples/pagamento-dividendos-pj-427.webp
 coverAlt: Empresário analisando gráficos de dividendos em tela de computador
+tags: [dividendos, lucro-presumido, irpf, pro-labore]
+tldr:
+  - "Desde janeiro de 2026 (Lei 15.270/2025), a empresa retém 10% de Imposto de Renda quando paga mais de R$ 50 mil de lucros no mesmo mês ao mesmo sócio pessoa física. A alíquota incide sobre o total pago no mês, não só sobre o excedente."
+  - "Quem soma mais de R$ 600 mil de renda no ano, contando os lucros isentos, entra no imposto mínimo (IRPFM), com alíquota que sobe de 0% a 10% até R$ 1,2 milhão. A retenção mensal é descontada desse cálculo na declaração."
+  - "Lucros apurados até 2025, com distribuição aprovada até 31/12/2025 e pagos nos termos aprovados, continuam isentos."
+  - "Um dev no Lucro Presumido que distribui cerca de R$ 930 mil no ano paga um IRPFM próximo de 6,5% da renda total, e não os 10% retidos mês a mês."
 faq:
-- q: Como funcionam os dividendos para PJ fora do Simples?
-  a: Fora do Simples Nacional, os dividendos são distribuídos a partir do lucro líquido apurado após a contabilização de todas as receitas, despesas e tributos. Eles só podem ser pagos se a empresa manter uma escrituração contábil regular. Ao seguir esse processo, os sócios podem receber os lucros sem paga de imposto adicional, desde que respeitados os limites legais.
-- q: Quais impostos incidem sobre dividendos para PJ?
-  a: No momento, os dividendos propriamente ditos pagos por empresas do Lucro Presumido e Lucro Real estão isentos de IRPF, desde que não ultrapassem o lucro contábil apurado e demonstrado. Se houver distribuição acima do lucro registrado, o valor excedente pode ser tributado como pró-labore ou ganho de capital.
-- q: Como calcular o valor dos dividendos para PJ?
-  a: O cálculo parte do lucro líquido, já descontados IRPJ, CSLL, PIS, Cofins e demais tributos. Após fechar o balanço do período, identificam-se os lucros disponíveis para distribuição. Esse valor pode ser dividido entre os sócios conforme definido no contrato social ou em ata de assembleia.
-- q: Quando a PJ fora do Simples deve pagar dividendos?
-  a: O pagamento pode ser realizado sempre que houver lucro disponível comprovado por meio dos registros contábeis. O ideal é que, ao final de cada exercício fiscal, os sócios avaliem junto ao contador a existência de recursos para distribuição, formalizando a decisão em documento próprio.
-- q: Vale a pena distribuir lucros como dividendos?
-  a: Para empresas lucrativas e com contabilidade regular, distribuir dividendos é uma maneira eficiente de repassar lucros aos sócios sem aumentar a carga tributária. No entanto, cada situação precisa ser avaliada junto a um contador, considerando necessidade de reinvestimento, reservas de capital e possíveis mudanças na legislação.
+  - q: Dividendos pagam imposto em 2026?
+    a: Depende do valor. Até R$ 50 mil por mês da mesma empresa para o mesmo sócio, não há retenção. Acima disso, a empresa retém 10% sobre o total do mês. Na declaração anual, quem tem renda total acima de R$ 600 mil calcula o IRPFM e compensa o que já foi retido.
+  - q: A retenção de 10% vale para empresa do Simples Nacional?
+    a: Pela posição da Receita Federal, sim. Nas perguntas e respostas publicadas em dezembro de 2025, a Receita afirma que a Lei 15.270/2025 afastou a isenção do art. 14 da LC 123/2006 para pagamentos acima de R$ 50 mil no mês. Há contestação judicial com base na hierarquia entre lei complementar e lei ordinária, ainda sem decisão definitiva.
+  - q: Se a retenção for maior que o IRPFM, eu recebo de volta?
+    a: A Lei 15.270 manda descontar a retenção mensal do IRPFM apurado e somar o resultado ao saldo da declaração anual. Se a retenção superar o imposto mínimo devido, a diferença entra no saldo da declaração, que pode resultar em imposto a restituir.
+  - q: Quanto posso distribuir de lucro no Lucro Presumido?
+    a: Sem contabilidade completa, o limite isento é a base presumida (32% da receita para serviços) menos IRPJ, CSLL, PIS e Cofins. Com escrituração contábil completa, você distribui o lucro contábil apurado, que costuma ser bem maior para quem presta serviço com poucos custos.
+  - q: Dividendos pagos para sócio no exterior pagam imposto?
+    a: Sim. Desde 2026, lucros remetidos a sócio residente no exterior têm retenção de 10% na fonte, com exceções para governos estrangeiros, fundos soberanos e entidades de previdência no exterior. A lei prevê um crédito quando a soma da tributação da empresa e do sócio passa das alíquotas nominais.
+sources:
+  - title: Lei nº 15.270/2025 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm
+  - title: Receita Federal, perguntas e respostas sobre tributação de altas rendas, lucros e dividendos
+    url: https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/dezembro/receita-federal-lanca-perguntas-e-respostas-sobre-tributacao-de-altas-rendas-consideracoes-sobre-lucros-e-dividendos
+  - title: Lei nº 9.249/1995, lucro presumido e dividendos (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/l9249.htm
+  - title: Lei Complementar nº 123/2006, art. 14 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm
 migratedFrom: https://blog.sejaconte.com.br/post/pagamento-dividendos-pjs-fora-do-simples
 ---
 
-Dividendo é um tema que desperta dúvidas frequentes entre empreendedores, principalmente quando falamos no contexto das empresas fora do Simples Nacional. Em nossa experiência atendendo negócios de diferentes portes aqui na Conte, percebemos que muitos sócios de pessoas jurídicas (PJ) ainda não conhecem as particularidades do pagamento de dividendos e suas implicações fiscais. Pensando nisso, elaboramos este guia claro e direto para ajudar você a entender as regras, evitar prejuízos e tomar decisões mais acertadas em relação à remuneração dos sócios fora do regime do Simples.
+Até dezembro de 2025, lucro distribuído por empresa do Lucro Presumido ou do Lucro Real chegava ao sócio sem imposto nenhum. A [Lei 15.270/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm) mudou isso a partir de janeiro de 2026, com uma retenção mensal e um imposto mínimo anual para rendas altas. Para o dev PJ que fatura bem, a conta mudou.
 
-## O que são dividendos e por que importam para PJs?
+## O que mudou na tributação de dividendos em 2026?
 
-Antes de abordarmos o funcionamento prático, é fundamental diferenciar dividendos de outras formas de retirada dos lucros. Ao contrário do pró-labore, que remunera o trabalho do sócio, o dividendo representa a parcela dos lucros distribuída após a apuração e cumprimento das obrigações fiscais.
+A Lei 15.270/2025 criou duas cobranças sobre lucros pagos a sócios pessoa física residentes no Brasil: a retenção de 10% na fonte acima de R$ 50 mil por mês e o imposto mínimo anual (IRPFM) para quem tem renda acima de R$ 600 mil por ano. Tudo vale desde 1º de janeiro de 2026.
 
-Muita gente confunde dividendos com salário, mas são conceitos diferentes. Em nosso artigo sobre [diferença entre pró-labore, distribuição de lucros e salário](/post/diferenca-pro-labore-distribuicao-lucros-salario) explicamos detalhadamente essas distinções.
+| Regra | Como funciona | Quando |
+|---|---|---|
+| Retenção na fonte | 10% sobre o total pago no mês quando a mesma empresa paga mais de R$ 50 mil ao mesmo sócio | Todo mês, desde jan/2026 |
+| IRPFM | Alíquota de 0% a 10% sobre a renda total do ano, para rendas acima de R$ 600 mil | Na declaração de 2027 em diante |
+| Redutor | Diminui o IRPFM quando a empresa já pagou muito imposto sobre o lucro | Na declaração |
+| Transição | Lucros até 2025 com distribuição aprovada até 31/12/2025 ficam fora | Pagamentos em 2026, 2027 e 2028 |
+| Sócio no exterior | 10% retido na fonte, com exceções | Desde jan/2026 |
 
-> Dividendos são a parte legítima do lucro que pertence aos sócios, após o pagamento dos impostos devidos pela empresa.
+## Como funciona a retenção de 10% sobre lucros acima de R$ 50 mil?
 
-Segundo relatórios do Tesouro Nacional, [a arrecadação de dividendos federais sofreu queda expressiva em 2020](https://www.gov.br/tesouronacional/pt-br/noticias/a-uniao-recebeu-menos-dividendos-em-2020-comparado-a-2019-foram-r-6-6-bilhoes-em-2020-contra-r-20-8-bilhoes-de-2019), evidenciando a relação direta desse mecanismo com o desempenho econômico das empresas e a situação fiscal do país.
+Se a mesma empresa paga ou credita mais de R$ 50 mil de lucros no mesmo mês para a mesma pessoa física, ela retém 10% sobre o valor total, sem deduções (Lei 9.250/1995, art. 6º-A). Pagar R$ 50.000 no mês não gera retenção. Pagar R$ 50.001 gera R$ 5.000,10.
 
-## Como é o pagamento de dividendos fora do Simples?
+O limite é por empresa e por sócio. Quem é sócio de duas empresas tem dois limites de R$ 50 mil. A empresa recolhe o imposto retido como qualquer IRRF, e a retenção funciona como antecipação: na declaração anual, ela é descontada do IRPFM.
 
-**Quando uma empresa não está no Simples Nacional, ela precisa seguir procedimentos específicos tanto para calcular quanto para distribuir dividendos de forma legal e segura.**
+A Receita entende que a retenção também alcança empresas do Simples Nacional, apesar da isenção prevista no art. 14 da [LC 123/2006](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm). A questão está em discussão judicial, então quem está no Simples e paga lucros grandes deve acompanhar o tema com o contador.
 
-Para empresas no Lucro Presumido ou Lucro Real, o processo exige registros contábeis adequados e o cumprimento fiel das exigências fiscais. Isso garante não só a tranquilidade nas obrigações com o Fisco, mas também proporciona transparência e segurança aos sócios.
+## Como funciona o imposto mínimo (IRPFM)?
 
-- **Lucro apurado:** O lucro é calculado após todas as receitas e despesas, descontos dos tributos devidos, como IRPJ e CSLL.
-- **Escrituração:** A contabilidade deve estar rigorosamente em dia, pois os valores só podem ser distribuídos a partir de lucro realmente demonstrado nas demonstrações contábeis.
-- **Assembleia:** Em muitas empresas, a distribuição é formalizada por meio de ata, reforçando o cuidado documental.
+O IRPFM é um piso de imposto para quem recebe mais de R$ 600 mil por ano somando todos os rendimentos, inclusive os isentos, como lucros e dividendos. A alíquota é calculada assim:
 
-Na Conte, cuidamos de todos esses detalhes e oferecemos acompanhamento para que o sócio tome decisões alinhadas com a legislação e com seus objetivos financeiros.
+- Até R$ 600 mil: 0%.
+- Entre R$ 600 mil e R$ 1,2 milhão: alíquota = (renda ÷ 60.000) − 10. Com R$ 900 mil, por exemplo, a alíquota é 5%.
+- A partir de R$ 1,2 milhão: 10%.
 
-![Reunião de sócios discutindo distribuição de dividendos ](/images/posts/pagamento-dividendos-pjs-fora-do-simples/lucro-assembleia-dividendos-146.webp)
+Do valor apurado, você desconta o IR que já pagou na declaração (sobre pró-labore, por exemplo), o IR retido exclusivamente na fonte sobre rendimentos que entram na base e o redutor. Ficam fora da base alguns rendimentos, como ganhos de capital e poupança.
 
-## Tributação dos dividendos fora do Simples Nacional
+O redutor protege quem já pagou muito imposto na empresa. Se a alíquota efetiva de IRPJ e CSLL da empresa somada à alíquota do IRPFM do sócio passar de 34% (40% ou 45% para bancos e financeiras), o excesso é abatido.
 
-Ao contrário do que acontece em outros países, **no Brasil, atualmente, os dividendos pagos pelas empresas tributadas pelo Lucro Presumido ou Lucro Real são isentos de tributação na fonte e na declaração dos sócios, desde que respeitados os limites legais**.
+## Exemplo: dev no Lucro Presumido faturando R$ 100 mil por mês
 
-No entanto, alguns pontos precisam de atenção:
+Um dev atende clientes no Brasil por uma empresa no Lucro Presumido, fatura R$ 100 mil por mês e retira R$ 5 mil de pró-labore. ISS de 2% (a alíquota varia de 2% a 5% conforme o município).
 
-- Se os dividendos excederem o lucro real apurado, o excedente pode ser considerado antecipação de lucros ou remuneração disfarçada, sofrendo tributação como ganho de capital ou até mesmo como pró-labore.
-- A empresa deve estar em dia com a escrituração contábil. Em caso contrário, toda a distribuição pode ser desconsiderada e sujeitar-se à incidência de impostos na fonte, além de multas.
-- Alterações legais futuras podem modificar essa regra, por isso é relevante revisar sua estratégia periodicamente.
+**Impostos da empresa no mês:**
 
-A Receita Federal tem [jurisprudência vinculante relacionada ao IRPJ e à CSLL](https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/jurisprudencia-vinculante/irpj-csll) que deve ser levada em conta no planejamento tributário das empresas que distribuem dividendos fora do Simples Nacional.
+| Tributo | Cálculo | Valor |
+|---|---|---|
+| PIS | 0,65% × R$ 100.000 | R$ 650 |
+| Cofins | 3% × R$ 100.000 | R$ 3.000 |
+| ISS | 2% × R$ 100.000 | R$ 2.000 |
+| IRPJ | 15% × R$ 32.000 (presunção de 32%) | R$ 4.800 |
+| Adicional de IRPJ | 10% × (R$ 32.000 − R$ 20.000) | R$ 1.200 |
+| CSLL | 9% × R$ 32.000 | R$ 2.880 |
+| **Total** | | **R$ 14.530** |
 
-Falando em planejamento, para negócios com sócios estrangeiros, recomendamos a leitura do nosso artigo sobre [planejamento tributário para empresas com sócios estrangeiros](/post/planejamento-tributario-para-empresas-com-socios-estrangeiros).
+**Lucro disponível:** R$ 100.000 − R$ 14.530 de impostos − R$ 5.000 de pró-labore − R$ 1.000 de INSS patronal (20%) − R$ 2.000 de outras despesas = **R$ 77.470 por mês**. Para distribuir esse valor inteiro sem perder a isenção, a empresa precisa de escrituração contábil completa.
 
-## Limites, cálculo e fluxo do pagamento
+**Retenção mensal:** como R$ 77.470 passa de R$ 50 mil, a empresa retém 10% × R$ 77.470 = R$ 7.747 por mês, R$ 92.964 no ano.
 
-**O valor máximo a ser distribuído como dividendo é o lucro líquido apurado após a tributação, conforme registrado nas demonstrações financeiras.**
+**Ajuste anual (IRPFM):**
 
-Para calcular, siga esta sequência:
+1. Renda total no ano: R$ 60.000 de pró-labore + R$ 929.640 de lucros = R$ 989.640.
+2. Alíquota: (989.640 ÷ 60.000) − 10 = 6,49%.
+3. IRPFM bruto: 6,49% × R$ 989.640 ≈ R$ 64.267.
+4. IR já pago sobre o pró-labore: zero, porque R$ 5 mil por mês fica isento com a redução de 2026.
+5. Redutor: a empresa pagou cerca de 11% de IRPJ e CSLL sobre o lucro. Somado aos 6,49% do sócio, fica longe dos 34%, então não há redutor.
+6. IRPFM devido: R$ 64.267. Retido no ano: R$ 92.964. A diferença de cerca de R$ 28,7 mil entra no saldo da declaração.
 
-1. Apure a receita bruta e deduza todas as despesas.
-2. Calcule os tributos (IRPJ, CSLL, PIS, Cofins, entre outros).
-3. Encerre o balanço do período e identifique o lucro líquido.
-4. Gere a documentação necessária e delibere pela distribuição (normalmente via ata ou documento equivalente).
-5. Realize a distribuição, podendo ser por transferência bancária ou crédito em conta do sócio.
+O custo final para esse sócio fica perto de 6,5% da renda total, e não 10%. A retenção mensal pesa no caixa durante o ano, mas o acerto acontece na declaração.
 
-> A documentação contábil bem feita é o que protege a empresa e os sócios na hora de distribuir dividendos.
+Com faturamento menor, o efeito some. Um dev que fatura R$ 30 mil por mês e retira R$ 20 mil de lucro mensal não tem retenção e fica abaixo de R$ 600 mil de renda anual. Para esse perfil, a comparação entre regimes está em [Simples Nacional ou Lucro Presumido para empresas de tecnologia](/post/simples-nacional-ou-lucro-presumido-para-empresas-de-tecnologia).
 
-Além disso, empresas que prestam serviços ou recebem receitas do exterior devem estar atentas a normas específicas, como destacamos no post sobre [tributação de serviços para o exterior](/post/tributacao-servicos-para-exterior-o-que-muda) e [desafios no pagamento de impostos exteriores](/post/pagamento-impostos-exterior-desafios-solucoes).
+## Quanto a empresa pode distribuir de lucro?
 
-## Riscos comuns e boas práticas na distribuição
+O limite é o lucro que a contabilidade comprova. No Lucro Presumido, sem escrituração completa, o valor isento fica restrito à base presumida menos os tributos federais. Com livro diário e balanço, vale o lucro contábil.
 
-Na nossa atuação diária, observamos alguns erros frequentes:
+No exemplo, sem contabilidade completa, o limite isento seria R$ 32.000 − R$ 4.800 − R$ 1.200 − R$ 2.880 − R$ 650 − R$ 3.000 = R$ 19.470 por mês. Os outros R$ 58 mil ficariam presos na empresa ou sairiam tributados como rendimento do sócio. A escrituração completa faz diferença aqui.
 
-- Distribuição sem escrituração contábil formalizada;
-- Falta de comprovação documental do lucro apurado;
-- Inobservância dos limites legais ao distribuir valores acima do lucro líquido;
-- Confusão entre dividendos e outras remunerações, o que pode aumentar a carga tributária.
+Lucro distribuído acima do resultado apurado é tratado como remuneração do sócio, com IR na tabela progressiva, e pode gerar INSS. A antecipação de lucros durante o ano é permitida, desde que o balanço do fim do ano confirme o resultado.
 
-Para evitar surpresas, recomendamos:
+## Quais cuidados tomar na distribuição?
 
-- Manter escrituração contábil atualizada e regular;
-- Solicitar apoio de profissionais especializados para o fechamento dos balanços;
-- Documentar formalmente todas as deliberações e destinações dos lucros;
-- Acompanhar eventuais mudanças na legislação e jurisprudência fiscais.
+A distribuição precisa de documento, conta separada e lucro comprovado. Os cuidados práticos:
 
-> Na dúvida, priorize a documentação e a transparência.
+1. **Formalize a distribuição.** Registre a decisão em ata ou documento de deliberação dos sócios, com valor, data e período do lucro.
+2. **Pague de conta PJ para conta PF do sócio.** Transferência identificada, nada de pagar contas pessoais pela empresa.
+3. **Respeite a proporção do contrato social.** Distribuição desproporcional é possível se o contrato prever, mas precisa estar escrita.
+4. **Controle o valor mensal por sócio.** A retenção depende do total pago no mês. Uma retirada concentrada no fim do ano gera retenção sobre o valor inteiro.
+5. **Guarde a documentação de 2025.** Lucros de 2025 aprovados até 31/12/2025 têm tratamento próprio, e você vai precisar provar a aprovação e o cronograma de pagamento.
 
-Em nossa experiência na Conte, pequenas correções de práticas contábeis geram economia e reduzem riscos de autuação fiscal – e é exatamente isso que buscamos para nossos clientes.
+## E quando o sócio mora fora do Brasil?
 
-![Análise de planejamento tributário para a distribuição de lucros ](/images/posts/pagamento-dividendos-pjs-fora-do-simples/planejamento-distribuicao-lucros-572.webp)
+Lucros remetidos a sócio residente no exterior passaram a ter retenção de 10% na fonte em 2026 ([Lei 9.249/1995](https://www.planalto.gov.br/ccivil_03/leis/l9249.htm), art. 10, §4º), sem o limite de R$ 50 mil. Governos estrangeiros, fundos soberanos e entidades de previdência no exterior têm exceção, e o sócio pode pedir um crédito quando a tributação total passar das alíquotas nominais. O tema tem mais camadas, como acordos para evitar dupla tributação, e está em [planejamento tributário para empresas com sócios estrangeiros](/post/planejamento-tributario-para-empresas-com-socios-estrangeiros).
 
-## Quando vale a pena distribuir dividendos fora do Simples?
-
-A decisão de distribuir lucros como dividendos deve levar em conta tanto os resultados financeiros quanto os objetivos estratégicos dos sócios. **Em situações de lucro consistente, boa saúde financeira e escrituração regular, distribuir dividendos é uma forma legítima, econômica e segura de remunerar o capital investido**.
-
-Se a empresa ainda enfrenta instabilidade, pode fazer sentido reter parte dos lucros como reserva para capital de giro ou novos investimentos.
-
-Com um contador pessoal e suporte humanizado, como oferecemos na Conte, fica mais simples analisar todos os detalhes e decidir o melhor momento e a melhor forma de distribuir os dividendos, garantindo menos dores de cabeça e aproveitando as possibilidades de pagar menos impostos dentro da lei.
-
-Além disso, para quem busca um aprofundamento sobre o assunto tributação, sugerimos consultar a categoria de [tributação do nosso blog](/category/tributacao).
-
-## Conclusão: gestão inteligente dos dividendos deve ser rotina
-
-Distribuir dividendos para PJ fora do Simples Nacional exige cuidado, acompanhamento contábil e atualização constante sobre as normas fiscais. Fazendo corretamente, essa é uma das formas mais vantajosas para o sócio acessar o lucro do seu negócio, pagando apenas o imposto realmente devido e com total transparência.
-
-Se você busca um serviço que vá além do básico, com atendimento humano, estratégia fiscal sob medida e suporte ágil em todas as etapas, desde a abertura da PJ até a correta distribuição dos dividendos —, convidamos você a conhecer a Conte. **Deixe a burocracia para nós e foque no que realmente importa para sua carreira.**
+A base de tudo continua igual: o lucro sai depois do pró-labore. Se você ainda está montando a remuneração da sua empresa, comece pelo guia de [pró-labore, distribuição de lucros e salário](/post/diferenca-pro-labore-distribuicao-lucros-salario). E se quiser rodar esses números com o seu faturamento, a equipe da [Conte](https://sejaconte.com.br) faz essa simulação.

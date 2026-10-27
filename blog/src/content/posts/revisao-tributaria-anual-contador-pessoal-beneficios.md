@@ -1,116 +1,113 @@
 ---
-title: 'Revisão tributária anual: por que um contador pessoal é melhor'
-seoTitle: 'Revisão tributária anual: por que um contador pessoal é melhor'
-description: Saiba como a revisão tributária anual com contador pessoal evita erros, reduz impostos e garante conformidade fiscal da sua PJ.
+title: "Revisão tributária anual da PJ: o que conferir com o contador"
+seoTitle: "Revisão tributária anual da PJ: o que conferir"
+description: "O que entra na revisão tributária anual de uma PJ de tecnologia: Fator R, exportação, regime, lucros e prazos, com exemplo de restituição em reais para 2026."
 pubDate: '2025-09-30'
-updatedDate: '2025-09-30'
+updatedDate: '2026-10-27'
 category: planejamento-fiscal
+tags: [contador, fator-r, simples-nacional, lucro-presumido, dividendos]
 author: solange-vaz
 cover: /images/posts/revisao-tributaria-anual-contador-pessoal-beneficios/contador-pessoal-consultoria-tributaria-792.webp
 coverAlt: Contador pessoal revisando documentos fiscais com laptop e calculadora em mesa organizada
+tldr:
+  - "Revisão tributária anual é a conferência, mês a mês, do imposto que a PJ pagou no ano e a simulação do regime para o ano seguinte; faça entre outubro e dezembro, antes do prazo de opção pelo Simples, que termina no último dia útil de janeiro."
+  - "Para PJ de tecnologia no Simples, os pontos que mais geram imposto a mais são o anexo (Fator R de 28% leva ao Anexo III, com 6% na primeira faixa, em vez do Anexo V, com 15,5%) e a receita de exportação não segregada."
+  - "Imposto pago a mais pode ser recuperado: o prazo para pedir restituição é de 5 anos (CTN, art. 168)."
+  - "Em 2026 a revisão também precisa olhar a distribuição de lucros, porque a Lei 15.270/2025 retém 10% de IR sobre o total quando a mesma empresa paga mais de R$ 50 mil por mês à mesma pessoa."
 faq:
-- q: O que é revisão tributária anual?
-  a: A revisão tributária anual é um processo de conferir todos os tributos pagos pela empresa ao longo do ano, revisando declarações, regime tributário, notas fiscais e obrigações acessórias. O objetivo é corrigir eventuais falhas, evitar cobranças indevidas de impostos e aproveitar oportunidades de economia conforme a legislação vigente.
-- q: Por que contratar um contador pessoal?
-  a: Ter um contador pessoal facilita o entendimento das demandas específicas da sua empresa e permite soluções sob medida. O acompanhamento é contínuo, com respostas rápidas e orientação clara sobre decisões fiscais, o que reduz erros e dá confiança em cada etapa da revisão tributária anual.
-- q: Quanto custa ter contador pessoal?
-  a: O valor depende do porte e das necessidades da empresa. Na Conte, por exemplo, há planos acessíveis a partir de R$99/mês para MEI, com variações conforme a complexidade das rotinas contábeis e suporte necessário. O investimento geralmente é pequeno perto das economias obtidas e da prevenção de multas.
-- q: Vale a pena fazer revisão anual?
-  a: Sim, vale muito a pena. Erros pequenos podem virar grandes prejuízos se não forem corrigidos a tempo. Além disso, as regras tributárias mudam com frequência. Uma revisão anual garante que a empresa esteja pagando só o imposto devido, evitando surpresas desagradáveis e aproveitando todas as oportunidades legais de economia.
-- q: Onde encontrar um bom contador pessoal?
-  a: Busque empresas como a Conte, que oferecem atendimento humanizado, acompanhamento dedicado e soluções que vão desde a abertura de empresa até a revisão tributária anual. O melhor contador pessoal é aquele que entende sua história e acompanha sua evolução de perto, garantindo tranquilidade em cada decisão fiscal.
+  - q: "O que é revisão tributária anual?"
+    a: "É a conferência do imposto pago pela empresa no ano, mês a mês, e a simulação do regime e do pró-labore para o ano seguinte. Serve para corrigir erros dentro do prazo e decidir a opção de regime antes de janeiro."
+  - q: "Quando fazer a revisão tributária?"
+    a: "Entre outubro e dezembro. Assim dá tempo de ajustar o pró-labore para o Fator R, planejar a distribuição de lucros e decidir entre Simples e Lucro Presumido antes do prazo de opção, que é o último dia útil de janeiro."
+  - q: "Dá para recuperar imposto pago a mais no Simples?"
+    a: "Dá. A empresa retifica o PGDAS-D dos meses errados e pede restituição ou compensação. O direito de pedir restituição vale por 5 anos, contados do pagamento, pelo art. 168 do Código Tributário Nacional."
+  - q: "Revisão tributária é o mesmo que planejamento tributário?"
+    a: "São partes do mesmo trabalho. A revisão olha para trás e corrige o que foi pago. O planejamento olha para frente e define regime, pró-labore e calendário de lucros. Uma revisão anual bem feita termina com o planejamento do ano seguinte."
+  - q: "Quem pode fazer a revisão tributária da minha PJ?"
+    a: "Um contador com registro ativo no CRC, de preferência o que acompanha sua empresa ou o novo escritório no momento da troca. Peça as conclusões por escrito, com os meses e valores de cada ajuste."
+sources:
+  - title: "Lei Complementar nº 123/2006, Simples Nacional (Planalto)"
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm
+  - title: "Código Tributário Nacional, Lei nº 5.172/1966 (Planalto)"
+    url: https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm
+  - title: "Lei nº 15.270/2025, IR sobre lucros e dividendos (Planalto)"
+    url: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm
+  - title: "Lei nº 9.430/1996, opção pelo Lucro Presumido (Planalto)"
+    url: https://www.planalto.gov.br/ccivil_03/leis/l9430.htm
+  - title: "Portal do Simples Nacional (Receita Federal)"
+    url: https://www8.receita.fazenda.gov.br/SimplesNacional/
 migratedFrom: https://blog.sejaconte.com.br/post/revisao-tributaria-anual-contador-pessoal-beneficios
 ---
 
-Você já se perguntou se está pagando imposto demais sem perceber? Talvez tenha aquela sensação de que a carga tributária sempre surpreende. Uma revisão tributária anual pode mudar esse cenário, principalmente quando feita com apoio de um contador pessoal.
+A revisão tributária anual é a conferência, mês a mês, de tudo que a sua PJ pagou de imposto no ano, seguida da simulação do ano seguinte. Ela tem dois objetivos: recuperar o que foi pago a mais dentro do prazo legal e decidir regime, pró-labore e distribuição de lucros antes de janeiro. Para uma PJ de tecnologia no Simples Nacional, meia dúzia de pontos concentra quase todo o risco.
 
-> Reduzir impostos não é sorte. É escolha por organização.
+## O que é e para que serve a revisão tributária anual?
 
-Neste artigo, vamos passar por cada etapa da revisão tributária anual e mostrar por que contar com um contador que conhece você faz toda a diferença. Experiências, erros comuns, medos e, claro, oportunidades de pagar menos impostos, tudo isso faz parte desse universo. Então, siga comigo até o fim!
+É uma auditoria do próprio imposto, feita pelo contador com você. Ela serve para achar erros enquanto ainda dá para corrigir e para tomar as decisões que só podem ser tomadas no começo do ano.
 
-## Por que fazer uma revisão tributária anual?
+Dois prazos legais explicam a urgência:
 
-Pode parecer exagero, mas até pequenas empresas podem cometer deslizes que levam a cobranças indevidas de impostos. Um simples detalhe não observado pode custar caro ano após ano.
+- **Restituição:** o direito de pedir de volta imposto pago a mais acaba em 5 anos (CTN, art. 168).
+- **Opção de regime:** a opção pelo Simples Nacional só pode ser feita até o último dia útil de janeiro e vale para o ano todo ([LC 123/2006](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm), art. 16, § 2º). A opção pelo Lucro Presumido acontece com o pagamento da primeira quota do imposto do ano ([Lei 9.430/1996](https://www.planalto.gov.br/ccivil_03/leis/l9430.htm), art. 26, § 1º).
 
-- **Novas regras fiscais entram em vigor quase todos os anos.**
-- Dificuldades de saber qual o melhor regime tributário: Simples Nacional, Lucro Presumido ou Lucro Real.
-- Notas fiscais emitidas de forma errada, tributos pagos além do necessário e até oportunidades ignoradas de deduções.
+Quem revisa em março já perdeu a janela de mudança de regime para aquele ano.
 
-A revisão tributária anual serve como um “raio-x” das suas obrigações fiscais. Seu objetivo vai além de evitar multas. Ela ajuda no planejamento futuro e até indica caminhos para economia tributária.
+## O que conferir numa PJ de tecnologia no Simples?
 
-## O que muda com um contador pessoal?
+Confira o anexo de cada mês, a receita de exportação, o pró-labore, os lucros distribuídos e as obrigações entregues. A tabela resume onde olhar.
 
-Agora pense: seria o mesmo fazer essa revisão de forma automática, fria, confiando tudo a sistemas impessoais?
+| Item | O que conferir | Base legal |
+|---|---|---|
+| Fator R e anexo | Se a folha com pró-labore chegou a 28% da receita dos 12 meses anteriores em cada mês, e se o anexo aplicado bate com isso | LC 123, art. 18, §§ 5º-J, 5º-K e 5º-M |
+| Receita do exterior | Se a receita de exportação foi segregada no PGDAS-D, com isenção de PIS, Cofins e ISS | LC 123, art. 18, § 14; LC 116, art. 2º |
+| Faixa e limites | Receita acumulada perto de R$ 360 mil (limite de ME) ou de R$ 4,8 milhões (EPP), lembrando que a exportação tem limite adicional próprio | LC 123, art. 3º |
+| Pró-labore e INSS | Valor compatível com o Fator R e INSS de 11% recolhido | LC 123 e legislação previdenciária |
+| Lucros distribuídos | Valores por mês e retenção de 10% quando passam de R$ 50 mil | [Lei 15.270/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm) |
+| Obrigações | PGDAS-D de todos os meses e DEFIS entregues no prazo | LC 123, arts. 25 e 38-A |
 
-> Pessoas entendem histórias. Máquinas só processam dados.
+Os detalhes de exportação estão em [tributação de serviços para o exterior](/post/tributacao-servicos-para-exterior-o-que-muda). Para a dúvida de regime, veja [regimes tributários: quando mudar](/post/regimes-tributarios-quando-mudar-e-como-saber-hora-certa).
 
-Com um contador pessoal, como acontece na Conte, a abordagem é diferente. O contador passa a conhecer não só seus números, mas sua história, seus planos e até seus medos de empreender. Isso muda tudo.
+![Contador fazendo análise de documentos fiscais na mesa](/images/posts/revisao-tributaria-anual-contador-pessoal-beneficios/analise-documentos-contabilidade-747.webp)
 
-### Atendimento individualizado
+## Exemplo: quanto uma revisão pode recuperar
 
-É como se fosse ter ao lado uma pessoa de confiança, alguém que já sabe os detalhes da sua empresa. Assim, o processo se torna menos burocrático e mais leve:
+Considere uma PJ de software que faturou R$ 15 mil por mês em 2026, com receita de R$ 180 mil nos 12 meses anteriores, primeira faixa do Simples. O sócio recebeu pró-labore de R$ 4.200 todo mês, o que dá 28% da receita. Pelo Fator R, a empresa deveria estar no Anexo III. Na revisão, o contador descobre que, de abril a setembro, o PGDAS-D foi apurado no Anexo V.
 
-- Dúvidas resolvidas com rapidez.
-- Soluções pensadas de acordo com sua realidade.
-- Prevenção de erros que você nem sabia que podia cometer.
+| | Apurado (Anexo V) | Devido (Anexo III) |
+|---|---|---|
+| Alíquota da 1ª faixa | 15,5% | 6% |
+| DAS mensal | R$ 2.325 | R$ 900 |
+| Diferença por mês | | R$ 1.425 |
+| Seis meses | | R$ 8.550 pagos a mais |
 
-### Evolução junto do seu negócio
+A empresa retifica os seis PGDAS-D e pede restituição ou compensação. O prazo para isso é de 5 anos a partir de cada pagamento, então o erro de 2026 ainda pode ser corrigido em 2030. Sem revisão, ele continua em 2027.
 
-Empresas mudam e só quem acompanha de perto percebe esses movimentos. O contador pessoal ajusta o planejamento tributário conforme a empresa cresce, varia de serviço ou começa a atuar em outros mercados. Ou seja, a revisão tributária anual tem atualizações feitas sob medida.
+O mesmo raciocínio vale ao contrário. Se o pró-labore tivesse ficado em R$ 3 mil (20% da receita), o Anexo V estaria certo, e a revisão mostraria que subir o pró-labore para R$ 4.200 custa R$ 132 a mais de INSS por mês (11% sobre R$ 1.200) e economiza R$ 1.425 de DAS. Em 2026, os R$ 4.200 seguem sem IR, porque a Lei 15.270/2025 zerou o imposto mensal para rendimentos até R$ 5 mil.
 
-## Como funciona a revisão tributária anual com um contador pessoal
+## O que mudou em 2026 e precisa entrar na revisão?
 
-Esse acompanhamento não é um evento isolado. É um ciclo. Veja um resumo das etapas geralmente seguidas por um contador dedicado:
+Entram duas mudanças: a tributação de lucros e a reforma tributária.
 
-1. **Mapeamento dos documentos:** Levantamento de notas fiscais, contratos, declarações anteriores e todo o histórico do ano.
-2. **Análise do regime tributário:** Avaliação do enquadramento atual, verificando se faz sentido manter ou alterar para economizar.
-3. **Revisão de obrigações acessórias:** Conferência de declarações, cruzamentos de dados e identificação de possíveis inconsistências.
-4. **Planejamento para o próximo ano:** O contador propõe estratégias para pagar menos tributos, sempre dentro da lei.
-5. **Explicação clara dos pontos críticos:** Todas as dúvidas são respondidas. Você sai sabendo o que mudou, o que já fez certo e o que precisa ajustar para o futuro.
+**Lucros e dividendos.** Desde janeiro de 2026, a Lei 15.270/2025 retém 10% de IR quando uma mesma empresa paga mais de R$ 50 mil de lucros à mesma pessoa no mesmo mês, sobre o total pago. A partir da declaração de 2027, quem tem renda anual acima de R$ 600 mil entra no imposto mínimo, com alíquota que sobe até 10% a partir de R$ 1,2 milhão. A revisão de fim de ano é a hora de planejar quanto e quando distribuir. Veja também [pagamento de dividendos em PJs fora do Simples](/post/pagamento-dividendos-pjs-fora-do-simples).
 
-Bem diferente de um atendimento impessoal, onde tudo gira em torno do volume. Aqui, cada etapa é feita olhando para as suas necessidades.
+**Reforma tributária.** Em 2026, CBS e IBS estão em teste, com 0,9% e 0,1%. Em 2027, a CBS entra em vigor, e ICMS e ISS são substituídos de forma gradual entre 2029 e 2032 (EC 132/2023 e LC 214/2025). Para quem fatura para empresas no Brasil, a revisão deve incluir uma conversa sobre preço e contratos para 2027.
 
-## Benefícios práticos de ter um contador pessoal na revisão anual
+## Como funciona a revisão com o contador?
 
-- **Menos risco de multas:** Detalhes conferidos por um profissional atento quase sempre evitam problemas no futuro.
-- **Segurança nas escolhas:** Diferenças entre regimes, alterações na lei e interpretações que só alguém com prática consegue explicar. E explicar de verdade, não apenas jogar termos técnicos na sua frente.
-- **Contato humano:** Nada de tickets, chat-robô ou esperar por dias. Se a dúvida não espera, a resposta também não.
-- **Transparência:** Você entende o que está pagando e por quê, e, principalmente, encontra maneiras legais de pagar exatamente o imposto devido, nada mais.
+Funciona em cinco etapas, e você sai com um documento escrito.
 
-Na Conte, cada cliente tem essa experiência. A empresa vai além de simplesmente abrir CNPJ e emitir notas fiscais; ela acompanha todo o ciclo tributário lado a lado, do início à revisão anual. Assim, ninguém se sente abandonado.
+1. **Levantamento.** Notas emitidas, extratos, recibos do PGDAS-D, pró-labore e lucros pagos no ano.
+2. **Conferência mês a mês.** Anexo, faixa, receita de exportação e obrigações entregues.
+3. **Correções.** Retificação dos meses errados e pedido de restituição ou compensação.
+4. **Simulação do ano seguinte.** Receita prevista, pró-labore necessário para o Fator R, Simples x Lucro Presumido e calendário de lucros.
+5. **Registro.** Um resumo com os meses, valores e decisões, para você e para qualquer contador que assuma depois.
 
-![Contador fazendo análise de documentos fiscais na mesa ](/images/posts/revisao-tributaria-anual-contador-pessoal-beneficios/analise-documentos-contabilidade-747.webp)
+Se a revisão mostrar erros recorrentes, talvez o problema seja o serviço. Os sinais e o roteiro de mudança estão no [checklist para trocar de contador](/post/trocar-de-contador-sem-perder-informacoes-checklist), e o acompanhamento contínuo que evita esses erros está descrito em [contador pessoal para profissionais de tecnologia](/post/contador-pessoal-para-profissionais-tech).
 
-## Acasos de quem não faz revisão anual
+![Contador pessoal explicando impostos para empresário em sala de reunião](/images/posts/revisao-tributaria-anual-contador-pessoal-beneficios/contador-pessoal-reuniao-empresario-993.webp)
 
-Conheço pessoas que, por acharem que já “está tudo certo”, nunca fizeram uma revisão tributária completa. Algumas descobriram anos depois que:
+## Vale a pena fazer revisão todo ano?
 
-- Pagaram impostos indevidos por falta de orientação.
-- Escolheram regimes inadequados por falta de análise.
-- Ficaram sem deduções possíveis por desconhecer novas regras.
+Vale, porque as variáveis mudam todo ano: sua receita, seu pró-labore, o limite da faixa e as regras. Em 2026 mudaram a tributação de lucros e a tabela mensal do IR; em 2027 começa a CBS.
 
-Pode parecer exagero, mas pequenas correções resultam em grande economia a longo prazo. O medo de pagar por um serviço personalizado normalmente sai menor do que o peso dos equívocos acumulados.
-
-## Humanização: o toque que faz diferença
-
-Empresas não são só números. Há um sonho, um esforço diário, histórias que atravessam cada boleto e cada nota emitida. O contador pessoal entende esse lado mais humano.
-
-> Confiança se constrói na conversa, não só nos números.
-
-Na Conte, o foco é justamente este: conhecer você, conversar sempre que necessário e buscar, juntos, a melhor solução para sua empresa. Não é à toa que clientes relatam menos ansiedade, menos “dores de cabeça” e sentem segurança, até nos momentos mais complicados do ano fiscal.
-
-![Contador pessoal explicando impostos para empresário em sala de reunião ](/images/posts/revisao-tributaria-anual-contador-pessoal-beneficios/contador-pessoal-reuniao-empresario-993.webp)
-
-## A revisão tributária anual pode ser leve
-
-Se já teve medo do assunto, saiba que não precisa ser assim. Com um contador pessoal, a revisão deixa de ser um grande peso e passa a ser parte do seu crescimento. E se uma empresa acompanha seu cliente do início até a revisão anual, melhor ainda.
-
-Permita-se ter essa experiência de atendimento humano, de resposta rápida e, principalmente, de clareza na hora de pagar impostos.
-
-**Em resumo: revisão tributária anual feita junto de um contador pessoal pode evitar prejuízos, reduzir tributos e fortalecer seu planejamento financeiro sem dor de cabeça. Na Conte, isso vira realidade.**
-
-> Cuidar do seu CNPJ deve ser simples, compartilhe essa escolha com quem valoriza seu tempo.
-
-## Conclusão
-
-Revisão tributária anual não é só papelada, burocracia ou gasto obrigatório. É uma excelente oportunidade de crescimento mensal para quem quer cuidar do próprio negócio com atenção, clareza e simplicidade. Com um contador pessoal ao seu lado, você pode focar no que faz bem, sabendo que todos os detalhes fiscais estão em ordem e adaptados à sua realidade. Se procura apoio humano, conte com a Conte para cada passo, da abertura de empresa até a última etapa da revisão anual. Prepare-se para transformar a maneira como lida com o seu CNPJ, e talvez pagar menos impostos seja só o começo!
+Se a sua empresa teve receita estável, um único cliente nacional e nenhum lucro distribuído além do pró-labore, a revisão leva pouco tempo. Se teve cliente no exterior, variação de receita ou distribuição de lucros, ela costuma pagar o próprio custo. Para fazer uma primeira conta do seu anexo antes de falar com o contador, use a [calculadora da Conte](https://sejaconte.com.br/calculadora).

@@ -59,6 +59,10 @@ sources:
 ---
 ```
 
+Tags válidas: `fator-r`, `simples-nacional`, `lucro-presumido`, `mei`, `pro-labore`, `dividendos`, `nota-fiscal`, `exportacao-de-servicos`, `reforma-tributaria`, `irpf`, `clt-vs-pj`, `contratos`, `fluxo-de-caixa`, `contador`, `cnpj`, `fiscalizacao`, `certificado-digital`.
+
+No corpo, a primeira menção a cada lei citada em `sources` vira link para a fonte (ex.: [LC 123](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm)). Valores do frontmatter com ": " vão entre aspas.
+
 Categorias válidas: `contabilidade`, `planejamento-fiscal`, `tributacao`, `prestacao-de-servico`, `servicos-digitais`, `burocracia`, `certificacao`, `atendimento-humano`.
 
 ## Antes de publicar

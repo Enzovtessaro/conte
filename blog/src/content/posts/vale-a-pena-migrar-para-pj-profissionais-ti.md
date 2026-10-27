@@ -1,116 +1,121 @@
 ---
-title: 'Vale a pena migrar para PJ: análise para profissionais de TI'
-seoTitle: 'Vale a pena migrar para PJ: análise para profissionais de TI'
-description: Entenda os benefícios fiscais, custos e obrigações ao migrar para PJ como profissional de TI e maximize sua renda mensal.
+title: 'CLT ou PJ em TI: vale a pena migrar? Comparação com números de 2026'
+seoTitle: 'CLT ou PJ em TI: vale a pena? Comparação 2026'
+description: "Compare CLT e PJ para devs com números de 2026: R$ 15 mil CLT rende cerca de R$ 163 mil por ano; R$ 20 mil PJ no Simples rende uns R$ 207 mil. Veja a conta."
 pubDate: '2025-10-12'
-updatedDate: '2025-10-12'
+updatedDate: '2026-10-27'
 category: contabilidade
 author: solange-vaz
 cover: /images/posts/vale-a-pena-migrar-para-pj-profissionais-ti/profissional-ti-escrevendo-codigo-699.webp
 coverAlt: Profissional de TI trabalhando no laptop com códigos e gráficos na tela em ambiente moderno e iluminado
+tags: [clt-vs-pj, simples-nacional, fator-r, pro-labore, contratos]
+tldr:
+  - "Um salário CLT de R$ 15 mil por mês rende cerca de R$ 147,5 mil líquidos por ano, somando 13º e terço de férias, mais R$ 16 mil de FGTS."
+  - "Um contrato PJ de R$ 20 mil por mês, numa empresa no Simples com Fator R (Anexo III), deixa cerca de R$ 17,3 mil líquidos por mês, ou R$ 207,5 mil por ano, sem férias pagas, 13º ou FGTS."
+  - "Dev PJ não pode ser MEI: desenvolvimento de software não é atividade permitida. O PJ de TI é uma microempresa no Simples Nacional, com contador e pró-labore."
+  - "Uma regra prática: o contrato PJ precisa pagar pelo menos 30% a 40% acima do salário CLT bruto para compensar benefícios, férias não remuneradas e a falta de estabilidade."
 faq:
-- q: O que é regime PJ para TI?
-  a: O regime PJ (Pessoa Jurídica) em TI é quando o profissional abre uma empresa (normalmente MEI ou no Simples Nacional) e presta serviços para outras empresas, emitindo notas fiscais. Isso oferece mais flexibilidade e autonomia, mas transfere para o próprio profissional tarefas como pagamento de impostos e gestão financeira.
-- q: Vale a pena migrar para PJ?
-  a: Depende dos seus objetivos e perfil. Para quem busca ganhos maiores, autonomia e oportunidades de atuar em vários projetos, sim, PJ pode valer muito a pena. No entanto, é importante se planejar financeiramente e contar com uma contabilidade humana, como a da Conte, para não ser surpreendido por impostos ou burocracias.
-- q: Quais são os riscos de ser PJ?
-  a: 'Os principais riscos são: não ter direitos como férias remuneradas e 13º, instabilidade nos contratos, necessidade de lidar com a própria contabilidade e estar atento ao pagamento de impostos. Além disso, é preciso montar uma reserva de emergência para períodos sem trabalho.'
-- q: Como calcular salário como PJ?
-  a: Para calcular seu "salário PJ", some todos os valores recebidos como PJ, subtraia os custos da empresa (impostos, contabilidade, custos bancários etc.) e reserve um valor mensal para férias, 13º e possíveis períodos sem novos contratos. O ideal é negociar um valor de contrato que cubra esse planejamento. Um bom contador pode ajudar a estruturar isso de forma clara.
-- q: Quais benefícios eu perco ao virar PJ?
-  a: Ao migrar para PJ, você perde benefícios garantidos pela CLT, como férias remuneradas, 13º salário, FGTS, INSS automático e estabilidade maior em casos de demissão. Todos esses itens passam a ser responsabilidade do próprio profissional, exigindo mais planejamento e autonomia.
+  - q: Quanto preciso ganhar como PJ para valer a pena sair da CLT?
+    a: Pela conta deste post, um contrato PJ de 3% a 13% acima do salário CLT bruto empata em dinheiro líquido no ano, dependendo de o cliente pagar ou não o mês de férias, sem considerar benefícios. Somando plano de saúde, vale-refeição, seguro-desemprego e o risco de ficar sem contrato, a faixa de 30% a 40% acima do bruto CLT é uma referência mais segura.
+  - q: PJ de TI pode ser MEI?
+    a: Não. Desenvolvimento de software, consultoria em TI e suporte técnico não estão entre as ocupações permitidas ao MEI, e o limite de R$ 81 mil por ano também fica abaixo do faturamento da maioria dos devs. O formato correto é uma microempresa no Simples Nacional.
+  - q: Quais direitos o PJ perde em relação à CLT?
+    a: Férias remuneradas com terço adicional, 13º salário, FGTS de 8% ao mês, multa de 40% do FGTS na demissão sem justa causa, seguro-desemprego e aviso prévio. O PJ continua com INSS, pelo pró-labore, e pode negociar no contrato descanso anual remunerado e reajuste.
+  - q: Qual o risco de trabalhar como PJ com cara de CLT?
+    a: Se a relação tem subordinação, horário controlado, pessoalidade e salário fixo, a Justiça do Trabalho pode reconhecer vínculo de emprego. O risco maior é da empresa contratante, mas afeta você porque o contrato pode ser encerrado ou renegociado de uma hora para outra.
+  - q: Quanto custa manter uma empresa PJ?
+    a: Além do DAS e do INSS sobre o pró-labore, você paga contabilidade, certificado digital e eventuais tarifas bancárias. Para um dev no Simples, os custos fixos fora dos impostos costumam somar algumas centenas de reais por mês.
+sources:
+  - title: INSS, tabela de contribuição mensal 2026
+    url: https://www.gov.br/inss/pt-br/direitos-e-deveres/inscricao-e-contribuicao/tabela-de-contribuicao-mensal
+  - title: Receita Federal, redução do Imposto de Renda a partir de 2026
+    url: https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/dezembro/receita-federal-orienta-fontes-pagadoras-e-contribuintes-a-calcular-a-reducao-do-imposto-de-renda-a-partir-de-1o-de-janeiro-de-2026
+  - title: Lei Complementar nº 123/2006, Simples Nacional e Fator R (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm
+  - title: Ministério da Fazenda, nova tabela do IRPF 2026
+    url: https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/janeiro/receita-divulga-nova-tabela-do-irpf-com-as-mudancas-apos-isencao-para-quem-ganha-ate-r-5-mil
 migratedFrom: https://blog.sejaconte.com.br/post/vale-a-pena-migrar-para-pj-profissionais-ti
 ---
 
-Você já se pegou pensando em migrar do regime CLT para PJ? Essa dúvida está cada vez mais comum entre profissionais de TI, especialmente diante do crescimento acelerado do setor e das oportunidades que surgem todos os dias. Mas será que essa mudança vale realmente a pena? Para responder, vamos analisar vantagens, desafios e quais pontos precisam de mais atenção na hora de decidir. Eu já me fiz essa pergunta também. Às vezes, a resposta não é tão óbvia.
+A proposta PJ chega com um número maior que o salário CLT, e a pergunta é se a diferença cobre o que você perde. Dá para responder com conta. Abaixo está a comparação com as tabelas de INSS e Imposto de Renda de 2026 e as alíquotas do Simples Nacional.
 
-## O cenário da TI no Brasil: demanda em alta
+## O que muda entre CLT e PJ para quem trabalha com TI?
 
-Dados recentes apontam para um verdadeiro boom. Segundo relatório da Brasscom, o país vai precisar de mais 540 mil profissionais de tecnologia da informação até 2025, ficando cada vez mais claro que **a demanda só cresce**. Não falta trabalho, mas falta gente qualificada. Inclusive, existe a possibilidade de déficit de quase 800 mil profissionais na área até 2025, de acordo com outro [estudo importante sobre o setor](https://salvadortechreserva.salvador.ba.gov.br/deficit-de-profissionais-de-ti-deve-chegar-a-quase-800-mil-em-2025-apenas-no-brasil/).
+Na CLT, você é empregado: recebe salário com INSS e IR descontados, mais 13º, férias com terço adicional e FGTS. Como PJ, você abre uma empresa, emite nota para o cliente, paga os impostos da empresa e se remunera com pró-labore e lucros.
 
-E não para por aí: houve um aumento de [95% nas vagas de TI em dez anos](https://agenciabrasil.ebc.com.br/geral/noticia/2024-11/empregos-ligados-tecnologia-cresceram-95-em-10-anos-diz-pesquisa), especialmente para engenheiros de sistemas operacionais em computação, segundo levantamento da FecomercioSP. E mais de 2,1 milhões de pessoas atuam hoje através de plataformas digitais, de acordo com [dados do IBGE](https://agenciabrasil.ebc.com.br/economia/noticia/2023-10/ibge-pais-tem-21-milhoes-de-trabalhadores-de-plataformas-digitais).
+PJ de TI não é MEI. Desenvolvimento de software, consultoria em TI e suporte técnico não são atividades permitidas ao MEI. O PJ de tecnologia é uma microempresa no Simples Nacional, quase sempre uma sociedade limitada unipessoal. O passo a passo está em [como abrir CNPJ sendo dev](/post/abrir-gerenciar-microempresa-me-brasil).
 
-![Profissional de TI trabalhando em notebook ](/images/posts/vale-a-pena-migrar-para-pj-profissionais-ti/profissional-ti-notebook-141.webp)
+| | CLT | PJ no Simples |
+|---|---|---|
+| Imposto principal | INSS de 7,5% a 14% e IR até 27,5% sobre o salário | DAS de 6% (Anexo III) ou 15,5% (Anexo V) na 1ª faixa, sobre o faturamento |
+| INSS | Descontado em folha, até R$ 988,09/mês | 11% sobre o pró-labore, até R$ 932,31/mês |
+| 13º e férias + 1/3 | Garantidos | Só se negociados no contrato |
+| FGTS | 8% depositado pela empresa | Não |
+| Seguro-desemprego e multa de 40% | Sim | Não |
+| Custos de manter | Nenhum | Contabilidade, certificado digital, conta PJ |
+| Flexibilidade | Um empregador, regras da empresa | Vários clientes, inclusive no exterior |
 
-## Por que tantas empresas buscam profissionais PJ?
+## Exemplo: R$ 15 mil CLT ou R$ 20 mil PJ?
 
-Empresas de tecnologia buscam por flexibilidade e agilidade. O contrato PJ, por seu perfil, pode se encaixar bem nesse contexto. Veja alguns motivos:
+Na conta abaixo, o contrato PJ de R$ 20 mil deixa cerca de R$ 44 mil a mais por ano do que o CLT de R$ 15 mil, já contando o FGTS. Os números usam as tabelas de 2026, sem dependentes.
 
-- Processo de contratação mais simples
-- Menos encargos trabalhistas tradicionais
-- Facilidade na negociação de prazos e objetivos
-- Possibilidade de contratar especialistas por projeto
+**CLT, salário bruto de R$ 15.000:**
 
-Do outro lado, para o profissional, surgem possibilidades de ganhos maiores, escolhas de projetos e até de clientes. Essa flexibilidade pode ser atraente... mas também assustar um pouco no começo.
+1. INSS do empregado: R$ 988,09 (tabela progressiva, já no teto de R$ 8.475,55).
+2. IR: base de R$ 14.011,91 × 27,5% − R$ 908,73 = R$ 2.944,55. Acima de R$ 7.350 não há a redução de 2026.
+3. Líquido mensal: R$ 11.067,36. Em 12 meses: R$ 132.808,32.
+4. 13º salário líquido (mesmos descontos): R$ 11.067,36.
+5. Terço de férias de R$ 5.000, com IR de 27,5% e INSS já no teto: R$ 3.625 líquidos.
+6. FGTS: 8% × R$ 200.000 (12 salários + 13º + férias com terço) = R$ 16.000.
+7. **Total no ano: cerca de R$ 163,5 mil**, sendo R$ 147,5 mil em dinheiro e R$ 16 mil no FGTS.
 
-> Migrar para PJ é como trocar a estabilidade pela oportunidade.
+**PJ, contrato de R$ 20.000 por mês, empresa no Simples com Fator R:**
 
-## A diferença entre CLT e PJ na prática
+1. Receita anual: R$ 240.000, na 2ª faixa do Anexo III. Alíquota efetiva: (R$ 240.000 × 11,2% − R$ 9.360) ÷ R$ 240.000 = 7,3%. DAS: R$ 1.460 por mês.
+2. Pró-labore de R$ 5.600 (28% da receita, para manter o Fator R). INSS de 11%: R$ 616.
+3. IR sobre o pró-labore: R$ 461,87 pela tabela, menos a redução de 2026 de R$ 233,01 = R$ 228,86.
+4. Contabilidade e outros custos fixos: R$ 400 por mês (estimativa; varia conforme o escritório).
+5. Lucro distribuído: R$ 20.000 − R$ 1.460 − R$ 5.600 − R$ 400 = R$ 12.540, isento (abaixo de R$ 50 mil por mês).
+6. Líquido mensal: R$ 20.000 − R$ 1.460 − R$ 616 − R$ 228,86 − R$ 400 = R$ 17.295,14.
+7. **Total no ano: cerca de R$ 207,5 mil**, com férias não remuneradas.
 
-### Entendendo o regime CLT
+Se o contrato PJ não pagar o mês de férias, tire 1/12 da receita da conta e o total cai para perto de R$ 190 mil, ainda à frente. Para rodar a comparação com o seu salário e sua proposta, use o [simulador CLT x PJ da Conte](https://sejaconte.com.br/clt-vs-pj).
 
-O contrato de trabalho pela CLT, que muitos conhecem desde o primeiro emprego, oferece salário fixo, benefícios, férias, 13º salário, FGTS e INSS. Você, basicamente, troca conhecimento e tempo por garantia de renda mensal e direitos legais. Parece confortável e, de fato, é um porto seguro para muita gente.
+## Quanto o contrato PJ precisa pagar para empatar com a CLT?
 
-### Afinal, o que é ser PJ?
+Com as mesmas premissas, um contrato PJ de cerca de R$ 15.500 por mês, pago nos 12 meses, já empata com os R$ 163,5 mil anuais da CLT de R$ 15 mil. Se o cliente não paga o mês de férias, o empate sobe para perto de R$ 17 mil por mês, uns 13% acima do bruto CLT. Essa conta não inclui o que costuma vir junto da CLT:
 
-No regime PJ, o profissional abre uma empresa (geralmente, MEI ou Simples Nacional) e passa a emitir notas fiscais para receber seus pagamentos. Assim, pode atuar para várias empresas, escolher projetos e negociar valores diretamente.
+- Plano de saúde e odontológico pagos pela empresa
+- Vale-refeição ou alimentação
+- Seguro-desemprego e multa de 40% do FGTS em caso de demissão
+- Participação nos lucros e outros bônus
+- Estabilidade de aviso prévio
 
-Essa mudança amplia as possibilidades de ganhos e autonomia, mas ao mesmo tempo transfere responsabilidades burocráticas ao profissional. Nisso, soluções como a **Conte** ajudam bastante, cuidando de toda a parte contábil e fiscal, permitindo que você foque no que faz de melhor.
+Por isso, uma referência mais segura é pedir de 30% a 40% acima do salário CLT bruto. Se a empresa oferece plano de saúde também ao PJ, a diferença necessária cai.
 
-### O que muda financeiramente?
+## Quais os riscos de ser PJ?
 
-- **Negociação de valores:** PJ geralmente negocia o valor bruto do contrato.
-- **Ausência de descontos padrão:** INSS, FGTS e outros encargos ficam por sua conta.
-- **Planejamento financeiro:** Precisa reservar dinheiro para férias, 13º e possíveis períodos sem contrato.
-- **Impostos:** Como PJ, a carga tributária costuma ser mais baixa do que o desconto total na CLT, desde que seja feito um bom planejamento fiscal.
+O risco principal é ficar sem contrato e sem rede de proteção. Não há seguro-desemprego, aviso prévio garantido nem FGTS para sacar. Monte uma reserva antes de migrar; o cálculo está em [como criar um fundo de reserva na PJ](/post/como-criar-fundo-reserva-financeira-pj).
 
-> Controlar bem as finanças é vital para quem migra para PJ.
+Outros riscos a considerar:
 
-## Quais são os riscos em migrar para PJ na área de TI?
+- **Pejotização.** Se você trabalha com subordinação, horário fixo e exclusividade, a relação tem cara de emprego. A Justiça do Trabalho pode reconhecer vínculo, e a empresa contratante tende a encerrar contratos assim quando o risco aparece.
+- **Fator R esquecido.** Sem pró-labore suficiente, a empresa cai no Anexo V e o DAS mais que dobra. No exemplo, passaria de R$ 1.460 para cerca de R$ 3.225 por mês.
+- **Imposto de 2026 sobre lucros altos.** Acima de R$ 50 mil de lucro por mês da mesma empresa, há retenção de 10%; acima de R$ 600 mil de renda no ano, entra o imposto mínimo. Para a maioria dos devs, esses limites ficam longe.
+- **Reforma tributária.** A CBS começa a valer de forma plena em 2027 e ISS e ICMS são substituídos aos poucos entre 2029 e 2032. Contratos longos precisam de cláusula de reajuste para mudança tributária.
 
-Ao se tornar PJ, o profissional assume alguns riscos e responsabilidades. Por exemplo, o contrato pode ser encerrado sem aviso prévio e não há verbas rescisórias como na CLT. É necessário dominar (ou terceirizar) tarefas como emissão de notas fiscais, pagamento de impostos e controle do fluxo de caixa.
+## Quando vale a pena migrar para PJ?
 
-No início, tudo pode parecer confuso. Por isso, buscar serviços que oferecem suporte humano e atendimento individual, como a experiência proposta pela Conte, faz toda diferença para evitar dores de cabeça futuras.
+Vale a pena quando o contrato PJ paga mais que a CLT depois da conta acima, quando você tem reserva para alguns meses sem receita e quando a relação com o cliente é de prestação de serviço, com autonomia. Vale ainda mais para quem atende empresas no exterior: a receita de exportação de serviços fica livre de ISS, PIS e Cofins no Simples.
 
-![Profissionais de TI em reunião analisando contrato e notas fiscais ](/images/posts/vale-a-pena-migrar-para-pj-profissionais-ti/reuniao-ti-pj-938.webp)
+Fica difícil justificar quando a proposta PJ é igual ou pouco maior que o salário CLT, quando a empresa quer manter horário, chefe e exclusividade sem pagar por isso, ou quando você depende de plano de saúde e não tem como contratar um individual.
 
-## Vantagens do regime PJ para TI
+## O que fazer antes de aceitar a proposta PJ?
 
-- **Potencial de renda maior:** Possibilidade de receber valores mais altos e negociar cada contrato.
-- **Autonomia:** Escolher projetos, horários e locais de trabalho.
-- **Benefícios fiscais, se bem planejado:** Pagamento de imposto apenas sobre o necessário, sem surpresas, graças a estratégias personalizadas.
-- **Menor burocracia para clientes:** Empresas contratam com menos formalidade que CLT.
+Faça a conta com os seus números, negocie o contrato e organize a empresa antes da primeira nota:
 
-Outro ponto relevante é a possibilidade de atuar para clientes do exterior, moeda forte e projetos inovadores. Profissionais PJ têm mais autonomia para esse tipo de escolha.
-
-## Mas e as desvantagens?
-
-- **Sem benefícios tradicionais:** Como férias remuneradas, 13º, vale-alimentação, descontos em folha.
-- **Insegurança contratual:** Falta de garantia em caso de término inesperado do vínculo profissional.
-- **Gestão própria de impostos:** Você precisa cuidar de impostos e obrigações fiscais continuamente.
-- **Reserva financeira:** É preciso planejar folgas, doença ou possíveis intervalos sem contrato.
-
-> Ser PJ exige maturidade e organização financeira.
-
-## Como ter sucesso ao migrar para PJ em TI
-
-- Monte uma reserva de emergência antes da transição.
-- Conte com uma contabilidade que te acompanhe de perto, como a Conte faz com um contador pessoal.
-- Negocie valores considerando férias, 13º e períodos sem trabalho.
-- Planeje sua aposentadoria, pois a previdência deixa de ser automática.
-
-Serviços de contabilidade com atendimento humanizado podem ser grandes aliados nessa jornada. Eles te ajudam a pagar menos impostos, organizam sua papelada e te orientam a cada etapa.
-
-## Destaques de segurança e proteção de dados
-
-A área de TI está cada vez mais preocupada com dados sensíveis. Segundo a [TIC Provedores](https://agenciabrasil.ebc.com.br/geral/noticia/2023-12/ti-40-das-empresas-no-brasil-tem-setor-exclusivo-para-proteger-dados), cerca de 40% das empresas já têm departamentos próprios para proteção de dados. Isso amplia ainda mais as oportunidades para profissionais de TI com essa especialidade, e muitas dessas vagas vêm exclusivamente para PJ.
-
-## Conclusão: vale a pena migrar para PJ em TI?
-
-A resposta pode variar de pessoa para pessoa. Para quem busca autonomia, melhores ganhos e oportunidades diversas, migrar para PJ tende a ser uma escolha positiva, principalmente se houver organização financeira e apoio contábil confiável.
-
-> O futuro do trabalho em TI é mais flexível e personalizado.
-
-Se você quer focar no seu serviço, pagar menos imposto e ter menos dor de cabeça com burocracia, vale considerar a **Conte** como parceira. Migrar para PJ é um passo importante, mas pode ser muito mais tranquilo com o suporte certo ao lado.
-
-Conheça os planos da Conte e descubra como você pode simplificar seu dia a dia e conquistar novos patamares na sua carreira.
+1. Compare o líquido anual dos dois cenários, com benefícios.
+2. Negocie no contrato o descanso anual, o reajuste e o prazo de aviso para encerramento. Veja [como precificar seu serviço](/post/definir-preco-servico-sem-errar-2026).
+3. Abra a empresa como microempresa no Simples, com o CNAE certo.
+4. Defina o pró-labore para o Fator R, como explicado em [pró-labore, distribuição de lucros e salário](/post/diferenca-pro-labore-distribuicao-lucros-salario).
+5. Separe todo mês uma parte para reserva, férias e aposentadoria.

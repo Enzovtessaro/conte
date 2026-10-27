@@ -1,108 +1,135 @@
 ---
-title: Guia prático de contratos para prestadores de serviço PJ Tech
-seoTitle: Guia prático de contratos para prestadores de serviço PJ Tech
-description: Entenda os principais tipos de contratos PJ Tech, cláusulas essenciais e como proteger direitos e garantir pagamentos corretos.
+title: "Contrato de prestação de serviço PJ tech: cláusulas e riscos"
+seoTitle: "Contrato PJ tech: cláusulas essenciais e riscos em 2026"
+description: "Cláusulas que o contrato de prestação de serviço PJ tech precisa ter: escopo, código, multa, rescisão, assinatura eletrônica e o que evita vínculo de emprego."
 pubDate: '2025-10-17'
-updatedDate: '2025-10-17'
+updatedDate: '2026-10-27'
 category: prestacao-de-servico
 author: solange-vaz
 cover: /images/posts/guia-contratos-prestadores-servico-pj-tech/contrato-servico-pj-tech-377.webp
 coverAlt: Mesa de escritório com contrato assinado ao centro, laptop aberto mostrando dados técnicos, caneta ao lado e xícara de café ao fundo
+tags: [contratos, clt-vs-pj, cnpj, exportacao-de-servicos]
+tldr:
+  - "Um contrato de prestação de serviço PJ tech precisa definir escopo e critério de aceite, preço e reajuste, prazo e aviso prévio, propriedade do código, confidencialidade, multa e foro."
+  - "Sem cláusula em contrário, o software desenvolvido sob contrato pertence ao contratante (Lei 9.609/1998, art. 4º). Se você quer manter bibliotecas ou componentes próprios, escreva isso no contrato."
+  - "Contrato sem prazo pode ser encerrado por qualquer parte com só 8 dias de aviso quando o pagamento é mensal (Código Civil, art. 599). Negocie aviso prévio de 30 dias ou mais."
+  - "Contrato assinado com assinatura eletrônica vale e, desde a Lei 14.620/2023, pode ser executado sem testemunhas (CPC, art. 784, § 4º). Registro em cartório não é obrigatório."
 faq:
-- q: O que é um contrato de prestação de serviço?
-  a: É um acordo formal entre prestador e contratante em que se estabelecem as condições do serviço, responsabilidades, prazos, valores e regras. Esse documento é o que torna a relação segura para ambas as partes, funcionando como uma garantia de que tudo combinado será, de fato, cumprido.
-- q: Quais cláusulas essenciais devo incluir?
-  a: 'As principais cláusulas para contratos PJ Tech incluem: identificação completa das partes, descrição detalhada dos serviços, prazos, valores e forma de pagamento, obrigações de cada lado, regras de rescisão, cláusulas de sigilo, multas para descumprimento e definição do foro (cidade onde disputas serão resolvidas). Se o serviço envolve criação intelectual, inclua também a cláusula de propriedade intelectual.'
-- q: Como definir o valor do contrato PJ Tech?
-  a: 'O valor deve refletir: complexidade do serviço, tempo estimado, experiência do profissional, mercado e possíveis custos extras (suporte, licenças, ferramentas). Pesquise valores praticados no segmento e converse com o cliente sobre expectativas. Se tiver dúvidas sobre impacto tributário e melhores práticas, consulte a Conte para orientação e evitar surpresas.'
-- q: É obrigatório registrar contrato em cartório?
-  a: Não é obrigatório, na maior parte dos casos, registrar contratos de prestação de serviço em cartório para que tenham validade. O documento assinado digitalmente ou físicamente já possui efeito legal. Cartório pode ser útil se quiser dar mais força à prova (verificação de autenticidade ou reconhecimento de firma), mas não é regra.
-- q: O que fazer em caso de inadimplência?
-  a: 'Primeiro, recorra ao contrato: veja qual previsão para cobranças e consequências em caso de não pagamento. Notifique formalmente o contratante, de preferência por e-mail ou documento escrito. Caso não resolva, busque acordos amigáveis ou, se necessário, faça cobrança extrajudicial e, em último caso, judicial. Contar com um contrato detalhado ajuda muito neste momento.'
+  - q: "Contrato PJ precisa ser registrado em cartório?"
+    a: "Não. O contrato de prestação de serviço vale entre as partes com a assinatura delas, física ou eletrônica. O registro em cartório de títulos e documentos só serve para dar publicidade perante terceiros, o que raramente importa para um contrato de desenvolvimento."
+  - q: "Qual o prazo máximo de um contrato de prestação de serviço?"
+    a: "O Código Civil, art. 598, limita a prestação de serviço a 4 anos. Para relações mais longas, as partes assinam um novo contrato ou um aditivo de renovação ao fim do período."
+  - q: "Posso cobrar multa se o cliente atrasar o pagamento?"
+    a: "Pode, desde que a multa esteja no contrato. Entre empresas, as partes definem o percentual, mas a multa não pode passar do valor da obrigação principal (art. 412) e o juiz pode reduzi-la se for excessiva (art. 413). Sem juros combinados, vale a taxa legal do art. 406, hoje Selic menos IPCA."
+  - q: "O contrato PJ me protege de ser considerado empregado?"
+    a: "Só se a rotina bater com o contrato. A Justiça do Trabalho olha os fatos: subordinação, horário imposto, pessoalidade e salário fixo caracterizam vínculo (CLT, art. 3º), mesmo com contrato PJ assinado. O STF ainda julga a validade da contratação PJ no Tema 1389."
+  - q: "Contrato com cliente estrangeiro precisa ser em português?"
+    a: "Não. Contratos privados podem ser em inglês. Se um dia o contrato precisar ser usado num processo no Brasil, será exigida tradução juramentada. Defina no contrato a lei aplicável e o foro ou a câmara de arbitragem."
+sources:
+  - title: Código Civil, Lei nº 10.406/2002, arts. 406 a 416 e 593 a 609 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm
+  - title: Lei nº 9.609/1998, Lei do Software (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/l9609.htm
+  - title: Lei nº 9.610/1998, Lei de Direitos Autorais (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/l9610.htm
+  - title: Código de Processo Civil, Lei nº 13.105/2015, art. 784 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm
+  - title: Consolidação das Leis do Trabalho, art. 3º (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm
 migratedFrom: https://blog.sejaconte.com.br/post/guia-contratos-prestadores-servico-pj-tech
 ---
 
-O mercado de tecnologia no Brasil é vibrante e, a cada a dia, cresce em oportunidades para profissionais PJ prestadores de serviço. A complexidade acompanha essa expansão, principalmente no momento de formalizar contratos. O documento certo é mais que garantia legal: ele pode ser o diferencial para evitar muitos problemas, e dores de cabeça.
+O contrato de prestação de serviço é o documento que define o que a sua PJ entrega, quanto recebe, quem fica com o código e como cada parte pode sair da relação. Para dev, designer ou analista de dados que trabalha como PJ, ele também é a primeira coisa que alguém vai ler se houver discussão sobre pagamento atrasado, escopo ou vínculo de emprego. Este guia reúne as cláusulas que importam, com o artigo de lei por trás de cada uma.
 
-Se você já pensou em assinar um contrato, mas ficou inseguro, este guia prático vai te mostrar o caminho. Com exemplos, dicas de quem vive o dia a dia da área, e detalhes sobre obrigações, você será capaz de esclarecer seus direitos e deveres, além de entender qualquer contrato que aparecer na sua frente.
+## Quais cláusulas um contrato de prestação de serviço PJ precisa ter?
 
-## Por que contratos são necessários para PJ Tech?
+Nove cláusulas cobrem a maior parte dos conflitos: partes, escopo, prazo, preço, reajuste, propriedade intelectual, confidencialidade, rescisão e foro. A lei não exige um formato, então o que não estiver escrito vale pela regra geral do Código Civil, que nem sempre favorece você.
 
-Muitos profissionais da tecnologia trabalham como Pessoa Jurídica (PJ), inclusive pequenos empresários, freelancers e especialistas autônomos. Segundo dados do [IBGE sobre empresas de TI](https://www.ibge.gov.br/estatisticas/economicas/servicos/9037-pesquisa-de-servicos-de-tecnologia-da-informacao.html), o setor cresce e se diversifica com rapidez, refletindo a importância de um ambiente seguro e transparente nas relações de trabalho.
+| Cláusula | O que escrever | Por que importa |
+|---|---|---|
+| Partes | Razão social, CNPJ, endereço, representante | Identifica quem deve a quem |
+| Objeto e escopo | Entregáveis, stack, ambiente, o que fica de fora | Base para cobrar trabalho extra |
+| Critério de aceite | Prazo para o cliente testar e aprovar, aceite tácito depois dele | Evita homologação que nunca termina |
+| Preço e pagamento | Valor, moeda, data, forma, nota fiscal | Define quando há atraso |
+| Reajuste | Índice (IPCA, IGP-M) e data-base anual | Sem cláusula, o preço fica congelado |
+| Propriedade intelectual | Quem fica com código, design, documentação | A Lei do Software dá ao contratante por padrão |
+| Confidencialidade e dados | O que é sigiloso, por quanto tempo, papel na LGPD | Protege as duas partes |
+| Rescisão | Aviso prévio, multa, o que é pago na saída | O Código Civil prevê só 8 dias |
+| Foro ou arbitragem | Cidade ou câmara que resolve disputas | Define onde você teria de processar |
 
-O contrato serve como mapa da relação. Ele esclarece:
+Se o serviço é contínuo, com mensalidade, o post sobre [contrato de serviços recorrentes](/post/contrato-servicos-recorrentes-pj) detalha reajuste, SLA e renovação.
 
-- **O que será entregue**
-- **Como e quando será pago**
-- **Quais os limites e obrigações de cada parte**
-- **Como resolver conflitos ou imprevistos**
+![Mesa de trabalho com contrato de tecnologia e itens digitais](/images/posts/guia-contratos-prestadores-servico-pj-tech/contrato-tecnologia-pj-575.webp)
 
-> Contrato bom é aquele que quase não é lembrado, mas está sempre lá quando precisa.
+## Quem fica com o código que eu desenvolvo como PJ?
 
-## O que não pode faltar em um contrato de prestação PJ Tech
+Pela Lei do Software, o contratante. A [Lei 9.609/1998](https://www.planalto.gov.br/ccivil_03/leis/l9609.htm), art. 4º, diz que, salvo estipulação em contrário, os direitos sobre o programa desenvolvido durante o contrato pertencem a quem contratou o serviço, quando o desenvolvimento era o objeto do contrato. Sua remuneração por esse direito se limita ao valor combinado.
 
-É fácil pular etapas. Porém, alguns itens são praticamente universais nos contratos para prestadores PJ Tech. Ficar atento a eles é passo fundamental. Veja só:
+Isso afeta quem reaproveita código entre clientes. Se você tem uma biblioteca, um boilerplate ou um componente que usa em vários projetos, escreva no contrato que esses itens continuam seus e que o cliente recebe uma licença de uso. Sem essa cláusula, você pode perder o direito de usar o próprio código no próximo projeto.
 
-1. **Identificação das partes:** Dados completos do prestador (você/PJ) e do contratante.
-2. **Objeto do contrato:** Descrição clara dos serviços que serão prestados. Se possível, detalhe etapas e expectativas.
-3. **Prazo:** Data de início e fim do contrato ou o modo de renovação.
-4. **Remuneração e forma de pagamento:** Quanto, quando e como você será pago (boleto, transferência, PIX, etc.).
-5. **Obrigações e responsabilidades:** Prevê o que cabe a cada parte, inclusive questões técnicas, prazos intermediários, suporte, revisões.
-6. **Rescisão:** Como desfazer o contrato, em quais situações e com qual aviso prévio.
-7. **Cláusulas de confidencialidade:** Na área tech, tratar de sigilo é parte do jogo. Não subestime.
-8. **Multas e penalidades:** Se alguém descumprir, qual será a consequência financeira ou contratual?
-9. **Foro:** Onde as questões jurídicas serão decididas, se chegar a esse ponto.
+Para design, textos e documentação, vale a Lei de Direitos Autorais. A [Lei 9.610/1998](https://www.planalto.gov.br/ccivil_03/leis/l9610.htm), art. 50, exige que a cessão de direitos seja feita por escrito, e o art. 49 manda interpretar o contrato de forma restritiva: o cliente só recebe os usos que estiverem previstos. Um contrato que fala em "cessão para uso no site" não cobre uso em campanha de TV.
 
-![Mesa de trabalho com contrato de tecnologia e itens digitais ](/images/posts/guia-contratos-prestadores-servico-pj-tech/contrato-tecnologia-pj-575.webp)
+## Como escrever multa, juros e rescisão que se sustentam?
 
-## Cuidados específicos para PJ Tech
+Escreva valores e prazos concretos. O Código Civil permite que as partes combinem multa (cláusula penal), mas limita o valor e deixa o juiz reduzir exageros.
 
-Quem atua com desenvolvimento de software, suporte técnico, consultoria TI ou outros serviços digitais encara situações bem particulares. O contrato precisa acompanhar esse cenário. Considere tópicos adicionais:
+As regras que entram no contrato:
 
-- **Direitos autorais e propriedade intelectual:** De quem é o código, design, documentação? Estabeleça isso. O [MCTI detalha políticas para pesquisa e soluções inovadoras](https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/lei-de-tics/lei-de-tics-ppi-projetos/), e com a aceleração do mercado tech, a proteção da sua criação faz toda diferença.
-- **Entregas parciais e homologação:** Formalize como apresentar etapas, prazos para feedback e aprovação. Nem sempre o cliente entende seu ritmo.
-- **Garantia e manutenção:** Após entregar o serviço, você dará suporte? Por quanto tempo? Isso deve ser escrito.
-- **Atualização tecnológica:** Serviços de tecnologia envelhecem rápido. Se o contrato for longo, pode valer prever revisão ou ajustes.
+- **Multa por atraso ou descumprimento** (arts. 408 a 416). A multa não pode passar do valor da obrigação principal (art. 412), e o juiz reduz a multa excessiva ou a aplicada sobre obrigação já cumprida em parte (art. 413). A vantagem da multa é dispensar prova de prejuízo (art. 416).
+- **Juros de mora.** Se o contrato não fixar juros, vale a taxa legal do art. 406, que desde a Lei 14.905/2024 é a Selic menos o IPCA. Para ter um número previsível, combine os juros no contrato.
+- **Prazo máximo.** A prestação de serviço não pode passar de 4 anos (art. 598). Contratos mais longos precisam de renovação.
+- **Aviso prévio.** Sem prazo definido no contrato, qualquer parte pode encerrar com 8 dias de aviso quando o pagamento é mensal (art. 599). Para quem depende de um cliente, 8 dias é pouco. Negocie 30 dias ou mais.
+- **Saída antes do prazo.** Em contrato com prazo determinado, se o cliente dispensa o prestador sem justa causa, deve pagar o que já venceu e metade do que o prestador receberia até o fim do contrato (art. 603).
 
-> Ajuste o contrato ao seu tipo de entrega. Cada projeto é único, e isso deveria estar no papel.
+### Exemplo: cliente atrasa 20 dias uma fatura de R$ 12 mil
 
-## Como negociar e revisar contratos de prestação PJ Tech
+Com uma cláusula comum de mercado, multa de 2% e juros de 1% ao mês pro rata:
 
-Negociar contratos não é só para grandes empresas. O profissional que revê as cláusulas com senso crítico mostra profissionalismo e proteção ao negócio. O segredo é fazer perguntas e propor sugestões até alinhar tudo.
+1. Multa: 2% x R$ 12.000 = R$ 240.
+2. Juros: 1% x R$ 12.000 x 20/30 = R$ 80.
+3. Total a cobrar: R$ 12.320.
 
-- Peça versão editável do contrato; nunca assine sem poder revisar.
-- Inclua ajustes específicos sua realidade, especialmente sobre fluxo de entregas e pagamento.
-- No caso de contratos para órgãos públicos ou projetos de inovação aberta, o [Tribunal de Contas da União](https://sites.tcu.gov.br/listadealtorisco/efetividade_das_politicas_de_ciencia_tecnologia_e_inovacao.html) já aponta que clareza documental evita problemas futuros nessas parcerias.
-- Em caso de dúvida, tire minutos para conversar com um contador de confiança. Na Conte, esse acompanhamento é parte do serviço, você não precisa ficar pulando de pessoa em pessoa para entender cada detalhe.
+Os percentuais são exemplo, não teto legal. O ponto é ter a regra escrita: sem ela, você cobra só a taxa legal e precisa discutir o resto.
 
-## Resolvendo riscos: atrasos, inadimplência e conflito de interesses
+## Contrato assinado eletronicamente vale?
 
-Ninguém escreve um contrato esperando problemas, mas eles aparecem. Atraso de pagamentos, descumprimento de prazos ou mudança do escopo do trabalho são frequentes no TI. Segundo [o evento ‘Transformar Juntos’](https://www.gov.br/gestao/pt-br/assuntos/noticias/2024/julho/gestao-aborda-uso-de-tecnologia-e-inovacao-no-servico-publico-durante-evento-em-brasilia), o setor enfrenta novos desafios regulatórios com a evolução da inteligência artificial e novas formas de prestação de serviço.
+Vale. A assinatura eletrônica tem validade jurídica, e desde a Lei 14.620/2023 o CPC (art. 784, § 4º) aceita qualquer modalidade de assinatura eletrônica prevista em lei para títulos executivos e dispensa as duas testemunhas quando o provedor confirma a integridade do documento. Na prática, um contrato assinado em plataforma de assinatura pode ser cobrado direto em execução, sem processo de conhecimento.
 
-Por isso, inclua cláusulas sobre:
+Registro em cartório não é obrigatório para o contrato valer. Guarde o PDF assinado e o relatório de auditoria da plataforma (com IP, data e e-mail de cada signatário) junto com as notas fiscais.
 
-- **Multas por atraso de pagamento ou de entrega.**
-- **Canais formais para disputa, como Câmara de Mediação, antes de querer judicializar tudo.**
-- **Possibilidade de suspensão temporária do serviço em caso de inadimplência (desde que acordado entre as partes).**
+## Quais cláusulas aumentam o risco de vínculo de emprego?
 
-> Prevenir é menos doloroso do que remediar.
+Cláusulas que descrevem um empregado. A CLT, art. 3º, considera empregado quem presta serviço não eventual, sob dependência (subordinação) e mediante salário. A Justiça do Trabalho decide pelos fatos, então um contrato PJ não basta se a rotina for de CLT. O STF ainda julga, no Tema 1389, os limites da contratação de PJ.
 
-## Contratar PJ em vários estágios da carreira
+Evite no contrato e na rotina:
 
-Veja exemplos de como um contrato varia, dependendo do porte do seu negócio ou do estágio do seu cliente:
+- Horário fixo de entrada e saída e controle de ponto.
+- Subordinação a um gestor como se fosse da equipe, com avaliação de desempenho e advertência.
+- Proibição de atender outros clientes, quando não houver motivo de conflito de interesse.
+- Pagamento de "férias" ou "13º" com esses nomes.
+- Exigência de que só você execute o serviço, sem possibilidade de substituição.
 
-- **MEI Tech:** Contratos curtos e diretos, cuidando da formalidade mínima para evitar confusão. Ainda assim, respeite todos os pontos críticos.
-- **PJ Simples Nacional:** Adicione mais detalhes sobre valor, prazo e obrigações complementares. A consultoria fiscal da Conte pode ajudar a desenhar contratos alinhados ao seu planejamento tributário.
-- **PJ com clientes internacionais:** Cláusulas de idioma, moeda, foro internacional e atenção redobrada à transferência de propriedade intelectual.
+Prefira cláusulas de resultado: entregas, prazos, SLA, janela de disponibilidade combinada. Se você está avaliando trocar a CLT por um contrato PJ, compare os números na [calculadora CLT x PJ da Conte](https://sejaconte.com.br/clt-vs-pj) e leia o post sobre [migrar para PJ como profissional de TI](/post/vale-a-pena-migrar-para-pj-profissionais-ti).
 
-Em todos os casos, o atendimento humanizado e consultivo é fundamental. Falar com contadores e especialistas faz diferença, pois contratos são mais do que formalidade, são a proteção do seu negócio.
+![Profissionais de tecnologia revisando contrato em reunião](/images/posts/guia-contratos-prestadores-servico-pj-tech/reuniao-negociacao-pj-tecnologia-854.webp)
 
-![Profissionais de tecnologia revisando contrato em reunião ](/images/posts/guia-contratos-prestadores-servico-pj-tech/reuniao-negociacao-pj-tecnologia-854.webp)
+## O que muda no contrato com cliente no exterior?
 
-## Conclusão: contratos bem-feitos são o segredo da tranquilidade
+Moeda, lei aplicável e foro. Contrato com empresa estrangeira pode ser em inglês e em dólar ou euro. Defina a data de conversão, quem paga as tarifas de remessa e a plataforma de recebimento.
 
-O Brasil está em transformação, e o setor de tecnologia cresce não apenas em volume, mas em maturidade e exigência. Entender e cuidar dos contratos é parte do caminho para relações de trabalho mais justas e previsíveis. Não subestime a força de um documento claro, ele salva horas, preserva amizades, mantém clientes e, claro, evita prejuízos.
+Escolha a lei aplicável e a forma de resolver disputas. Processar uma empresa nos Estados Unidos custa caro; uma cláusula de arbitragem online, ou de mediação antes de qualquer processo, costuma ser mais realista. Do lado fiscal, a receita de exportação de serviço tem isenção de PIS, Cofins e ISS no Simples, desde que o resultado do serviço se verifique no exterior. O post sobre [tributação de serviços para o exterior](/post/tributacao-servicos-para-exterior-o-que-muda) explica as condições.
 
-Aproveite seu tempo para focar nas entregas técnicas. Se quiser alguém que te ajude a cuidar da burocracia, da contabilidade à elaboração de contratos e consultoria fiscal, conheça a **Conte**. Nossa missão é te deixar livre para criar, com estrutura, clareza e menos impostos.
+## Como revisar um contrato antes de assinar?
 
-> Contrate bem. Trabalhe leve. Conte com a gente para cuidar da sua PJ.
+Peça a versão editável e responda por escrito, cláusula a cláusula, às perguntas abaixo. Se alguma resposta não estiver no contrato, proponha a redação.
+
+- O que acontece se eu entregar no prazo e o cliente não testar?
+- Quantas rodadas de revisão estão incluídas no preço?
+- Em que data e por qual índice o preço é reajustado?
+- Quais documentos comprovam a entrega e o aceite?
+- Qual o aviso prévio para cada parte sair, e o que é pago na saída?
+- Quais dados pessoais vou acessar e qual o meu papel na LGPD (em geral, operador)?
+- Quem fica com o código, e o que continua meu?
+- Em que cidade ou câmara um conflito seria resolvido?
+
+Contrato com cliente grande costuma vir em modelo padrão, mas quase todo cliente aceita ajustar aviso prévio, critério de aceite e propriedade de componentes reutilizáveis. Na hora de discutir preço, o post sobre [negociar honorários sem perder contratos](/post/negociar-honorarios-servicos-pj-sem-perder-contratos) ajuda a preparar a conversa. Para contratos de valor alto ou com cláusulas de responsabilidade ilimitada, vale a revisão de um advogado.

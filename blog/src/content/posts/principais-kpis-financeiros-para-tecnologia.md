@@ -20,6 +20,7 @@ faq:
 - q: Qual a importância do LTV para empresas?
   a: O LTV (lifetime value) mostra quanto, em média, cada cliente gera de receita ao longo do tempo na empresa. Ele é essencial para orientar investimentos em aquisição (CAC), prever receitas futuras e determinar o quanto pode se investir para conquistar e reter bons clientes. LTV alto, junto com baixo CAC, traduz um negócio saudável e pronto para reinvestir no crescimento .
 migratedFrom: https://blog.sejaconte.com.br/post/principais-kpis-financeiros-para-tecnologia
+noindex: true
 ---
 
 Em empresas de tecnologia, sentimos todos os dias o ritmo acelerado das mudanças, as oportunidades surgindo e os desafios financeiros peculiares desse setor. Ao longo da nossa experiência na Conte, percebemos que a diferença entre crescer de forma sustentável e enfrentar surpresas desagradáveis está justamente no acompanhamento dos KPIs financeiros certos.

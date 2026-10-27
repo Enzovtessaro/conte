@@ -20,6 +20,9 @@ for (const file of files) {
   const [, fm, body] = m;
   const field = (k) => (fm.match(new RegExp(`^${k}:\\s*['"]?(.*?)['"]?\\s*$`, 'm')) || [])[1];
   const isNew = !/^migratedFrom:/m.test(fm);
+  // Migrated posts that went through the 2026-10-27 review (they have a tldr) must meet the same bar as new ones.
+  const strict = isNew || /^tldr:/m.test(fm);
+  const noindex = /^noindex:\s*true/m.test(fm);
 
   if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(slug)) err('slug must be lowercase ascii words joined by hyphens');
   if (slug.length > 80) err('slug longer than 80 chars');
@@ -39,7 +42,7 @@ for (const file of files) {
     if (!fs.existsSync(path.join(dir, `${href.slice(6)}.md`))) err(`broken internal link ${href}`);
   }
 
-  if (isNew) {
+  if (strict && !noindex) {
     const words = body.split(/\s+/).filter(Boolean).length;
     if (words < 900) err(`only ${words} words (new posts need 900+)`);
     if (!/^cover:/m.test(fm) || !/^coverAlt:/m.test(fm)) err('new posts need cover and coverAlt');
@@ -49,6 +52,8 @@ for (const file of files) {
     if ((body.match(/^## /gm) || []).length < 4) err('new posts need at least 4 H2 sections');
     if ((body.match(/\]\(\/post\//g) || []).length < 2) err('new posts need at least 2 internal links to other posts');
     if (!/sejaconte\.com\.br/.test(body)) warn('no link to sejaconte.com.br in the body');
+    if (/^##\s+Conclus/m.test(body)) warn('generic "Conclusão" section (stop-slop)');
+    if ((body.match(/^>\s/gm) || []).length > 2) warn('more than 2 blockquotes (pull-quote slop)');
     if ((field('seoTitle') || title || '').length > 65) warn('seoTitle over 65 chars will be truncated in Google');
   }
 }

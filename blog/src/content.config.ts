@@ -22,6 +22,8 @@ const posts = defineCollection({
     // GEO: primary sources (Receita Federal, LC 123/2006, etc.) listed at the end and in JSON-LD citation.
     sources: z.array(z.object({ title: z.string(), url: z.string().url() })).default([]),
     draft: z.boolean().default(false),
+    // Off-audience or legally risky posts stay reachable but out of search, sitemap, listings and llms files.
+    noindex: z.boolean().default(false),
     migratedFrom: z.string().optional(),
   }),
 });

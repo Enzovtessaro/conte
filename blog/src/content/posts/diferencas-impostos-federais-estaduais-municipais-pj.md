@@ -1,114 +1,108 @@
 ---
-title: Entenda as diferenças entre impostos federais, estaduais e municipais para PJ
-seoTitle: Entenda as diferenças entre impostos federais, estaduais e municipais para PJ
-description: Saiba quais impostos federais, estaduais e municipais impactam sua PJ e como gerenciar suas obrigações tributárias corretamente.
+title: "Impostos federais, estaduais e municipais: o que a PJ de serviços paga"
+seoTitle: "Impostos federais, estaduais e municipais da PJ"
+description: "Quais impostos federais, estaduais e municipais a PJ de serviços paga, quanto custa cada um e como a reforma troca PIS, Cofins, ICMS e ISS por CBS e IBS."
 pubDate: '2025-12-18'
-updatedDate: '2025-12-18'
+updatedDate: '2026-10-27'
 category: tributacao
 author: solange-vaz
 cover: /images/posts/diferencas-impostos-federais-estaduais-municipais-pj/contadora-planejando-impostos-pj-828.webp
 coverAlt: Contadora analisando impostos federais estaduais e municipais para PJ em escritório moderno
+tags: [simples-nacional, lucro-presumido, reforma-tributaria, nota-fiscal, exportacao-de-servicos]
+tldr:
+  - "A PJ que presta serviços paga tributos federais (IRPJ, CSLL, PIS, Cofins e INSS) e um municipal (ISS, de 2% a 5%). O ICMS, estadual, incide sobre mercadorias, transporte e comunicação, não sobre desenvolvimento de software sob encomenda."
+  - "No Simples Nacional, todos esses tributos saem em uma guia só, o DAS. No Lucro Presumido, cada um tem guia e prazo próprios."
+  - "A reforma tributária substitui PIS e Cofins pela CBS federal em 2027 e reduz ICMS e ISS entre 2029 e 2032, até o IBS assumir por completo em 2033. Em 2026 há só um teste, com CBS de 0,9% e IBS de 0,1%."
 faq:
-- q: O que são impostos federais para PJ?
-  a: Impostos federais são tributos criados e cobrados pelo governo central do Brasil. Para as pessoas jurídicas, alguns exemplos comuns são IRPJ, CSLL, PIS, COFINS, IPI e contribuições previdenciárias. Esses impostos incidem sobre o lucro, faturamento, folha de salários ou faturamento de produtos industrializados. Todos os tipos de empresa estão, de alguma forma, sujeitos a eles.
-- q: Quais impostos estaduais uma PJ paga?
-  a: O principal imposto estadual para PJs é o ICMS, cobrado sobre circulação de mercadorias, serviços de transporte e comunicação. Dependendo da atividade e do estado onde a empresa está, podem existir outros tributos ou taxas estaduais específicos. As alíquotas variam conforme a legislação de cada estado.
-- q: Como funcionam os impostos municipais para empresas?
-  a: Os impostos municipais incidem especialmente sobre serviços. O ISS é o mais relevante, variando de 2% a 5% do valor do serviço, segundo a lei de cada município. Além dele, podem ser cobradas taxas para funcionamento da empresa, como alvará ou licenças. Empresas prestadoras de serviço precisam ficar atentas à legislação e prazos do município.
-- q: Qual a diferença entre impostos federais e estaduais?
-  a: Impostos federais são arrecadados pelo governo central e abrangem todo o território nacional, incidindo sobre lucro, faturamento e produção industrial. Já os impostos estaduais são cobrados pelos governos dos estados e geralmente incidem sobre a circulação de mercadorias e serviços de transporte e comunicação. Assim, as regras e alíquotas variam muito entre federal e estadual.
-- q: Empresas precisam pagar todos os impostos?
-  a: 'Nem toda empresa paga todos os impostos existentes: tudo depende do regime tributário, do setor de atuação e do porte da PJ. Por exemplo, uma empresa do Simples Nacional recolhe vários tributos juntos em uma só guia, enquanto outras, no Lucro Presumido ou Real, podem ter obrigações isoladas. O acompanhamento de um contador é essencial para garantir que apenas os impostos obrigatórios serão pagos, evitando desperdícios.'
+  - q: "Qual a diferença entre imposto federal, estadual e municipal?"
+    a: "É quem cria e cobra o tributo. A União cobra IRPJ, CSLL, PIS, Cofins, IPI e INSS; os estados cobram ICMS; os municípios cobram ISS. Cada ente tem sua própria legislação, prazos e fiscalização."
+  - q: "Dev PJ paga ICMS?"
+    a: "Em regra, não. Desenvolvimento e licenciamento de software customizado, consultoria e suporte são serviços sujeitos ao ISS municipal. O ICMS aparece para quem vende mercadoria, presta transporte intermunicipal ou serviço de comunicação."
+  - q: "Qual a alíquota do ISS para desenvolvimento de software?"
+    a: "Depende do município, entre o mínimo de 2% e o máximo de 5% fixados pela LC 116/2003. No Simples Nacional, o ISS vem dentro do DAS, como parte da alíquota do anexo."
+  - q: "O que muda na nota fiscal com a reforma tributária?"
+    a: "Desde 2026, as notas passam a ter campos de CBS e IBS, ainda em caráter de teste. A partir de 2027, a CBS é cobrada de fato no lugar de PIS e Cofins. Para quem está no Simples, os valores continuam dentro do DAS, salvo opção pelo recolhimento fora dele."
+sources:
+  - title: Emenda Constitucional nº 132/2023, reforma tributária (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm
+  - title: Lei Complementar nº 214/2025, IBS, CBS e Imposto Seletivo (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm
+  - title: Lei Complementar nº 116/2003, ISS (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm
+  - title: Reforma Tributária do Consumo (Receita Federal)
+    url: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo
+  - title: Lei Complementar nº 123/2006 (Planalto)
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm
 migratedFrom: https://blog.sejaconte.com.br/post/diferencas-impostos-federais-estaduais-municipais-pj
 ---
 
-Para quem possui uma empresa, saber diferenciar os impostos federais, estaduais e municipais é fundamental para evitar problemas fiscais, economizar e tomar melhores decisões. Em nossa experiência aqui na Conte, o maior desafio dos empresários começa justamente nessa compreensão. Neste artigo, vamos explicar de forma clara como funciona cada tipo de imposto considerando a rotina da pessoa jurídica (PJ) no Brasil.
+Toda PJ paga tributos para três níveis de governo: a União, o estado e o município. Para quem presta serviços de tecnologia, a conta se resume a cinco tributos federais e um municipal, o ISS. O ICMS estadual quase nunca entra. E a reforma tributária está trocando boa parte dessa lista até 2033.
 
-> “Entender sobre tributos é o primeiro passo para pagar menos e se preocupar menos.”
+## Por que existem impostos federais, estaduais e municipais?
 
-## Por que existem impostos de diferentes esferas?
+A Constituição divide o poder de cobrar tributos entre União, estados e municípios. Cada ente cria seus tributos por lei, define alíquotas dentro dos limites constitucionais e fiscaliza o pagamento. Por isso o ISS de São Paulo é diferente do ISS de Florianópolis, e o ICMS de um estado não segue o do vizinho.
 
-Primeiro, precisamos entender que o sistema tributário brasileiro é composto por três níveis de governo: federal, estadual e municipal. Cada um desses entes tem competência para instituir e arrecadar impostos próprios, como indicado nas estatísticas de finanças públicas do governo geral disponibilizadas pelo [IBGE](https://www.ibge.gov.br/estatisticas/economicas/financas-publicas/9083-estatisticas-de-financas-publicas-e-conta-intermediaria-de-governo.html). Essas esferas arrecadam valores para bancar seus serviços públicos e cumprir suas funções constitucionais.
+Para você, a consequência prática é ter três fiscos olhando a sua empresa: Receita Federal, secretaria estadual da Fazenda e prefeitura. No Simples Nacional, os três recebem pela mesma guia. Fora dele, cada um tem a sua.
 
-No caso das empresas, há obrigações com todos esses níveis de governo. Por isso, agrupar e entender cada uma das categorias ajuda muito na organização financeira.
+## Quais impostos a PJ de serviços paga em cada esfera?
 
-## Impostos federais: panorama e obrigações
+| Esfera | Tributo | Incide sobre | Dev PJ paga? |
+|---|---|---|---|
+| Federal | IRPJ | Lucro (real, presumido ou dentro do DAS) | Sim |
+| Federal | CSLL | Lucro | Sim |
+| Federal | PIS e Cofins | Faturamento | Sim (isento na exportação) |
+| Federal | INSS (CPP e do sócio) | Folha e pró-labore | Sim |
+| Federal | IPI | Produtos industrializados | Não |
+| Estadual | ICMS | Mercadorias, transporte, comunicação | Em regra, não |
+| Municipal | ISS | Serviços | Sim (isento na exportação) |
 
-Os impostos federais são aqueles criados e cobrados pelo governo central. Eles incidem sobre quase todas as empresas do país, independentemente do porte ou setor de atuação. Alguns exemplos comuns:
+Duas observações para quem fatura do exterior. A exportação de serviços com ingresso de divisas é isenta de PIS, Cofins e ISS, tanto no Simples ([LC 123](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm), art. 18, § 14) quanto fora dele ([LC 116](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm), art. 2º). IRPJ, CSLL e INSS continuam devidos. O post sobre [tributação de serviços para o exterior](/post/tributacao-servicos-para-exterior-o-que-muda) detalha a nota e o câmbio.
 
-- **Imposto de Renda Pessoa Jurídica (IRPJ):** É cobrado sobre o lucro da empresa, seja pelo Lucro Real, Presumido ou Simples Nacional.
-- **Contribuição Social sobre o Lucro Líquido (CSLL):** Outro tributo sobre o lucro, destinado ao financiamento da seguridade social.
-- **Programa de Integração Social (PIS) e Contribuição para o Financiamento da Seguridade Social (COFINS):** Incidem sobre o faturamento das empresas e têm regras específicas a depender do regime tributário.
-- **Imposto sobre Produtos Industrializados (IPI):** Cobre atividades ligadas à industrialização.
-- **Contribuições previdenciárias patronais:** Pagas sobre a folha de salários.
+## Quanto custa cada tributo? Exemplo com R$ 20 mil por mês
 
-De acordo com os [relatórios do Tesouro Nacional](https://www.gov.br/tesouronacional/pt-br/noticias/carga-tributaria-bruta-do-governo-geral-atinge-32-32-do-pib-em-2024), a arrecadação de impostos federais representa a maior parcela da carga tributária nacional. Em 2024, o aumento na arrecadação esteve ligado ao crescimento da COFINS, que impacta diretamente as PJs.
+No Lucro Presumido, dá para enxergar cada tributo separado. Um dev PJ que fatura R$ 20 mil por mês de clientes no Brasil, em município com ISS de 2%, paga:
 
-## Impostos estaduais: como afetam sua empresa?
+| Tributo | Esfera | Cálculo | Valor mensal |
+|---|---|---|---|
+| IRPJ | Federal | 15% × 32% × R$ 20.000 | R$ 960 |
+| CSLL | Federal | 9% × 32% × R$ 20.000 | R$ 576 |
+| PIS | Federal | 0,65% × R$ 20.000 | R$ 130 |
+| Cofins | Federal | 3% × R$ 20.000 | R$ 600 |
+| ISS | Municipal | 2% × R$ 20.000 | R$ 400 |
+| **Total da empresa** | | 13,33% | **R$ 2.666** |
 
-Já os impostos estaduais, como o nome diz, são gerenciados pelos governos dos estados. O mais conhecido, e central na vida das empresas, é o ICMS (Imposto sobre Circulação de Mercadorias e Serviços).
+Do total, 85% vai para a União e 15% para o município. Somam-se o INSS patronal de 20% e o do sócio, de 11%, sobre o pró-labore.
 
-O ICMS incide sobre:
+No Simples Nacional, o mesmo dev paga uma guia só. Com Fator R de 28% ou mais e receita de R$ 240 mil em 12 meses, a alíquota efetiva do Anexo III é de 7,3%: um DAS de R$ 1.460, que a Receita reparte entre IRPJ, CSLL, PIS, Cofins, INSS patronal e ISS. A comparação completa entre os dois regimes está em [Simples Nacional ou Lucro Presumido](/post/simples-nacional-ou-lucro-presumido-para-empresas-de-tecnologia), e a conta do Fator R em [Fator R para dev PJ](/post/pj-tecnologia-pode-ser-simples-nacional-opcoes).
 
-- Venda de mercadorias e produtos
-- Serviços de transporte interestadual e intermunicipal
-- Serviços de comunicação
-- Importação de bens
+![Empresários analisando folhas e gráficos de impostos em um escritório](/images/posts/diferencas-impostos-federais-estaduais-municipais-pj/tributacao-empresas-brasil-251.webp)
 
-Vale mencionar que a alíquota varia de estado para estado, e é comum que empresários se percam ao calcular esse valor, especialmente em operações interestaduais.Os [dados do Ministério da Fazenda](https://www.gov.br/fazenda/pt-br/assuntos/noticias/2024/marco/carga-tributaria-bruta-do-governo-geral-cai-para-32-44-do-pib-em-2023) mostram a oscilação na arrecadação do ICMS nos últimos anos, relevante para o planejamento do seu negócio. Ajustes legais, como a recentemente implementada Lei Complementar nº 194/2022, afetam a receita dos estados e, consequentemente, as obrigações das empresas.
+## Como funciona o ISS para quem presta serviços de tecnologia?
 
-![Empresários analisando folhas e gráficos de impostos em um escritório ](/images/posts/diferencas-impostos-federais-estaduais-municipais-pj/tributacao-empresas-brasil-251.webp)
+O ISS é cobrado pelo município onde fica o estabelecimento do prestador, com alíquota entre 2% e 5%, conforme a LC 116/2003. O mínimo de 2% evita guerra fiscal entre prefeituras; o máximo de 5% limita a cobrança.
 
-### ICMS e a realidade do empreendedor
+Cada prefeitura define a alíquota por item da lista de serviços. Desenvolvimento de programas, licenciamento de software, suporte e consultoria em TI aparecem em itens diferentes, e a alíquota pode variar entre eles. Confira o item correto na emissão da nota, porque o código errado gera ISS errado. O guia de [emissão de nota fiscal de serviço](/post/emitir-notas-fiscais-eletronicas-servicos-2025) mostra onde olhar.
 
-Quando falamos em ICMS, é impossível não notar a diferença para cada setor e estado. Algumas atividades são favorecidas com isenções, outras enfrentam alta tributação.
+## O que muda com a reforma tributária?
 
-## Impostos municipais: importância e detalhes
+A reforma ([EC 132/2023](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm) e [LC 214/2025](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm)) substitui cinco tributos sobre consumo por três: CBS federal, IBS de estados e municípios e Imposto Seletivo federal. IRPJ, CSLL e INSS não mudam.
 
-No âmbito municipal, temos impostos de menor valor absoluto, mas não menos relevantes. O principal deles é o ISS (Imposto Sobre Serviços), aplicado sobre empresas prestadoras de serviços.
+| Ano | O que acontece |
+|---|---|
+| 2026 | Teste: CBS de 0,9% e IBS de 0,1% destacados na nota, compensáveis com PIS e Cofins. Empresas do Simples não recolhem nada a mais |
+| 2027 | CBS entra de vez e PIS e Cofins acabam. IPI vai a zero, exceto Zona Franca de Manaus. Começa o Imposto Seletivo |
+| 2028 | Mantém o IBS de teste |
+| 2029 a 2032 | ICMS e ISS caem 10% ao ano (para 90%, 80%, 70% e 60% das alíquotas) enquanto o IBS sobe |
+| 2033 | ICMS e ISS acabam e o IBS assume por completo |
 
-- **O ISS varia entre 2% e 5%, definido por cada município.**
-- **Empresas prestadoras de serviço, micro e pequenas, sentem bastante o impacto desse imposto.**
-- **Além do ISS, pode haver taxas como alvará e licenciamento.**
+Para quem está no Simples, CBS e IBS ficam dentro do DAS. A novidade é que, a partir de 2027, a empresa pode optar por recolher os dois fora do DAS, pelo regime regular, para gerar crédito integral aos clientes empresas. Para o primeiro semestre de 2027, essa escolha vai até 30 de outubro de 2026. Quem fatura só para o exterior continua desonerado, porque exportação de serviços segue sem CBS e IBS. O impacto na escolha de regime está em [quando mudar de regime tributário](/post/regimes-tributarios-quando-mudar-e-como-saber-hora-certa).
 
-Percebemos que muitos PJs olham apenas para os grandes valores federais ou estaduais, mas acabam sendo pegos de surpresa por tributos municipais. O segredo está no cuidado e monitoramento constante, como defendemos em nosso serviço de [planejamento fiscal](/category/planejamento-fiscal).
+## Como organizar os pagamentos em cada esfera?
 
-![Contador explicando impostos federais, estaduais e municipais para empresário em escritório ](/images/posts/diferencas-impostos-federais-estaduais-municipais-pj/impostos-escritorio-pj-824.webp)
+Organize por calendário e por guia. No Simples, o DAS vence no dia 20 do mês seguinte ao faturamento e cobre as três esferas. No Lucro Presumido, os prazos se separam:
 
-## Relação entre regimes tributários e impostos
+- **Federais:** PIS, Cofins e INSS mensais; IRPJ e CSLL trimestrais, podendo dividir em três quotas.
+- **Municipal:** ISS mensal, no prazo da prefeitura, que costuma cair entre os dias 10 e 20.
+- **Retenções:** clientes empresas podem reter IR, CSLL, PIS, Cofins ou ISS na fonte. A retenção é antecipação, então desconte esses valores na apuração.
 
-O regime tributário da sua empresa influencia diretamente quais impostos serão pagos e como isso ocorre. Os principais regimes são:
-
-- Simples Nacional
-- Lucro Presumido
-- Lucro Real
-
-Cada modalidade reúne tributos de diferentes esferas, muitas vezes em um único boleto, como ocorre no Simples Nacional. Mesmo assim, é imprescindível entender a origem de cada tributo para não ser pego de surpresa e pagar mais do que o devido.
-
-Os estudos setoriais das pessoas jurídicas disponibilizados pela Receita Federal detalham o impacto do regime tributário sobre diferentes setores, mostrando o quanto a escolha certa pode influenciar resultados.
-
-## Como a compreensão dos impostos ajuda na saúde financeira?
-
-Ter clareza sobre quais impostos são pagos e quando, além de oferecer maior previsibilidade, protege a empresa de multas e surpresas fiscais. **Quando analisamos o orçamento das empresas, fica evidente que dividir as obrigações fiscais por esfera facilita não só o controle das finanças, como também as decisões de investimento e expansão.**
-
-Um bom [planejamento tributário](/post/planejamento-tributario-pj-tech-2025) é decisivo para garantir competitividade. Isso vale tanto para empresas de tecnologia quanto para prestadores de serviços, comércio e indústria. No caso de empresas com sócios estrangeiros ou operações internacionais, é preciso uma atenção ainda maior, como já tratamos em [artigos específicos](/post/planejamento-tributario-para-empresas-com-socios-estrangeiros).
-
-> “Pagar imposto é obrigação. Saber pagar menos, é estratégia.”
-
-Na Conte, defendemos que acompanhamento próximo e atendimento humanizado fazem toda a diferença. Ao planejar cada etapa, reduzimos riscos e otimizamos a saúde financeira da PJ.
-
-## Revisão tributária: quando e por que fazer?
-
-Em nossa rotina de atendimento, já vimos muitas empresas economizando apenas com uma boa revisão tributária anual. Muitas vezes, mudanças na legislação ou no perfil da empresa tornam vantagens fiscais possíveis, e pouco exploradas. Discutimos esses pontos detalhadamente em nosso artigo sobre os [benefícios da revisão tributária anual](/post/revisao-tributaria-anual-contador-pessoal-beneficios), mostrando como um contador pessoal pode evitar pagamentos indevidos e garantir mais tranquilidade.
-
-## Carga tributária no Brasil: contexto e impacto
-
-Nenhum artigo sobre impostos seria completo sem abordar o peso da carga tributária no bolso das pessoas jurídicas. **Em 2024, a carga tributária bruta chegou a 32,32% do PIB, como mostram as estatísticas do Tesouro Nacional, um aumento impulsionado principalmente pela maior arrecadação do ICMS e COFINS.** Já em 2023, houve uma redução para 32,44% do PIB em relação ao ano anterior, reflexo de mudanças nas regras do ICMS segundo as informações do [Ministério da Fazenda](https://www.gov.br/fazenda/pt-br/assuntos/noticias/2024/marco/carga-tributaria-bruta-do-governo-geral-cai-para-32-44-do-pib-em-2023).
-
-Esses números mostram a necessidade de estar atento à legislação e buscar alternativas para pagar o menor imposto possível, sem riscos e sem sustos.
-
-## Conclusão: como a Conte pode ajudar você
-
-Conhecer as diferenças entre impostos federais, estaduais e municipais é o caminho para tomar melhores decisões e deixar sua empresa mais competitiva. Aqui na Conte, oferecemos atendimento humanizado e estratégia fiscal personalizada para que você pague apenas o imposto necessário, sem burocracia, e possa focar no que realmente importa: seu negócio crescendo.
-
-Quer dormir tranquilo, sabendo que sua PJ está regular, pagando o mínimo em impostos e sem surpresas desagradáveis? Fale com a equipe Conte e conheça nossos serviços. Juntos, simplificamos o complexo universo tributário para você.
+Guarde as notas e os comprovantes por esfera, e confira se as retenções aparecem nos informes dos clientes. Para montar essa rotina, veja os [documentos essenciais para controlar a PJ de TI](/post/documentos-essenciais-para-controlar-pj-ti-sem-erros). Se preferir delegar, a [Conte](https://sejaconte.com.br) acompanha as guias das três esferas para PJ tech.

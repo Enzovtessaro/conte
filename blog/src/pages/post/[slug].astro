@@ -3,12 +3,12 @@ import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import PostCard from '../../components/PostCard.astro';
 import Cta from '../../components/Cta.astro';
-import { getPosts, related, formatDate, isoDate, readingMinutes, wordCount, type Post } from '../../lib/posts';
+import { getAllPosts, getPosts, related, formatDate, isoDate, readingMinutes, wordCount, type Post } from '../../lib/posts';
 import { SITE, ORG, CATEGORIES, AUTHORS } from '../../lib/site';
 
 export async function getStaticPaths() {
-  const posts = await getPosts();
-  return posts.map((post) => ({ params: { slug: post.id }, props: { post, all: posts } }));
+  const [posts, indexable] = await Promise.all([getAllPosts(), getPosts()]);
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post, all: indexable } }));
 }
 interface Props { post: Post; all: Post[] }
 const { post, all } = Astro.props;
@@ -50,12 +50,19 @@ const jsonLd: Record<string, unknown>[] = [
     image: `${SITE.url}${author.image}`,
     url: `${SITE.url}/author/${d.author}`,
     worksFor: { '@id': ORG['@id'] },
-    knowsAbout: ['Contabilidade', 'Simples Nacional', 'Tributação de PJ', 'Nota fiscal de serviço', 'Planejamento tributário'],
+    knowsAbout: ['Contabilidade', 'Simples Nacional', 'Fator R', 'Tributação de PJ', 'Nota fiscal de serviço', 'Planejamento tributário'],
+    hasCredential: {
+      '@type': 'EducationalOccupationalCredential',
+      credentialCategory: 'Registro profissional',
+      name: author.crc,
+      recognizedBy: { '@type': 'Organization', name: 'Conselho Regional de Contabilidade do Paraná' },
+    },
+    sameAs: author.sameAs.length ? author.sameAs : undefined,
   },
   {
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Blog', item: SITE.url },
+      { '@type': 'ListItem', position: 1, name: 'Blog', item: `${SITE.url}/` },
       { '@type': 'ListItem', position: 2, name: cat.name, item: `${SITE.url}/category/${d.category}` },
       { '@type': 'ListItem', position: 3, name: d.title, item: url },
     ],
@@ -68,7 +75,10 @@ if (d.faq.length) {
     mainEntity: d.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
   });
 }
-const seoTitle = `${d.seoTitle ?? d.title} | ${SITE.name}`;
+// Keep <title> near 60 chars: the brand suffix is only added when there's room.
+const baseTitle = d.seoTitle ?? d.title;
+const seoTitle = baseTitle.length > 45 ? baseTitle : `${baseTitle} | ${SITE.name}`;
+const reviewed = d.updatedDate && isoDate(d.updatedDate) !== isoDate(d.pubDate);
 ---
 <Base
   title={seoTitle}
@@ -76,6 +86,7 @@ const seoTitle = `${d.seoTitle ?? d.title} | ${SITE.name}`;
   image={d.cover}
   imageAlt={d.coverAlt}
   type="article"
+  noindex={d.noindex}
   jsonLd={jsonLd}
   article={{ published: d.pubDate.toISOString(), modified: modified.toISOString(), section: cat.name, author: author.name, tags: d.tags }}
 >
@@ -89,7 +100,7 @@ const seoTitle = `${d.seoTitle ?? d.title} | ${SITE.name}`;
       <div class="byline">
         <img src={author.image} alt="" width="44" height="44" />
         <div>
-          <a href={`/author/${d.author}`} rel="author">{author.name}</a>, {author.role.toLowerCase()}
+          <a href={`/author/${d.author}`} rel="author">{author.name}</a>, {author.role.toLowerCase()} · {author.crc}
           <br />
           <small>
             Publicado em <time datetime={isoDate(d.pubDate)}>{formatDate(d.pubDate)}</time>
@@ -100,7 +111,11 @@ const seoTitle = `${d.seoTitle ?? d.title} | ${SITE.name}`;
       </div>
     </header>
 
-    {d.cover && <img class="post-cover" src={d.cover} alt={d.coverAlt ?? ''} width="1200" height="675" fetchpriority="high" decoding="async" />}
+    {reviewed && (
+      <p class="reviewed">Conteúdo revisado por {author.name} ({author.crc}) em <time datetime={isoDate(d.updatedDate!)}>{formatDate(d.updatedDate!)}</time>. <a href="/como-revisamos">Como revisamos</a></p>
+    )}
+
+    {d.cover && <img class="post-cover" src={d.cover} alt={d.coverAlt ?? ''} width="1216" height="640" fetchpriority="high" decoding="async" />}
 
     {d.tldr.length > 0 && (
       <section class="tldr" aria-labelledby="resposta-rapida">

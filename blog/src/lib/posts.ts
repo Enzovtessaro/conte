@@ -2,9 +2,16 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 
 export type Post = CollectionEntry<'posts'>;
 
+const byDate = (a: Post, b: Post) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf();
+
+/** Every published post, including noindex ones (for page generation). */
+export async function getAllPosts(): Promise<Post[]> {
+  return (await getCollection('posts', (p) => !p.data.draft && p.data.pubDate <= new Date())).sort(byDate);
+}
+
+/** Indexable posts: listings, related posts, feeds, llms files. */
 export async function getPosts(): Promise<Post[]> {
-  const posts = await getCollection('posts', (p) => !p.data.draft && p.data.pubDate <= new Date());
-  return posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+  return (await getAllPosts()).filter((p) => !p.data.noindex);
 }
 
 export function readingMinutes(body = ''): number {
