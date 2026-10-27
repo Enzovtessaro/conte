@@ -23,15 +23,11 @@
   query = {page = ":p"}
   to = "/pagina/:p"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/search"
   to = "/"
-  status = 301
-
-[[redirects]]
-  from = "/post/:slug/"
-  to = "/post/:slug"
   status = 301
 
 # Posts merged into their canonical during the 2026-10-27 content review (cannibalization).
