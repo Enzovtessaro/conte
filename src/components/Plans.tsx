@@ -52,10 +52,10 @@ const Plans: React.FC = () => {
                   <ArrowRight size={18} className="transition-transform group-hover:translate-x-0.5" />
                 </Button>
                 <Link
-                  to="/calculadora"
+                  to="/contabilidade-para-exterior"
                   className="mt-5 w-fit text-[15px] text-ink-muted underline decoration-ink/20 underline-offset-4 hover:text-ink hover:decoration-ink"
                 >
-                  Recebe do exterior? Simule quanto sobra no seu bolso
+                  Recebe do exterior? Veja como funciona
                 </Link>
               </div>
 
@@ -91,6 +91,13 @@ const Plans: React.FC = () => {
                   </li>
                 ))}
               </ul>
+              <div className="flex shrink-0 items-center gap-5">
+              <Link
+                to="/contabilidade-mei"
+                className="text-[15px] text-ink-muted underline decoration-ink/20 underline-offset-4 hover:text-ink hover:decoration-ink"
+              >
+                Saiba mais
+              </Link>
               <a
                 href={SIGNUP_URL}
                 className="group inline-flex shrink-0 items-center gap-1.5 text-[15px] font-semibold text-ink"
@@ -98,6 +105,7 @@ const Plans: React.FC = () => {
                 Começar como MEI
                 <ArrowRight size={16} className="transition-transform group-hover:translate-x-0.5" />
               </a>
+              </div>
             </div>
           </Reveal>
         </div>

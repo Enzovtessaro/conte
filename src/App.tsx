@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import MeetSolange from './components/MeetSolange';
 import Services from './components/Services';
 import Features from './components/Features';
+import TrustBar from './components/TrustBar';
 import Plans from './components/Plans';
 import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
@@ -14,6 +15,8 @@ import Footer from './components/Footer';
 import CalculatorPage from './pages/CalculatorPage';
 import CLTvsPJPage from './pages/CLTvsPJPage';
 import NotFound from './pages/NotFound';
+import ServicePage from './pages/ServicePage';
+import { services } from './data/services';
 import HelpFloatingButton from './components/HelpFloatingButton';
 import Seo from './components/Seo';
 import { homeSchema } from './data/schema';
@@ -43,6 +46,7 @@ function App() {
                   jsonLd={homeSchema}
                 />
                 <Hero />
+                <TrustBar />
                 <Features />
                 <MeetSolange />
                 <Services />
@@ -55,6 +59,9 @@ function App() {
           />
           <Route path="/calculadora" element={<CalculatorPage />} />
           <Route path="/clt-vs-pj" element={<CLTvsPJPage />} />
+          {services.map((service) => (
+            <Route key={service.slug} path={`/${service.slug}`} element={<ServicePage service={service} />} />
+          ))}
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

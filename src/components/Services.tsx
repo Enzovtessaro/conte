@@ -13,7 +13,10 @@ const options = [
     description: 'A gente abre sua empresa de graça e te deixa pronto para emitir a primeira nota.',
     points: ['Abertura sem custo', 'Melhor enquadramento para pagar menos imposto', 'Tudo pelo WhatsApp'],
     cta: 'Abrir minha empresa',
-    extra: { to: '/clt-vs-pj', label: 'Ainda em dúvida entre CLT e PJ? Compare na calculadora' },
+    links: [
+      { to: '/abrir-empresa', label: 'Como funciona a abertura' },
+      { to: '/clt-vs-pj', label: 'Compare CLT vs PJ' },
+    ],
     highlight: true,
   },
   {
@@ -22,7 +25,7 @@ const options = [
     description: 'Cansou de ficar sozinho com a contabilidade? A gente cuida da troca para você.',
     points: ['Troca feita pela gente', 'Contadora dedicada desde o primeiro dia', 'Rotina pelo WhatsApp, sem plataforma'],
     cta: 'Quero migrar',
-    extra: undefined,
+    links: [{ to: '/trocar-de-contador', label: 'Como funciona a troca' }],
     highlight: false,
   },
 ];
@@ -66,14 +69,17 @@ const Services: React.FC = () => {
                   {o.cta}
                   <ArrowRight size={18} className="transition-transform group-hover:translate-x-0.5" />
                 </Button>
-                {o.extra && (
-                  <Link
-                    to={o.extra.to}
-                    className="relative mt-5 w-fit text-[15px] text-ink-muted underline decoration-ink/20 underline-offset-4 hover:text-ink hover:decoration-ink"
-                  >
-                    {o.extra.label}
-                  </Link>
-                )}
+                <div className="relative mt-5 flex flex-wrap gap-x-5 gap-y-2">
+                  {o.links.map((link) => (
+                    <Link
+                      key={link.to}
+                      to={link.to}
+                      className="text-[15px] text-ink-muted underline decoration-ink/20 underline-offset-4 hover:text-ink hover:decoration-ink"
+                    >
+                      {link.label}
+                    </Link>
+                  ))}
+                </div>
               </div>
             </Reveal>
           ))}

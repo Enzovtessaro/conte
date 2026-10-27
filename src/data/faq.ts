@@ -20,6 +20,10 @@ export const faqs = [
     post: post('contador-pessoal-aumenta-lucro-pj', 'Como o contador pessoal pode aumentar seu lucro sendo PJ'),
   },
   {
+    q: 'Quanto dá para economizar de imposto?',
+    a: 'Depende da sua atividade e do seu faturamento. Na prática, é comum quem chega pagando cerca de 10% de imposto sobre o faturamento passar a pagar perto de 6% com o enquadramento e o planejamento certos. São cerca de 4 pontos percentuais a menos.',
+  },
+  {
     q: 'Preciso aprender alguma plataforma?',
     a: 'Não. O dia a dia acontece pelo WhatsApp: você pede a nota, recebe as guias de imposto e tira dúvidas na mesma conversa.',
   },

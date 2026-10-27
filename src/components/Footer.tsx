@@ -2,6 +2,7 @@ import React from 'react';
 import { Instagram } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Logo from './Logo';
+import { services } from '../data/services';
 import { BLOG_URL, EMAIL, INSTAGRAM_URL, SIGNUP_URL, WHATSAPP_URL } from '../lib/links';
 
 const linkClass = 'text-ink-muted hover:text-ink transition-colors';
@@ -10,7 +11,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="border-t border-paper-line bg-paper">
       <div className="container mx-auto max-w-6xl px-4 py-16 md:px-6">
-        <div className="grid gap-12 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
+        <div className="grid gap-12 md:grid-cols-[1.3fr_1.1fr_1fr_1fr]">
           <div>
             <Logo />
             <p className="mt-4 max-w-xs leading-relaxed text-ink-muted">
@@ -28,9 +29,13 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <p className="text-sm font-semibold text-ink">Conte</p>
+            <p className="text-sm font-semibold text-ink">Serviços</p>
             <ul className="mt-4 space-y-3 text-[15px]">
-              <li><a href="/#servicos" className={linkClass}>Serviços</a></li>
+              {services.map((service) => (
+                <li key={service.slug}>
+                  <Link to={`/${service.slug}`} className={linkClass}>{service.eyebrow}</Link>
+                </li>
+              ))}
               <li><a href="/#planos" className={linkClass}>Planos</a></li>
               <li><a href={SIGNUP_URL} className={linkClass}>Cadastro</a></li>
             </ul>

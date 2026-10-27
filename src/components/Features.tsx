@@ -2,6 +2,7 @@ import React from 'react';
 import { motion, Variants } from 'framer-motion';
 import { Check, CheckCheck } from 'lucide-react';
 import SectionHeading from './SectionHeading';
+import ComparisonTable from './ComparisonTable';
 
 const ease = [0.22, 1, 0.36, 1] as const;
 const card = 'rounded-2xl bg-white text-ink shadow-[0_1px_2px_rgba(0,0,0,0.04),0_18px_40px_-18px_rgba(0,0,0,0.22)]';
@@ -88,22 +89,33 @@ const MeetingVisual: React.FC = () => (
       </motion.p>
     </motion.div>
     <motion.div variants={pop} custom={0.35} className={`${card} ml-6 p-4`}>
-      <p className="text-[11px] font-medium uppercase tracking-wider text-ink-muted">Imposto do mês</p>
-      <div className="mt-3 space-y-2">
-        <div className="h-2 overflow-hidden rounded-full bg-paper-deep">
-          <motion.div
-            className="h-full rounded-full bg-paper-line"
-            variants={{ hidden: { width: '0%' }, show: { width: '100%', transition: { duration: 1, delay: 0.6, ease } } }}
-          />
+      <p className="text-[11px] font-medium uppercase tracking-wider text-ink-muted">Imposto sobre o faturamento</p>
+      <div className="mt-3 space-y-2.5">
+        <div>
+          <div className="mb-1 flex justify-between text-[11px] text-ink-muted">
+            <span>Sem planejamento</span>
+            <span>~10%</span>
+          </div>
+          <div className="h-2 overflow-hidden rounded-full bg-paper-deep">
+            <motion.div
+              className="h-full rounded-full bg-paper-line"
+              variants={{ hidden: { width: '0%' }, show: { width: '100%', transition: { duration: 1, delay: 0.6, ease } } }}
+            />
+          </div>
         </div>
-        <div className="h-2 overflow-hidden rounded-full bg-paper-deep">
-          <motion.div
-            className="h-full rounded-full bg-brand"
-            variants={{ hidden: { width: '0%' }, show: { width: '58%', transition: { duration: 1, delay: 0.85, ease } } }}
-          />
+        <div>
+          <div className="mb-1 flex justify-between text-[11px] font-semibold text-ink">
+            <span>Com a Conte</span>
+            <span className="text-brand-dark">~6%</span>
+          </div>
+          <div className="h-2 overflow-hidden rounded-full bg-paper-deep">
+            <motion.div
+              className="h-full rounded-full bg-brand"
+              variants={{ hidden: { width: '0%' }, show: { width: '60%', transition: { duration: 1, delay: 0.85, ease } } }}
+            />
+          </div>
         </div>
       </div>
-      <p className="mt-2 text-[11px] font-semibold text-ink">Com planejamento</p>
     </motion.div>
   </div>
 );
@@ -158,7 +170,7 @@ const features = [
     visual: <MeetingVisual />,
     title: 'Reuniões para planejar',
     description:
-      'Pró-labore, regime tributário, empresa crescendo: para as decisões grandes, você marca uma conversa com sua contadora e monta a estratégia para pagar menos imposto.',
+      'Pró-labore, regime tributário, empresa crescendo: para as decisões grandes, você marca uma conversa com sua contadora. Na prática, é comum quem chega pagando cerca de 10% de imposto passar a pagar perto de 6% com o planejamento certo.',
   },
 ];
 
@@ -221,6 +233,8 @@ const Features: React.FC = () => {
             );
           })}
         </div>
+
+        <ComparisonTable />
       </div>
     </section>
   );
