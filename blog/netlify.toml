@@ -2,8 +2,6 @@
 [build]
   command = "npm run check && npm run build"
   publish = "dist"
-  # Base directory is blog/, so this only rebuilds when something in blog/ changed.
-  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- ."
 
 [build.environment]
   NODE_VERSION = "22"
