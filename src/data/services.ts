@@ -117,7 +117,7 @@ export const services: ServiceContent[] = [
       'A Conte é a contabilidade para quem presta serviço como PJ para empresas de fora do Brasil. A gente emite suas notas, calcula seus impostos e sua contadora monta o planejamento para você pagar só o necessário sobre o que recebe de fora.',
     audience: [
       'Desenvolvedores, designers e profissionais de produto contratados por empresas de fora',
-      'Quem recebe em dólar ou euro como PJ',
+      'Quem recebe em dólar, euro, libra ou outra moeda como PJ',
       'Quem vai sair da CLT para trabalhar para uma empresa estrangeira',
       'Quem já recebe do exterior e quer revisar quanto paga de imposto',
     ],

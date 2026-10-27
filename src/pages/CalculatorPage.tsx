@@ -101,7 +101,7 @@ const Calculator: React.FC = () => {
                 >
                   {CURRENCIES.map((c) => (
                     <option key={c.code} value={c.code}>
-                      {c.symbol} {c.code}
+                      {c.symbol === c.code ? c.code : `${c.symbol} ${c.code}`}
                     </option>
                   ))}
                 </select>
