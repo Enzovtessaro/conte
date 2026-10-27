@@ -1,6 +1,21 @@
 [build]
   command = "npm run build"
   publish = "dist"
+  # The blog (blog/) is its own Netlify site; don't rebuild the landing page for blog-only commits.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)blog'"
+
+# The old /blog route on the landing page moved to the blog subdomain.
+[[redirects]]
+  from = "/blog"
+  to = "https://blog.sejaconte.com.br/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/*"
+  to = "https://blog.sejaconte.com.br/post/:splat"
+  status = 301
+  force = true
 
 [build.environment]
   NODE_VERSION = "18"

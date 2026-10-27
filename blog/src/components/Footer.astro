@@ -1,0 +1,26 @@
+---
+import { SITE, CATEGORIES } from '../lib/site';
+---
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <img src={SITE.logo} alt="Conte" width="120" height="32" class="footer-logo" />
+      <p>Contabilidade online com atendimento humano para profissionais de tecnologia que trabalham como PJ.</p>
+      <p><a href={SITE.mainSite}>sejaconte.com.br</a> · <a href={SITE.whatsapp} rel="nofollow">Fale no WhatsApp</a></p>
+    </div>
+    <nav aria-label="Todas as categorias">
+      <h2>Categorias</h2>
+      <ul>{Object.entries(CATEGORIES).map(([slug, c]) => <li><a href={`/category/${slug}`}>{c.name}</a></li>)}</ul>
+    </nav>
+    <nav aria-label="Ferramentas e blog">
+      <h2>Ferramentas</h2>
+      <ul>
+        <li><a href={`${SITE.mainSite}/calculadora`}>Calculadora de impostos PJ</a></li>
+        <li><a href={`${SITE.mainSite}/clt-vs-pj`}>Calculadora CLT x PJ</a></li>
+        <li><a href="/author/solange-vaz">Sobre a autora</a></li>
+        <li><a href="/rss.xml">RSS</a></li>
+      </ul>
+    </nav>
+  </div>
+  <p class="wrap legal">© {new Date().getFullYear()} Conte. O conteúdo deste blog é informativo e não substitui a análise do seu caso por um contador.</p>
+</footer>

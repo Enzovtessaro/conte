@@ -14,10 +14,11 @@ const renderPage = (route) => {
   return template.replace('<!--app-head-->', head).replace('<div id="root"></div>', `<div id="root">${html}</div>`);
 };
 
+// Flat files (calculadora.html, not calculadora/index.html): Netlify serves /calculadora directly,
+// without redirecting to /calculadora/, so the URL matches the canonical.
 for (const route of routes) {
-  const outDir = path.join(dist, route);
-  fs.mkdirSync(outDir, { recursive: true });
-  fs.writeFileSync(path.join(outDir, 'index.html'), renderPage(route));
+  const file = route === '/' ? 'index.html' : `${route.slice(1)}.html`;
+  fs.writeFileSync(path.join(dist, file), renderPage(route));
   console.log(`prerendered ${route}`);
 }
 

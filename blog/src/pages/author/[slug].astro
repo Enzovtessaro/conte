@@ -1,0 +1,37 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getPosts, type Post } from '../../lib/posts';
+import { SITE, ORG, AUTHORS, AUTHOR_SLUGS, type AuthorSlug } from '../../lib/site';
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return AUTHOR_SLUGS.map((slug) => ({ params: { slug }, props: { slug, posts: posts.filter((p) => p.data.author === slug) } }));
+}
+interface Props { slug: AuthorSlug; posts: Post[] }
+const { slug, posts } = Astro.props;
+const a = AUTHORS[slug];
+const url = `${SITE.url}/author/${slug}`;
+---
+<Base
+  title={`${a.name}, ${a.role} | ${SITE.name}`}
+  description={a.bio}
+  image={a.image}
+  jsonLd={[{
+    '@type': 'ProfilePage',
+    url,
+    mainEntity: { '@type': 'Person', '@id': `${url}#person`, name: a.name, jobTitle: a.role, description: a.bio, image: `${SITE.url}${a.image}`, worksFor: { '@id': ORG['@id'] }, sameAs: a.sameAs },
+  }]}
+>
+  <header class="wrap page-head author-head">
+    <img src={a.image} alt={a.name} width="120" height="120" />
+    <div>
+      <h1>{a.name}</h1>
+      <p class="role">{a.role}</p>
+      <p>{a.bio}</p>
+    </div>
+  </header>
+  <section class="wrap" aria-labelledby="artigos-autora">
+    <h2 id="artigos-autora">Artigos de {a.name} ({posts.length})</h2>
+    <div class="grid">{posts.map((p) => <PostCard post={p} headingLevel="h3" />)}</div>
+  </section>
+</Base>

@@ -1,0 +1,19 @@
+---
+import type { Post } from '../lib/posts';
+import { CATEGORIES } from '../lib/site';
+import { formatDate, isoDate, readingMinutes } from '../lib/posts';
+interface Props { post: Post; eager?: boolean; headingLevel?: 'h2' | 'h3' }
+const { post, eager = false, headingLevel: H = 'h2' } = Astro.props;
+const d = post.data;
+---
+<article class="card">
+  <a href={`/post/${post.id}`} class="card-link">
+    {d.cover && <img src={d.cover} alt={d.coverAlt ?? ''} width="640" height="360" loading={eager ? 'eager' : 'lazy'} decoding="async" fetchpriority={eager ? 'high' : 'auto'} />}
+    <div class="card-body">
+      <span class="tag">{CATEGORIES[d.category].name}</span>
+      <H>{d.title}</H>
+      <p>{d.description}</p>
+      <small><time datetime={isoDate(d.pubDate)}>{formatDate(d.pubDate)}</time> · {readingMinutes(post.body)} min de leitura</small>
+    </div>
+  </a>
+</article>

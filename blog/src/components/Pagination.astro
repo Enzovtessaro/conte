@@ -1,0 +1,12 @@
+---
+interface Props { current: number; total: number }
+const { current, total } = Astro.props;
+const href = (n: number) => (n === 1 ? '/' : `/pagina/${n}`);
+---
+{total > 1 && (
+  <nav class="pagination" aria-label="Paginação">
+    {current > 1 && <a href={href(current - 1)} rel="prev">← Mais recentes</a>}
+    <span>Página {current} de {total}</span>
+    {current < total && <a href={href(current + 1)} rel="next">Mais antigos →</a>}
+  </nav>
+)}

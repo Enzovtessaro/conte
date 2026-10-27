@@ -1,0 +1,16 @@
+---
+import Listing from '../../components/Listing.astro';
+import { getPosts, type Post } from '../../lib/posts';
+import { SITE } from '../../lib/site';
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  const total = Math.ceil(posts.length / SITE.postsPerPage);
+  return Array.from({ length: Math.max(0, total - 1) }, (_, i) => {
+    const page = i + 2;
+    return { params: { page: String(page) }, props: { page, total, posts: posts.slice((page - 1) * SITE.postsPerPage, page * SITE.postsPerPage) } };
+  });
+}
+interface Props { page: number; total: number; posts: Post[] }
+const { page, total, posts } = Astro.props;
+---
+<Listing posts={posts} current={page} total={total} />
