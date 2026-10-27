@@ -6,7 +6,7 @@ interface MoneyInputProps {
   value: number;
   onChange: (value: number) => void;
   prefix?: string;
-  hint?: string;
+  hint?: React.ReactNode;
   decimals?: number;
 }
 

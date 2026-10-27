@@ -5,11 +5,11 @@ import MoneyInput from '../components/tools/MoneyInput';
 import ToolLayout from '../components/tools/ToolLayout';
 import ToolPanel, { Details } from '../components/tools/ToolPanel';
 import { SIGNUP_URL } from '../lib/links';
-import { CURRENCIES, CurrencyCode, fetchRates, REFERENCE_DATE, REFERENCE_RATES } from '../lib/fx';
+import { BCB_SOURCE_URL, CURRENCIES, CurrencyCode, fetchRates, REFERENCE_DATE, REFERENCE_RATES } from '../lib/fx';
 import { PJResult, pjPresumido, pjSimples, pjSimplesOtimo, RULES_LABEL, SALARIO_MINIMO } from '../lib/tax/brazil2026';
 
 const CONTABILIDADE = 359;
-const TECHFX_URL = 'https://app.techfx.com.br/referral/23aif8gvrom5';
+const TECHFX_URL = 'https://www.techfx.com.br/conte-contabilidade/';
 const brl = (n: number) => n.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
 const pct = (n: number) => `${(n * 100).toLocaleString('pt-BR', { maximumFractionDigits: 2 })}%`;
 
@@ -42,7 +42,7 @@ const Calculator: React.FC = () => {
   const [currency, setCurrency] = useState<CurrencyCode>('USD');
   const [amount, setAmount] = useState(5000);
   const [rates, setRates] = useState(REFERENCE_RATES);
-  const [liveRates, setLiveRates] = useState(false);
+  const [rateDate, setRateDate] = useState(REFERENCE_DATE);
   const [rateOverride, setRateOverride] = useState(0);
   const [feePct, setFeePct] = useState(0.5);
   const [proLabore, setProLabore] = useState(0);
@@ -50,8 +50,8 @@ const Calculator: React.FC = () => {
   useEffect(() => {
     fetchRates().then((r) => {
       if (r) {
-        setRates(r);
-        setLiveRates(true);
+        setRates(r.rates);
+        setRateDate(r.date);
       }
     });
   }, []);
@@ -82,53 +82,74 @@ const Calculator: React.FC = () => {
   return (
     <ToolPanel
       inputs={
-        <div className="grid items-start gap-5 md:grid-cols-[auto_1fr_1.4fr]">
-          <div>
-            <span className="mb-1.5 block text-sm font-medium text-ink">Moeda</span>
-            <div className="flex gap-2" role="radiogroup" aria-label="Moeda">
-              {CURRENCIES.map((c) => (
-                <button
-                  key={c.code}
-                  type="button"
-                  role="radio"
-                  aria-checked={currency === c.code}
-                  onClick={() => {
-                    setCurrency(c.code);
-                    setRateOverride(0);
-                  }}
-                  className={`h-12 w-16 rounded-xl border text-sm font-medium transition-colors ${
-                    currency === c.code ? 'border-ink bg-ink text-white' : 'border-paper-line bg-white text-ink hover:border-ink/30'
-                  }`}
-                >
-                  {c.code}
-                </button>
-              ))}
-            </div>
-          </div>
-          <MoneyInput id="amount" label="Quanto você recebe por mês" prefix={symbol} value={amount} onChange={setAmount} />
-          <Details summary={`Câmbio R$ ${rate.toLocaleString('pt-BR', { minimumFractionDigits: 4 })} · taxa ${pct(feePct / 100)} · pró-labore`}>
-            <div className="space-y-4">
-              <MoneyInput
-                id="rate"
-                label="Câmbio (R$ por 1 unidade)"
-                value={rate}
-                onChange={setRateOverride}
-                decimals={4}
-                hint={liveRates ? 'Cotação comercial de agora.' : `Cotação de referência de ${REFERENCE_DATE}.`}
-              />
-              <div className="grid gap-4 sm:grid-cols-2">
-                <MoneyInput id="fee" label="Taxa de recebimento" prefix="%" value={feePct} onChange={setFeePct} />
-                <MoneyInput id="prolabore" label="Pró-labore (opcional)" value={proLabore} onChange={setProLabore} />
+        <div className="space-y-5">
+          <div className="grid items-start gap-5 sm:grid-cols-2 lg:grid-cols-[auto_1.2fr_1fr_0.8fr_1fr]">
+            <div>
+              <span className="mb-1.5 block text-sm font-medium text-ink">Moeda</span>
+              <div className="flex gap-2" role="radiogroup" aria-label="Moeda">
+                {CURRENCIES.map((c) => (
+                  <button
+                    key={c.code}
+                    type="button"
+                    role="radio"
+                    aria-checked={currency === c.code}
+                    onClick={() => {
+                      setCurrency(c.code);
+                      setRateOverride(0);
+                    }}
+                    className={`h-12 flex-1 rounded-xl border px-3 text-sm font-medium transition-colors lg:w-16 lg:flex-none ${
+                      currency === c.code ? 'border-ink bg-ink text-white' : 'border-paper-line bg-white text-ink hover:border-ink/30'
+                    }`}
+                  >
+                    {c.code}
+                  </button>
+                ))}
               </div>
-              <p className="text-xs leading-relaxed text-ink-muted">
-                A taxa padrão de 0,5% é a da{' '}
-                <a href={TECHFX_URL} target="_blank" rel="noopener sponsored" className="underline decoration-ink/20 underline-offset-4 hover:decoration-ink">
-                  TechFX
-                </a>
-                , parceira da Conte. Sem pró-labore informado, escolhemos o valor que deixa mais dinheiro no seu bolso.
+            </div>
+            <MoneyInput id="amount" label="Quanto você recebe por mês" prefix={symbol} value={amount} onChange={setAmount} />
+            <MoneyInput
+              id="rate"
+              label="Câmbio (R$)"
+              value={rate}
+              onChange={setRateOverride}
+              decimals={4}
+              hint={
+                <>
+                  {rateOverride ? 'Valor ajustado por você. ' : `PTAX de compra de ${rateDate}, `}
+                  <a href={BCB_SOURCE_URL} target="_blank" rel="noopener noreferrer" className="underline decoration-ink/20 underline-offset-2 hover:decoration-ink">
+                    Banco Central
+                  </a>
+                </>
+              }
+            />
+            <MoneyInput id="fee" label="Taxa de recebimento" prefix="%" value={feePct} onChange={setFeePct} hint="Quanto o banco ou a plataforma cobra." />
+            <MoneyInput
+              id="prolabore"
+              label="Pró-labore (opcional)"
+              value={proLabore}
+              onChange={setProLabore}
+              hint="Vazio: usamos o mais vantajoso."
+            />
+          </div>
+
+          <a
+            href={TECHFX_URL}
+            target="_blank"
+            rel="noopener sponsored"
+            className="group flex flex-col gap-4 rounded-2xl border border-[#C5AFE7] bg-gradient-to-r from-white via-[#F9F5FF] to-[#E4D7F7] p-4 transition-shadow hover:shadow-card sm:flex-row sm:items-center sm:justify-between sm:px-5"
+          >
+            <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:gap-4">
+              <img src="/logos/techfx.svg" alt="TechFX" width={96} height={17} className="h-[17px] w-auto shrink-0" />
+              <p className="text-sm leading-snug text-[#380E7A]">
+                <span className="font-semibold">Clientes Conte pagam só 0,1% de taxa nos 2 primeiros recebimentos.</span>{' '}
+                <span className="text-[#6639AD]">TechFX: sem spread escondido e com isenção de IOF.</span>
               </p>
             </div>
-          </Details>
+            <span className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-[#380E7A] px-4 py-2 text-sm font-semibold text-white transition-colors group-hover:bg-[#461199]">
+              Garantir benefício
+              <ArrowRight size={15} />
+            </span>
+          </a>
         </div>
       }
       highlight={
@@ -266,7 +287,7 @@ const CalculatorPage: React.FC = () => (
       },
       {
         q: 'Qual câmbio a calculadora usa?',
-        a: 'A cotação comercial de compra do momento, da AwesomeAPI. Você pode ajustar o câmbio e a taxa de recebimento para refletir o que o seu banco ou plataforma cobra.',
+        a: 'A PTAX de compra mais recente, publicada pelo Banco Central. É a referência oficial para quem recebe em moeda estrangeira. Você pode ajustar o câmbio e a taxa de recebimento para refletir o que o seu banco ou plataforma cobra.',
       },
       {
         q: 'Dividendos pagam imposto em 2026?',
@@ -274,6 +295,7 @@ const CalculatorPage: React.FC = () => (
       },
     ]}
     sources={[
+      { title: 'Banco Central: cotações e boletins (PTAX)', url: 'https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes' },
       { title: 'Lei Complementar 123/2006: Simples Nacional e exportação (art. 18)', url: 'https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm' },
       { title: 'LC 116/2003: ISS não incide sobre exportação de serviços', url: 'https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm' },
       { title: 'MP 2.158-35: PIS e COFINS isentos na exportação de serviços', url: 'https://www.planalto.gov.br/ccivil_03/mpv/2158-35.htm' },
@@ -293,7 +315,7 @@ const CalculatorPage: React.FC = () => (
           Quanto sobra para quem recebe em dólar como PJ?
         </h2>
         <p className="mt-4 max-w-2xl text-lg leading-relaxed text-ink-muted">
-          Simulação com dólar a R$ {REFERENCE_RATES.USD.toLocaleString('pt-BR')} ({REFERENCE_DATE}), taxa de recebimento de 0,5%, regras de {RULES_LABEL} e
+          Simulação com dólar a R$ {REFERENCE_RATES.USD.toLocaleString('pt-BR')} (PTAX de compra do Banco Central em {REFERENCE_DATE}), taxa de recebimento de 0,5%, regras de {RULES_LABEL} e
           contabilidade de {brl(CONTABILIDADE)}/mês.
         </p>
         <div className="mt-8 overflow-x-auto rounded-[24px] border border-paper-line bg-white">
