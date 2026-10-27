@@ -5,7 +5,7 @@ interface MoneyInputProps {
   label: string;
   value: number;
   onChange: (value: number) => void;
-  prefix?: string;
+  prefix?: React.ReactNode;
   hint?: React.ReactNode;
   decimals?: number;
 }
@@ -20,7 +20,7 @@ const MoneyInput: React.FC<MoneyInputProps> = ({ id, label, value, onChange, pre
       {label}
     </label>
     <div className="flex h-12 items-center rounded-xl border border-paper-line bg-white px-3.5 transition-colors focus-within:border-ink">
-      <span className="mr-2 text-sm text-ink-faint">{prefix}</span>
+      {typeof prefix === 'string' ? <span className="mr-2 text-sm text-ink-faint">{prefix}</span> : prefix}
       <input
         id={id}
         inputMode="numeric"

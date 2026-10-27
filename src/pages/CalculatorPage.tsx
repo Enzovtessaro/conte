@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, ChevronDown } from 'lucide-react';
 import Button from '../components/Button';
 import MoneyInput from '../components/tools/MoneyInput';
 import ToolLayout from '../components/tools/ToolLayout';
@@ -44,7 +44,7 @@ const Calculator: React.FC = () => {
   const [rates, setRates] = useState(REFERENCE_RATES);
   const [rateDate, setRateDate] = useState(REFERENCE_DATE);
   const [rateOverride, setRateOverride] = useState(0);
-  const [feePct, setFeePct] = useState(0.5);
+  const [feePct, setFeePct] = useState(0.1);
   const [proLabore, setProLabore] = useState(0);
 
   useEffect(() => {
@@ -82,74 +82,74 @@ const Calculator: React.FC = () => {
   return (
     <ToolPanel
       inputs={
-        <div className="space-y-5">
-          <div className="grid items-start gap-5 sm:grid-cols-2 lg:grid-cols-[auto_1.2fr_1fr_0.8fr_1fr]">
-            <div>
-              <span className="mb-1.5 block text-sm font-medium text-ink">Moeda</span>
-              <div className="flex gap-2" role="radiogroup" aria-label="Moeda">
-                {CURRENCIES.map((c) => (
-                  <button
-                    key={c.code}
-                    type="button"
-                    role="radio"
-                    aria-checked={currency === c.code}
-                    onClick={() => {
-                      setCurrency(c.code);
-                      setRateOverride(0);
-                    }}
-                    className={`h-12 flex-1 rounded-xl border px-3 text-sm font-medium transition-colors lg:w-16 lg:flex-none ${
-                      currency === c.code ? 'border-ink bg-ink text-white' : 'border-paper-line bg-white text-ink hover:border-ink/30'
-                    }`}
-                  >
-                    {c.code}
-                  </button>
-                ))}
-              </div>
-            </div>
-            <MoneyInput id="amount" label="Quanto você recebe por mês" prefix={symbol} value={amount} onChange={setAmount} />
-            <MoneyInput
-              id="rate"
-              label="Câmbio (R$)"
-              value={rate}
-              onChange={setRateOverride}
-              decimals={4}
-              hint={
-                <>
-                  {rateOverride ? 'Valor ajustado por você. ' : `PTAX de compra de ${rateDate}, `}
-                  <a href={BCB_SOURCE_URL} target="_blank" rel="noopener noreferrer" className="underline decoration-ink/20 underline-offset-2 hover:decoration-ink">
-                    Banco Central
-                  </a>
-                </>
-              }
-            />
-            <MoneyInput id="fee" label="Taxa de recebimento" prefix="%" value={feePct} onChange={setFeePct} hint="Quanto o banco ou a plataforma cobra." />
-            <MoneyInput
-              id="prolabore"
-              label="Pró-labore (opcional)"
-              value={proLabore}
-              onChange={setProLabore}
-              hint="Vazio: usamos o mais vantajoso."
-            />
-          </div>
-
-          <a
-            href={TECHFX_URL}
-            target="_blank"
-            rel="noopener sponsored"
-            className="group flex flex-col gap-4 rounded-2xl border border-[#C5AFE7] bg-gradient-to-r from-white via-[#F9F5FF] to-[#E4D7F7] p-4 transition-shadow hover:shadow-card sm:flex-row sm:items-center sm:justify-between sm:px-5"
-          >
-            <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:gap-4">
-              <img src="/logos/techfx.svg" alt="TechFX" width={96} height={17} className="h-[17px] w-auto shrink-0" />
-              <p className="text-sm leading-snug text-[#380E7A]">
-                <span className="font-semibold">Clientes Conte pagam só 0,1% de taxa nos 2 primeiros recebimentos.</span>{' '}
-                <span className="text-[#6639AD]">TechFX: sem spread escondido e com isenção de IOF.</span>
-              </p>
-            </div>
-            <span className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-[#380E7A] px-4 py-2 text-sm font-semibold text-white transition-colors group-hover:bg-[#461199]">
-              Garantir benefício
-              <ArrowRight size={15} />
-            </span>
-          </a>
+        <div className="grid gap-x-6 gap-y-5 md:grid-cols-2">
+          <MoneyInput
+            id="amount"
+            label="Quanto você recebe por mês"
+            value={amount}
+            onChange={setAmount}
+            prefix={
+              <label className="relative mr-3 flex shrink-0 items-center border-r border-paper-line pr-2">
+                <span className="sr-only">Moeda</span>
+                <select
+                  value={currency}
+                  onChange={(e) => {
+                    setCurrency(e.target.value as CurrencyCode);
+                    setRateOverride(0);
+                  }}
+                  className="cursor-pointer appearance-none bg-transparent py-1 pr-5 text-[15px] font-semibold text-ink outline-none"
+                >
+                  {CURRENCIES.map((c) => (
+                    <option key={c.code} value={c.code}>
+                      {c.symbol} {c.code}
+                    </option>
+                  ))}
+                </select>
+                <ChevronDown size={14} className="pointer-events-none absolute right-2 text-ink-muted" />
+              </label>
+            }
+          />
+          <MoneyInput
+            id="rate"
+            label="Câmbio (R$)"
+            value={rate}
+            onChange={setRateOverride}
+            decimals={4}
+            hint={
+              <>
+                {rateOverride ? 'Ajustado por você · ' : `PTAX de compra de ${rateDate} · `}
+                <a href={BCB_SOURCE_URL} target="_blank" rel="noopener noreferrer" className="underline decoration-ink/20 underline-offset-2 hover:decoration-ink">
+                  Banco Central
+                </a>
+              </>
+            }
+          />
+          <MoneyInput
+            id="fee"
+            label="Taxa de recebimento"
+            prefix="%"
+            value={feePct}
+            onChange={setFeePct}
+            hint={
+              <a
+                href={TECHFX_URL}
+                target="_blank"
+                rel="noopener sponsored"
+                className="group mt-0.5 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#F9F5FF] to-[#E4D7F7] py-1 pl-2.5 pr-3 text-[#380E7A] ring-1 ring-[#C5AFE7] transition-shadow hover:shadow-card"
+              >
+                <img src="/logos/techfx.svg" alt="TechFX" width={56} height={10} className="h-2.5 w-auto" />
+                <span>0,1% nos 2 primeiros recebimentos para clientes Conte</span>
+                <ArrowRight size={12} className="transition-transform group-hover:translate-x-0.5" />
+              </a>
+            }
+          />
+          <MoneyInput
+            id="prolabore"
+            label="Pró-labore (opcional)"
+            value={proLabore}
+            onChange={setProLabore}
+            hint="Se deixar vazio, usamos o valor mais vantajoso."
+          />
         </div>
       }
       highlight={
@@ -315,7 +315,7 @@ const CalculatorPage: React.FC = () => (
           Quanto sobra para quem recebe em dólar como PJ?
         </h2>
         <p className="mt-4 max-w-2xl text-lg leading-relaxed text-ink-muted">
-          Simulação com dólar a R$ {REFERENCE_RATES.USD.toLocaleString('pt-BR')} (PTAX de compra do Banco Central em {REFERENCE_DATE}), taxa de recebimento de 0,5%, regras de {RULES_LABEL} e
+          Simulação com dólar a R$ {REFERENCE_RATES.USD.toLocaleString('pt-BR')} (PTAX de compra do Banco Central em {REFERENCE_DATE}), taxa de recebimento de 0,1%, regras de {RULES_LABEL} e
           contabilidade de {brl(CONTABILIDADE)}/mês.
         </p>
         <div className="mt-8 overflow-x-auto rounded-[24px] border border-paper-line bg-white">
@@ -332,7 +332,7 @@ const CalculatorPage: React.FC = () => (
             <tbody className="tabular-nums">
               {EXEMPLOS_USD.map((usd) => {
                 const bruto = usd * REFERENCE_RATES.USD;
-                const fat = bruto * 0.995;
+                const fat = bruto * 0.999;
                 const s = pjSimplesOtimo(fat, CONTABILIDADE, true);
                 const p = pjPresumido(fat, SALARIO_MINIMO, CONTABILIDADE, true);
                 const best = Math.max(s.liquido, p.liquido);
