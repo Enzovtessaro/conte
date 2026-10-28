@@ -48,3 +48,16 @@
     color: #0A0A0A;
   }
 }
+
+/* Hero entrance: movement only, never opacity, so the title and subtitle are visible in the
+   prerendered HTML before any JavaScript runs (they are the page's largest contentful paint). */
+@keyframes hero-rise {
+  from { transform: translateY(10px); }
+  to { transform: none; }
+}
+.hero-rise {
+  animation: hero-rise 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-rise { animation: none; }
+}

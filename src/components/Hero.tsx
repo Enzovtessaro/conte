@@ -1,11 +1,8 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import Button from './Button';
 import PhoneChat from './PhoneChat';
 import { SIGNUP_URL, WHATSAPP_URL } from '../lib/links';
-
-const ease = [0.22, 1, 0.36, 1] as const;
 
 const WhatsAppIcon: React.FC<{ className?: string }> = ({ className }) => (
   <svg viewBox="0 0 24 24" aria-hidden className={className} fill="currentColor">
@@ -20,40 +17,29 @@ const Hero: React.FC = () => {
       <div className="container mx-auto max-w-6xl px-4 md:px-6">
         <div className="grid items-center gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-10">
           <div className="text-center lg:text-left">
-            <motion.p
-              initial={{ opacity: 0, y: 12 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, ease }}
-              className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] text-ink-muted"
-            >
+            <p className="hero-rise inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] text-ink-muted">
               <span className="h-1.5 w-1.5 rounded-full bg-brand" />
               Contabilidade para quem é PJ
-            </motion.p>
+            </p>
 
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.05, ease }}
-              className="mt-6 font-display text-[44px] leading-[1.02] sm:text-6xl lg:text-[68px] font-semibold tracking-[-0.045em] text-ink text-balance"
+            <h1
+              className="hero-rise mt-6 font-display text-[44px] leading-[1.02] sm:text-6xl lg:text-[68px] font-semibold tracking-[-0.045em] text-ink text-balance"
+              style={{ animationDelay: '0.05s' }}
             >
               Foque no seu serviço. Nós cuidamos da{' '}
               <span className="font-serif font-normal italic tracking-[-0.02em]">sua PJ.</span>
-            </motion.h1>
+            </h1>
 
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.12, ease }}
-              className="mx-auto mt-6 max-w-xl text-lg md:text-xl leading-relaxed text-ink-muted text-pretty lg:mx-0"
+            <p
+              className="hero-rise mx-auto mt-6 max-w-xl text-lg md:text-xl leading-relaxed text-ink-muted text-pretty lg:mx-0"
+              style={{ animationDelay: '0.12s' }}
             >
               A Conte é uma contabilidade focada em quem trabalha como PJ. Suas notas fiscais e impostos resolvidos em minutos pelo nosso time. Sem plataforma complicada e com uma contadora pessoal para cuidar de você.
-            </motion.p>
+            </p>
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.2, ease }}
-              className="mt-9 flex flex-col items-center gap-5 sm:flex-row sm:justify-center lg:justify-start"
+            <div
+              className="hero-rise mt-9 flex flex-col items-center gap-5 sm:flex-row sm:justify-center lg:justify-start"
+              style={{ animationDelay: '0.2s' }}
             >
               <Button href={SIGNUP_URL} size="lg">
                 Abra ou migre sua PJ
@@ -68,17 +54,15 @@ const Hero: React.FC = () => {
                 <WhatsAppIcon className="h-5 w-5 text-brand" />
                 Falar com a gente no WhatsApp
               </a>
-            </motion.div>
+            </div>
 
           </div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.9, delay: 0.2, ease }}
-          >
+          <div className="hero-rise"
+ style={{ animationDelay: '0.2s' }}
+>
             <PhoneChat />
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>
