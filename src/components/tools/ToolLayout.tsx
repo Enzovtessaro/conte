@@ -22,6 +22,8 @@ interface ToolLayoutProps {
   faqs: ToolFaq[];
   sources: { title: string; url: string }[];
   related: { to: string; title: string; description: string }[];
+  /** Breadcrumb level between Início and this page, for programmatic pages under a calculator. */
+  parent?: { to: string; name: string };
 }
 
 const ToolLayout: React.FC<ToolLayoutProps> = ({
@@ -37,6 +39,7 @@ const ToolLayout: React.FC<ToolLayoutProps> = ({
   faqs,
   sources,
   related,
+  parent,
 }) => {
   const url = `${SITE_URL}${path}`;
   const schema = [
@@ -58,7 +61,8 @@ const ToolLayout: React.FC<ToolLayoutProps> = ({
       '@type': 'BreadcrumbList',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Início', item: `${SITE_URL}/` },
-        { '@type': 'ListItem', position: 2, name, item: url },
+        ...(parent ? [{ '@type': 'ListItem', position: 2, name: parent.name, item: `${SITE_URL}${parent.to}` }] : []),
+        { '@type': 'ListItem', position: parent ? 3 : 2, name, item: url },
       ],
     },
     {
@@ -81,6 +85,14 @@ const ToolLayout: React.FC<ToolLayoutProps> = ({
                 <Link to="/" className="hover:text-ink">Início</Link>
               </li>
               <li aria-hidden><ChevronRight size={14} /></li>
+              {parent && (
+                <>
+                  <li>
+                    <Link to={parent.to} className="hover:text-ink">{parent.name}</Link>
+                  </li>
+                  <li aria-hidden><ChevronRight size={14} /></li>
+                </>
+              )}
               <li aria-current="page" className="text-ink">{name}</li>
             </ol>
           </nav>

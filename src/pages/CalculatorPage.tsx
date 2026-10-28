@@ -1,10 +1,11 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { ArrowRight, ChevronDown } from 'lucide-react';
-import Button from '../components/Button';
 import MoneyInput from '../components/tools/MoneyInput';
 import ToolLayout from '../components/tools/ToolLayout';
 import ToolPanel, { Details } from '../components/tools/ToolPanel';
-import { SIGNUP_URL } from '../lib/links';
+import ToolCta from '../components/tools/ToolCta';
+import ScenarioLinks from '../components/tools/ScenarioLinks';
+import { quantoSobraScenarios, QUANTO_SOBRA_BASE } from '../data/scenarios';
 import { BCB_SOURCE_URL, CURRENCIES, CurrencyCode, fetchRates, REFERENCE_DATE, REFERENCE_RATES } from '../lib/fx';
 import { PJResult, pjPresumido, pjSimples, pjSimplesOtimo, RULES_LABEL, SALARIO_MINIMO } from '../lib/tax/brazil2026';
 
@@ -38,9 +39,9 @@ const RegimeBreakdown: React.FC<{ title: string; result: PJResult }> = ({ title,
   </div>
 );
 
-const Calculator: React.FC = () => {
-  const [currency, setCurrency] = useState<CurrencyCode>('USD');
-  const [amount, setAmount] = useState(5000);
+export const Calculator: React.FC<{ initialCurrency?: CurrencyCode; initialAmount?: number }> = ({ initialCurrency = 'USD', initialAmount = 5000 }) => {
+  const [currency, setCurrency] = useState<CurrencyCode>(initialCurrency);
+  const [amount, setAmount] = useState(initialAmount);
   const [rates, setRates] = useState(REFERENCE_RATES);
   const [rateDate, setRateDate] = useState(REFERENCE_DATE);
   const [rateOverride, setRateOverride] = useState(0);
@@ -245,15 +246,11 @@ const Calculator: React.FC = () => {
         )
       }
       cta={
-        <>
-          <p className="text-[15px] text-ink-soft">
-            <span className="font-semibold text-ink">Quer pagar só o imposto necessário?</span> A contadora da Conte escolhe o melhor regime para a sua PJ.
-          </p>
-          <Button href={SIGNUP_URL} className="shrink-0">
-            Começar agora
-            <ArrowRight size={16} />
-          </Button>
-        </>
+        <ToolCta
+          title="Quer pagar só o imposto necessário?"
+          text="A contadora da Conte escolhe o melhor regime para a sua PJ."
+          whatsappText={`Oi! Simulei ${symbol} ${amount.toLocaleString('pt-BR')} por mês na calculadora PJ exterior da Conte e quero entender o meu caso.`}
+        />
       }
     />
   );
@@ -353,6 +350,14 @@ const CalculatorPage: React.FC = () => (
         </div>
       </div>
     </section>
+
+    <ScenarioLinks
+      title="Quanto sobra, valor por valor"
+      links={quantoSobraScenarios.map((q) => ({
+        to: `${QUANTO_SOBRA_BASE}/${q.slug}`,
+        label: `${q.currency === 'USD' ? 'US$' : '€'} ${q.amount.toLocaleString('pt-BR')} por mês`,
+      }))}
+    />
 
     <section className="py-16 md:py-24">
       <div className="container mx-auto max-w-4xl px-4 md:px-6">

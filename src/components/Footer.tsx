@@ -47,6 +47,9 @@ const Footer: React.FC = () => {
               <li><a href={BLOG_URL} target="_blank" rel="noopener noreferrer" className={linkClass}>Blog</a></li>
               <li><Link to="/calculadora" className={linkClass}>Calculadora exterior</Link></li>
               <li><Link to="/clt-vs-pj" className={linkClass}>Calculadora CLT vs PJ</Link></li>
+              <li><Link to="/calculadora-fator-r" className={linkClass}>Calculadora Fator R</Link></li>
+              <li><Link to="/calculadora-pro-labore" className={linkClass}>Calculadora de pró-labore</Link></li>
+              <li><Link to="/ferramentas" className={linkClass}>Todas as ferramentas</Link></li>
             </ul>
           </div>
 

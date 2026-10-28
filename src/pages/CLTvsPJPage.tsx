@@ -1,10 +1,11 @@
 import React, { useMemo, useState } from 'react';
-import { ArrowRight } from 'lucide-react';
-import Button from '../components/Button';
+
 import MoneyInput from '../components/tools/MoneyInput';
 import ToolLayout from '../components/tools/ToolLayout';
 import ToolPanel, { Details } from '../components/tools/ToolPanel';
-import { SIGNUP_URL } from '../lib/links';
+import ToolCta from '../components/tools/ToolCta';
+import ScenarioLinks from '../components/tools/ScenarioLinks';
+import { cltSalaryScenarios, CLT_VS_PJ_BASE } from '../data/scenarios';
 import {
   clt,
   faturamentoParaEmpatar,
@@ -34,10 +35,10 @@ const Row: React.FC<{ label: string; value: string; strong?: boolean; muted?: bo
 
 type Modo = 'clt' | 'pj';
 
-const Calculator: React.FC = () => {
+export const Calculator: React.FC<{ initialSalario?: number; initialVr?: number }> = ({ initialSalario = 10000, initialVr = 800 }) => {
   const [modo, setModo] = useState<Modo>('clt');
-  const [salario, setSalario] = useState(10000);
-  const [vr, setVr] = useState(800);
+  const [salario, setSalario] = useState(initialSalario);
+  const [vr, setVr] = useState(initialVr);
   const [saude, setSaude] = useState(0);
   const [outros, setOutros] = useState(0);
   const [faturamentoPJ, setFaturamentoPJ] = useState(0);
@@ -194,25 +195,17 @@ const Calculator: React.FC = () => {
       }
       cta={
         modo === 'clt' ? (
-          <>
-            <p className="text-[15px] text-ink-soft">
-              <span className="font-semibold text-ink">Vai virar PJ?</span> A Conte abre sua empresa de graça e define o melhor enquadramento.
-            </p>
-            <Button href={SIGNUP_URL} className="shrink-0">
-              Abrir minha empresa
-              <ArrowRight size={16} />
-            </Button>
-          </>
+          <ToolCta
+            title="Vai virar PJ?"
+            text="A Conte abre sua empresa de graça e define o melhor enquadramento."
+            whatsappText={`Oi! Simulei CLT x PJ na calculadora da Conte com salário de ${brl0(salario || 0)} e quero entender se vale virar PJ.`}
+          />
         ) : (
-          <>
-            <p className="text-[15px] text-ink-soft">
-              <span className="font-semibold text-ink">Vai continuar PJ?</span> Veja se você está pagando mais imposto do que precisa: a Conte revisa sua PJ.
-            </p>
-            <Button href={SIGNUP_URL} className="shrink-0">
-              Mudar para a Conte
-              <ArrowRight size={16} />
-            </Button>
-          </>
+          <ToolCta
+            title="Vai continuar PJ?"
+            text="Veja se você está pagando mais imposto do que precisa: a Conte revisa sua PJ."
+            whatsappText={`Oi! Sou PJ, faturo ${brl0(faturamentoPJ || 0)} por mês e simulei na calculadora CLT x PJ da Conte. Quero uma revisão da minha PJ.`}
+          />
         )
       }
     />
@@ -393,6 +386,10 @@ const CLTvsPJPage: React.FC = () => (
         </div>
       </div>
     </section>
+    <ScenarioLinks
+      title="CLT ou PJ, salário por salário"
+      links={cltSalaryScenarios.map((c) => ({ to: `${CLT_VS_PJ_BASE}/${c.slug}`, label: `CLT de R$ ${(c.salario / 1000).toLocaleString('pt-BR')} mil` }))}
+    />
   </ToolLayout>
 );
 
