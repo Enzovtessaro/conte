@@ -21,7 +21,7 @@ const description = first ? SITE.description : `Artigos do Blog da Conte sobre c
 >
   {first ? (
     <section class="hero wrap">
-      <h1>Contabilidade para quem trabalha como PJ na tecnologia</h1>
+      <h1>Contabilidade para quem trabalha como PJ <span class="serif">na tecnologia</span></h1>
       <p>Impostos, nota fiscal, Simples Nacional, pró-labore e recebimento do exterior, explicados sem juridiquês por contadoras que atendem devs, designers e gente de produto todos os dias.</p>
       <ul class="chips" aria-label="Categorias">
         {Object.entries(CATEGORIES).map(([slug, c]) => <li><a href={`/category/${slug}`}>{c.name}</a></li>)}
