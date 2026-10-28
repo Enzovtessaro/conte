@@ -14,7 +14,7 @@ tldr:
   - "Compare Wise, Husky, Remessa Online, TechFX e banco pelo VET. Numa fatura de US$ 5 mil, pelas tarifas divulgadas em 28/10/2026, o custo vai de R$ 133 a R$ 347 conforme o canal."
 faq:
   - q: "Qual o melhor canal para receber pagamento do exterior como PJ?"
-    a: "Depende do valor e da empresa. Pelas tarifas divulgadas em 28/10/2026, Wise e TechFX (patrocinadora da Conte) ficam próximas: a TechFX sai mais barata em wires menores, e a Wise passa à frente acima de cerca de US$ 6 mil. A Wise só aceita empresa de dono único. Peça o VET a dois canais no mesmo dia."
+    a: "Depende do valor e da empresa. Pelas tarifas divulgadas em 28/10/2026, Wise e TechFX ficam próximas: a TechFX sai mais barata em wires menores, e a Wise passa à frente acima de cerca de US$ 6 mil. A Wise só aceita empresa de dono único. Peça o VET a dois canais no mesmo dia."
   - q: "Posso receber o pagamento do cliente de fora na minha conta pessoa física?"
     a: "Não é o caminho indicado. O serviço foi prestado pela PJ, e a nota de exportação sai no CNPJ. Se o dinheiro cai na conta pessoal, a empresa fica sem o comprovante de câmbio e com dificuldade para justificar o valor como receita da PJ. Receba na conta da PJ e retire como pró-labore ou lucro."
   - q: "Payoneer ou Deel servem para quem tem CNPJ?"
@@ -68,8 +68,6 @@ sources:
 
 Para receber pagamento do exterior como PJ, o dinheiro entra na conta do CNPJ por uma instituição autorizada pelo Banco Central. O câmbio sai em nome da empresa. Com a operação classificada como exportação de serviço, o IOF é zero. Entre Wise, Husky, Remessa Online, TechFX e banco, quem decide é o VET do dia: quantos reais chegam por dólar faturado.
 
-**Aviso de patrocínio:** a Conte é patrocinada pela TechFX, um dos canais comparados aqui. Os números dela seguem o mesmo critério dos outros: a tarifa que o próprio site divulga, consultada em 28/10/2026.
-
 ## Qual a forma certa de receber pagamento do exterior como PJ?
 
 Pela [Lei 14.286/2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14286.htm) (art. 3º), em 2026 só instituição autorizada pode fazer câmbio. Para a PJ, o caminho certo é receber na conta da empresa, com o câmbio fechado em nome do CNPJ. Assim, o registro documenta que a receita veio de fora.
@@ -90,7 +88,7 @@ Nos sites consultados em 28/10/2026, a Wise divulga US$ 6,11 por wire e convers�
 |---|---|---|---|
 | Wise | Conta empresarial própria | R$ 250, uma vez, para criar a conta; US$ 6,11 por wire ou SWIFT recebido; recebimento doméstico em dólar gratuito; conversão a partir de 0,4%, varia por moeda | Só empresa com um dono de 100%; envio para reais até o equivalente a US$ 10.000 por transferência |
 | Husky | Correspondente cambial do Ouribank | Até 1% acima de US$ 1.000; US$ 10 fixos até US$ 1.000 | Tarifas do banco do cliente e de intermediários à parte |
-| TechFX | Correspondente cambial do Banco Travelex | 0,5% na conversão, sem tarifa fixa por operação; 0,1% nos dois primeiros recebimentos pelo link da Conte | Patrocina a Conte; tarifas do banco do cliente e de intermediários à parte |
+| TechFX | Correspondente cambial do Banco Travelex | 0,5% na conversão, sem tarifa fixa por operação; 0,1% nos dois primeiros recebimentos pelo link da Conte | Tarifas do banco do cliente e de intermediários à parte |
 | Remessa Online | Correspondente cambial do Banco Topázio | A partir de 1,3% de custo operacional | Cita tarifa do sistema bancário sem valor; pagamento em até 2 dias úteis após o fechamento |
 | Banco | Instituição autorizada | Tarifa por ordem recebida mais a margem no câmbio; varia por banco | Peça a tabela de tarifas PJ e o VET antes de fechar |
 
@@ -98,7 +96,7 @@ Nos sites consultados em 28/10/2026, a Wise divulga US$ 6,11 por wire e convers�
 
 Antes de escolher, peça por escrito: o câmbio sai em nome do CNPJ? Qual instituição autorizada pelo Banco Central fecha a operação?
 
-Como a TechFX patrocina a Conte, quem abre conta pela [página da TechFX para clientes Conte](https://www.techfx.com.br/conte-contabilidade/) paga 0,1% nos dois primeiros recebimentos, segundo a própria página em 28/10/2026. Depois, vale a taxa de 0,5%. O link é de indicação da Conte. Compare o VET dela com o de outro canal, como faria com qualquer um.
+Quem abre conta pela [página da TechFX para clientes Conte](https://www.techfx.com.br/conte-contabilidade/) paga 0,1% nos dois primeiros recebimentos, segundo a própria página em 28/10/2026. Depois, vale a taxa de 0,5%. Compare o VET dela com o de outro canal, como faria com qualquer um.
 
 ## Como comparar o custo real: o que é VET?
 
