@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
               transition={{ duration: 0.7, delay: 0.12, ease }}
               className="mx-auto mt-6 max-w-xl text-lg md:text-xl leading-relaxed text-ink-muted text-pretty lg:mx-0"
             >
-              A Conte é uma contabilidade online para quem é PJ ou MEI: nota fiscal e imposto resolvidos em minutos pelo WhatsApp, sem plataforma complicada, e uma contadora pessoal para tirar dúvidas e planejar com você.
+              A Conte é uma contabilidade focada em quem trabalha como PJ. Suas notas fiscais e impostos resolvidos em minutos pelo nosso time. Sem plataforma complicada e com uma contadora pessoal para cuidar de você.
             </motion.p>
 
             <motion.div
