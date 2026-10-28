@@ -11,10 +11,10 @@ coverAlt: "Desenvolvedor trabalhando em casa com dois notebooks e um monitor"
 tldr:
   - "Para receber pagamento do exterior como PJ, use a conta do CNPJ e uma instituição autorizada pelo Banco Central."
   - "Em 2026, o IOF sobre o ingresso de receita de exportação de serviços é zero (Decreto 6.306/2007, art. 15-B, I)."
-  - "Compare Wise, Husky, Remessa Online e banco pelo VET. Numa fatura de US$ 5 mil, pelas tarifas divulgadas em 28/10/2026, o custo começa em R$ 139 na Wise e em R$ 347 na Remessa."
+  - "Compare Wise, Husky, Remessa Online, TechFX e banco pelo VET. Numa fatura de US$ 5 mil, pelas tarifas divulgadas em 28/10/2026, o custo vai de R$ 133 a R$ 347 conforme o canal."
 faq:
   - q: "Qual o melhor canal para receber pagamento do exterior como PJ?"
-    a: "Depende do seu caso. Pelas tarifas divulgadas em 28/10/2026, a Wise tende a sair mais barata em wires médios, mas só aceita empresa de dono único. Para decidir, peça o VET a dois canais no mesmo dia."
+    a: "Depende do valor e da empresa. Pelas tarifas divulgadas em 28/10/2026, Wise e TechFX ficam próximas: a TechFX sai mais barata em wires menores, e a Wise passa à frente acima de cerca de US$ 6 mil. A Wise só aceita empresa de dono único. Peça o VET a dois canais no mesmo dia."
   - q: "Posso receber o pagamento do cliente de fora na minha conta pessoa física?"
     a: "Não é o caminho indicado. O serviço foi prestado pela PJ, e a nota de exportação sai no CNPJ. Se o dinheiro cai na conta pessoal, a empresa fica sem o comprovante de câmbio e com dificuldade para justificar o valor como receita da PJ. Receba na conta da PJ e retire como pró-labore ou lucro."
   - q: "Payoneer ou Deel servem para quem tem CNPJ?"
@@ -60,9 +60,13 @@ sources:
     url: https://www.remessaonline.com.br/receber-dinheiro-servicos-prestados-exterior
   - title: "Deel, Preços (consultado em 2026-10-28)"
     url: https://www.deel.com/pt/pricing
+  - title: "TechFX, Benefício para clientes Conte Contabilidade (consultado em 2026-10-28)"
+    url: https://www.techfx.com.br/conte-contabilidade/
+  - title: "TechFX, Página inicial e aviso de correspondente cambial do Banco Travelex (consultado em 2026-10-28)"
+    url: https://www.techfx.com.br/
 ---
 
-Para receber pagamento do exterior como PJ, o dinheiro entra na conta do CNPJ por uma instituição autorizada pelo Banco Central. O câmbio sai em nome da empresa. Com a operação classificada como exportação de serviço, o IOF é zero. Entre Wise, Husky, Remessa Online e banco, quem decide é o VET do dia: quantos reais chegam por dólar faturado.
+Para receber pagamento do exterior como PJ, o dinheiro entra na conta do CNPJ por uma instituição autorizada pelo Banco Central. O câmbio sai em nome da empresa. Com a operação classificada como exportação de serviço, o IOF é zero. Entre Wise, Husky, Remessa Online, TechFX e banco, quem decide é o VET do dia: quantos reais chegam por dólar faturado.
 
 ## Qual a forma certa de receber pagamento do exterior como PJ?
 
@@ -76,20 +80,23 @@ Evite pedir para o cliente pagar na conta pessoa física: a nota sai no CNPJ, ma
 
 ## Wise, Husky, Remessa Online ou banco: quanto cada um cobra?
 
-Nos sites consultados em 28/10/2026, a Wise divulga US$ 6,11 por wire e conversão a partir de 0,4%. A Husky divulga até 1% acima de US$ 1.000. A Remessa Online divulga a partir de 1,3%. Nenhum canal publica um custo único para receber pagamento do exterior como PJ.
+Nos sites consultados em 28/10/2026, a Wise divulga US$ 6,11 por wire e conversão a partir de 0,4%. A Husky divulga até 1% acima de US$ 1.000, e a TechFX, 0,5%. A Remessa Online divulga a partir de 1,3%. Nenhum canal publica um custo único para receber pagamento do exterior como PJ.
 
-**Correspondente cambial** é a empresa contratada por um banco autorizado para oferecer o câmbio dele. Na prática, o banco fecha a operação. Husky e Remessa Online se apresentam assim.
+**Correspondente cambial** é a empresa contratada por um banco autorizado para oferecer o câmbio dele. Na prática, o banco fecha a operação. Husky, Remessa Online e TechFX se apresentam assim.
 
 | Canal | Como se apresenta | Tarifa divulgada (28/10/2026) | Limitações |
 |---|---|---|---|
 | Wise | Conta empresarial própria | R$ 250, uma vez, para criar a conta; US$ 6,11 por wire ou SWIFT recebido; recebimento doméstico em dólar gratuito; conversão a partir de 0,4%, varia por moeda | Só empresa com um dono de 100%; envio para reais até o equivalente a US$ 10.000 por transferência |
 | Husky | Correspondente cambial do Ouribank | Até 1% acima de US$ 1.000; US$ 10 fixos até US$ 1.000 | Tarifas do banco do cliente e de intermediários à parte |
+| TechFX | Correspondente cambial do Banco Travelex | 0,5% na conversão, sem tarifa fixa por operação; 0,1% nos dois primeiros recebimentos pelo link da Conte | Tarifas do banco do cliente e de intermediários à parte |
 | Remessa Online | Correspondente cambial do Banco Topázio | A partir de 1,3% de custo operacional | Cita tarifa do sistema bancário sem valor; pagamento em até 2 dias úteis após o fechamento |
 | Banco | Instituição autorizada | Tarifa por ordem recebida mais a margem no câmbio; varia por banco | Peça a tabela de tarifas PJ e o VET antes de fechar |
 
-"A partir de" e "até" não são o custo do seu dia. Pelas tarifas divulgadas, a Wise tende a sair mais barata em wires de alguns milhares de dólares, se a empresa tem um único dono. Acima de US$ 10.000, porém, a conversão para reais exige mais de uma transferência. Já em faturas de até US$ 1.000, a tarifa fixa da Husky pesa mais: US$ 10 sobre US$ 500 é 2%.
+"A partir de" e "até" não são o custo do seu dia. Pelas tarifas divulgadas, Wise e TechFX ficam próximas em wires de alguns milhares de dólares. A tarifa fixa da Wise se dilui com o valor, e ela passa à frente acima de cerca de US$ 6 mil, se a empresa tem um único dono. Acima de US$ 10.000, porém, a conversão da Wise para reais exige mais de uma transferência. Já em faturas de até US$ 1.000, a tarifa fixa da Husky pesa mais: US$ 10 sobre US$ 500 é 2%.
 
 Antes de escolher, peça por escrito: o câmbio sai em nome do CNPJ? Qual instituição autorizada pelo Banco Central fecha a operação?
+
+Quem abre conta pela [página da TechFX para clientes Conte](https://www.techfx.com.br/conte-contabilidade/) paga 0,1% nos dois primeiros recebimentos, segundo a própria página em 28/10/2026. Depois, vale a taxa de 0,5%. Compare o VET dela com o de outro canal, como faria com qualquer um.
 
 ## Como comparar o custo real: o que é VET?
 
@@ -107,23 +114,25 @@ Como régua, use a PTAX. **PTAX** é a cotação do dólar divulgada pelo Banco 
 
 ## Quanto chega de uma fatura de US$ 5 mil? Exemplo com números de 2026
 
-Com a [PTAX de compra](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia%28dataCotacao=@dataCotacao%29?@dataCotacao=%2710-27-2026%27&%24format=json) de 27/10/2026 (R$ 5,3340), uma fatura de US$ 5.000 vale R$ 26.670,00 de referência. Com as tarifas divulgadas, o custo começa em R$ 139,14 na Wise e em R$ 346,71 na Remessa Online. No banco, o custo depende da cotação.
+Com a [PTAX de compra](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia%28dataCotacao=@dataCotacao%29?@dataCotacao=%2710-27-2026%27&%24format=json) de 27/10/2026 (R$ 5,3340), uma fatura de US$ 5.000 vale R$ 26.670,00 de referência. Com as tarifas divulgadas, o custo vai de R$ 133,35 na TechFX e R$ 139,14 na Wise a R$ 346,71 na Remessa Online. No banco, depende da cotação.
 
 <!-- [ANÁLISE PRÓPRIA] -->
-A conta parte de duas hipóteses, porque cada site divulga um formato. Primeiro, o câmbio comercial do dia é igual à PTAX de compra. Depois, Wise e Remessa Online cobram o menor valor que divulgam, e a Husky cobra o 1% da tabela.
+A conta parte de duas hipóteses, porque cada site divulga um formato. Primeiro, o câmbio comercial do dia é igual à PTAX de compra. Depois, Wise e Remessa Online cobram o menor valor que divulgam, a Husky cobra o 1% da tabela e a TechFX, os 0,5% sem o desconto de boas-vindas.
 
 1. **Wise:** (US$ 5.000 − US$ 6,11) × 5,3340 × (1 − 0,4%) = **R$ 26.530,86**
 2. **Husky:** US$ 5.000 × 5,3340 × (1 − 1%) = **R$ 26.403,30**
 3. **Remessa Online:** US$ 5.000 × 5,3340 × (1 − 1,3%) = **R$ 26.323,29**
+4. **TechFX:** US$ 5.000 × 5,3340 × (1 − 0,5%) = **R$ 26.536,65**
 
 | Canal | Reais que chegam | Custo contra a PTAX | Custo em % | VET |
 |---|---|---|---|---|
+| TechFX | R$ 26.536,65 | R$ 133,35 | 0,50% | 5,3073 |
 | Wise | R$ 26.530,86 | R$ 139,14 | 0,52% | 5,3062 |
 | Husky | R$ 26.403,30 | R$ 266,70 | 1,00% | 5,2807 |
 | Remessa Online | R$ 26.323,29 | R$ 346,71 | 1,30% | 5,2647 |
 | Banco | Peça o VET | Depende da cotação | Depende | Peça antes |
 
-Os 0,4% da Wise são o piso geral de conversão, não um número específico do dólar para o real. A calculadora da Husky também mostrou 1,2% no dia, o que daria R$ 26.349,96. Assim, a ordem entre os canais pode mudar na sua cotação.
+Os 0,4% da Wise são o piso geral de conversão, não um número específico do dólar para o real. A calculadora da Husky também mostrou 1,2% no dia, o que daria R$ 26.349,96. Entre TechFX e Wise, a diferença aqui é de R$ 5,79. Assim, a ordem entre os canais pode mudar na sua cotação.
 
 Ficam fora os R$ 250 da Wise, a tarifa bancária da Remessa Online e o que o banco do cliente e os intermediários descontam. Por isso, o valor que cai na conta pode ficar abaixo do calculado.
 
