@@ -20,6 +20,7 @@ const ToolsHubPage: React.FC = () => (
       title="Calculadoras grátis para PJ: impostos 2026 | Conte"
       description="Calculadoras grátis da Conte para quem trabalha como PJ: quanto sobra recebendo do exterior, CLT vs PJ, Fator R e pró-labore, com as regras de 2026."
       path="/ferramentas"
+      image="/og/ferramentas.png"
       jsonLd={{
         '@context': 'https://schema.org',
         '@type': 'ItemList',

@@ -262,9 +262,10 @@ const tableCell = 'border-b border-paper-line px-4 py-3 text-left';
 const CalculatorPage: React.FC = () => (
   <ToolLayout
     path="/calculadora"
+    image="/og/calculadora.png"
     name="Calculadora PJ exterior"
-    seoTitle="Calculadora PJ exterior 2026: quanto sobra recebendo em dólar | Conte"
-    seoDescription="Simule quanto sobra no bolso de quem trabalha como PJ para empresas de fora: câmbio de hoje, taxa de recebimento e impostos de 2026 no Simples Nacional e no Lucro Presumido."
+    seoTitle="Calculadora PJ exterior 2026: quanto sobra em dólar | Conte"
+    seoDescription="Simule quanto sobra para quem é PJ e recebe de empresas de fora: câmbio de hoje, taxa de recebimento e impostos de 2026 no Simples e no Lucro Presumido."
     h1="Calculadora PJ exterior: quanto sobra recebendo de fora"
     intro="A calculadora PJ exterior da Conte mostra quanto sobra no seu bolso quando você presta serviço como PJ para uma empresa de fora do Brasil: converte com o câmbio de hoje, desconta a taxa de recebimento e compara os impostos de 2026 no Simples Nacional e no Lucro Presumido."
     updated={RULES_LABEL}

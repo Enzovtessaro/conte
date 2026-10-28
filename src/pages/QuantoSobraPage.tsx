@@ -75,6 +75,10 @@ const QuantoSobraPage: React.FC<{ scenario: QuantoSobraScenario }> = ({ scenario
     `sobram cerca de ${brl0(melhor.liquido)} no seu bolso no ${regimeMelhor}, com as regras de ${RULES_LABEL}. ` +
     `Impostos, INSS e IR somam ${brl0(imposto)} (${pct(imposto / sim.faturamento)} do faturamento).`;
 
+  // 120 to 160 characters: the regime name changes the length, so short ones get one more clause.
+  const descricaoBase = `${valor} por mês como PJ deixam cerca de ${brl0(melhor.liquido)} no bolso, no ${regimeMelhor}. Cálculo com câmbio e impostos de 2026.`;
+  const descricao = descricaoBase.length < 120 ? `${descricaoBase} Compare os regimes.` : descricaoBase;
+
   const faqs: ToolFaq[] = [
     { q: `Quanto sobra de ${valor} por mês como PJ?`, a: respostaRapida },
     {
@@ -121,9 +125,10 @@ const QuantoSobraPage: React.FC<{ scenario: QuantoSobraScenario }> = ({ scenario
     <ToolLayout
       path={`${QUANTO_SOBRA_BASE}/${scenario.slug}`}
       parent={{ to: '/calculadora', name: 'Calculadora PJ exterior' }}
+      image="/og/calculadora.png"
       name={`${valor} por mês`}
       seoTitle={`${valor} por mês como PJ: quanto sobra em 2026 | Conte`}
-      seoDescription={`Quem recebe ${valor} por mês como PJ fica com cerca de ${brl0(melhor.liquido)} no ${regimeMelhor}. Veja o cálculo com câmbio, impostos de 2026 e o regime mais barato.`}
+      seoDescription={descricao}
       h1={`Quanto sobra de ${valor} por mês como PJ em 2026`}
       intro={respostaRapida}
       updated={RULES_LABEL}

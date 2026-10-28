@@ -52,6 +52,7 @@ const CLTSalaryPage: React.FC<{ scenario: CLTSalaryScenario }> = ({ scenario }) 
     <ToolLayout
       path={`${CLT_VS_PJ_BASE}/${scenario.slug}`}
       parent={{ to: '/clt-vs-pj', name: 'Calculadora CLT vs PJ' }}
+      image="/og/clt-vs-pj.png"
       name={`Salário de ${mil}`}
       seoTitle={`CLT de ${mil} ou PJ: quanto pedir em 2026 | Conte`}
       seoDescription={`Um CLT de ${brl0(salario)} equivale a uma proposta PJ de ${brl0(empate)} por mês no Simples Nacional, com 13º, férias e FGTS na conta. Veja o cálculo de 2026.`}

@@ -219,9 +219,10 @@ const tableCell = 'border-b border-paper-line px-4 py-3 text-left';
 const CLTvsPJPage: React.FC = () => (
   <ToolLayout
     path="/clt-vs-pj"
+    image="/og/clt-vs-pj.png"
     name="Calculadora CLT vs PJ"
     seoTitle="Calculadora CLT vs PJ 2026: compare os dois lados | Conte"
-    seoDescription="Compare CLT e PJ com as regras de 2026, nos dois sentidos: quanto o PJ precisa faturar para empatar com o CLT, ou qual salário CLT empata com o seu PJ, com 13º, férias e FGTS."
+    seoDescription="Compare CLT e PJ com as regras de 2026: quanto o PJ precisa faturar para empatar com o CLT, ou qual salário CLT empata com o seu PJ, com 13º, férias e FGTS."
     h1="Calculadora CLT vs PJ"
     intro="A calculadora CLT vs PJ da Conte compara tudo o que o CLT recebe em um ano (salário líquido, 13º, férias, FGTS e benefícios) com o líquido de uma PJ no Simples Nacional. Funciona nos dois sentidos: se você é CLT, mostra quanto o PJ precisa faturar; se já é PJ, mostra qual salário CLT empata com o que você tem hoje."
     updated={RULES_LABEL}

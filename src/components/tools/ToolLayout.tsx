@@ -24,6 +24,8 @@ interface ToolLayoutProps {
   related: { to: string; title: string; description: string }[];
   /** Breadcrumb level between Início and this page, for programmatic pages under a calculator. */
   parent?: { to: string; name: string };
+  /** Share image for this tool, in public/og/. */
+  image?: string;
 }
 
 const ToolLayout: React.FC<ToolLayoutProps> = ({
@@ -40,6 +42,7 @@ const ToolLayout: React.FC<ToolLayoutProps> = ({
   sources,
   related,
   parent,
+  image,
 }) => {
   const url = `${SITE_URL}${path}`;
   const schema = [
@@ -74,7 +77,7 @@ const ToolLayout: React.FC<ToolLayoutProps> = ({
 
   return (
     <main>
-      <Seo title={seoTitle} description={seoDescription} path={path} jsonLd={schema} />
+      <Seo title={seoTitle} description={seoDescription} path={path} jsonLd={schema} image={image} />
 
       <section className="relative overflow-hidden pt-32 pb-10 md:pt-40 md:pb-14">
         <div aria-hidden className="pointer-events-none absolute -right-40 top-10 -z-10 h-[480px] w-[480px] rounded-full bg-brand/15 blur-[120px]" />

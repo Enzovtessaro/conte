@@ -85,6 +85,7 @@ const EXEMPLOS = [SALARIO_MINIMO, 2500, 3500, 4200, 5000, 6000, 7350, 8475.55, 1
 const ProLaborePage: React.FC = () => (
   <ToolLayout
     path="/calculadora-pro-labore"
+    image="/og/pro-labore.png"
     name="Calculadora de pró-labore"
     seoTitle="Calculadora de pró-labore 2026: INSS, IR e líquido | Conte"
     seoDescription="Calcule o pró-labore líquido em 2026: INSS de 11% e IR na fonte com a nova isenção até R$ 5 mil. Veja também o Fator R do seu pró-labore no Simples Nacional."

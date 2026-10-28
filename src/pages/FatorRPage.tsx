@@ -133,8 +133,9 @@ const EXEMPLOS = [6000, 8000, 10000, 15000, 20000, 30000, 50000];
 const FatorRPage: React.FC = () => (
   <ToolLayout
     path="/calculadora-fator-r"
+    image="/og/fator-r.png"
     name="Calculadora Fator R"
-    seoTitle="Calculadora Fator R 2026: Anexo III ou V e pró-labore | Conte"
+    seoTitle="Calculadora Fator R 2026: Anexo III ou V | Conte"
     seoDescription="Calcule o Fator R da sua PJ, veja se ela fica no Anexo III ou no Anexo V do Simples Nacional e qual pró-labore deixa mais dinheiro com você em 2026."
     h1="Calculadora Fator R: Anexo III ou Anexo V"
     intro="A calculadora de Fator R da Conte mostra em que anexo do Simples Nacional a sua PJ de serviço fica, qual é o pró-labore mínimo para chegar a 28% e se esse pró-labore compensa, já descontando INSS e IR de 2026."
