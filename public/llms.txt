@@ -11,6 +11,11 @@
 - [Contabilidade para MEI](https://sejaconte.com.br/contabilidade-mei): rotina do MEI por R$99/mês, com guia, nota e declaração anual
 - [Calculadora PJ exterior](https://sejaconte.com.br/calculadora): quanto sobra para quem presta serviço como PJ para empresas de fora, com câmbio do dia e impostos de 2026 no Simples Nacional e no Lucro Presumido
 - [Calculadora CLT vs PJ](https://sejaconte.com.br/clt-vs-pj): compara salário CLT (com 13º, férias e FGTS) com proposta PJ e mostra quanto o PJ precisa faturar para empatar; inclui tabelas de INSS e IR de 2026
+- [Calculadora Fator R](https://sejaconte.com.br/calculadora-fator-r): Fator R da PJ, Anexo III ou V do Simples Nacional, pró-labore mínimo de 28% e se ele compensa, com INSS e IR de 2026
+- [Calculadora de pró-labore](https://sejaconte.com.br/calculadora-pro-labore): pró-labore líquido em 2026, com INSS de 11% e IR na fonte com a isenção até R$ 5.000 (Lei 15.270/2025), e tabela por valor
+- [Todas as calculadoras](https://sejaconte.com.br/ferramentas): índice das calculadoras e das páginas por valor
+- [Quanto sobra recebendo do exterior, por valor](https://sejaconte.com.br/ferramentas): páginas para US$ 2.000 a US$ 20.000 e € 2.000 a € 10.000 por mês (ex.: https://sejaconte.com.br/quanto-sobra/5000-dolares-por-mes), com Simples Nacional e Lucro Presumido comparados
+- [CLT ou PJ, por salário](https://sejaconte.com.br/ferramentas): páginas para salários CLT de R$ 4 mil a R$ 30 mil (ex.: https://sejaconte.com.br/clt-ou-pj/salario-de-10-mil), com a proposta PJ que empata
 - [Cadastro](https://app.sejaconte.com.br/cadastro): abrir empresa ou migrar a contabilidade para a Conte
 
 ## Optional

@@ -11,9 +11,12 @@ interface SeoProps {
   noindex?: boolean;
   type?: 'website' | 'article';
   jsonLd?: object | object[];
+  /** Share image path on this site, 1200x630. */
+  image?: string;
 }
 
-const Seo: React.FC<SeoProps> = ({ title, description, path, noindex, type = 'website', jsonLd }) => {
+const Seo: React.FC<SeoProps> = ({ title, description, path, noindex, type = 'website', jsonLd, image }) => {
+  const imageUrl = image ? `${SITE_URL}${image}` : DEFAULT_IMAGE;
   const url = `${SITE_URL}${path === '/' ? '/' : path}`;
   const schemas = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 
@@ -29,13 +32,13 @@ const Seo: React.FC<SeoProps> = ({ title, description, path, noindex, type = 'we
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:url" content={url} />
-      <meta property="og:image" content={DEFAULT_IMAGE} />
+      <meta property="og:image" content={imageUrl} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={DEFAULT_IMAGE} />
+      <meta name="twitter:image" content={imageUrl} />
       {schemas.map((schema, i) => (
         <script key={i} type="application/ld+json">
           {JSON.stringify(schema)}

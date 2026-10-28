@@ -16,6 +16,12 @@ import CalculatorPage from './pages/CalculatorPage';
 import CLTvsPJPage from './pages/CLTvsPJPage';
 import NotFound from './pages/NotFound';
 import ServicePage from './pages/ServicePage';
+import FatorRPage from './pages/FatorRPage';
+import ProLaborePage from './pages/ProLaborePage';
+import QuantoSobraPage from './pages/QuantoSobraPage';
+import CLTSalaryPage from './pages/CLTSalaryPage';
+import ToolsHubPage from './pages/ToolsHubPage';
+import { cltSalaryScenarios, CLT_VS_PJ_BASE, quantoSobraScenarios, QUANTO_SOBRA_BASE } from './data/scenarios';
 import { services } from './data/services';
 import HelpFloatingButton from './components/HelpFloatingButton';
 import Seo from './components/Seo';
@@ -59,6 +65,15 @@ function App() {
           />
           <Route path="/calculadora" element={<CalculatorPage />} />
           <Route path="/clt-vs-pj" element={<CLTvsPJPage />} />
+          <Route path="/ferramentas" element={<ToolsHubPage />} />
+          <Route path="/calculadora-fator-r" element={<FatorRPage />} />
+          <Route path="/calculadora-pro-labore" element={<ProLaborePage />} />
+          {quantoSobraScenarios.map((q) => (
+            <Route key={q.slug} path={`${QUANTO_SOBRA_BASE}/${q.slug}`} element={<QuantoSobraPage scenario={q} />} />
+          ))}
+          {cltSalaryScenarios.map((c) => (
+            <Route key={c.slug} path={`${CLT_VS_PJ_BASE}/${c.slug}`} element={<CLTSalaryPage scenario={c} />} />
+          ))}
           {services.map((service) => (
             <Route key={service.slug} path={`/${service.slug}`} element={<ServicePage service={service} />} />
           ))}

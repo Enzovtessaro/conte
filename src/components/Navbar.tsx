@@ -20,6 +20,9 @@ const menus = [
     items: [
       { to: '/calculadora', label: 'Calculadora trabalho pro exterior' },
       { to: '/clt-vs-pj', label: 'Calculadora CLT vs PJ' },
+      { to: '/calculadora-fator-r', label: 'Calculadora Fator R' },
+      { to: '/calculadora-pro-labore', label: 'Calculadora de pró-labore' },
+      { to: '/ferramentas', label: 'Todas as ferramentas' },
     ],
   },
 ];

@@ -212,9 +212,15 @@ export function pjSimples(faturamento: number, proLaboreBruto: number, contabili
   });
 }
 
+/** Menor pró-labore que leva ao Anexo III (Fator R de 28%), nunca abaixo do salário mínimo. */
+export function proLaboreFatorR(faturamento: number): number {
+  // toFixed first: 6000 * 0.28 * 100 is 168000.00000000003 in floating point, which ceil would round up a cent.
+  return Math.max(SALARIO_MINIMO, Math.ceil(Number((faturamento * FATOR_R_MINIMO * 100).toFixed(6))) / 100);
+}
+
 /** Melhor cenário no Simples: pró-labore de 28% (Anexo III) ou de um salário mínimo (Anexo V). */
 export function pjSimplesOtimo(faturamento: number, contabilidade: number, exportacao: boolean): PJResult {
-  const proLaboreIII = Math.max(SALARIO_MINIMO, Math.ceil(faturamento * FATOR_R_MINIMO * 100) / 100);
+  const proLaboreIII = proLaboreFatorR(faturamento);
   const anexoIII = pjSimples(faturamento, proLaboreIII, contabilidade, exportacao);
   const anexoV = pjSimples(faturamento, SALARIO_MINIMO, contabilidade, exportacao);
   return anexoIII.liquido >= anexoV.liquido ? anexoIII : anexoV;
