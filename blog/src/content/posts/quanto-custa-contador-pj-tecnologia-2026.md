@@ -11,7 +11,7 @@ coverAlt: "Homem trabalhando no notebook numa mesa com calculadora, ao lado de u
 tldr:
   - "As contabilidades online que publicam preço cobram de R$ 189 a R$ 700 por mês para PJ de serviço no Simples, segundo os sites consultados em 29/10/2026. Na Conte, o plano completo custa R$ 359."
   - "Não existe tabela oficial de honorários: a Resolução CFC 1.590/2020 exige contrato escrito com, entre outros itens, o valor de cada serviço e a regra de reajuste."
-  - "O que mais pesa não é a mensalidade. Num exemplo com R$ 15 mil por mês, o Fator R pode mudar o custo mensal em até R$ 963."
+  - "O que mais pesa não é a mensalidade. Num exemplo com R$ 15 mil por mês, o Fator R pode mudar o custo mensal em pelo menos R$ 963."
 faq:
   - q: "Existe tabela de honorários do CRC?"
     a: "Não existe tabela oficial obrigatória. A Resolução CFC 1.590/2020 deixa o preço livre e exige contrato escrito com o valor de cada serviço e as condições de reajuste. Algumas associações publicam tabelas de referência, como a ASSCON em 2026, mas o uso é facultativo. O que vale é o contrato assinado."
@@ -56,7 +56,7 @@ sources:
     url: https://www.contabilidadezen.com.br/planos/
 ---
 
-Quanto custa um contador para PJ em 2026? Nas contabilidades online que publicam preço, o plano para PJ de serviço no Simples vai de R$ 189 a R$ 700 por mês, pelos sites consultados em 29/10/2026. Na Conte, o plano completo custa R$ 359, com notas ilimitadas e receita do exterior incluída. Só que a mensalidade é a parte menor da conta. Com R$ 15 mil de faturamento, o Fator R pode mudar o custo mensal em até R$ 963,00.
+Quanto custa um contador para PJ em 2026? Nas contabilidades online que publicam preço, o plano para PJ de serviço no Simples vai de R$ 189 a R$ 700 por mês, pelos sites consultados em 29/10/2026. Na Conte, o plano completo custa R$ 359, com notas ilimitadas e receita do exterior incluída. Só que a mensalidade é a parte menor da conta. Com R$ 15 mil de faturamento, o Fator R pode mudar o custo mensal em pelo menos R$ 963,00.
 
 **Fator R** é a folha de salários dos últimos 12 meses, com pró-labore e encargos, dividida pela receita bruta do mesmo período. Ele decide se a PJ de software começa pagando 6% ou 15,5% no Simples.
 
@@ -122,7 +122,7 @@ A abertura também entra na comparação. Na Conte, a abertura da empresa é gr�
 
 ## Contador barato compensa se o Fator R ficar errado?
 
-A mensalidade costuma ser o menor número da conta. Pela [LC 155/2016](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp155.htm), a primeira faixa do Anexo III cobra 6%, e a do Anexo V, 15,5%. Com faturamento de R$ 15 mil por mês, essa diferença pode mudar o custo mensal em até R$ 963,00, já contando o INSS do pró-labore.
+A mensalidade costuma ser o menor número da conta. Pela [LC 155/2016](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp155.htm), a primeira faixa do Anexo III cobra 6%, e a do Anexo V, 15,5%. Com faturamento de R$ 15 mil por mês, essa diferença pode mudar o custo mensal em pelo menos R$ 963,00, já contando o INSS do pró-labore.
 
 **Anexo III** é a tabela do Simples com alíquota inicial de 6%. **Anexo V** é a tabela com alíquota inicial de 15,5%. Pela [LC 123/2006](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm) (art. 18), com Fator R de 28% ou mais, o desenvolvimento de software sai do Anexo V e vai para o III.
 
@@ -137,7 +137,7 @@ O exemplo usa faturamento de R$ 15.000 por mês e receita de R$ 180.000 em 12 me
 | INSS do sócio (11% de R$ 4.200,00) | Não considerado | R$ 462,00 |
 | Custo mensal | R$ 2.325,00 | R$ 1.362,00 |
 
-O sócio paga 11% de INSS sobre o pró-labore. É a alíquota de 20% da [Lei 8.212/1991](https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm) (art. 21), menos a dedução de até 9% do art. 30, § 4º. A empresa retém e recolhe esse valor, pela [Lei 10.666/2003](https://www.planalto.gov.br/ccivil_03/leis/2003/l10.666.htm) (art. 4º). A diferença é de R$ 963,00 por mês, ou R$ 11.556,00 por ano. O pró-labore de R$ 4.200,00 não tem IR em 2026: a [Lei 15.270/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm) zerou o imposto mensal para rendimentos de até R$ 5 mil. No cenário do Anexo V, se também houver pró-labore, o INSS dele soma ao custo e reduz essa diferença.
+O sócio paga 11% de INSS sobre o pró-labore. É a alíquota de 20% da [Lei 8.212/1991](https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm) (art. 21), menos a dedução de até 9% do art. 30, § 4º. A empresa retém e recolhe esse valor, pela [Lei 10.666/2003](https://www.planalto.gov.br/ccivil_03/leis/2003/l10.666.htm) (art. 4º). A diferença é de R$ 963,00 por mês, ou R$ 11.556,00 por ano. O pró-labore de R$ 4.200,00 não tem IR em 2026: a [Lei 15.270/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm) zerou o imposto mensal para rendimentos de até R$ 5 mil. No cenário do Anexo V, se já houver pró-labore, o INSS dele soma ao custo e aumenta essa diferença.
 
 Faixa de receita, exportação e o valor do pró-labore mudam essa conta, então ela depende do caso. O post sobre [Fator R e Anexo III](/post/pj-tecnologia-pode-ser-simples-nacional-opcoes) detalha o cálculo.
 
