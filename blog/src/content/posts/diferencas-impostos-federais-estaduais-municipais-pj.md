@@ -85,7 +85,7 @@ Cada prefeitura define a alíquota por item da lista de serviços. Desenvolvimen
 
 ## O que muda com a reforma tributária?
 
-A reforma ([EC 132/2023](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm) e [LC 214/2025](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm)) substitui cinco tributos sobre consumo por três: CBS federal, IBS de estados e municípios e Imposto Seletivo federal. IRPJ, CSLL e INSS não mudam.
+A reforma ([EC 132/2023](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm) e [LC 214/2025](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm)) substitui cinco tributos sobre consumo por três: CBS federal, IBS de estados e municípios e Imposto Seletivo federal. IRPJ, CSLL e INSS não mudam. O efeito para quem é dev PJ está no guia da [reforma tributária para PJ de tecnologia](/post/reforma-tributaria-pj-tecnologia-2026-2033).
 
 | Ano | O que acontece |
 |---|---|
