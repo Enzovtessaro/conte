@@ -40,7 +40,7 @@ Faturar em dólar resolve a parte da receita. O resto da gestão continua em rea
 
 Receba na conta da empresa, por uma instituição autorizada pelo Banco Central a operar câmbio, com contrato de câmbio em nome da PJ. Esse contrato prova que houve ingresso de divisas, condição para a isenção de PIS e Cofins na exportação de serviço.
 
-As opções mais usadas são bancos tradicionais, bancos digitais com conta PJ e plataformas de recebimento internacional. Na escolha, compare três custos:
+As opções mais usadas são bancos tradicionais, bancos digitais com conta PJ e plataformas de recebimento internacional. A comparação entre Wise, Husky, Remessa Online e banco está em [como receber pagamento do exterior como PJ](/post/receber-pagamento-exterior-pj-wise-husky-remessa-online). Na escolha, compare três custos:
 
 1. **Tarifa fixa por recebimento**, cobrada pelo banco ou pela plataforma.
 2. **Spread sobre o câmbio**, a diferença entre a taxa oferecida e a cotação comercial do dia.
