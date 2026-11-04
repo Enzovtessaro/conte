@@ -23,7 +23,7 @@ faq:
   - q: "Dá para trocar da Contabilizei ou da Agilize para a Conte?"
     a: "Sim. Você faz o cadastro e a equipe da Conte cuida da troca junto com a contabilidade atual. Antes, confira o contrato: na Contabilizei, a abertura grátis exige fidelidade mínima de 12 meses. Na Agilize, a fidelidade do plano mensal não é divulgada no site."
   - q: "Quanto custa encerrar o CNPJ em cada uma?"
-    a: "Na Contabilizei, a baixa custa R$ 1.356,00 à vista, ou R$ 1.929,00 para quem migrou há menos de 6 meses, com as taxas públicas à parte. Na Agilize, é um valor fixo de R$ 999,00, sem multa pelo distrato; a central informa que não há taxa de órgão para o deferimento, exceto na baixa de filial. Na Conte, o valor da baixa não é divulgado no site."
+    a: "Na Contabilizei, a baixa custa R$ 1.356,00 à vista, ou R$ 1.929,00 para quem migrou há menos de 6 meses, com as taxas públicas à parte. Na Agilize, é um valor fixo de R$ 999,00, sem multa pelo distrato. A central informa que não há taxa de órgão para o deferimento, exceto na baixa de filial, e ressalva \"despesas e taxas governamentais eventualmente exigidas\". Na Conte, o valor da baixa não é divulgado no site."
 sources:
   - title: "Contabilizei, página inicial (consultado em 2026-11-04)"
     url: https://www.contabilizei.com.br/
@@ -77,11 +77,11 @@ No Contabilizei Padrão (R$ 225,00) e no Agilize Basic (R$ 259,00), a rotina é 
 
 ### Os planos de entrada
 
-No **Contabilizei Padrão**, você emite pelo app ou pela plataforma, inclusive a "Nota para o exterior". A [página de preços](https://www.contabilizei.com.br/quanto-custa-contabilizei/) diz que ficam "Impostos e pendências organizados na plataforma". Quem orienta é a "Equipe de atendimento", por WhatsApp e e-mail, até as 22h.
+No **Contabilizei Padrão**, você emite pelo app ou pela plataforma, inclusive a "Nota para o exterior". A [página de preços](https://www.contabilizei.com.br/quanto-custa-contabilizei/) diz que ficam "Impostos e pendências organizados na plataforma". Quem orienta é a "Equipe de atendimento", por WhatsApp e e-mail; a home informa atendimento até as 22h.
 
-No **Agilize Basic**, a Agilize faz o "Cálculo e emissão das guias de impostos". Você baixa a guia no painel, segundo a central de ajuda, e emite a nota pelo painel. O atendimento é por WhatsApp, telefone, e-mail e chat. A central indica que, com sede fora de Salvador, São Paulo, Rio de Janeiro, Belo Horizonte, Guarulhos ou Brasília, a nota sai pelo site da prefeitura.
+No **Agilize Basic**, a Agilize faz o "Cálculo e emissão das guias de impostos". Você baixa a guia no painel, segundo a central de ajuda, e emite a nota pelo painel. O atendimento é por WhatsApp, telefone, e-mail e chat. A central de ajuda avisa que, se a empresa mudar a sede para fora de Salvador, São Paulo, Rio de Janeiro, Belo Horizonte, Guarulhos ou Brasília, não dá mais para emitir pelo painel, e a nota passa a sair pelo site da prefeitura.
 
-A Agilize também diz que calcula o Fator R. **Fator R** é a folha dos 12 meses anteriores, com pró-labore e encargos, dividida pela receita bruta do mesmo período. Com 28% ou mais, o serviço de dev vai para o Anexo III do Simples; abaixo disso, para o V, de alíquota inicial maior. **Pró-labore** é a remuneração mensal do sócio pelo trabalho.
+A Agilize também diz que calcula o Fator R. **Fator R** é a folha dos 12 meses anteriores, com pró-labore e encargos, dividida pela receita bruta do mesmo período (LC 123, art. 18, §§ 5º-M e 24). Com 28% ou mais, o serviço de dev vai para o Anexo III do Simples; abaixo disso, para o V, de alíquota inicial maior. **Pró-labore** é a remuneração mensal do sócio pelo trabalho.
 
 ### Quando alguém emite a nota por você
 
@@ -100,7 +100,7 @@ Como funciona, segundo o [site da Conte](https://sejaconte.com.br):
 3. **A mesma contadora:** a Solange responde no mesmo WhatsApp e conhece o histórico da sua PJ.
 4. **Reuniões para planejar:** pró-labore e regime tributário você decide com ela. Planejamento e consultoria tributária estão no plano.
 
-Quem recebe de fora usa o mesmo plano. Na página de [contabilidade para quem recebe do exterior](https://sejaconte.com.br/contabilidade-para-exterior), a contadora define o enquadramento e verifica o que se aplica ao serviço exportado, como ISS, PIS e Cofins. A cada recebimento, você avisa no WhatsApp e a equipe emite a nota.
+Quem recebe de fora usa o mesmo plano. Na página de [contabilidade para quem recebe do exterior](https://sejaconte.com.br/contabilidade-para-exterior), a contadora define o enquadramento e verifica o que se aplica ao serviço exportado, como o ISS (imposto municipal sobre serviços) e o PIS e a Cofins (contribuições federais sobre a receita). A cada recebimento, você avisa no WhatsApp e a equipe emite a nota.
 
 O plano inclui ainda o pró-labore do sócio, as declarações acessórias mensais, o endereço fiscal gratuito e a abertura grátis. Se você já tem contador, faz o cadastro e a Conte cuida da troca. O [checklist para trocar de contador](/post/trocar-de-contador-sem-perder-informacoes-checklist) mostra o que pedir ao escritório atual.
 
@@ -118,7 +118,7 @@ Com a nota emitida por outra pessoa, a Conte tem a menor mensalidade divulgada: 
 
 Preços para serviço no Simples, em 04/11/2026. A Contabilizei avisa que o valor é "Sujeito ao enquadramento tributário do seu CNPJ". A página de planos da Agilize não mostra desconto; o llms.txt dela cita preço de tabela de R$ 324,00 no Basic e R$ 562,00 no Unique. O FAQ da mesma página cita planos a partir de R$ 159,00, sem detalhar.
 
-Quem prefere emitir a nota por conta própria, pela menor mensalidade, pode ficar com o Contabilizei Padrão ou o Agilize Basic. Quem quer pedir a nota no WhatsApp e receber a guia pronta encontra isso na Conte.
+Quem prefere emitir a nota por conta própria, pela menor mensalidade, pode ficar com o Contabilizei Padrão ou o Agilize Basic. Quem quer pedir a nota no WhatsApp tem o Agilize Unique (R$ 450,00) e a Conte (R$ 359,00), que também manda a guia pronta no WhatsApp.
 
 ## Quanto custam os serviços fora da mensalidade?
 
@@ -128,13 +128,13 @@ Os maiores extras publicados são alteração contratual e baixa. Na Contabilize
 |---|---|---|---|---|---|
 | Conte | Não divulgado no site | Não divulgado no site | Não divulgado no site | Grátis | Abertura grátis; fidelidade não divulgada no site |
 | Contabilizei | R$ 1.299,00 à vista ou R$ 1.395,00 em 3x, mais taxas públicas | R$ 1.356,00 à vista; R$ 1.929,00 se migrou há menos de 6 meses; taxas públicas à parte | Grátis | + R$ 60,00/mês | Abertura sem honorários, com fidelidade mínima de 12 meses; multa não divulgada no site |
-| Agilize | R$ 499,00 de honorários mais taxa da Junta (mesma UF) | R$ 999,00 fixos, já com a regularização de pendências; sem multa pelo distrato | A1 grátis | R$ 70,00/mês no Basic; R$ 60,00/mês no Unique | Abertura sem custo com a 1ª mensalidade; fidelidade não divulgada no site |
+| Agilize | R$ 499,00 de honorários mais taxa da Junta Comercial (mesma UF) | R$ 999,00 fixos, já com a regularização de pendências; sem multa pelo distrato (o fim do contrato) | A1 grátis | R$ 70,00/mês no Basic; R$ 60,00/mês no Unique | Abertura sem custo com a 1ª mensalidade; fidelidade não divulgada no site |
 
-Na Contabilizei, a baixa tem "Valor sujeito a alteração mediante análise cadastral". Na Agilize, a central informa que a baixa não tem taxa de órgão para o deferimento, exceto de filial, e a migração não tem custo quando não há alteração de CNAE, endereço fiscal ou sócios.
+Na Contabilizei, a baixa tem "Valor sujeito a alteração mediante análise cadastral". Na Agilize, a central informa que a baixa não tem taxa de órgão para o deferimento, exceto de filial, ressalvadas "despesas e taxas governamentais eventualmente exigidas". A migração não tem custo quando não há alteração de CNAE (o código da atividade), endereço fiscal ou sócios.
 
 ## Quanto custa o primeiro ano para um dev que recebe do exterior?
 
-Para um dev que fatura R$ 20 mil por mês dos EUA, a Conte soma R$ 4.308,00 em mensalidades no primeiro ano, com a nota emitida pela equipe. O Experts soma R$ 4.740,00 e o Unique, R$ 5.400,00, já com o IRPF dos sócios.
+Para um dev que fatura R$ 20 mil por mês dos EUA, a Conte soma R$ 4.308,00 em mensalidades no primeiro ano, com a nota emitida pela equipe. O Experts soma R$ 4.740,00. O Unique soma R$ 5.400,00 e é o único dos cinco planos que já inclui o IRPF dos sócios.
 
 O caso: um dev sozinho no Simples recebe o equivalente a R$ 20 mil por mês de um cliente nos EUA. Ele emite 1 nota por mês, usa o endereço de casa como sede e quer o IRPF feito. A conta soma 12 mensalidades, sem taxas públicas.
 
@@ -147,7 +147,7 @@ O caso: um dev sozinho no Simples recebe o equivalente a R$ 20 mil por mês de u
 | Agilize Basic | Você | 12 × R$ 259,00 | R$ 3.108,00 | Não aparece entre os itens do plano |
 | Agilize Unique | A Agilize, pelo WhatsApp | 12 × R$ 450,00 | R$ 5.400,00 | Incluso |
 
-Os totais não cobrem as mesmas coisas. Só o Unique já traz o IRPF dos sócios; na Contabilizei, o IRPF fica com outro profissional, fora da conta. Na Conte, o IRPF não está na lista do plano no site: pergunte no WhatsApp antes de assinar.
+Os totais não cobrem as mesmas coisas. Só o Unique já traz o IRPF dos sócios. Na Contabilizei, o IRPF fica fora do plano: a central diz que você pode fazer sozinho ou buscar um contador que atenda pessoa física. Na Conte, o IRPF não está na lista do plano no site: pergunte no WhatsApp antes de assinar.
 
 <!-- [ANÁLISE PRÓPRIA] -->
 Frente ao Contabilizei Padrão, a Conte custa R$ 1.608,00 a mais no ano, ou R$ 134,00 por mês. Frente ao Agilize Basic, são R$ 1.200,00 no ano, ou R$ 100,00 por mês. Essa diferença cobre a nota emitida pela equipe, a guia no WhatsApp e a mesma contadora. O post sobre [quanto custa um contador para PJ](/post/quanto-custa-contador-pj-tecnologia-2026) compara outras contabilidades, e a [calculadora da Conte](https://sejaconte.com.br/calculadora) estima o seu imposto.
@@ -156,7 +156,7 @@ Frente ao Contabilizei Padrão, a Conte custa R$ 1.608,00 a mais no ano, ou R$ 1
 
 A regra fiscal é a mesma nas três: na exportação de serviço, ISS, PIS e Cofins não incidem, e IRPJ, CSLL e a contribuição previdenciária (CPP) continuam. Muda quem emite a nota de exportação e quem confere a declaração.
 
-**ISS** é o imposto municipal sobre serviços; **PIS** e **Cofins** são contribuições federais sobre a receita; **IRPJ** e **CSLL** incidem sobre o lucro da empresa. O que a lei diz:
+**IRPJ** e **CSLL** são os tributos federais sobre o lucro da empresa. O que a lei diz:
 
 - A [LC 116/2003](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm) (art. 2º, I) afasta o ISS na exportação de serviço. O parágrafo único exclui o serviço cujo resultado se verifica no Brasil.
 - Fora do Simples, a [Lei 10.637/2002](https://www.planalto.gov.br/ccivil_03/leis/2002/l10637.htm) (art. 5º, II) e a [Lei 10.833/2003](https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm) (art. 6º, II) afastam PIS e Cofins no serviço a residente ou domiciliado no exterior, com ingresso de divisas.
