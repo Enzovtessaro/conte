@@ -16,7 +16,7 @@ faq:
   - q: "Existe tabela de honorários do CRC?"
     a: "Não existe tabela oficial obrigatória. A Resolução CFC 1.590/2020 deixa o preço livre e exige contrato escrito com o valor de cada serviço e as condições de reajuste. Algumas associações publicam tabelas de referência, como a ASSCON em 2026, mas o uso é facultativo. O que vale é o contrato assinado."
   - q: "Quem recebe do exterior paga mais caro de contabilidade?"
-    a: "Depende da contabilidade. Na Conte, quem presta serviço para fora fica no mesmo plano completo de R$ 359 por mês, com a nota de exportação emitida pela equipe. A Contabilizei informa, em 29/10/2026, que o plano Padrão inclui nota para o exterior. Em qualquer caso, peça que o contrato diga isso por escrito."
+    a: "Depende da contabilidade. Na Conte, quem presta serviço para fora fica no mesmo plano completo de R$ 359 por mês, com a nota de exportação emitida pela equipe. A Contabilizei informa, em 04/11/2026, que o plano Padrão inclui nota para o exterior. Em qualquer caso, peça que o contrato diga isso por escrito."
   - q: "Contabilidade online é mais barata que escritório tradicional?"
     a: "Nem sempre dá para comparar, porque escritório que não publica preço só passa o valor depois de uma conversa. As contabilidades online consultadas que publicam preço ficam entre R$ 189 e R$ 700 por mês, em 29/10/2026. Compare o escopo: notas incluídas, pró-labore, atendimento, abertura e reajuste previsto no contrato."
   - q: "Posso trocar de contador se o preço subir?"
@@ -44,9 +44,9 @@ sources:
     url: https://www.sejaconte.com.br/
   - title: "Conte, Contabilidade para exterior (consultado em 2026-10-29)"
     url: https://sejaconte.com.br/contabilidade-para-exterior
-  - title: "Contabilizei, Quanto custa a Contabilizei (consultado em 2026-10-29)"
+  - title: "Contabilizei, Quanto custa a Contabilizei (consultado em 2026-11-04)"
     url: https://www.contabilizei.com.br/quanto-custa-contabilizei/
-  - title: "Contabilizei, Página inicial (consultado em 2026-10-29)"
+  - title: "Contabilizei, Página inicial (consultado em 2026-11-04)"
     url: https://www.contabilizei.com.br/
   - title: "Contabilidade.com, Planos e preços (consultado em 2026-10-29)"
     url: https://www.contabilidade.com/planos-e-precos
@@ -77,15 +77,15 @@ Quem ainda está no regime errado também paga mais do que deveria, e isso não 
 
 ## Quanto cobram as contabilidades online em 2026?
 
-Pelas páginas oficiais de cada empresa, a Conte cobra R$ 359 pelo plano completo. A Contabilizei publica R$ 195 no plano Padrão e R$ 395 no Experts. A Contabilidade.com vai de R$ 189 a R$ 450, com limite de 5 a 100 notas. A Agilize publica de R$ 259 a R$ 700, e a Contabilidade Zen passa o preço sob proposta.
+Pelas páginas oficiais de cada empresa, a Conte cobra R$ 359 pelo plano completo. A Contabilizei publica R$ 225 no plano Padrão e R$ 395 no Experts. A Contabilidade.com vai de R$ 189 a R$ 450, com limite de 5 a 100 notas. A Agilize publica de R$ 259 a R$ 700, e a Contabilidade Zen passa o preço sob proposta.
 
 <!-- [ANÁLISE PRÓPRIA] -->
 A tabela reúne só o que cada empresa publica no próprio site, para PJ de serviço no Simples, sem funcionários. **Pró-labore** é a remuneração mensal do sócio pelo trabalho, com INSS descontado.
 
-| Empresa | Planos e preço mensal (29/10/2026) | O que a página informa |
+| Empresa | Planos e preço mensal (04/11/2026) | O que a página informa |
 |---|---|---|
 | Conte | Plano completo: R$ 359 | Notas ilimitadas, pró-labore do sócio, planejamento tributário, contadora dedicada, endereço fiscal grátis, abertura grátis, serviço para o Brasil ou exterior |
-| Contabilizei | Padrão: R$ 195; Padrão + 2 benefícios: R$ 225; Experts: R$ 395; Experts + 2 benefícios: R$ 425 | Experts com assessor dedicado; Padrão inclui nota para o exterior; certificado digital incluído; abertura sem custo com fidelidade mínima de 12 meses |
+| Contabilizei | Padrão: R$ 225; Padrão + 2 benefícios: R$ 255; Experts: R$ 395; Experts + 2 benefícios: R$ 425 | Experts com assessor dedicado; Padrão inclui nota para o exterior; certificado digital incluído; abertura sem custo com fidelidade mínima de 12 meses |
 | Contabilidade.com | Essencial: R$ 189; Basic: R$ 236; Pro: R$ 295; Premium: R$ 450 | Limite de 5, 10, 50 ou 100 notas; 1 sócio no Essencial e 2 no Pro e no Premium; certificado digital (e-CNPJ) grátis no 1º ano |
 | Agilize | Basic: R$ 259; Unique: R$ 450; Unique Plus: R$ 700 | Valores para o Simples Nacional; Unique com gerente de conta dedicado; certificado digital A1 grátis; abertura sem custo mediante pagamento da primeira mensalidade |
 | Contabilidade Zen | Preço sob proposta | Planos por faixa: Essencial até R$ 15 mil por mês, Profissional até R$ 50 mil, Empresarial acima disso |
