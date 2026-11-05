@@ -22,16 +22,16 @@ Solange Vaz, contadora e fundadora da Conte, falando com um cliente que é dev. 
 - **Capa** (`cover`, `coverAlt`): foto horizontal, 1200 px de largura, JPG ou WebP com até 600 KB, em `public/images/posts/<slug>/`. Sem texto embutido. Fontes livres: Unsplash ou Pexels. `coverAlt` descreve a cena.
 - Sem H1 no corpo (o título já é o H1).
 
-## O blog promove só a Conte (Enzo, 05/11/2026)
+## O blog promove a Conte (Enzo, 05/11/2026)
 
 O blog existe para trazer clientes para a Conte. Ensinar com número e fonte é o meio; o fim é o leitor querer falar com a Conte.
 
-- Nunca escreva post que compara, lista ou ranqueia outras contabilidades ("X ou Y", "alternativas à X", "as 5 melhores", "quanto cobra a X").
-- Nunca cite nome, preço, plano ou taxa de outra contabilidade, nem em tabela, exemplo ou FAQ. Comparar preço de duas outras contabilidades "e nem mencionar a nossa" não faz sentido.
-- Quando o contraste ajuda, fale do modelo sem nome ("nas contabilidades de plataforma, o cliente emite a nota sozinho") e mostre o que a Conte faz, com fato do site: nota pedida no WhatsApp e emitida pela equipe, guia pronta, contadora dedicada, planejamento e pró-labore no plano, R$ 359 por mês.
-- Pergunta de "qual contabilidade escolher" se responde com a Conte: a resposta do começo e o fechamento apontam para a Conte.
-- Nomes de plataformas de pagamento ou câmbio (Wise, Deel etc.) só quando o assunto fiscal exigir, sem ranquear.
-- Antes de publicar, procure no texto os nomes de contabilidades concorrentes; se achar algum, reescreva.
+- Pode citar e comparar outras contabilidades, desde que a comparação venda a Conte.
+- Todo post com concorrente tem a Conte: no começo, numa seção só da Conte e no fechamento; a Conte vem primeiro nas tabelas. Nunca escreva post só sobre outras contabilidades ou que compare duas delas sem a nossa.
+- Dado de concorrente só com fato e fonte: preço e plano conferidos no site deles no dia, sem adjetivo.
+- Fatos da Conte, do site: nota pedida no WhatsApp e emitida pela equipe, guia pronta, contadora dedicada, planejamento e pró-labore no plano, R$ 359 por mês.
+- Pergunta de "qual contabilidade escolher" se responde com a Conte: a resposta do começo e o fechamento apontam para a Conte. Nada de lista neutra.
+- Antes de publicar, confira que a Conte aparece no começo, no meio e no fechamento.
 
 ## Precisão fiscal (não negociável)
 
