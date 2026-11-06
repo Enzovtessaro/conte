@@ -43,7 +43,7 @@ A proposta PJ chega com um número maior que o salário CLT, e a pergunta é se 
 
 Na CLT, você é empregado: recebe salário com INSS e IR descontados, mais 13º, férias com terço adicional e FGTS. Como PJ, você abre uma empresa, emite nota para o cliente, paga os impostos da empresa e se remunera com pró-labore e lucros.
 
-PJ de TI não é MEI. Desenvolvimento de software, consultoria em TI e suporte técnico não são atividades permitidas ao MEI. O PJ de tecnologia é uma microempresa no Simples Nacional, quase sempre uma sociedade limitada unipessoal. O passo a passo está em [como abrir CNPJ sendo dev](/post/abrir-gerenciar-microempresa-me-brasil).
+PJ de TI não é MEI. Desenvolvimento de software, consultoria em TI e suporte técnico não são atividades permitidas ao MEI. O PJ de tecnologia é uma microempresa no Simples Nacional, quase sempre uma sociedade limitada unipessoal. O passo a passo está em [como abrir CNPJ sendo dev](/post/abrir-gerenciar-microempresa-me-brasil), e as taxas, em [quanto custa abrir CNPJ em 2026](/post/quanto-custa-abrir-cnpj-2026).
 
 | | CLT | PJ no Simples |
 |---|---|---|

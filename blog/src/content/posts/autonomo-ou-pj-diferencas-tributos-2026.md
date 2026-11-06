@@ -109,4 +109,4 @@ O ponto do cliente pesa na prática. Uma empresa que contrata autônomo paga 20%
 
 Abra a PJ quando a renda passar de forma estável de uns R$ 7 mil a R$ 8 mil por mês, quando os clientes exigirem nota fiscal ou quando você começar a receber do exterior. Abaixo de R$ 5 mil, com IR zero, ser autônomo pode custar menos, considerando o contador.
 
-Na abertura, escolha um CNAE de tecnologia que permita o Fator R e comece o pró-labore no primeiro mês de faturamento. Os detalhes estão em [Fator R para dev PJ](/post/pj-tecnologia-pode-ser-simples-nacional-opcoes) e, para quem está saindo da CLT, em [vale a pena migrar para PJ](/post/vale-a-pena-migrar-para-pj-profissionais-ti).
+Na abertura, escolha um CNAE de tecnologia que permita o Fator R e comece o pró-labore no primeiro mês de faturamento. Os detalhes estão em [Fator R para dev PJ](/post/pj-tecnologia-pode-ser-simples-nacional-opcoes) e, para quem está saindo da CLT, em [vale a pena migrar para PJ](/post/vale-a-pena-migrar-para-pj-profissionais-ti). Ainda tem carteira assinada? Veja se [dá para ser CLT e ter CNPJ ao mesmo tempo](/post/clt-e-pj-ao-mesmo-tempo-2026).

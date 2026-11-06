@@ -76,7 +76,7 @@ Pela [Lei 14.286/2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/
 
 As leis do PIS e da Cofins afastam as contribuições sobre serviço prestado a quem mora fora. A regra está na [Lei 10.637/2002](https://www.planalto.gov.br/ccivil_03/leis/2002/l10637.htm) (art. 5º, II) e na [Lei 10.833/2003](https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm) (art. 6º, II). Como condição, elas pedem que o pagamento represente ingresso de divisas. Já no Simples, a [LC 123/2006](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm) separa a receita de exportação e tira PIS, Cofins e ISS da guia mensal.
 
-Evite pedir para o cliente pagar na conta pessoa física: a nota sai no CNPJ, mas o comprovante de câmbio fica no CPF. A lógica completa do imposto está no post sobre [imposto ao prestar serviço para o exterior](/post/tributacao-servicos-para-exterior-o-que-muda).
+Evite pedir para o cliente pagar na conta pessoa física: a nota sai no CNPJ, mas o comprovante de câmbio fica no CPF. A lógica completa do imposto está no post sobre [imposto ao prestar serviço para o exterior](/post/tributacao-servicos-para-exterior-o-que-muda). Se o cliente paga pela Deel, Remote ou Oyster, veja [quando quem recebe por essas plataformas precisa de CNPJ](/post/deel-pj-brasil-cnpj-imposto-2026).
 
 ## Wise, Husky, Remessa Online ou banco: quanto cada um cobra?
 
@@ -150,7 +150,7 @@ Por exemplo, no Anexo III, quem fatura US$ 5 mil por mês tem receita de R$ 320.
 
 Os valores em reais usam as alíquotas sem arredondar (8,2754% e 4,2122%).
 
-Na primeira faixa, com receita de até R$ 180 mil em 12 meses, a conta dá 6% × 50,9% = 3,05%. O post sobre [Fator R e Anexo III](/post/pj-tecnologia-pode-ser-simples-nacional-opcoes) explica o pró-labore necessário. A [calculadora da Conte](https://sejaconte.com.br/calculadora) simula com o seu faturamento.
+Na primeira faixa, com receita de até R$ 180 mil em 12 meses, a conta dá 6% × 50,9% = 3,05%. O post sobre [Fator R e Anexo III](/post/pj-tecnologia-pode-ser-simples-nacional-opcoes) explica o pró-labore necessário. Com INSS e IR do pró-labore na conta, veja [quanto sobra de um salário em dólar](/post/salario-em-dolar-pj-quanto-sobra-2026). A [calculadora da Conte](https://sejaconte.com.br/calculadora) simula com o seu faturamento.
 
 ## Paga IOF para receber do exterior na PJ?
 
