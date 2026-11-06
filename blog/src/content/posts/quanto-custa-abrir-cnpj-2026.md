@@ -15,11 +15,11 @@ tldr:
   - "Com R$ 15.000,00 por mês, o primeiro mês custa R$ 1.721,00: DAS de R$ 900,00, INSS de R$ 462,00, R$ 0,00 de IR no pró-labore e R$ 359,00 de contador."
 faq:
   - q: "Dá para abrir CNPJ de graça?"
-    a: "Só uma parte. A inscrição no CNPJ é gratuita na Receita Federal, que diz no gov.br que \"este serviço é gratuito para o cidadão\". A Junta Comercial cobra conforme a tabela de cada estado, e a empresa precisa de certificado digital, que no modelo A1 custava de R$ 186,90 a R$ 249,90 nas ofertas consultadas em 04/11/2026."
+    a: "Só uma parte. A inscrição no CNPJ é gratuita na Receita Federal, que diz no gov.br que \"este serviço é gratuito para o cidadão\". A Junta Comercial cobra conforme a tabela de cada estado, e a empresa precisa de certificado digital, que no modelo A1 custava de R$ 235,00 a R$ 274,90 nas ofertas consultadas em 04/11/2026."
   - q: "Dev pode abrir MEI para pagar menos?"
     a: "Não. A lista oficial de ocupações permitidas ao MEI, no gov.br, não tem nenhuma ocupação de desenvolvimento de software ou programador em 2026. Por isso o dev costuma abrir uma SLU e entrar no Simples Nacional. Com Fator R de 28% ou mais, o software fica no Anexo III, que começa em 6%."
   - q: "Quanto tempo vale o e-CNPJ A1?"
-    a: "O e-CNPJ A1 vale 12 meses nas ofertas consultadas em 04/11/2026: R$ 235,00 na Soluti e R$ 186,90 ou R$ 249,90 na Certisign. Na Certisign, a validação pode ser por videoconferência ou presencial. Depois de um ano, a empresa compra outro, então o certificado é custo anual, não só de abertura."
+    a: "O e-CNPJ A1 vale 12 meses nas ofertas consultadas em 04/11/2026: R$ 235,00 na Soluti e R$ 274,90 na Certisign. Na Certisign, a validação pode ser por videoconferência ou presencial. Depois de um ano, a empresa compra outro, então o certificado é custo anual, não só de abertura."
   - q: "Posso usar o endereço de casa para abrir o CNPJ?"
     a: "Depende das regras da prefeitura da sua cidade, que confere o endereço na inscrição municipal. Algumas cidades também cobram taxa anual de fiscalização do estabelecimento, como a TFE de São Paulo, que vence em 10 de julho. Quem prefere não registrar o endereço de casa pode usar um endereço fiscal, que a Conte oferece sem custo."
   - q: "Qual pró-labore preciso para ficar no Anexo III?"
@@ -108,11 +108,11 @@ No RJ, os R$ 650,00 valem para cada ato da limitada. Uma alteração futura no c
 
 ## Quanto custa o certificado digital e-CNPJ?
 
-O e-CNPJ A1, com validade de 12 meses, custava de R$ 186,90 a R$ 249,90 na [Certisign](https://certisign.com.br/certificados/e-cnpj/a1) em 04/11/2026, os dois valores na mesma página. Na [Soluti](https://soluti.com.br/produtos/e-cnpj-a1-arquivo/?sku=20436), o mesmo tipo saía por R$ 235,00. **e-CNPJ** é o certificado digital da empresa, a identidade eletrônica que assina documentos e acessa sistemas do governo.
+O e-CNPJ A1, com validade de 12 meses, custava R$ 274,90 à vista na [Certisign](https://certisign.com.br/certificados/e-cnpj/a1) em 04/11/2026. Na [Soluti](https://soluti.com.br/produtos/e-cnpj-a1-arquivo/?sku=20436), o mesmo tipo saía por R$ 235,00. **e-CNPJ** é o certificado digital da empresa, a identidade eletrônica que assina documentos e acessa sistemas do governo.
 
 O A1 é um arquivo instalado no computador. Na Certisign, a validação de identidade pode ser online, por videoconferência, ou presencial.
 
-A simulação usa os R$ 235,00 da Soluti, que ficam entre as duas ofertas da Certisign. Com o A1 de R$ 186,90, a abertura cai R$ 48,10.
+A simulação usa os R$ 235,00 da Soluti, a oferta mais barata das duas. Com o A1 da Certisign, a abertura sobe R$ 39,90.
 
 O certificado volta para a conta todo ano, porque o A1 vence e você compra outro. Para comparar A1 e A3, veja [como escolher o certificado digital ideal para a empresa](/post/como-escolher-certificado-digital-ideal-empresa-2026).
 
