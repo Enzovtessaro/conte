@@ -1,16 +1,17 @@
 ---
 title: "Quanto custa abrir CNPJ em 2026: taxas, certificado digital e contador"
 seoTitle: "Quanto custa abrir CNPJ em 2026: taxas e certificado"
-description: "Quanto custa abrir CNPJ em 2026 para dev PJ: de R$ 235 a R$ 885 no RS e no RJ, somando Junta e e-CNPJ. Veja também a conta do primeiro mês, item a item."
+description: "Quanto custa abrir CNPJ em 2026 para dev PJ: de R$ 235 a R$ 885 no RS, PR e RJ, somando Junta e e-CNPJ. Veja também a conta do primeiro mês, item a item."
 pubDate: '2026-11-04'
+updatedDate: '2026-11-09'
 category: burocracia
 tags: [cnpj, certificado-digital, simples-nacional, fator-r]
 author: solange-vaz
 cover: /images/posts/quanto-custa-abrir-cnpj-2026/capa.jpg
 coverAlt: "Mão assinando um documento com caneta sobre uma mesa"
 tldr:
-  - "Em 2026, abrir o CNPJ de uma SLU de desenvolvimento custa de R$ 235,00 a R$ 885,00 em Porto Alegre e no Rio de Janeiro, somando Junta Comercial e um e-CNPJ A1 de R$ 235,00. A inscrição na Receita Federal é gratuita."
-  - "A Junta do RS dispensa a taxa para SLU com o contrato padrão do Tudo Fácil Empresas (senão, R$ 205,02), e a do RJ cobra R$ 650,00 por ato."
+  - "Em 2026, abrir o CNPJ de uma SLU de desenvolvimento custa de R$ 235,00 a R$ 885,00 em Porto Alegre, Curitiba e Rio de Janeiro, somando Junta Comercial e um e-CNPJ A1 de R$ 235,00. A inscrição na Receita Federal é gratuita."
+  - "A Junta do RS dispensa a taxa para SLU com o contrato padrão do Tudo Fácil Empresas (senão, R$ 205,02), a do PR cobra R$ 134,55 pelo contrato e a do RJ, R$ 650,00 por ato."
   - "Dev não pode ser MEI: a lista oficial de ocupações do MEI não tem desenvolvimento de software."
   - "Com R$ 15.000,00 por mês, o primeiro mês custa R$ 1.721,00: DAS de R$ 900,00, INSS de R$ 462,00, R$ 0,00 de IR no pró-labore e R$ 359,00 de contador."
 faq:
@@ -31,6 +32,8 @@ sources:
     url: https://www.gov.br/pt-br/servicos/inscrever-no-cnpj
   - title: "LegisWeb, Resolução JUCISRS nº 1/2026, tabela de preços publicada no DOE-RS (consultado em 2026-11-04)"
     url: https://www.legisweb.com.br/legislacao/?id=493100
+  - title: "JUCEPAR, Tabela de preços 2026, Resolução CAD 01/2026 (consultado em 2026-11-09)"
+    url: https://www.juntacomercial.pr.gov.br/Pagina/Tabela-de-precos
   - title: "LegisWeb, Deliberação JUCERJA nº 171/2025, tabela de preços publicada no DOE-RJ (consultado em 2026-11-04)"
     url: https://www.legisweb.com.br/legislacao/?id=487879
   - title: "Certisign, Certificado digital e-CNPJ A1 (consultado em 2026-11-04)"
@@ -59,22 +62,22 @@ sources:
     url: https://sejaconte.com.br/calculadora-fator-r
 ---
 
-Quanto custa abrir CNPJ em 2026? Para um dev que abre uma SLU, a abertura fica entre R$ 235,00 e R$ 885,00 em Porto Alegre e no Rio de Janeiro, conforme a Junta. A conta soma a taxa da Junta Comercial e um certificado digital de R$ 235,00, e o CNPJ em si é gratuito. **SLU** é a sociedade limitada unipessoal, a limitada com um único sócio.
+Quanto custa abrir CNPJ em 2026? Para um dev que abre uma SLU, a abertura fica entre R$ 235,00 e R$ 885,00 em Porto Alegre, Curitiba e Rio de Janeiro, conforme a Junta. A conta soma a taxa da Junta Comercial e um certificado digital de R$ 235,00, e o CNPJ em si é gratuito. **SLU** é a sociedade limitada unipessoal, a limitada com um único sócio.
 
 Depois vem a conta do primeiro mês. Com R$ 15.000,00 de receita, ela chega a R$ 1.721,00 entre imposto, INSS e contador. Abaixo vai cada item com a fonte. O passo a passo da abertura está no [guia para abrir e gerenciar uma microempresa](/post/abrir-gerenciar-microempresa-me-brasil).
 
 ## Quanto custa abrir CNPJ em 2026?
 
-Na simulação de 2026 abaixo, com o certificado digital A1 da Soluti (o e-CNPJ), a abertura de uma SLU de desenvolvimento vai de R$ 235,00 a R$ 885,00. A Junta faz a diferença: a do RS dispensa a taxa no contrato padrão, e a do RJ cobra R$ 650,00 por ato pela [Deliberação 171/2025](https://www.legisweb.com.br/legislacao/?id=487879).
+Na simulação de 2026 abaixo, com o certificado digital A1 da Soluti (o e-CNPJ), a abertura de uma SLU de desenvolvimento vai de R$ 235,00 a R$ 885,00. A Junta faz a diferença: a do RS dispensa a taxa no contrato padrão, a do PR cobra R$ 134,55 e a do RJ cobra R$ 650,00 por ato pela [Deliberação 171/2025](https://www.legisweb.com.br/legislacao/?id=487879).
 
 <!-- [ANÁLISE PRÓPRIA] -->
-| Item | Porto Alegre, contrato padrão | Porto Alegre, outro contrato | Rio de Janeiro |
-|---|---|---|---|
-| Inscrição no CNPJ (Receita Federal) | R$ 0,00 | R$ 0,00 | R$ 0,00 |
-| Junta Comercial | R$ 0,00 | R$ 205,02 | R$ 650,00 |
-| e-CNPJ A1 (Soluti) | R$ 235,00 | R$ 235,00 | R$ 235,00 |
-| Contador na abertura (Conte) | R$ 0,00 | R$ 0,00 | R$ 0,00 |
-| **Total da abertura** | **R$ 235,00** | **R$ 440,02** | **R$ 885,00** |
+| Item | Porto Alegre, contrato padrão | Curitiba | Porto Alegre, outro contrato | Rio de Janeiro |
+|---|---|---|---|---|
+| Inscrição no CNPJ (Receita Federal) | R$ 0,00 | R$ 0,00 | R$ 0,00 | R$ 0,00 |
+| Junta Comercial | R$ 0,00 | R$ 134,55 | R$ 205,02 | R$ 650,00 |
+| e-CNPJ A1 (Soluti) | R$ 235,00 | R$ 235,00 | R$ 235,00 | R$ 235,00 |
+| Contador na abertura (Conte) | R$ 0,00 | R$ 0,00 | R$ 0,00 | R$ 0,00 |
+| **Total da abertura** | **R$ 235,00** | **R$ 369,55** | **R$ 440,02** | **R$ 885,00** |
 
 A simulação é de um dev em SLU, com R$ 15.000,00 por mês em serviços. A taxa da prefeitura fica fora, porque varia por cidade. O contador aparece como R$ 0,00 porque a Conte não cobra pela abertura. Preços de outros escritórios estão no post sobre [quanto custa um contador para PJ de tecnologia](/post/quanto-custa-contador-pj-tecnologia-2026).
 
@@ -94,15 +97,16 @@ O caminho comum é a SLU no Simples Nacional. Pela [LC 123/2006](https://www.pla
 
 ## Quanto cobra a Junta Comercial em cada estado?
 
-Cada Junta Comercial tem tabela própria de 2026. No RS, a [Resolução 1/2026 da JUCISRS](https://www.legisweb.com.br/legislacao/?id=493100) cobra R$ 205,02 pelo contrato social. Mas dispensa a taxa para LTDA ou SLU aberta com o contrato padrão do Tudo Fácil Empresas. No RJ, a Deliberação 171/2025 da JUCERJA cobra R$ 650,00.
+Cada Junta Comercial tem tabela própria de 2026. No RS, a [Resolução 1/2026 da JUCISRS](https://www.legisweb.com.br/legislacao/?id=493100) cobra R$ 205,02 pelo contrato social. Mas dispensa a taxa para LTDA ou SLU aberta com o contrato padrão do Tudo Fácil Empresas. No PR, a [tabela de preços da JUCEPAR](https://www.juntacomercial.pr.gov.br/Pagina/Tabela-de-precos) cobra R$ 134,55. No RJ, a Deliberação 171/2025 da JUCERJA cobra R$ 650,00.
 
 | Estado | Norma e vigência | Valor para abrir a limitada em 2026 |
 |---|---|---|
 | RS | JUCISRS, Resolução 1/2026, desde 01/04/2026 | R$ 0,00 com o contrato padrão do Tudo Fácil Empresas; R$ 205,02 nos demais casos |
+| PR | JUCEPAR, Resolução CAD 01/2026, desde 01/05/2026 | R$ 134,55 (ato 090, contrato de sociedade empresária limitada; conferido em 09/11/2026) |
 | RJ | JUCERJA, Deliberação 171/2025, desde 02/01/2026 | R$ 650,00 |
-| SP, MG, PR, SC e demais | Tabela própria de cada Junta | Consulte a tabela de 2026 do seu estado |
+| SP, MG, SC e demais | Tabela própria de cada Junta | Consulte a tabela de 2026 do seu estado |
 
-Em São Paulo, Minas Gerais, Paraná e Santa Catarina, não conseguimos conferir no dia a tabela oficial de 2026. Por isso não há número aqui. Antes de abrir, consulte a tabela vigente no site da Junta do seu estado.
+No PR, o valor está na [planilha completa de 2026](https://www.juntacomercial.pr.gov.br/sites/jucepar/files/documento/2026-05/taxas2026-completa.xlsx) da JUCEPAR, aprovada pela [Resolução CAD 01/2026](https://www.juntacomercial.pr.gov.br/sites/jucepar/files/documento/2026-04/resolucao_cad_01_2026_novatabeladeprecos.pdf). Em São Paulo, Minas Gerais e Santa Catarina, não conseguimos conferir no dia a tabela oficial de 2026. Antes de abrir, consulte a tabela vigente no site da Junta do seu estado.
 
 No RJ, os R$ 650,00 valem para cada ato da limitada. Uma alteração futura no contrato, como mudar o endereço, paga de novo o mesmo valor.
 
@@ -122,7 +126,7 @@ Depende da cidade. Toda empresa de serviço faz a inscrição municipal, porque 
 
 Não pusemos valor na tabela porque não conseguimos conferir, no dia, o valor que se aplica a uma SLU de software.
 
-Em Porto Alegre e no Rio, a inscrição municipal e as taxas seguem regras próprias de cada prefeitura. Quem cuida da abertura deve conferir o que a sua cidade pede antes do registro.
+Em Porto Alegre, em Curitiba e no Rio, a inscrição municipal e as taxas seguem regras próprias de cada prefeitura. Quem cuida da abertura deve conferir o que a sua cidade pede antes do registro.
 
 A taxa anual chega depois da abertura, às vezes meses depois. Pergunte ao contador, antes do registro, se a sua cidade tem uma taxa assim e quando ela vence.
 
@@ -149,7 +153,7 @@ Um pró-labore de um salário mínimo, R$ 1.621,00 em 2026 pelo [Decreto 12.797/
 
 ## Quanto custa abrir CNPJ com a Conte?
 
-Na Conte, a abertura do CNPJ não tem custo em nenhum plano, segundo a [página de abertura de empresa](https://sejaconte.com.br/abrir-empresa) consultada em 04/11/2026. A taxa da Junta segue a tabela do seu estado, e o certificado vem de uma certificadora. Com a empresa aberta, o plano completo custa R$ 359,00 por mês.
+Na Conte, a abertura do CNPJ não tem custo em nenhum plano, segundo a [página de abertura de empresa](https://sejaconte.com.br/abrir-empresa) consultada em 04/11/2026. A taxa da Junta segue a tabela do seu estado, e o certificado vem de uma certificadora. Em Curitiba, a abertura com a Conte sai por R$ 369,55: R$ 134,55 da JUCEPAR e R$ 235,00 do e-CNPJ. Com a empresa aberta, o plano completo custa R$ 359,00 por mês.
 
 <!-- [EXPERIÊNCIA] -->
 Antes de abrir, a contadora entende a sua atividade e escolhe o enquadramento. É nessa conversa que se decide como o software entra no Simples e qual pró-labore mantém o Fator R em 28%.
