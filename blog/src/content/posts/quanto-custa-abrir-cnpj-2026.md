@@ -158,7 +158,7 @@ Na Conte, a abertura do CNPJ não tem custo em nenhum plano, segundo a [página 
 <!-- [EXPERIÊNCIA] -->
 Antes de abrir, a contadora entende a sua atividade e escolhe o enquadramento. É nessa conversa que se decide como o software entra no Simples e qual pró-labore mantém o Fator R em 28%.
 
-O endereço fiscal também entra sem custo. Quem trabalha de casa e não quer o endereço residencial no cadastro da empresa pode usar o endereço fiscal da Conte.
+O endereço fiscal também entra sem custo, e com ele a Conte abre a empresa em 24 horas. Quem trabalha de casa e não quer o endereço residencial no cadastro da empresa pode usar o endereço fiscal da Conte.
 
 Se o seu caso tiver algo fora do padrão, como receita do exterior, a contadora refaz a conta com você.
 
