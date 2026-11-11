@@ -11,7 +11,7 @@ coverAlt: "Mão segurando notas de dólar ao lado de uma carteira de couro sobre
 tldr:
   - "No Simples Nacional, a variação cambial entre a nota e o recebimento não entra no DAS. A Receita Federal decidiu, na Solução de Consulta Cosit 401/2017, que ela não é receita bruta. No regime de competência, o imposto sai sobre o valor em reais da nota."
   - "No Lucro Presumido, a variação cambial positiva é receita financeira e entra inteira na base do IRPJ e da CSLL. A perda de câmbio não reduz o imposto."
-  - "Nenhuma norma do Simples fixa qual cotação usar na nota de exportação: escolha um critério, como a PTAX de compra do dia da emissão, e mantenha todo mês. A partir de 2027, o Simples deixa de ter regime de caixa e a receita conta na emissão da nota."
+  - "Quem emite a nota antes de receber precisa de um critério de cotação, e nenhuma norma do Simples fixa qual: escolha um, como a PTAX de compra do dia da emissão, e mantenha todo mês. Se a nota sai depois do recebimento, vale o valor convertido pelo banco. A partir de 2027, o Simples deixa de ter regime de caixa e a receita conta na emissão da nota."
 faq:
   - q: "Preciso refazer a nota se o dólar mudou até o pagamento?"
     a: "Não. A nota registra a venda pelo valor convertido no critério de cotação da empresa, e a diferença até o recebimento é variação cambial. Não é erro de nota. No Simples, essa diferença fica fora do DAS, segundo a Solução de Consulta Cosit 401/2017. Corrija a nota só se houver erro no valor em dólar, no tomador ou no código do serviço."
@@ -63,7 +63,7 @@ A dúvida sobre variação cambial PJ costuma chegar assim: a nota saiu com um v
 **Variação cambial** é a diferença em reais causada pela mudança do dólar entre duas datas: a da nota e a do câmbio. **PTAX** é a taxa de referência do Banco Central, uma [média de quatro consultas diárias](https://dadosabertos.bcb.gov.br/dataset/dolar-americano-usd-todos-os-boletins-diarios) aos dealers. **DAS** é a guia mensal única do Simples Nacional. **Lucro Presumido** é o regime em que IRPJ e CSLL incidem sobre uma margem fixa da receita, sem deduzir despesas.
 
 <!-- [EXPERIÊNCIA] -->
-Na Conte, a gente recebe o pedido da nota de exportação pelo WhatsApp e a equipe emite. A regra geral do tema está no guia de [imposto ao prestar serviço para o exterior](/post/tributacao-servicos-para-exterior-o-que-muda).
+Na Conte, a nota de exportação sai depois que o dinheiro cai na conta, pelo valor que o banco já converteu. Nesse fluxo não há variação cambial entre nota e recebimento: a alta do dólar já está na nota e entra no DAS. O resto deste post trata de quem emite a nota antes de receber. A regra geral do tema está no guia de [imposto ao prestar serviço para o exterior](/post/tributacao-servicos-para-exterior-o-que-muda).
 
 ## O que é variação cambial na PJ que recebe em dólar?
 
@@ -82,7 +82,7 @@ O valor em reais da nota sai da conversão que a empresa escolhe. Por isso o cri
 A PTAX de cada dia útil fica no [histórico de cotações do Banco Central](https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes). A de compra de 01/10/2026, por exemplo, foi R$ 5,2073. Em fim de semana e feriado, não sai PTAX nova.
 
 <!-- [EXPERIÊNCIA] -->
-Na Conte, a gente usa o mesmo critério de cotação em todas as notas do cliente e guarda nota, invoice e contrato de câmbio juntos. Se a nota já saiu com tomador ou moeda errados, veja os [erros comuns na nota de exportação](/post/nota-fiscal-internacional-erros-comuns-e-como-corrigir-rapido).
+Na Conte, o cliente avisa quando o dinheiro cai e a equipe emite a nota nesse dia, pelo valor em reais que o banco converteu. Não precisa escolher PTAX. A gente guarda nota, invoice e contrato de câmbio juntos. Se a nota já saiu com tomador ou moeda errados, veja os [erros comuns na nota de exportação](/post/nota-fiscal-internacional-erros-comuns-e-como-corrigir-rapido).
 
 ## No Simples Nacional, a variação cambial entra no DAS?
 
@@ -98,7 +98,7 @@ O ISS fica fora também pela [LC 116/2003](https://www.planalto.gov.br/ccivil_03
 
 ## Quanto muda o imposto quando o dólar sobe depois da nota?
 
-No Simples, o DAS não muda. Numa nota de US$ 5.000 emitida em 01/10/2026 e recebida em 30/10/2026, a PTAX de compra do Banco Central foi de R$ 5,2073 a R$ 5,4206. A variação ativa foi de R$ 1.066,50. No Lucro Presumido, ela somaria R$ 255,96 de IRPJ e CSLL.
+Esse é o cenário de quem emite a nota antes de receber, por exemplo na data da invoice. No Simples, o DAS não muda. Numa nota de US$ 5.000 emitida em 01/10/2026 e recebida em 30/10/2026, a PTAX de compra do Banco Central foi de R$ 5,2073 a R$ 5,4206. A variação ativa foi de R$ 1.066,50. No Lucro Presumido, ela somaria R$ 255,96 de IRPJ e CSLL.
 
 A RBT12 do exemplo é hipotética: 12 meses iguais ao valor desta nota. Toda a receita é exportação. **Anexo III** é a tabela do Simples para serviços que começa em 6%, e é nela que a empresa está, com Fator R de 28% ou mais. **Fator R** é a folha de 12 meses, com o pró-labore, dividida pela receita bruta do mesmo período.
 
@@ -160,6 +160,12 @@ Com a receita presa à emissão, o valor em reais da nota tende a ser a referên
 
 E a nota emitida em dezembro de 2026 e recebida em janeiro de 2027? A regra de transição não está clara. Nesse caso, a contadora precisa olhar nota por nota.
 
+## E se a nota for emitida depois do recebimento?
+
+Nesse caso, não há variação cambial para tratar. O dinheiro já caiu na conta, convertido pelo banco, e a nota sai com esse valor em reais. Se o cliente pagou no dia 30, a nota é do dia 30. Se o dólar subiu desde a invoice, a alta já está na nota e entra no DAS como receita do serviço. Se caiu, a nota sai menor.
+
+O que muda é o momento da emissão, não o imposto sobre o serviço: o DAS sai sobre o valor da nota, como nos exemplos acima. A Cosit 401/2017 e as contas de outubro servem para quem emite antes do pagamento.
+
 ## Como separar a variação cambial da tarifa e do spread?
 
 O crédito em reais não é igual à nota mais a variação. **Spread** é a diferença entre a taxa que o canal aplica e a taxa de referência do dia. Do valor convertido saem o spread e as tarifas do canal, que não são variação cambial. O IOF não pesa: é zero na exportação, pelo [Decreto 6.306/2007](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/decreto/d6306.htm), art. 15-B, I.
@@ -173,4 +179,4 @@ Para provar cada parte, guarde por mês a nota, a invoice enviada ao cliente e o
 
 ## Próximo passo
 
-Na Conte, você pede a nota de exportação pelo WhatsApp e a equipe emite, com o mesmo critério de cotação todo mês. A guia chega pronta, e uma contadora dedicada acompanha o seu CNPJ, inclusive a virada do regime de caixa em 2027. O plano custa R$ 359 por mês. Veja como funciona a [contabilidade para quem recebe do exterior](https://sejaconte.com.br/contabilidade-para-exterior).
+Na Conte, você avisa pelo WhatsApp que o dinheiro caiu e a equipe emite a nota de exportação no mesmo dia, pelo valor que o banco converteu. A guia chega pronta, e uma contadora dedicada acompanha o seu CNPJ, inclusive a virada do regime de caixa em 2027. O plano custa R$ 359 por mês. Veja como funciona a [contabilidade para quem recebe do exterior](https://sejaconte.com.br/contabilidade-para-exterior).
