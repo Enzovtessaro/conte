@@ -93,7 +93,7 @@ Três mudanças entraram em vigor em 1º de janeiro de 2026.
 
 Em 2026, a reforma é um teste: as notas trazem CBS de 0,9% e IBS de 0,1%, compensáveis com PIS e Cofins, e empresas do Simples não recolhem nada a mais. A partir de 2027, a CBS substitui PIS e Cofins. Entre 2029 e 2032, ICMS e ISS diminuem aos poucos, até o IBS assumir em 2033 (EC 132/2023 e [LC 214/2025](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm)).
 
-A decisão prática para o dev PJ no Simples é se vale recolher CBS e IBS fora do DAS a partir de 2027. Para quem fatura só para o exterior, a resposta tende a ser não, porque exportação é desonerada. Para quem fatura para empresas brasileiras no regime regular, a opção pode tornar o seu serviço mais atraente, já que o cliente toma crédito integral. Para o primeiro semestre de 2027, o prazo vai até 30 de outubro de 2026, e há nova janela em março de 2027.
+A decisão prática para o dev PJ no Simples é se vale recolher CBS e IBS fora do DAS a partir de 2027. Para quem fatura só para o exterior, a resposta tende a ser não, porque exportação é desonerada. Para quem fatura para empresas brasileiras no regime regular, a opção pode tornar o seu serviço mais atraente, já que o cliente toma crédito integral. Para o primeiro semestre de 2027, o prazo vai até 30 de outubro de 2026, e há nova janela em março de 2027. O calendário ano a ano está no guia da [reforma tributária para PJ de tecnologia](/post/reforma-tributaria-pj-tecnologia-2026-2033).
 
 ## Qual o calendário do planejamento tributário?
 

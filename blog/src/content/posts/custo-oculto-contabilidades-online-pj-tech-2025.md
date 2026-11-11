@@ -33,7 +33,7 @@ sources:
 migratedFrom: https://blog.sejaconte.com.br/post/custo-oculto-contabilidades-online-pj-tech-2025
 ---
 
-Custo oculto, em contabilidade, é tudo que você paga além da mensalidade anunciada: serviços cobrados à parte, imposto a mais por erro técnico e multas por atraso. A contabilidade online não é a vilã; ela é o modelo em que o preço "a partir de" aparece primeiro e o escopo depois. Este guia mostra onde procurar cada custo antes de assinar.
+Custo oculto, em contabilidade, é tudo que você paga além da mensalidade anunciada: serviços cobrados à parte, imposto a mais por erro técnico e multas por atraso. A contabilidade online não é a vilã; ela é o modelo em que o preço "a partir de" aparece primeiro e o escopo depois. Este guia mostra onde procurar cada custo antes de assinar. Para as faixas de preço da mensalidade, veja [quanto custa um contador para PJ](/post/quanto-custa-contador-pj-tecnologia-2026).
 
 ## Onde ficam os custos ocultos de uma contabilidade online?
 

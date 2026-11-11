@@ -142,7 +142,7 @@ O Brasil não tem acordo para evitar dupla tributação com os Estados Unidos. C
 
 ## O que muda com a reforma tributária?
 
-Para o exportador de serviço, o principal benefício continua: a Emenda Constitucional 132 e a LC 214/2025 mantêm as exportações livres de CBS e IBS, os tributos que vão substituir PIS, Cofins e ISS. Em 2026 o Simples segue com as regras atuais, e as informações de CBS e IBS passam a valer para as empresas do regime a partir de 1º de janeiro de 2027.
+Para o exportador de serviço, o principal benefício continua: a Emenda Constitucional 132 e a LC 214/2025 mantêm as exportações livres de CBS e IBS, os tributos que vão substituir PIS, Cofins e ISS. Em 2026 o Simples segue com as regras atuais, e as informações de CBS e IBS passam a valer para as empresas do regime a partir de 1º de janeiro de 2027. Veja o que muda ano a ano na [reforma tributária para PJ de tecnologia](/post/reforma-tributaria-pj-tecnologia-2026-2033).
 
 A nota fiscal ganha campos novos para esses tributos, e o enquadramento do serviço como exportação ficará ainda mais visível para o fisco. Contrato, câmbio e nota coerentes entre si são a melhor defesa.
 
