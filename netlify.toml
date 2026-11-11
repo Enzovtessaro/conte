@@ -2,6 +2,69 @@
   command = "npm run build"
   publish = "dist"
 
+# MCP da Conte (CON-2740): o cliente conecta o Claude/ChatGPT em
+# https://sejaconte.com.br/mcp. O Claude tira o ícone do conector do Google
+# pelo domínio, e o Google já tem a logo da Conte para sejaconte.com.br.
+# O Netlify repassa (status 200 = proxy, a URL não muda) para a função `mcp`
+# e só para as rotas do OAuth do Supabase que o login usa. O header
+# X-Conte-Proxy = "site" faz a função anunciar os endereços de sejaconte.com.br.
+# O login em si abre nas telas do app (app.sejaconte.com.br/oauth/consent).
+[[redirects]]
+  from = "/mcp"
+  to = "https://otaqjzsjvopcamguakrn.supabase.co/functions/v1/mcp"
+  status = 200
+  force = true
+  headers = {X-Conte-Proxy = "site"}
+
+[[redirects]]
+  from = "/.well-known/oauth-protected-resource/mcp"
+  to = "https://otaqjzsjvopcamguakrn.supabase.co/functions/v1/mcp/.well-known/oauth-protected-resource"
+  status = 200
+  force = true
+  headers = {X-Conte-Proxy = "site"}
+
+[[redirects]]
+  from = "/mcp/.well-known/oauth-protected-resource"
+  to = "https://otaqjzsjvopcamguakrn.supabase.co/functions/v1/mcp/.well-known/oauth-protected-resource"
+  status = 200
+  force = true
+  headers = {X-Conte-Proxy = "site"}
+
+[[redirects]]
+  from = "/.well-known/oauth-protected-resource"
+  to = "https://otaqjzsjvopcamguakrn.supabase.co/functions/v1/mcp/.well-known/oauth-protected-resource"
+  status = 200
+  force = true
+  headers = {X-Conte-Proxy = "site"}
+
+[[redirects]]
+  from = "/.well-known/oauth-authorization-server/auth/v1"
+  to = "https://otaqjzsjvopcamguakrn.supabase.co/functions/v1/mcp/.well-known/oauth-authorization-server"
+  status = 200
+  force = true
+  headers = {X-Conte-Proxy = "site"}
+
+[[redirects]]
+  from = "/.well-known/oauth-authorization-server"
+  to = "https://otaqjzsjvopcamguakrn.supabase.co/functions/v1/mcp/.well-known/oauth-authorization-server"
+  status = 200
+  force = true
+  headers = {X-Conte-Proxy = "site"}
+
+[[redirects]]
+  from = "/auth/v1/oauth/*"
+  to = "https://otaqjzsjvopcamguakrn.supabase.co/auth/v1/oauth/:splat"
+  status = 200
+  force = true
+  headers = {X-Conte-Proxy = "site"}
+
+[[redirects]]
+  from = "/auth/v1/.well-known/jwks.json"
+  to = "https://otaqjzsjvopcamguakrn.supabase.co/auth/v1/.well-known/jwks.json"
+  status = 200
+  force = true
+  headers = {X-Conte-Proxy = "site"}
+
 # The old /blog route on the landing page moved to the blog subdomain.
 [[redirects]]
   from = "/blog"
