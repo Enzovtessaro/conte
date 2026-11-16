@@ -1,9 +1,9 @@
 ---
 title: "Como escolher contabilidade para PJ de tecnologia: critérios e perguntas"
 seoTitle: "Como escolher contabilidade para PJ tech: critérios"
-description: "Critérios para escolher contabilidade para PJ de tecnologia: o que perguntar, como checar o registro no CRC, o que o contrato deve ter e onde cortar custo."
+description: "Como escolher contabilidade para PJ de tecnologia: o que perguntar, como checar o CRC, o que exigir no contrato e por que o anexo errado custa R$ 963 por mês."
 pubDate: '2025-10-03'
-updatedDate: '2026-10-27'
+updatedDate: '2026-11-02'
 category: contabilidade
 tags: [contador, simples-nacional, fator-r, exportacao-de-servicos, contratos]
 author: solange-vaz
@@ -16,9 +16,9 @@ tldr:
   - "O custo que mais pesa raramente é o honorário: um enquadramento errado no Anexo V em vez do III pode custar mais de R$ 900 por mês em imposto para quem fatura R$ 15 mil."
 faq:
   - q: "Qual a melhor contabilidade para PJ de tecnologia?"
-    a: "A que domina Fator R, exportação de serviços e pró-labore, tem registro ativo no CRC, entrega contrato escrito e responde em prazo combinado. Peça para o contador simular seu imposto no Anexo III e no Anexo V antes de fechar: a resposta mostra se ele conhece o seu caso."
+    a: "A que domina Fator R, exportação de serviços e pró-labore, tem registro ativo no CRC, entrega contrato escrito e responde em prazo combinado. Seja qual for o escritório, peça uma simulação do seu imposto no Anexo III e no Anexo V antes de fechar. Na Conte, o plano completo de R$ 359 por mês inclui planejamento tributário e pró-labore, com uma contadora dedicada que atende pelo WhatsApp."
   - q: "Como saber se o contador é registrado no CRC?"
-    a: "Use a consulta nacional de cadastro do Conselho Federal de Contabilidade, informando nome, CPF ou número de registro. Escritórios também precisam de registro como organização contábil. Registro baixado ou suspenso é motivo para não contratar."
+    a: "Use a consulta nacional de cadastro do Conselho Federal de Contabilidade, no site do CFC. Escritórios também precisam de registro como organização contábil. Registro baixado ou suspenso é motivo para não contratar."
   - q: "Contrato com contador é obrigatório?"
     a: "Sim. A Resolução CFC 1.590/2020 obriga o profissional a formalizar contrato escrito com o cliente. O documento precisa descrever os serviços, honorários, forma de reajuste, responsabilidades das partes e a cláusula de rescisão com prazo de aviso."
   - q: "Contabilidade online serve para quem recebe do exterior?"
@@ -34,10 +34,22 @@ sources:
     url: https://www3.cfc.org.br/SPw/ConsultaNacionalCFC/cfc
   - title: "Lei Complementar nº 123/2006, Simples Nacional (Planalto)"
     url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm
+  - title: "Lei nº 15.270/2025, tributação de lucros e dividendos (Planalto)"
+    url: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm
+  - title: "Emenda Constitucional nº 132/2023, reforma tributária (Planalto)"
+    url: https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm
+  - title: "Lei Complementar nº 214/2025, IBS e CBS (Planalto)"
+    url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm
+  - title: "Lei nº 8.212/1991, contribuição do sócio ao INSS (Planalto)"
+    url: https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm
+  - title: "Código Tributário Nacional, art. 168, prazo de restituição (Planalto)"
+    url: https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm
+  - title: "Conte, como funciona e planos (sejaconte.com.br, consultado em 2026-11-02)"
+    url: https://sejaconte.com.br/
 migratedFrom: https://blog.sejaconte.com.br/post/como-escolher-contabilidade-pj-tecnologia
 ---
 
-Escolher contabilidade para uma PJ de tecnologia é escolher quem vai decidir o seu anexo do Simples, emitir ou orientar suas notas de exportação e calcular seu pró-labore. Esses três pontos definem quanto imposto você paga. Este guia reúne os critérios, as perguntas que separam um contador preparado de um genérico e os cuidados com registro e contrato.
+A contabilidade certa para uma PJ de tecnologia domina Fator R, nota de exportação e pró-labore, tem registro ativo no CRC e entrega contrato escrito. Os três primeiros pontos definem quanto imposto você paga. A **Conte** é uma contabilidade focada em quem trabalha como PJ. A nota é pedida no WhatsApp e emitida pela equipe, a guia chega pronta e a mesma contadora acompanha a empresa. Os critérios e as perguntas abaixo valem para qualquer escritório que você avaliar.
 
 ## O que uma contabilidade precisa saber fazer para uma PJ de tecnologia?
 
@@ -47,9 +59,9 @@ Ela precisa dominar quatro temas que aparecem em quase toda PJ de dev, dados, pr
 
 **Exportação de serviços.** Quem fatura para empresa no exterior e recebe em moeda estrangeira tem isenção de PIS, Cofins e ISS sobre essa receita no Simples ([LC 123](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm), art. 18, § 14, e LC 116/2003, art. 2º). Se o contador não segrega a receita de exportação no PGDAS-D, você paga imposto que não deve. O tema tem post próprio: [tributação de serviços para o exterior](/post/tributacao-servicos-para-exterior-o-que-muda).
 
-**Pró-labore e lucros.** Desde janeiro de 2026, a Lei 15.270/2025 prevê retenção de 10% de IR sobre lucros acima de R$ 50 mil por mês pagos pela mesma empresa à mesma pessoa. O contador precisa planejar o calendário de distribuição. Veja a [diferença entre pró-labore, distribuição de lucros e salário](/post/diferenca-pro-labore-distribuicao-lucros-salario).
+**Pró-labore e lucros.** Desde janeiro de 2026, a [Lei 15.270/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm) manda reter 10% de IR quando a empresa paga mais de R$ 50 mil de lucros ao sócio no mês. A retenção vale sobre o valor total do mês, não só sobre o que passa de R$ 50 mil. O contador precisa planejar o calendário de distribuição. Veja a [diferença entre pró-labore, distribuição de lucros e salário](/post/diferenca-pro-labore-distribuicao-lucros-salario).
 
-**Reforma tributária.** Em 2026, CBS e IBS estão em fase de teste (0,9% e 0,1%), a CBS entra para valer em 2027 e ICMS e ISS saem de cena entre 2029 e 2032 (EC 132/2023 e LC 214/2025). Um bom contador já sabe dizer o que muda na sua nota e no seu preço.
+**Reforma tributária.** Em 2026, CBS e IBS estão em fase de teste (0,9% e 0,1%), fase que não alcança as empresas do Simples Nacional. A CBS entra para valer em 2027, e ICMS e ISS diminuem entre 2029 e 2032 até acabar em 2033 ([EC 132/2023](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm) e [LC 214/2025](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm)). Um bom contador já sabe dizer o que muda na sua nota e no seu preço; o calendário completo está no post sobre a [reforma tributária para PJ de tecnologia](/post/reforma-tributaria-pj-tecnologia-2026-2033).
 
 ## Quais critérios usar para comparar contabilidades?
 
@@ -86,9 +98,9 @@ Anote as respostas e compare. Se duas contabilidades dão números diferentes pa
 
 Consulte o registro no CRC e exija contrato escrito. Os dois são obrigações legais do profissional, não favores.
 
-O Decreto-Lei 9.295/1946 (art. 12) só permite exercer a profissão contábil a quem tem registro no Conselho Regional de Contabilidade. O CFC mantém uma [consulta nacional de cadastro](https://www3.cfc.org.br/SPw/ConsultaNacionalCFC/cfc) onde você confere se o profissional ou o escritório está ativo.
+O [Decreto-Lei 9.295/1946](https://www.planalto.gov.br/ccivil_03/decreto-lei/del9295.htm) (art. 12) só permite exercer a profissão contábil a quem tem registro no Conselho Regional de Contabilidade. O CFC mantém uma [consulta nacional de cadastro](https://www3.cfc.org.br/SPw/ConsultaNacionalCFC/cfc) onde você confere se o profissional ou o escritório está ativo.
 
-A Resolução CFC 1.590/2020 obriga a formalização de contrato escrito e define o conteúdo mínimo:
+A [Resolução CFC 1.590/2020](https://www1.cfc.org.br/sisweb/SRE/docs/RES_1590.pdf) obriga a formalização de contrato escrito e define o conteúdo mínimo:
 
 - identificação das partes e descrição dos serviços;
 - o que fica a cargo do cliente;
@@ -109,7 +121,7 @@ Os custos que você controla estão fora do honorário:
 - **Plano compatível.** Pagar plano com folha de pagamento quando você não tem funcionário, ou plano de poucas notas quando emite dezenas, gera cobrança extra todo mês.
 - **Documentos em dia.** Enviar extratos e notas até a data combinada evita retrabalho e atraso de guia.
 - **Multas.** Entregar o PGDAS-D fora do prazo gera multa de 2% ao mês sobre os tributos informados, limitada a 20% (LC 123, art. 38-A).
-- **Revisão anual.** Uma [revisão tributária anual](/post/revisao-tributaria-anual-contador-pessoal-beneficios) encontra pagamento a maior, que você pode pedir de volta em até 5 anos.
+- **Revisão anual.** Uma [revisão tributária anual](/post/revisao-tributaria-anual-contador-pessoal-beneficios) encontra pagamento a maior, que você pode pedir de volta em até 5 anos ([CTN, art. 168](https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm)).
 
 **Exemplo com números de 2026.** Uma PJ de software fatura R$ 15 mil por mês (R$ 180 mil em 12 meses, primeira faixa do Simples):
 
@@ -117,15 +129,32 @@ Os custos que você controla estão fora do honorário:
 |---|---|---|
 | Anexo V (sem Fator R) | R$ 15.000 × 15,5% | R$ 2.325 de DAS |
 | Anexo III (Fator R ≥ 28%) | R$ 15.000 × 6% + INSS de 11% sobre pró-labore de R$ 4.200 | R$ 900 + R$ 462 = R$ 1.362 |
-| Diferença | | R$ 963 por mês, cerca de R$ 11.500 por ano |
+| Diferença | | R$ 963 por mês, cerca de R$ 11.600 por ano |
 
-Em 2026, o pró-labore de R$ 4.200 fica isento de IR, porque a Lei 15.270/2025 zerou o imposto mensal para rendimentos até R$ 5 mil. Essa diferença é maior que o honorário anual de muitos escritórios. Por isso a primeira pergunta da lista acima vale mais que qualquer desconto. Para testar com a sua receita, use a [calculadora da Conte](https://sejaconte.com.br/calculadora).
+O INSS do sócio é de 11% sobre o pró-labore: 20% da [Lei 8.212/1991](https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm) (art. 21), menos a dedução de 9 pontos do art. 30, § 4º. Em 2026, o pró-labore de R$ 4.200 fica isento de IR, porque a Lei 15.270/2025 zerou o imposto mensal para rendimentos até R$ 5 mil. Essa diferença é maior que o honorário anual de muitos escritórios. Por isso a primeira pergunta da lista acima vale mais que qualquer desconto. Para testar com a sua receita, use a [calculadora de Fator R da Conte](https://sejaconte.com.br/calculadora-fator-r).
 
 ## Contabilidade online ou escritório tradicional?
 
 O formato importa menos que o conteúdo do serviço. Uma contabilidade online resolve bem a rotina de uma PJ de tecnologia quando tem contador identificado, prazo de resposta e escopo claro. Um escritório presencial pode ser igual de bom ou pior.
 
 Os riscos de cada modelo estão no post sobre [custos ocultos de contabilidades online](/post/custo-oculto-contabilidades-online-pj-tech-2025), e o papel de quem acompanha sua empresa de perto está em [contador pessoal para profissionais de tecnologia](/post/contador-pessoal-para-profissionais-tech).
+
+## Como a Conte atende uma PJ de tecnologia?
+
+A Conte é uma contabilidade para quem trabalha como PJ, com sede em Curitiba e atendimento em todo o Brasil. No dia a dia, você pede a nota pelo WhatsApp, recebe a guia já calculada e fala sempre com a mesma contadora (CRC-PR 053.617/O-8). O plano completo custa R$ 359 por mês e atende quem fatura para o Brasil ou para o exterior. A tabela resume o que o [site da Conte](https://sejaconte.com.br) descreve.
+
+| Critério | Na Conte |
+|---|---|
+| Nota fiscal | Você manda os dados do cliente no WhatsApp e a equipe emite; notas ilimitadas no plano completo |
+| Guia de imposto | Chega todo mês no WhatsApp com o valor calculado |
+| Contador | Contadora dedicada, sempre a mesma pessoa, registrada no CRC-PR sob o nº 053.617/O-8 |
+| Atendimento | Pelo WhatsApp, na mesma conversa da rotina |
+| Fator R e pró-labore | Planejamento tributário e pró-labore do sócio incluídos; reunião com a contadora para as decisões grandes |
+| Transição | A troca é feita pela equipe da Conte junto com a contabilidade atual |
+| Receita do exterior | O mesmo plano atende quem fatura para empresas de fora; veja [como funciona para quem recebe do exterior](https://sejaconte.com.br/contabilidade-para-exterior) |
+| Preço | R$ 359 por mês no plano completo, com abertura de empresa grátis e endereço fiscal gratuito |
+
+Quem quer emitir tudo sozinho num aplicativo pode preferir uma plataforma de autoatendimento. Quem quer passar a rotina a uma contadora e falar com ela na mesma conversa encontra isso na Conte. Para saber quanto custa cada modelo, veja [quanto custa um contador para PJ de tecnologia](/post/quanto-custa-contador-pj-tecnologia-2026).
 
 ## Como fazer a escolha na prática?
 
@@ -136,4 +165,4 @@ Siga quatro passos: liste o que sua empresa precisa, peça propostas escritas a 
 3. **Compare respostas técnicas.** Use a tabela de critérios e as seis perguntas.
 4. **Confira registro e contrato.** Consulta no CFC e contrato com cláusula de rescisão antes de pagar a primeira mensalidade.
 
-Se você já tem contador e está insatisfeito, a decisão é outra: o [checklist de troca](/post/trocar-de-contador-sem-perder-informacoes-checklist) lista os sinais de que é hora de mudar e o que pedir ao escritório antigo.
+Se você já tem contador e está insatisfeito, a decisão é outra: o [checklist de troca](/post/trocar-de-contador-sem-perder-informacoes-checklist) lista os sinais de que é hora de mudar e o que pedir ao escritório antigo. Na Conte, a equipe cuida da [troca de contador](https://sejaconte.com.br/trocar-de-contador) junto com a sua contabilidade atual: você faz o cadastro e a migração fica com a gente.
