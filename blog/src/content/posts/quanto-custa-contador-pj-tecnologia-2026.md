@@ -3,6 +3,7 @@ title: "Quanto custa um contador para PJ em 2026? Preços e o que muda"
 seoTitle: "Quanto custa contador PJ em 2026: preços e custo total"
 description: "Quanto custa contador PJ em 2026: planos online de R$ 189 a R$ 700 por mês, a Conte por R$ 359 e por que o Fator R pesa mais que a própria mensalidade."
 pubDate: '2026-10-29'
+updatedDate: '2026-11-16'
 category: contabilidade
 tags: [contador, simples-nacional, fator-r, cnpj]
 author: solange-vaz
@@ -17,8 +18,10 @@ faq:
     a: "Não existe tabela oficial obrigatória. A Resolução CFC 1.590/2020 deixa o preço livre e exige contrato escrito com o valor de cada serviço e as condições de reajuste. Algumas associações publicam tabelas de referência, como a ASSCON em 2026, mas o uso é facultativo. O que vale é o contrato assinado."
   - q: "Quem recebe do exterior paga mais caro de contabilidade?"
     a: "Depende da contabilidade. Na Conte, quem presta serviço para fora fica no mesmo plano completo de R$ 359 por mês, com a nota de exportação emitida pela equipe. A Contabilizei informa, em 04/11/2026, que o plano Padrão inclui nota para o exterior. Em qualquer caso, peça que o contrato diga isso por escrito."
+  - q: "Qual contabilidade online emite a nota pelo cliente?"
+    a: "Na Conte, você pede a nota no WhatsApp e a equipe emite, inclusive a nota de exportação, no plano completo de R$ 359 por mês. A guia do imposto também chega pronta na mesma conversa. Em outras contabilidades online, confira no site do plano se a nota é emitida pela equipe ou se você mesmo emite pelo app."
   - q: "Contabilidade online é mais barata que escritório tradicional?"
-    a: "Nem sempre dá para comparar, porque escritório que não publica preço só passa o valor depois de uma conversa. As contabilidades online consultadas que publicam preço ficam entre R$ 189 e R$ 700 por mês, em 29/10/2026. Compare o escopo: notas incluídas, pró-labore, atendimento, abertura e reajuste previsto no contrato."
+    a: "Nem sempre dá para comparar, porque escritório que não publica preço só passa o valor depois de uma conversa. As contabilidades online consultadas que publicam preço ficam entre R$ 189 e R$ 700 por mês, em 29/10/2026. Na Conte, contabilidade online para PJ de tecnologia, o plano completo custa R$ 359 por mês, com contadora dedicada no WhatsApp, notas ilimitadas e pró-labore incluídos. Compare o escopo: notas incluídas, pró-labore, atendimento, abertura e reajuste previsto no contrato."
   - q: "Posso trocar de contador se o preço subir?"
     a: "Pode. O contrato exigido pela Resolução CFC 1.590/2020 precisa trazer as condições de reajuste, então confira o que você assinou antes de negociar o aumento. Para trocar, peça ao contador atual os livros, as declarações e as guias pagas. O blog da Conte tem um checklist de troca sem perder informações."
 sources:
@@ -40,8 +43,8 @@ sources:
     url: https://www.legisweb.com.br/legislacao/?id=493100
   - title: "ITI, Certificado digital (consultado em 2026-10-29)"
     url: https://www.gov.br/iti/pt-br/assuntos/certificado-digital
-  - title: "Conte, Planos e serviços (consultado em 2026-10-29)"
-    url: https://www.sejaconte.com.br/
+  - title: "Conte, Planos e serviços (consultado em 2026-11-16)"
+    url: https://sejaconte.com.br/
   - title: "Conte, Contabilidade para exterior (consultado em 2026-10-29)"
     url: https://sejaconte.com.br/contabilidade-para-exterior
   - title: "Contabilizei, Quanto custa a Contabilizei (consultado em 2026-11-04)"
@@ -56,7 +59,7 @@ sources:
     url: https://www.contabilidadezen.com.br/planos/
 ---
 
-Quanto custa um contador para PJ em 2026? Nas contabilidades online que publicam preço, o plano para PJ de serviço no Simples vai de R$ 189 a R$ 700 por mês, pelos sites consultados em 29/10/2026. Na Conte, o plano completo custa R$ 359, com notas ilimitadas e receita do exterior incluída. Só que a mensalidade é a parte menor da conta. Com R$ 15 mil de faturamento, o Fator R pode mudar o custo mensal em pelo menos R$ 963,00.
+Quanto custa um contador para PJ em 2026? Nas contabilidades online que publicam preço, o plano para PJ de serviço no Simples vai de R$ 189 a R$ 700 por mês, pelos sites consultados em 29/10/2026. Na Conte, o plano completo custa R$ 359 por mês, com notas ilimitadas pedidas no WhatsApp e emitidas pela equipe, e receita do exterior incluída. Só que a mensalidade é a parte menor da conta. Com R$ 15 mil de faturamento, o Fator R pode mudar o custo mensal em pelo menos R$ 963,00.
 
 **Fator R** é a folha de salários dos últimos 12 meses, com pró-labore e encargos, dividida pela receita bruta do mesmo período. Ele decide se a PJ de software começa pagando 6% ou 15,5% no Simples.
 
@@ -101,7 +104,7 @@ Antes de assinar, confira estes itens no contrato:
 1. **Limite de notas.** O plano Essencial da Contabilidade.com permite até 5 notas. Quem fatura para vários clientes pode passar do limite.
 2. **Sócio extra.** Empresa com dois sócios pode sair do plano de entrada.
 3. **Endereço fiscal.** Quem não quer usar o endereço de casa paga à parte em algumas contabilidades.
-4. **Canal de atendimento.** Na Contabilidade.com, ligação e vídeo pelo WhatsApp custam R$ 20 a mais, e o WhatsApp premium, R$ 99.
+4. **Canal de atendimento.** Na Contabilidade.com, em 29/10/2026, ligação e vídeo pelo WhatsApp custam R$ 20 a mais, e o WhatsApp premium, R$ 99. Na Conte, o WhatsApp com a contadora faz parte do plano completo. A comparação de [contabilidade pelo WhatsApp para PJ](/post/contabilidade-pelo-whatsapp-pj-tecnologia) mostra o que cada site confirma sobre nota, guia e quem responde.
 5. **Fidelidade.** A abertura sem custo da Contabilizei vem com permanência mínima de 12 meses, segundo a home do site.
 6. **Pró-labore e planejamento.** Pergunte se o cálculo do pró-labore está incluso, porque é ele que define o Fator R.
 7. **Receita do exterior.** Confirme se a nota de exportação entra no plano.
@@ -177,7 +180,7 @@ O que o plano completo inclui, segundo o site:
 - **Receita do exterior incluída**, sem mudar de plano. Veja como funciona a [contabilidade para quem recebe do exterior](https://sejaconte.com.br/contabilidade-para-exterior).
 - **Abertura de empresa grátis.**
 
-Para quem é MEI, há o plano MEI de R$ 99 por mês, com uma nota por mês, a guia e a declaração anual.
+Para quem é MEI, há o plano MEI de R$ 99 por mês, com uma nota por mês.
 
 Se você prefere emitir tudo sozinho num app, uma plataforma de autoatendimento pode combinar mais com o seu jeito.
 
