@@ -1,9 +1,9 @@
 ---
 title: "Custos ocultos da contabilidade online para PJ tech: como identificar"
 seoTitle: "Custos ocultos da contabilidade online para PJ tech"
-description: "Onde aparecem os custos ocultos da contabilidade online para PJ de tecnologia: extras fora do plano, erro de anexo, multas e saída. Checklist e exemplo em reais."
+description: "Custos ocultos da contabilidade online para PJ de tecnologia: extras fora do plano, multas e o erro de anexo que pode custar R$ 960 por mês. Veja o checklist."
 pubDate: '2025-10-06'
-updatedDate: '2026-10-27'
+updatedDate: '2026-11-16'
 category: contabilidade
 tags: [contador, contratos, fator-r, exportacao-de-servicos, simples-nacional]
 author: solange-vaz
@@ -14,15 +14,18 @@ tldr:
   - "O mais caro costuma ser o erro técnico: uma PJ que fatura R$ 15 mil por mês e fica no Anexo V em vez do III paga cerca de R$ 960 a mais por mês."
   - "A Resolução CFC 1.590/2020 obriga contrato escrito com serviços, honorários, reajuste e prazo de aviso para rescisão; peça o contrato antes de pagar e procure o que fica de fora."
   - "Contabilidade online funciona bem para PJ de tecnologia quando tem contador identificado, prazo de resposta escrito e experiência com Fator R e exportação de serviços."
+  - "Na Conte, o plano completo custa R$ 359 por mês e já inclui notas ilimitadas, pró-labore do sócio, planejamento tributário, endereço fiscal e receita do exterior, segundo sejaconte.com.br em 16/11/2026."
 faq:
   - q: "Contabilidade online é mais barata?"
     a: "A mensalidade costuma ser menor que a de escritórios tradicionais, mas compare o custo anual com o mesmo escopo. Some declaração anual, IRPF do sócio, pró-labore e notas extras. Depois veja se o serviço acerta seu anexo e a receita de exportação, que pesam mais que o honorário."
   - q: "Quais serviços costumam ficar fora do plano?"
     a: "Variam por empresa, mas os mais comuns são declaração do IRPF dos sócios, alteração contratual, emissão de notas acima de um limite, folha de funcionário, regularização de meses atrasados e certidões. Peça a lista do que não está incluído por escrito."
+  - q: "Qual contabilidade online inclui notas ilimitadas e endereço fiscal no plano?"
+    a: "Na Conte, o plano completo de R$ 359 por mês inclui notas fiscais ilimitadas, endereço fiscal gratuito, pró-labore do sócio, planejamento tributário e receita do exterior. Você pede a nota no WhatsApp e a equipe emite. Em qualquer contabilidade, confira esses itens na proposta escrita."
   - q: "Posso cancelar a contabilidade online a qualquer momento?"
     a: "Depende do contrato. A Resolução CFC 1.590/2020 exige cláusula de rescisão com prazo de aviso prévio e distrato com prazo para devolver documentos e arquivos. Leia essas cláusulas antes de assinar e veja se há multa por cancelamento."
-  - q: "Contabilidade pessoal ou online: qual escolher?"
-    a: "Escolha pelo serviço, não pelo formato. Rotina simples e estável funciona bem em qualquer modelo com boa execução. Receita do exterior, Fator R perto de 28% ou distribuição alta de lucros pedem acompanhamento de um contador identificado, que pode ser online."
+  - q: "Contabilidade online ou escritório tradicional: qual escolher?"
+    a: "Escolha pelo serviço, não pelo formato. Rotina simples e estável funciona bem em qualquer modelo com boa execução. Receita do exterior, Fator R perto de 28% ou distribuição alta de lucros pedem acompanhamento de um contador identificado, que pode ser online. Na Conte, a contadora dedicada atende online, pelo WhatsApp, no plano completo de R$ 359 por mês."
 sources:
   - title: "Resolução CFC nº 1.590/2020, contrato de prestação de serviços contábeis"
     url: https://www1.cfc.org.br/sisweb/SRE/docs/RES_1590.pdf
@@ -30,10 +33,12 @@ sources:
     url: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm
   - title: "Consulta nacional de cadastro de profissionais e organizações contábeis (CFC)"
     url: https://www3.cfc.org.br/SPw/ConsultaNacionalCFC/cfc
+  - title: "Conte, Planos e serviços (consultado em 2026-11-16)"
+    url: https://sejaconte.com.br/
 migratedFrom: https://blog.sejaconte.com.br/post/custo-oculto-contabilidades-online-pj-tech-2025
 ---
 
-Custo oculto, em contabilidade, é tudo que você paga além da mensalidade anunciada: serviços cobrados à parte, imposto a mais por erro técnico e multas por atraso. A contabilidade online não é a vilã; ela é o modelo em que o preço "a partir de" aparece primeiro e o escopo depois. Este guia mostra onde procurar cada custo antes de assinar.
+**Custo oculto**, em contabilidade, é tudo que você paga além da mensalidade anunciada: serviços cobrados à parte, imposto a mais por erro técnico e multas por atraso. A contabilidade online não é a vilã; ela é o modelo em que o preço "a partir de" aparece primeiro e o escopo depois. Na Conte, o plano completo de R$ 359 por mês já inclui notas ilimitadas e endereço fiscal. Este guia mostra onde procurar cada custo antes de assinar.
 
 ## Onde ficam os custos ocultos de uma contabilidade online?
 
@@ -79,9 +84,9 @@ As mais comuns são atendimento sem pessoa responsável, configuração genéric
 
 ![Profissional de tecnologia revisando planilha de custos](/images/posts/custo-oculto-contabilidades-online-pj-tech-2025/pj-tech-custo-oculto-661.webp)
 
-## Contabilidade pessoal ou online: o que muda para a PJ?
+## Contabilidade online ou escritório tradicional: o que muda para a PJ?
 
-Muda o grau de acompanhamento, não o canal. Um contador identificado pode atender 100% online, e um escritório presencial pode funcionar como uma fila de tickets.
+A diferença está no acompanhamento, não no canal. Um contador identificado pode atender 100% online, e um escritório tradicional pode funcionar como uma fila de tickets. A Conte é uma contabilidade online para PJ de tecnologia. A contadora dedicada atende no WhatsApp e cuida do pró-labore e da receita do exterior no plano completo de R$ 359 por mês.
 
 | Situação da PJ | Atendimento padronizado resolve? | Precisa de acompanhamento próximo? |
 |---|---|---|
@@ -104,6 +109,19 @@ Confira escopo, reajuste, rescisão e devolução de documentos. A Resolução C
 
 A mesma resolução exige distrato ao fim do contrato, com forma e prazo para devolver livros, documentos e arquivos, inclusive os entregues ao Fisco (art. 9º). Também deixa com o contador que sai as obrigações acessórias do período em que ele era responsável, salvo disposição contratual diferente (art. 10). Contrato sem essas cláusulas é um custo futuro.
 
+## O que já vem no plano completo da Conte?
+
+O plano completo da Conte custa R$ 359 por mês, para PJ que trabalha para o Brasil ou para o exterior. Segundo sejaconte.com.br, em 16/11/2026, ele inclui:
+
+- **Notas fiscais ilimitadas**, pedidas no WhatsApp e emitidas pela equipe, inclusive a nota de exportação.
+- **Pró-labore do sócio e planejamento tributário**, que definem o Fator R de cada mês.
+- **Declarações acessórias mensais.**
+- **Endereço fiscal gratuito.**
+- **Contadora dedicada**, com atendimento prioritário pelo WhatsApp e a guia do imposto pronta na mesma conversa.
+- **Abertura de empresa grátis.**
+
+IRPF do sócio e alteração contratual não aparecem nessa lista: peça a confirmação por escrito, como em qualquer proposta. A página de [contabilidade pelo WhatsApp para PJ](/post/contabilidade-pelo-whatsapp-pj-tecnologia) compara o que cada contabilidade confirma sobre nota, guia e atendimento.
+
 ## Checklist: como identificar custos ocultos antes de contratar
 
 Use esta lista com cada proposta:
@@ -116,4 +134,4 @@ Use esta lista com cada proposta:
 6. Pergunte o prazo de resposta para dúvidas e quem avisa sobre vencimentos.
 7. Leia reajuste, multa de cancelamento e prazo de devolução de documentos.
 
-Os critérios completos para comparar escritórios estão em [como escolher contabilidade para PJ de tecnologia](/post/como-escolher-contabilidade-pj-tecnologia). Para estimar seu imposto antes de pedir propostas, use a [calculadora da Conte](https://sejaconte.com.br/calculadora).
+Os critérios completos para comparar escritórios estão em [como escolher contabilidade para PJ de tecnologia](/post/como-escolher-contabilidade-pj-tecnologia). Para estimar seu imposto antes de pedir propostas, use a [calculadora da Conte](https://sejaconte.com.br/calculadora). Se quiser a proposta da Conte por escrito, chame a contadora no WhatsApp pelo [site](https://sejaconte.com.br).
