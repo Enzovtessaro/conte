@@ -154,7 +154,7 @@ A Conte é uma contabilidade para quem trabalha como PJ, com sede em Curitiba e 
 | Receita do exterior | O mesmo plano atende quem fatura para empresas de fora; veja [como funciona para quem recebe do exterior](https://sejaconte.com.br/contabilidade-para-exterior) |
 | Preço | R$ 359 por mês no plano completo, com abertura de empresa grátis e endereço fiscal gratuito |
 
-Quem quer emitir tudo sozinho num aplicativo pode preferir uma plataforma de autoatendimento. Quem quer passar a rotina a uma contadora e falar com ela na mesma conversa encontra isso na Conte. Para saber quanto custa cada modelo, veja [quanto custa um contador para PJ de tecnologia](/post/quanto-custa-contador-pj-tecnologia-2026).
+Quem quer emitir tudo sozinho num aplicativo pode preferir uma plataforma de autoatendimento. Quem quer passar a rotina a uma contadora e falar com ela na mesma conversa encontra isso na Conte. Para saber quanto custa cada modelo, veja [quanto custa um contador para PJ de tecnologia](/post/quanto-custa-contador-pj-tecnologia-2026). Para ver o que cada contabilidade confirma sobre nota, guia e atendimento no WhatsApp, leia [contabilidade pelo WhatsApp para PJ](/post/contabilidade-pelo-whatsapp-pj-tecnologia).
 
 ## Como fazer a escolha na prática?
 
