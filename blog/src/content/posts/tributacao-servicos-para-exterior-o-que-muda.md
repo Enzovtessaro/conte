@@ -134,6 +134,8 @@ Você emite uma NFS-e normal, com o tomador identificado como residente no exter
 
 O passo a passo, com os campos e os erros que mais travam a emissão, está em [nota fiscal de exportação de serviço: erros comuns e como corrigir](/post/nota-fiscal-internacional-erros-comuns-e-como-corrigir-rapido). No PGDAS-D, informe essa receita no campo de exportação. Se você lançar como receita comum, o sistema cobra PIS, Cofins e ISS, e o erro só aparece quando alguém revisa a apuração.
 
+Se a sua contabilidade não emite essa nota, [veja quem emite por você](/post/alternativa-contabilizei-receber-exterior).
+
 ## Vou pagar imposto duas vezes, aqui e no país do cliente?
 
 Na maioria dos casos, não. Serviço prestado daqui por empresa brasileira costuma ser tributado só no Brasil. Empresas americanas normalmente pedem o formulário W-8BEN-E para documentar que a sua PJ é estrangeira e dispensar retenção nos EUA.

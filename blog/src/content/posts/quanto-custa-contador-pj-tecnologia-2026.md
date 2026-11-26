@@ -95,6 +95,8 @@ A tabela reúne só o que cada empresa publica no próprio site, para PJ de serv
 
 Os nomes dos planos e o que entra em cada um mudam de site para site. Compare pelo que está incluso em cada plano. Os preços são do dia da consulta: confira a página antes de contratar.
 
+Recebe do exterior e quer comparar com a Contabilizei? Veja a [alternativa à Contabilizei para quem recebe do exterior](/post/alternativa-contabilizei-receber-exterior).
+
 ## O que faz o preço da contabilidade subir?
 
 São os extras. Nas tabelas publicadas, a Contabilidade.com cobra R$ 50 por mês por sócio adicional. A Contabilizei cobra R$ 60 por mês pelo escritório virtual. Limite de notas e canal de atendimento também mudam a fatura. Na Conte, notas ilimitadas e endereço fiscal gratuito já fazem parte do plano completo.
