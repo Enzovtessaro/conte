@@ -134,6 +134,8 @@ Os preços são para empresa no Simples Nacional. As aspas reproduzem o site de 
 
 Na Selvia, a nota sai automática ou com revisão humana em 1 dia útil, e o site diz que "o time de contadores supervisiona". A Agilize Unique fala em "até 40 agendamentos de contas ou emissões de nota por mês". Na Conte, as notas são ilimitadas, pedidas na conversa e emitidas pela equipe.
 
+Se hoje você está na Contabilizei e recebe do exterior, [veja quem emite a nota de exportação por você](/post/alternativa-contabilizei-receber-exterior).
+
 ## Quanto custa um ano com a nota emitida pela contabilidade?
 
 Pelos preços dos sites, um ano com a nota emitida pela contabilidade vai de R$ 2.278,80 (Selvia Basic devs) a R$ 6.684,00 (Colinear Global, mensal). No anual à vista, a Colinear Global sai por R$ 5.681,40. Na Conte, são R$ 4.308,00, com notas ilimitadas, pró-labore e endereço fiscal no plano.
